@@ -16,8 +16,8 @@
 title: Ø The Empty Set
 email: hello@david.roess.li
 description: >- # this means to ignore newlines until "baseurl:"
-Hello, my name is David Roessli. I am a freelance web designer and developer based in Geneva, Switzerland.
-This weblog is an nth attempt to solve my multiple online personalities and weblog/rss feeds burnout issues.
+  Hello, my name is David Roessli. I am a [freelance web designer and developer](https://www.cybmed.com/) based in [Geneva](https://goo.gl/maps/EyZj0), Switzerland.  
+  This weblog is an <em>n<sup>th</sup></em> attempt to solve my multiple online personalities and weblog/rss feeds burnout issues. ([more](/about))
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://david.roess.li" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: roessli
