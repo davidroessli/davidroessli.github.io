@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 123
+post_id: 231
+author: Matt T
+email: mtthornton@gmail.com
+date: '2008-04-07 02:13:28 +0200'
+visible: true
+ip: 204.111.135.60
+---
+David: I'm having a similar problem but from my crude diagnosis, it's not a "HARDWARE problem"  I have boot camp installed on my MBP 15" and I booted into Windows XP and it seems to run fine off of the battery.
+
+I don't know if this helps you but I figured that I'd throw that tidbit of information into the cosmos and see what happens. 

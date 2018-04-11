@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 2391
+post_id: 750
+author: Laurent Sabbah
+email: laurent@bablic.com
+date: '2015-05-18 12:41:50 +0200'
+visible: true
+ip: 31.168.227.138
+url: https://www.bablic.com
+---
+Great post, but have you guys tried the easier way of localizing/translating Squarespace websites (including Squarespace 6 & Squarespace 7)?
+
+Try https://www.bablic.com, We're getting amazing feedback from Squarespace users who are absolutely loving it since it's such an easy and user-friendly way to translate Squarespace sites.
+
+Using Bablic.com you can choose any template you'd like, it works perfectly with all of them. Also lets you choose from machine translation or professional translation. It also lets you manually edit text, replace images and even edit css/style at the click of a button which makes sure your website keeps its look and feel in all of the languages you offer.
+
+It also automatically ads a floating widget that lets you choose between your languages, for example French or English. You can also customize the widget if you'd like. Bablic also works on Mobile sites, I really recommend you give it a try.
+
+Here's the tutorial for Squarespace integration which is extremely simple: http://blog.bablic.com/translate-your-squarespace-website-with-bablic/
+
+Give it a try but just entering your website on our homepage at Bablic.com.

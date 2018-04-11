@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 436
+post_id: 553
+author: 'adam '
+email: fishera1@hotmail.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 82.35.74.30
+---
+no idea what the above means really (sudu etc) but i did it and it worked.  have now installed 10.3.4 without this prob.  thanks!!

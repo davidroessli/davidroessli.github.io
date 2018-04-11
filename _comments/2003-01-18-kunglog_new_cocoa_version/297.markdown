@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 297
+post_id: 366
+author: Kirk Samuelson
+email: ks@kirksamuelson.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 69.3.218.234
+url: http://www.kirksamuelson.com/
+---
+Kung-Log is the reason I chose MovableType over other blogging software. Simple as that.

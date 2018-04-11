@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 522
+post_id: 665
+author: David Lou
+email: webmaster@versicherungen-berechnungen.de
+date: '2011-03-20 14:18:58 +0100'
+visible: true
+ip: 217.81.35.199
+url: http://www.versicherungen-berechnungen.de
+---
+Really good work. I found a lot of profound information which can help me to go on. Thanks for all this input.

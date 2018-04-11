@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 41
+post_id: 189
+author: Mathias Currat
+email: mathias.currat@cybmed.com
+date: '2007-04-18 20:33:17 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.mathiascurrat.com
+---
+Symantec is doing involuntary Multilanguage interactions with its clients: Last year, I bought a French version of Norton antivirus in a Swiss store. Yesterday I was trying to renew the license. First I click <em>yes</em> on the Norton invite <em>would you like to renew your license?</em>. I was quite surprise to get a page in German which was invited me to update a <strong>German</strong> version of Norton antivirus. It was simply impossible to find a way to switch to a French page in order to update my <strong>French version</strong> of Norton... Anyway, after a short research on Symantec website, I finally found that in the French version of the site, the client may choose <em>other French-speaking countries, i.e Switzerland</em>, cool! I renewed the license there and was quite happy to receive a confirmation in a language that I guess was something like <strong>Finnish</strong> !!! Of course I paid the new license but the new code is systematically rejected when I try to enter it in Norton... :-(

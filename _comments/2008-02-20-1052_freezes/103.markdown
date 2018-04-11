@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 103
+post_id: 231
+author: wintermute
+email: a@yahoo.com
+date: '2008-03-01 17:55:31 +0100'
+visible: true
+ip: 68.164.82.210
+---
+Same here. Freezes started happening after the graphic update. Random but seem to be triggered by Safari + running on battery. I repaired permissions and freezes stopped for 3 days but then again it froze the last night :(
+
+I feel exactly as you said -- it's sad to lose trust in a reliable tool (MacBook Pro).
+
+I hope for a fix from Apple...

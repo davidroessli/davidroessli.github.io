@@ -1,0 +1,32 @@
+---
+layout: comment
+comment_id: 2413
+post_id: 697
+author: Dbx
+email: my_list_address@yahoo.no
+date: '2015-08-11 22:24:23 +0200'
+visible: true
+ip: 212.251.222.164
+---
+Success with a Sony BDP-S590 (region 2) and an All-In-One URC-7960 by following the instructions above! 
+To those people with region-1 players (USA/Canada etc.) I've heard that this method can't be used to make it region free though I can't personally confirm this. Has someone with a region-1 Sony Blu-Ray player managed to make theirs region-free?
+
+
+To Marc:
+I agree it's confusing as I didn't understand it at first either, but I figured out that the first stage (the instructions with the magic codes above etc.) is all about programming the All-In-One. The next stage is actually transmitting those codes over to the Sony Blu-Ray player to make it region-free, so this is what you do after having programmed the All-In-One:
+
+1) (Using the Sony remote) turn the Sony Blu-Ray player ON (if it's not already on)
+
+2) ensure that there is no disc inside
+
+3) Wait till the Blu-Ray player is ready (its display should read "Home")
+
+4) (Using the One-For-All remote), press the following number buttons after each other: 1 2 3 4 5  
+
+5) If I remember correctly there should now be an "OK" in the Blu-Ray player's display
+
+6) (using the Sony remote) turn OFF the Blu-Ray player
+
+4) turn ON the Blu-Ray player, insert a different region DVD and enjoy your success!
+
+Hope this helps and good luck!

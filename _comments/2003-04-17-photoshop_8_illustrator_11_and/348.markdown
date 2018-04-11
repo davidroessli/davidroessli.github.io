@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 348
+post_id: 446
+author: annie
+email: elgee_soriano@yahoo.com
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 202.57.71.250
+---
+well.. this is not exactly a comment but i was just wondering.. is there such thing as Adobe Photoshop 11? or the latest version is Adobe Photoshop 8?

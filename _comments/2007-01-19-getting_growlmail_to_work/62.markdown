@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 62
+post_id: 156
+author: firebirdc5
+email: firebird@ginch.org
+date: '2007-10-16 19:21:01 +0200'
+visible: true
+ip: 192.60.228.96
+---
+That seemed to fix growl but now when I launch mail.app as soon as a notification tries to go out mail.app crashes.  The only way to get it to stop crashing is to disable the above changes.  Anyone else have that?

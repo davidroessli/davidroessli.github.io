@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 369
+post_id: 469
+author: Ken Proper
+email: themugwump@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 68.84.203.23
+---
+Thanks for the advice. I've been trying to get this to work since I bought my new G4 iMac a few months ago. The folks at Applecare don't even want to here about it...they tell you to call Virex. Tried to explain that I thought the only problem was that the URL for the eUdate server was wrong..."join a discussion group, I can't help you," is all I got in response. Applecare level 1 support ranks as one of the poorest experiences I can recall with customr service.

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 34
+post_id: 190
+author: Andy
+email: andyt@physics.org
+date: '2007-03-29 22:39:38 +0200'
+visible: true
+ip: 88.109.109.80
+---
+2007-002 sent my Airport extreme card on my new Intel MacBook from perfect working order to zero functionality.  Sort it out apple!

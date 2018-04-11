@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 496
+post_id: 632
+author: Olivia Zoe
+email: olivia@jseek.de
+date: '2011-03-20 14:18:56 +0100'
+visible: true
+ip: 84.130.230.238
+url: http://www.fertighaus.jseek.de
+---
+This is really a crazy world. How can anybody understand all this crazy stuff all around? It's so meaningless, but in one way it's fantastic!

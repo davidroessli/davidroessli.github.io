@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 469
+post_id: 593
+author: kismet
+email: kismet@monURL.net
+date: '2011-03-20 14:18:53 +0100'
+visible: true
+ip: 80.14.203.128
+url: http://www.emptywishes.net
+---
+Le 'soft shot' de ta fille avec son lapin est trop mignon. :)

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 489
+post_id: 610
+author: zip codes
+email: lady2004@hotmail.com
+date: '2011-03-20 14:18:55 +0100'
+visible: true
+ip: 219.95.2.151
+url: http://www.zipcodesdownload.com
+---
+So quiet lately. Any more comment please.

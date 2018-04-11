@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 2403
+post_id: 339
+author: Emma
+email: Emmapklewis@gmail.com
+date: '2015-07-19 23:13:09 +0200'
+visible: true
+ip: 90.194.68.168
+---
+Please help I have an Instagram issue that's driving me crazy!
+
+When I go on Instagram to create a new photo, I only see five or so of my recent photo library photos. None of the others come up.
+
+Has anyone else experienced this? I have tried a soft reset, deleting and re downloading the app, nothing is working!
+
+Thank you

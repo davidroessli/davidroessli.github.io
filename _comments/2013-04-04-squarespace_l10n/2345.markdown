@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2345
+post_id: 750
+author: Kris
+email: post@ksfoto.net
+date: '2015-02-18 21:54:05 +0100'
+visible: true
+ip: 81.171.71.183
+---
+Sadly, this does not work for the Switch template. Please let me know if anybody finds a workaround!

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 29
+post_id: 176
+author: Jamie
+email: jamiemccanless@earthlink.net
+date: '2007-03-13 00:21:04 +0100'
+visible: true
+ip: 4.254.75.55
+url: http://www.jamiemccanless.com
+---
+I had to buy an ash gray t-shirt of my <a href="http://www.cafepress.com/jamieco/1340277" rel="nofollow nofollow">tribal Spirit design</a>. I remember finishing it and thinking, "Wow. *I* did this?"

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 431
+post_id: 551
+author: Brett Melancon
+email: bmelancon@fmbadvertising.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 66.83.150.54
+---
+I have an iBook with the dreaded logic board problem.  Do you think that there is any chance of getting it fixed by Apple.  The serial number is out of the range they specify.
+Brett

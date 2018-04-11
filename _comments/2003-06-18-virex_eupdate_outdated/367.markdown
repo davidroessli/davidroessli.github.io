@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 367
+post_id: 469
+author: mergatroidal
+email: mergatroidal@netscape.net
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 149.123.132.49
+url: http://homepage.mac.com/k24anson/
+---
+Makes one wonder why Virex themselves are not offering the info. Maybe because it's free Ã–

@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 147
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-06-17 12:41:06 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+@Steve - sorry, I didn't read properly.
+
+Hmm.. it sounds like an operator setting to me. The first time I fired up my iPhone, I received the following from Swisscom:
+
+<em>Les paramÃ¨tres de votre portable ont Ã©tÃ© modifiÃ©s. Les MMS sont sauvegardÃ©s sur www.swisscom-mobile.ch/mms. Swisscom vous souhaite du plaisir avec MMS.</em>
+
+Nevertheless, configuring Swirly with the above parameters worked for me. The upper right icon must go green before you can send or receive anything. But that must be the case if you can sendâ€¦
+
+Very weird indeed. Sorry, but I'm not of much help here.
+

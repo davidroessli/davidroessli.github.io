@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Date/Time bug: another workaround'
+date: '2003-03-04 13:02:12 +0100'
+excerpt: '<p>From <a href="http://www.macintouch.com/">Macintouch</a>: People who
+  have lost the time after updating to 10.2.4 may find that many files in the /usr/share/zoneinfo
+  directory are corrupt (zero length). Replace them with copies from a Mac that isn''t
+  having the problem, and everything gets fixed.</p>'
+mt_id: 419
+blog_id: 11
+post_id: 419
+basename: datetime_bug_another_workaroun
+categories:
+- daily
+---
+<p>I picked this one on <a href="http://www.macintouch.com/">Macintouch</a>:
+<blockquote><img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_right.gif" width="18" height="14" alt="&quote;" border="0" /> Tekserve's Aaron Freimark sent us [<i>Macintouch</i>] a tip that may help with Mac OS X 10.2.4's date/time bug:<br>
+People who have lost the time after updating to 10.2.4 may find that many files in the /usr/share/zoneinfo directory are corrupt (zero length). Replace them with copies from a Mac that isn't having the problem, and everything gets fixed.<br />
+An easy way to check to see if you have this problem is to look in your Date & Time Preference Pane, in the Time Zone tab. If it claims you are in GMT, and you're really not, you have corrupt zoneinfo files. I've tried this on a couple of Macs, and it works.<br />
+This command should work to copy the files (type it on the Mac with the busted time):<pre>
+sudo scp -r username@11.22.33.44:/usr/share/zoneinfo /usr/share/</pre>
+Substitute "11.22.33.44" with the IP address of a Mac with good files on your network (Remote Login must be on) and "username" means a user on that Mac. Note that there are only four spaces in the above command -- type carefully! <img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_left.gif" width="18" height="14" alt="&quote;" border="0" /></blockquote></p>

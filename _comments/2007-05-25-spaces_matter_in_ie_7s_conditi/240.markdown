@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 240
+post_id: 198
+author: Christiane
+email: innovation_@web.de
+date: '2009-09-17 18:52:13 +0200'
+visible: true
+ip: 87.79.237.223
+---
+The last option by keed worked for me as well. The two blank lines made the cond. comment lines disappear. Thanks a lot!

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2233
+post_id: 713
+author: Henik
+email: haagibeats@gmail.com
+date: '2012-11-07 23:55:16 +0100'
+visible: true
+ip: 84.215.29.141
+---
+How do i disable it after use?

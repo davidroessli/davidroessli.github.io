@@ -1,0 +1,30 @@
+---
+layout: comment
+comment_id: 2260
+post_id: 750
+author: Jan Schuhfuss
+email: schuhfuss@gunman-shoe.com
+date: '2013-07-25 18:11:25 +0200'
+visible: true
+ip: 80.171.51.245
+url: http://www.gunman-shoe.com
+---
+Try to insert the code within the domready-event. For me the following code did the job:
+
+<pre><code>
+Y.use('node', 'node-load', function(Y) {
+  Y.on('domready', function() { 
+  ...
+  /* (1) Reformat blog entries published dates */
+  ...
+  /* (2) Replace time since strings with published dates */
+  ...
+  /* Substitute specific strings */
+  Y.all('.ss-social-button').setHTML('Teilen');
+  Y.all('.inline-read-more').setHTML('Weiterlesen');
+  Y.all('.newer-posts').setHTML('Neuere BeitrÃ¤ge');
+  Y.all('.older-posts').setHTML('Ã„ltere BeitrÃ¤ge');
+  Y.all('.comments').setHTML('Kommentare'); 
+  });
+}); 
+</code></pre>

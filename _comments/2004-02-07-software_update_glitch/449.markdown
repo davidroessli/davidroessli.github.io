@@ -1,0 +1,64 @@
+---
+layout: comment
+comment_id: 449
+post_id: 553
+author: Pete
+email: temp1@peteriley.org
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 206.251.226.70
+---
+Hi: 
+
+I'm having similar problems. I've tried the solutions posted here, but none work. None of the updates will install. Here's what happens from the command line. Any help would be greatly appreciated. - Pete.
+
+[shadow:/usr/bin] pete% sudo softwareupdate -a -i
+Password:
+Software Update Tool
+Copyright 2002-2003 Apple Computer, Inc.
+
+
+QuickTime: 0...10...20...30...40...
+Java 1.4.2 Update 2: 0...10...20...30...40...
+Security Update 2004-09-16: 0...10...20...30...40...
+Security Update 2004-10-27: 0...10...20...30...40...
+iTunes: 0...10...20...30...40...
+AirPort Software: 0...10...20...30...40...
+iCal: 0...10...20...30...40...
+iPod Updater 2005-03-23: 0...10...20...30...40...
+Mac OS X Update Combined: 0...10...20...30...40...
+QuickTime: 0...10...20...30...40...50..2005-03-31 10:05:01.137 softwareupdate[15462] Exception raised during posting of notification.  Ignored.  exception: Some files for QuickTime652 may not have been written correctly. (code 11)
+.60...70...80...902005-03-31 10:05:03.725 softwareupdate[15462] NSInstallFailedNotification: {
+    Message = "Some files for QuickTime652 may not have been written correctly. (code 11)"; 
+}, 
+ Failed
+
+
+To try again, choose Download Only from the Update menu, then open the package from the Finder.
+2005-03-31 10:05:03.727 softwareupdate[15462] didn't delete /tmp/0/TemporaryItems/com.apple.SoftwareUpdate/QuickTime652.pkg, failed safety check
+
+Java 1.4.2 Update 2: 0...10...20...30...40...50.2005-03-31 10:05:05.838 softwareupdate[15462] Exception raised during posting of notification.  Ignored.  exception: Some files for Java142Update2 may not have been written correctly. (code 11)
+..60...70...80...902005-03-31 10:05:07.869 softwareupdate[15462] NSInstallFailedNotification: {
+    Message = "Some files for Java142Update2 may not have been written correctly. (code 11)"; 
+}, 
+ Failed
+
+
+To try again, choose Download Only from the Update menu, then open the package from the Finder.
+2005-03-31 10:05:07.871 softwareupdate[15462] didn't delete /tmp/0/TemporaryItems/com.apple.SoftwareUpdate/Java142Update2.pkg, failed safety check
+
+Security Update 2004-09-16: 0...10...20...30...40...50..2005-03-31 10:05:09.858 softwareupdate[15462] Exception raised during posting of notification.  Ignored.  exception: Some files for SecUpd2004-09-16Pan may not have been written correctly. (code 11)
+.60...70...80...902005-03-31 10:05:12.518 softwareupdate[15462] NSInstallFailedNotification: {
+    Message = "Some files for SecUpd2004-09-16Pan may not have been written correctly. (code 11)"; 
+}, 
+ Failed
+
+
+To try again, choose Download Only from the Update menu, then open the package from the Finder.
+2005-03-31 10:05:12.520 softwareupdate[15462] didn't delete /tmp/0/TemporaryItems/com.apple.SoftwareUpdate/SecUpd2004-09-16Pan.pkg, failed safety check
+
+Security Update 2004-10-27: 0...10...20...30...40...50..2005-03-31 10:05:14.224 softwareupdate[15462] Exception raised during posting of notification.  Ignored.  exception: Some files for SecurityUpdate2004-10-27Pan may not have been written correctly. (code 11)
+.60...70...80...902005-03-31 10:05:16.888 softwareupdate[15462] NSInstallFailedNotification: {
+    Message = "Some files for SecurityUpdate2004-10-27Pan may not have been written correctly. (code 11)"; 
+}, 
+ Failed

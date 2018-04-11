@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2477
+post_id: 697
+author: 'Randy '
+email: n5wv@comcast.net
+date: '2017-11-06 10:33:59 +0100'
+visible: true
+ip: 70.196.10.107
+---
+Am thinking about buying a 400 disk Sony BDP CX 960. I see a post in French regarding unlocking but I can't read French. Are there instructions about unlocking a BDP CX 960 so it will play any DVD or Blu-ray region disk ?  Regards , Randy

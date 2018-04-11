@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 277
+post_id: 333
+author: Yannis
+email: yannisjaquet@mac.com
+date: '2010-10-24 21:22:34 +0200'
+visible: true
+ip: 188.62.210.148
+---
+That must be a fast computerâ€¦ Thanks for sharing this!

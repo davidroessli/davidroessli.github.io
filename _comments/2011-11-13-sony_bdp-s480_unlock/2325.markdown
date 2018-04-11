@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2325
+post_id: 697
+author: brassmonkey001
+email: alonsopuente@hotmail.com
+date: '2014-10-15 01:15:23 +0200'
+visible: true
+ip: 89.243.165.67
+---
+Thanks for this.
+I can confirm that the hack above works for a Sony BDP-S490 with a One For All URC-4170 remote.
+I have tried Region 1, 2 and 3 DVDs and now thankfully it will play them all! 
+I disconnected the player from the mains and then plugged it in again just to check if it would lock again but it seems it is still region free.
+Now I will put in the correct code 1516 to enable the URC to control the player.
+Cheers!

@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 64
+post_id: 156
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-10-17 09:07:41 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com
+---
+@firebirdc5: are you running the latest version? Check for other Mail add-ons, font managers, or haxies you may have installed and deactivate them temporarily. Other users are having similar problems. Check this thread http://tinyurl.com/2c5x4q (you could try to downgrade to the previous version 0.76)
+
+@smanny: you need to open the Terminal application which is located in the Utilities folder of your Applications folder and type in the two commands.

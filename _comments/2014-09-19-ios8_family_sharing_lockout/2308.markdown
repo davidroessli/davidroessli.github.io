@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2308
+post_id: 770
+author: Scott Boutwell
+email: demoman@technojunkyard.net
+date: '2014-09-19 16:08:33 +0200'
+visible: true
+ip: 71.252.241.135
+url: http://www.technojunkyard.net
+---
+Recently wrote a very simular article on this same subject.
+Apple sure needs to get on top of this.  So far it's not made or gotten the media attention that the HealthKit has.. Crazy...

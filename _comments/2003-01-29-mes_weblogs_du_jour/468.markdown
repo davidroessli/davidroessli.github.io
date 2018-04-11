@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 468
+post_id: 592
+author: reb
+email: me@NOSPAMnathair.com
+date: '2011-03-20 14:18:53 +0100'
+visible: true
+ip: 12.17.200.200
+url: http://chewbecca.com
+---
+bonjour. je suis heureux que vous aimiez mon blog. mon Franæºis est terrible. veuillez me
+
+pardonner.

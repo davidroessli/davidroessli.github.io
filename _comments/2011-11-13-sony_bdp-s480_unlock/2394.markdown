@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 2394
+post_id: 697
+author: Marc
+email: agfg@tiscali.it
+date: '2015-06-09 19:22:05 +0200'
+visible: true
+ip: 184.153.145.117
+---
+Use the Sony remote to bring the player out of standby, make sure there isn't a disc in it;
+Press 1, 2, 3, 4, 5 on the OneForAll remote. The light will start flashing;
+Put the player back into standby with the Sony remote.
+Next time you turn on the player it will be region free for DVD playback.
+
+I don't understand this procedure.
+Turn on Blu ray player
+then on 1forAll press 1 2 3 4 5??
+Do I have to press first the magic button?
+If I use 12345 nothing happen on the 1forAll remote.
+If I press the magic button only 1234 are accepted.
+
+Please explain better
+I have a model DBP-S3200

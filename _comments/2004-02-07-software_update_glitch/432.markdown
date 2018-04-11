@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 432
+post_id: 553
+author: Kristian
+email: kristian@soundingblue.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 202.156.2.122
+---
+I get this once in a while when the installer file doesn't get downloaded completely and Software Update tries to install from the incomplete file. This happens usually with a large file like the recent Java 1.4.2 update.

@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 195
+post_id: 216
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-05-04 11:35:18 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@Chad: If I understand you correctly, you need to synchronise your Mac with the data on Mobile Me, replacing the relevant data on your computer (calendar, bookmarks or whatever) with the data in the cloud.
+
+You should find the information you require on Apple's website:
+
+http://support.apple.com/kb/HT1932
+http://www.apple.com/mobileme/setup/mac/
+
+Hope this helps.

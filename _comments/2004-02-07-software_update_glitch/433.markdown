@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 433
+post_id: 553
+author: Rick
+email: heyitsrick@hotmail.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 24.239.175.20
+---
+Here's my fix to this exact same problem.  After much glomming over web pages and documentation, and looking at my install logs that failed because of this /tmp/501 permissions problem, I noticed one thing.  I was getting errors trying to install anything, be it Software Updates or 3rd party applications.  Nothing would install, and Software Update kept giving me the "Make sure you have permission to write to the /tmp/501 blah blah blah folder".  The one thing common with all my failed installs was the failure to write to a temporary file or folder.  
+
+I found a website that listed some of the default symbolic links for OS X.  I logged on as Root from the command line (sudo su), and did a CD / to get to the root folder.  From there, I did an "ls -l" to see all the files and symlinks in the root folder.  And there it was.  What was supposed to be a symbolic link called "tmp" was actually a FILE called "tmp".  That's what was causing me all the temporary folder issues.  There was no link to the real folder.
+
+I did an "rm tmp" to delete the file.  Then, recreated the proper symbolic link by doing an "ln -s /private/tmp tmp".  
+
+To see if this would help, I stayed on the command line and did the command line version of software update (softwareupdate -a -i).  Voila!  Success!  No more "Make sure you have permission to write to /tmp/501/TemporaryItems/com.apple.SoftwareUpdate, then try again."!!!
+
+By the way, as a comparison to your situation, I did the last Apple Remote Desktop update back in December, and hadn't tried Software Update until this week again.  That's when I began investigating and ran across your blog with the same error message I was getting.
+
+I couldn't try the XCode thing because I couldn't install ANY software at all.
+
+So, this may or may not be the *fix* for this problem for everyone, but it certainly bears checking out if you're having this damn message crop up.

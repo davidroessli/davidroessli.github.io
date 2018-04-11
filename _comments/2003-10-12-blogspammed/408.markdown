@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 408
+post_id: 509
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 62.167.209.186
+url: http://macinblog.com
+---
+Thanks for the tip Judi! I'll be trying it too as soon as it is released.

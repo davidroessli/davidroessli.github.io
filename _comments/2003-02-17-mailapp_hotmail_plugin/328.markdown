@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 328
+post_id: 403
+author: project management
+email: table@table.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 68.174.8.200
+url: http://www.a1projectmanagement.info
+---
+i had a similar issue with project management lessons

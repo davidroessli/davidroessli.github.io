@@ -1,0 +1,16 @@
+---
+layout: post
+title: iPulse
+date: '2002-12-01 00:34:57 +0100'
+mt_id: 341
+blog_id: 11
+post_id: 341
+basename: ipulse
+categories:
+- daily
+---
+ Woaw. Ils l'ont encore fait. Iconfactory nous réserve toujours de belles surprises. Ils sont surtout connu pour leurs icônes, leur plug-in Photoshop pour les générer, et voil‡ qu'ils nous proposent un voile graphique des battements de coeurs de notre Mac: iPulse. Sa forme circulaire et ces multifonctions ne sont pas sans rappeler les radars de divers jeux vidéos, ou les séries de Star Trek qui ont occupés nos nuits.. A essayer absolument. 
+
+<a href="http://www.iconfactory.com/ip_home.asp">
+
+http://www.iconfactory.com/ip_home.asp</a>

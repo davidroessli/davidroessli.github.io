@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2162
+post_id: 339
+author: Kayla
+email: Dolphinruler@yahoo.com
+date: '2011-12-26 09:38:44 +0100'
+visible: true
+ip: 76.176.174.57
+---
+On my iPod touch That I got just to day brand new I take a picture with the camera then it saves and erases right then. What should I do

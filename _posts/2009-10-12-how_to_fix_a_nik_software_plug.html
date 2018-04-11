@@ -1,0 +1,41 @@
+---
+layout: post
+title: How to fix a Nik Software plug-in crash in Snow Leopard
+date: '2009-10-12 17:06:34 +0200'
+mt_id: 307
+blog_id: 11
+post_id: 307
+basename: how_to_fix_a_nik_software_plug
+categories:
+- daily
+---
+<div class="pix right"><a href="http://www.flickr.com/photos/39601377@N00/3904643488" title="View 'Cuddly leopard(s)' on Flickr.com"><img src="https://farm3.static.flickr.com/2461/3904643488_6b60f4b7e6_m.jpg" alt="Cuddly leopard(s)" border="0" width="135" height="240" /></a></div>
+
+<p>Since I installed Snow Leopard (Mac OS 10.6) one of my Aperture plug-ins stopped working, crashing Aperture when launched (a horrible experience).</p>
+
+<p>I have several of <a href="http://www.niksoftware.com/" title="Nik Software">Nik Software</a>'s plug-ins installed, but only <a href="http://www.niksoftware.com/dfine/en/entry.php">Dfine 2.0</a> stopped working properly.</p>
+
+<p>Nik Software's tech support answer was,</p>
+
+<blockquote>Snow Leopard is very sensitive with regards to duplicate copies of fonts. All of the Nik Software plug-ins utilise Arial fonts. Removing all duplicate copies of the Arial fonts corrects the issue.</blockquote>
+
+<p class="update">You'll find the detailled procedure on how to identify and remove duplicate fonts in <a class="sidelist" href="https://davidroessli.com/logs/assets/doc/Nik_Software_Snow_Leopard_Duplicate_Fonts.pdf" title="Snow Leopard Duplicate Fonts (PDF)">Nik Software's support document</a>. <strong>Kudo to Nik Software</strong>. These guys responded promptly and in details to my support request.</p>
+
+<p>The truth is that it didn't work for me. Font Book didn't reveal any duplicate Arial fonts at all.</p>
+
+<p>It turned out the <strong>clearing the font cache</strong> did the trick, and is the tip I wanted to share with you.</p>
+
+<p>There are third party applications that do this, but I'm not familiar with them. Here is a quick run through on how to clear your font cache in 10.5 or 10.6 with the Terminal (Application > Utilities):</p>
+
+<ol class="decimal">
+<li>Quit all running apps;</li>
+<li>Type the following command to clear the cache <code>atsutil databases -removeUser</code></li>
+<li>Type the following command to restart the ATS server (Apple Type Solutions Server?)<br /><code>atsutil server -shutdown<br />atsutil server -ping</code></li>
+</ol>
+
+<p> It might take a second or two for the server to restart. If anything still looks weird, a logout and login should take care of any niggling issues.</p>
+
+<p>Hope this helps.</p>
+
+<p class="update">Afterthought: it is <strong>not recommended</strong> to clear the font cache, unless you're having a problem that you specifically suspect is related to a corrupted font cache.</p>
+

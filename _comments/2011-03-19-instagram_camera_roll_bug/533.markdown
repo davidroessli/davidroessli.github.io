@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 533
+post_id: 339
+author: Russ McDonald
+email: Russellmcdonald7777@gmail.com
+date: '2011-06-19 03:17:04 +0200'
+visible: true
+ip: 69.246.182.18
+---
+I am having the same issue. I just discovered it today. It is annoying. I just updated my iPhone, so I think that's what made it start occurring. I hope they fix this problem soon.

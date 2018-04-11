@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 448
+post_id: 553
+author: Sam
+email: einlederbahnhof@yahoo.com
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 70.18.245.118
+---
+I had a similar problem to what Kristian posted on February 9, but my /tmp simlink was completely gone. I first noticed the problem when I couldn't print--at all!
+
+For non-UNIX types, the shareware app Printer Setup Repair from Fixamac Software really did the trick for me. No, I don't work for them--didn't even buy the app because I'm a poor grad student, but I would recommend it to anyone with this problem or something similar.

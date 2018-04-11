@@ -1,0 +1,44 @@
+---
+layout: post
+title: Backup revisited
+date: '2007-10-15 22:18:46 +0200'
+mt_id: 211
+blog_id: 11
+post_id: 211
+basename: backup_revisited
+categories:
+- thoughts
+---
+<div class="right pix"><a href="http://www.flickr.com/photos/davo39/176909095/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/44/176909095_7fe0ba9023_m.jpg"  alt="Server and RAID enclosure" /></a></div>
+
+<p>I've recently fine tuned my overall backup strategy and finally found a balance between efficiency, security and ease of use that suits me. As you may or may not know, <a href="https://davidroessli.com/logs/2007/01/my_backup_paranoia/" title="My backup paranoia">I'm a paranoid sucker when it comes down to backup</a>. I've sadly seen too many disks crash over the years to know that sh*t happens. The main issues I had were related to running automatic unattended backup, off site rotation of a full copy of the backup, and overall reliability.</p>
+
+<p>My situation is not exceptional: I have a server in the office serving my files, svn repository and development websites to a Mac Pro in the office or a MacBook Pro out of the office.</p>
+
+<p>The general idea is to have my project files and assets available at all times should I be in the office of not. The resources need to be available at all times as I don't always work in the office. A <abbr title="Virtual Private Network">VPN</abbr> connection secures me in when I'm out, and <acronym title="Subversion">svn</acronym> over <acronym>ssh</acronym> gets my files in and out securely.</p>
+
+<p>The server uses two <abbr title="Redundant array of inexpensive disks">RAID</abbr> 1 arrays (mirrors), one for production and the other for backups. I use a <a class="sidelist" href="http://www.sonnettech.com/product/fusion.html" title="Sonnet Fusion D400 Disk Enclosure">Sonnet Fusion D400</a> to store my drives which connects through eSATA to a dedicated controller in the server. The production array hosts all my assets, projects, svn repository and files, while the backup array stores a mirror copy of the production array and of my different computers hard drives. The backup array is bigger (500Gb) that the production one (300Gb) as it must contain the backup of the server as well as those of my workstation and notepad.</p>
+
+<h2>Rotate off site</h2>
+<p>I use <a class="sidelist" href="http://www.softraid.com/" title="SoftRAID">SoftRAID 3</a> to manage the arrays. Not only do I find it reliable and easy to use, but it essentially enables me to have a 3 disk mirror array for backup. Two disks are online while the third is stored securely off site in a read-only mode (see the <a class="sidelist" href="http://www.softraid.com/demo.html" title="SoftRAID User Manual">user manual for more details</a>). The secondary disk is swapped every Monday morning and brought up to sync automatically.</p>
+
+<p>The backups are performed by <a class="sidelist" href="http://www.shirt-pocket.com/SuperDuper/" title="SuperDuper!">SuperDuper</a>. I've given many other software a try, but <abbr title="SuperDuper">SD</abbr> comes out a winner (for me), even over Unix favourites such as rsync which unfortunately tends to be buggy on Mac OS X. Joe Kissel in his excellent book on <a class="sidelist" href="http://www.takecontrolbooks.com/backup-macosx.html" title="Take Control of Mac OS X Backups">Take Control of Mac OS X Backups</a> says:</p>
+
+<blockquote>
+    <p class="simple">í¢â‚¬Å“Unfortunately, Appleí¢â‚¬â„¢s rsync is several years out of date, fails to copy several important pieces of metadata, and is reputed to be crash-prone. The developer of RsyncX created his own version of rsync, which gets rid of some problems of Appleí¢â‚¬â„¢s version but adds a few more. And there are at least one or two other versions of rsync that similarly offer different trade-offs of capabilities and problems.í¯Â¿Â½í¯Â¿Â½?</p>
+    <cite>Page 161</cite>
+</blockquote>
+
+<p>On the downside, in order to use <abbr title="SuperDuper">SD</abbr>'s Scheduler, the account used to configure it must be logged in. Although I don't like the idea of my server being í¢â‚¬Å“opení¯Â¿Â½í¯Â¿Â½?, direct physical access to it is limited, so it's a small price to pay. On the workstations the problem doesn't occur as they are shutdown after backup.</p>
+
+<p>Another downside is that you need to turn the option í¢â‚¬Å“Copy <abbr title="Access control list">ACL</abbr>sí¯Â¿Â½í¯Â¿Â½? off otherwise a bug in Apple's <abbr title="Access control list">ACL</abbr> Copy code crashes <abbr title="SuperDuper">SD</abbr>.  Dave Nanian of Shirt Pocket said their development team was working on replacing their calls with their own as Apple doesn't seem to want to fix it. All we need is a command-line interface and I'll will definitively be the best (for me).</p>
+
+<h2>Duplicate</h2>
+<p>The backups (read <em>duplications</em>, as I don't archive incremental or differential copies of files) are performed on a daily or weekly basis depending on their usage. The <abbr title="Redundant array of inexpensive disks">RAID</abbr> is backed upevery evening and the server's startup disk (non <abbr title="Redundant array of inexpensive disks">RAID</abbr>) every week. I launch the Mac Pro's smart backup when I leave the office, and trust SuperDuper to shut them down after completion. The MacBook Pro gets backed up either at the office or at home when I feel it needs to.</p>
+
+<p>A sweet addition to this configuration is that in case of duplication failure, <a class="sidelist" href="http://growl.info/" title="Growl notification system for Mac OS X">Growl</a> notifies me by e-mail via the MailMe display style. If you wanted, you could have instant SMS notification by using an e-mail to SMS portal such as <a class="sidelist" href="http://world-text.com/" title="World-Text e-mail to SMS portal">World-Text</a> for instance.</p>
+
+<img src="https://davidroessli.com/logs/assets/img/superduper_growl_notification.png" alt="superduper_growl_notification.png" border="0" width="412" height="349" />
+
+<p>This solution works for me at the time of writing, it might not for you, and I might have changed in a year from now. But I have redundancy for maximum availability and uptime and off site storage for disaster recovery with a minimum of manual intervention.</p>
+

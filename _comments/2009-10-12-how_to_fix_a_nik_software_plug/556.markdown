@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 556
+post_id: 307
+author: Leon
+email: info@iamlb.me
+date: '2011-09-01 01:47:44 +0200'
+visible: true
+ip: 24.189.46.16
+url: http://www.iamlb.me
+---
+Thanks alot I had to get my arial font from 
+http://web.nickshanks.com/fonts/microsoft-core-web-fonts
+if any one else needs it.

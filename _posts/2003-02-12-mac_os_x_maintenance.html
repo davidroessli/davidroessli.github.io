@@ -1,0 +1,73 @@
+---
+layout: post
+title: Mac OS X maintenance
+date: '2003-02-12 11:28:00 +0100'
+excerpt: Many people don't, won't or can't, leave their Mac turned on all the time,
+  simply because they own a portable or a laptop, or because they have the habit of
+  turning it off after they've finished using it. MacJanitor addresses this problem.
+mt_id: 393
+blog_id: 11
+post_id: 393
+basename: mac_os_x_maintenance
+categories:
+- daily
+---
+The latest relase of <a href="http://personalpages.tds.net/%7ebrian_hill/macjanitor.html">MacJanitor</a> gave me the incentive to write this entry.<br />
+<br />
+Many people don't, won't or can't, leave their Mac turned on all the time, simply because they own a portable or a laptop, or because they have the habit of turning it off after they've finished using it.<br />
+<br />
+All this was okay before Mac OS X arrived. Unix subsystems were originally designed to never be turned off. Hence, <b>a number of system related maintenance tasks take place in the middle of the night </b>between 3 and 5am when the workload is supposed to be minimal. These tasks are are scheduled to run on a daily, weekly and monthly basis.<br />
+<br />
+Chances are that a majority of users have never let these tasks complete simply because they were unaware of them. <b>Macjanitor addresses this problem be letting you launch the maintenance task when it suits you.</b><br />
+<br />
+ Let's take a closer look at what they involve.<br />
+
+<!--more-->
+
+<br />
+<b>Daily tasks</b><ul>
+<li>Clear out old files and directories</li>
+<li>Remove system messages older than 21 days</li>
+<li>If system accounting is on, process the accounting files and gather daily statistics</li>
+<li><b>Backup the NetInfo database</b></li>
+<li>Output the disk capacities and storage available</li>
+<li>Show which filesystems haven't had 'dump' performed on them in a while (archaic)</li>
+<li>Show accumulated network statistics and network uptime (ruptime)</li>
+<li>Rotate the system.log file and restart the syslog process</li>
+<li>Clear out the webserver log files older than a week</li>
+<li>Run a /etc/security check script if it exists</li></ul>
+
+<b>Weekly tasks</b><ul>
+<li>If the /usr/libexec/locate.updatedb database exists, update the 'locate' database</li>
+<li>If the /usr/libexec/makewhatis.local file exists, rebuilt the 'whatis' database</li>
+<li>Rotate the following log files: ftp.log, lookupd.log, lpr.log, mail.log, netinfo.log</li>
+<li>Restart the syslog process</li></ul>
+
+<b>Monthly tasks</b><ul>
+<li>Run the login accounting process</li>
+<li>Rotate the wtmp log files</li>
+<li>Restart the syslog daemon</li></ul>
+
+If these maintenance tasks are never run (such as on a laptop that is always shut off at night), many log files and system databases will grow extremely large or fail to get backed up. The NetInfo database contains critical user information, and should be backed up now and then.<br />
+<br />
+A solution would be to change the hours at which these tasks are scheduled to run to more civilized timeframe, say 11:00 or 12:00am. This involves launching the Terminal.app and editing the system crontab located in /etc/crontab<pre>[jaya:/etc] root# more crontab 
+# /etc/crontab
+SHELL=/bin/sh
+PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin
+HOME=/var/log
+#
+#minute hour    mday    month   wday    who     command
+#
+#*/5    *       *       *       *       root    /usr/libexec/atrun
+#
+# Run daily/weekly/monthly jobs.
+15      3       *       *       *       root    periodic daily
+30      4       *       *       6       root    periodic weekly
+30      5       1       *       *       root    periodic monthly
+[jaya:/etc] root# 
+</pre>
+Here you see that the daily tasks are set to run at 3:15am. Change it to<pre>15     11       *       *       *       root    periodic daily
+</pre>
+and they'll run at 11:15am.
+
+Or just use MacJanitor to launch them when you think of it. Note that running the scripts too often won't hurt your system, and running it for the forst time might take some time..<br />

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 294
+post_id: 365
+author: tom
+email: president@whitehouse.org
+date: '2011-03-20 14:11:08 +0100'
+visible: true
+ip: 209.191.165.82
+---
+<a href="http://mirror.apple.com/Mirrors/Info-Mac.Archive/rec/icommune-10b1.hqx" rel="nofollow">http://mirror.apple.com/Mirrors/Info-Mac.Archive/rec/icommune-10b1.hqx</a>

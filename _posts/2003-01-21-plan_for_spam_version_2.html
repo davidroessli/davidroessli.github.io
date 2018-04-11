@@ -1,0 +1,98 @@
+---
+layout: post
+title: "«Plan for Spam» version 2"
+date: '2003-01-21 21:07:00 +0100'
+mt_id: 674
+blog_id: 11
+post_id: 674
+basename: plan_for_spam_version_2
+categories:
+- daily
+---
+<p><b>..  en consultant son courrier électronique</b></p>
+
+<p>Il a été beaucoup question récemment (NdA: mars 2000) de la <b>perte de confidentialité</b> à travers l'utilisation de balises particulières dans des messages électroniques (web, courriel ou news), notamment depuis la mise en garde du CERT au début du mois de février dernier (<<a href="http://www.cert.org/advisories/CA-2000-02.html">http://www.cert.org/advisories/CA-2000-02.html</a>>). La mise en garde concernait l'inclusion de code HTML, ou de scripts, d'origine non vérifiée dans une page web générée dynamiquement, ou dans un message électronique.</p>
+
+<p>La plupart des navigateurs web, ainsi que les dernières versions des programmes de courrier électronique ou de consultation de news (forum de discussion) sont capables d'interpréter des scripts inclus dans les pages qu'ils chargent. En fait, la plupart des programmes sont réglés pour le faire par défaut.</p>
+
+<p>La presse traditionnelle et électronique fait l'écho de nombreuses <b>attaques et violations de la confidentialité</b> lors de transactions en ligne, ou d'envois de messages « minés » (contenant du code qui permet d'accéder à des informations confidentielles si le destinataire répond au message en question des Chevaux de Troie).</p>
+
+<p>Mais n'ajoutons pas à la paranoïa ambiante, et analysons quelques menaces réelles.<br />
+</p>
+
+<a name="more"></a>
+<p><b>Dissimuler du code HTML dans un courriel</b></p>
+
+<p>La plupart des navigateurs web indiquent la présence d'un lien par une surbrillance, une couleur différente ou en soulignant les quelques mots qui le composent. La portion du code HTML qui compose le lien est dissimulé des yeux de l'internaute. Les dernières versions des programmes de courriel en font de même.</p>
+
+<p>La plupart du temps, il ne s'agit pas d'un bogue, mais d'une fonctionnalité (« It's not a bug, it's a feature!»). Ceux qui ont eu l'occasion de voir du <a href="http://a-webmasters.webdepart.com/langagehtml.html" title="definition du language HTML">code HTML</a>, conviendront que ce n'est pas très parlant de prime abord. La plupart des utilisateurs de courrier électronique n'ont ni l'expertise, ni le temps, et ni l'envie d'analyser chaque portion de code HTML qu'ils reçoivent par courriel. Malheureusement, cela peut représenter pour une personne mal intentionnée (typiquement un « <a href="http://perso.magic.fr/roumazeilles/whatf.htm" title="Definition francaise du spam">spammer</a> ») une porte dérobée sur votre confidentialité.</p>
+
+<p>Prenons comme exemple un message électronique non sollicité (« <a href="http://perso.magic.fr/roumazeilles/whatf.htm" title="Definition francaise du spam">spam</a> ») provenant d'un site peu recommandable qui contiendrait le code HTML suivant :</p>
+
+<p>&#60;a href="http://www.histoiresdeq.com"&#62;www.histoiresdeq.com&#60;/a&#62;</p>
+
+<p>Pas de problème pour l'instant: www.histoiresdeq.com n'est rien d'autre qu'un site web, et je ne me compromettrais pas plus mon anonymité en visitant celui-ci qu'un autre. Lors d'une visite (lorsque vous cliquez sur un lien), <b>la plupart des sites web n'enregistrent que votre numéro IP</b> (l'adresse de votre ordinateur), et éventuellement votre nom de domaine (unige.ch ou swissonline.ch par exemple), et la signature du navigateur que vous utilisez (Internet Explorer ou Netscape, sur Macintosh, Windows, Linux, etc.), en plus de la ressource requise (page HTML, image, etc.). <a href="http://www.checkbox.org/txt/20000320-ip.php3">Ces informations sont disponibles si vous désirez les voir de plus près</a>. Aucune de ces informations ne peut être utilisée pour m'envoyer plus de spams, ou pour avoir accès à mon identité.</p>
+
+<p>Malheureusement, ces URLs peuvent contenir d'autres éléments, dont des paramètres qui peuvent être renvoyés au site :</p>
+
+<p>&#60;a href="http://www.histoiresdeq.com?u=foo@bar.com"&#62;www.histoiresdeq.com&#60;/a&#62;</p>
+
+<p>Si je clique sur le lien et visite le site, mon adresse de courrier électronique foo@bar.com est susceptible d'être ajoutée à une liste de clients potentiels. Bien entendu, l'administrateur du site en question qui m'a fait parvenir le message connaissait déjà mon adresse, mais il ne savait pas si je pourrais être un client éventuel. Maintenant, il le sait.</p>
+
+<p>Il y a pire. Si j'utilise un navigateur web pour gérer mon courrier électronique, le seul fait d'ouvrir un message peut suffire à provoquer une perte de confidentialité. La plupart des navigateurs sont capables de décorer un message électronique avec des images (parfois invisibles), qu'ils rapatrient lorsque le message est ouvert. Le spammer est libre d'inclure dans une balise IMG mon adresse électronique sous la forme d'un paramètre :</p>
+
+<p>&#60;img src="http://www.histoiresdeq.com/xxx.jpg?u=foo@bar.com"&#62;</p>
+
+<p>Dès que vous ouvrez votre message, votre programme de courrier électronique va lancer une requête à www.histoiredeq.com pour l'image xxx.jpg?u=foo@bar.com afin de correctement rendre votre message, et cette requête sera répertoriée dans le fichier log du site en question (avec votre adresse de courriel).</p>
+
+<p><b>Tu veux un <a href="http://www.ping.be/~ping9985/html/kookie.htm" title="Qu'est-ce qu'un cookie ?">cookie</a> ?</b></p>
+
+<p>Le spammer sait donc que j'ai ouvert son message - et ce n'est pas le pire. Le site en question peut également renvoyer un cookie à mon navigateur contenant de manière codée mon adresse électronique. Cela signifie que la prochaine visite que je ferais à son site (ou a un site qui collabore avec lui, ils sont rarement isolés), pourra être enregistrée et indexée à mon adresse de courriel.</p>
+
+<p>En bref, mon anonymité aura été sévèrement compromise par mon logiciel de navigation ou de courrier électronique, sans que je le sache et sans que je l'autorise. Pour plus d'information sur ce genre d'attaque, veuillez vous référer aux publications du <a href="http://www.eff.org/pub/Privacy/Profiling/19991202_joint_profiling_pressrel.html">Electronic Frontier Foundation</a>. ou à l'article de Richard Smith (« <a href="http://www.tiac.net/users/smiths/privacy/cookleak.htm">The Cookie Leak Security Hole in HTML Email messages</a> »).</p>
+
+<p><b>Variations sur le même thème</b></p>
+
+<p>Ce type d'attaque peut prendre plusieurs formes. Il est possible d'éliminer l'utilisation de paramètres par exemple. Imaginons que la requête pour une image soit de la forme :</p>
+
+<p>&#60;img src="http://www.histoiresdeq.com/blonds/l_tabata_r.jpg"&#62;</p>
+
+<p>Ce code semble plutôt inoffensif à première vue, mais il ne l'est peut-être pas. Dans un des scénarios possibles, le spammer peut générer un URL unique pour chaque adresse de courrier électronique qu'il utilise dans ses publipostages, en appondant des noms au hasard (marlene, tabata, etc.) avec des lettres de l'alphabet (r, s, t, etc.) lors de l'envoi de son publipostage, le spammer enregistre les combinaisons noms-lettres avec l'adresse de courrier électronique du destinataire dans une base de données.</p>
+
+<p>Lorsque qu'une requête pour l'image en question intervient, un script sur le serveur peut enregistrer l'évenement et renvoyer un cookie au navigateur, et nous nous retrouvons dans le cas précédent.</p>
+
+<p>&#60;a href="http://www.histoiresdeq.com/blonds/l_tabata_r.html"&#62;...&#60;/a&#62;</p>
+
+<p>Si je suis suffisemement inconscient ou mal informé pour cliquer sur des URLs inconnus, la même logique s'applique, et sans que le spammer ne doive recourir à du code HTML dissimulé.</p>
+
+<p>Bienvenue à SpamLand ..</p>
+
+<p><b>Conclusions</b></p>
+
+<p>Une morale de cette histoire pourrait être que les Chevaux de Troie peuvent prendre plusieurs formes, et qu'on ne devrait pas prendre pour argent comptant n'importe quelle offre d'un (site) inconnu, même si elle semble inoffensive.</p>
+
+<p>Une morale alternative est que nos navigateurs et programmes de courriel qui regonfle de nouvelles fonctionnalités en agrégeant des morceaux d'applicatifs (comme la navigation sur le web et le courrier électronique par exemple) peuvent générer d'inattendues failles dans leur sécurité. Pour ne nommer personne, Microsoft est un des acteurs principaux dans ce domaine, mais Netscape et d'autres ont contribués à cette situation.</p>
+
+<p>Le fait d'avoir inclus des macros (du code interprétable) dans les traitements de texte, et autres logiciels, est une bonne idée à la base, mais c'est également la porte ouverte aux abus. Il n'y a qu'à consulter le nombre de nouveaux macrovirus Word ou Excel qui est répertorié par mois pour se rendre compte de l'étendue du problème (<<a href="http://vil.nai.com/villib/alpha.asp">McAfee Virus Central</a>>).</p>
+
+<p><b>Il n'existe pas de solution miracle à ce problème</b>, mais certaines règles de comportement peuvent contrevenir à la grande majorité des tentatives d'attaque. <b>Soyez conservateur</b> dans votre utilisation de logiciels de courriel hautement intégrés comme Microsoft OutLook par exemple. Ils sont trop accommodants pour les spammeurs. <b>Désactivez les options automatiques</b> de votre logiciel, particulièrement celles qui invoquent automatiquement le traitement de l'information par un logiciel tiers, ou l'exécution automatique de scripts. Le jour où les fabricants de logiciels intégreront davantage de sécurité dans leurs produits, les risques commenceront réellement à diminuer.</p>
+
+<p><b>Pour en savoir plus..</b><br />
+<ul><li><a href="http://www.cert.org/advisories/CA-2000-02.htm">CERT Advisory CA-2000-02 Malicious HTML Tags Embedded in Client Web Requests</a>http://www.cert.org/advisories/CA-2000-02.html</li><li><a href="http://cnn.com/2000/TECH/computing/01/14/email.privacy.idg/index.html">Read an e-mail, loose your privacy</a> -- Rich Morinhttp://cnn.com/2000/TECH/computing/01/14/email.privacy.idg/index.html</li><li><a href="http://www.ntsecurity.net/go/loader.asp?iD=/security/ie514.htm">HTML Code causes 100% CPU Usage</a> -- NT Securityhttp://www.ntsecurity.net/go/loader.asp?iD=/security/ie514.htm</li><li><a href="http://www.eff.org/pub/Privacy/Profiling/19991202_joint_profiling_pressrel.html">Electronic Frontier Foundation press release</a>http://www.eff.org/pub/Privacy/Profiling/19991202_joint_profiling_pressrel.html</li><li><a href="http://www.tiac.net/users/smiths/privacy/cookleak.htm">The Cookie Leak Security Hole in HTML Email messages</a> -- Richard M. Smithhttp://www.tiac.net/users/smiths/privacy/cookleak.htm</li><li><a href="http://www.amazon.com/exec/obidos/ASIN/0738201448/cybermediaconcep">The Transparent Society</a>De David Brin (<a href="http://www.amazon.com/exec/obidos/ASIN/0738201448/cybermediaconcep">.co.uk</a>) (<a href="http://www.amazon.de/exec/obidos/ASIN/0738201448/cybermediaconcep">.de</a>)</li></ul><br />
+</p>
+
+<span class="posted">R&#233;dig&#233; par davo39 le mars 20, 2000 02:59 PM
+			| <a href="http://www.idees.ch/mt-tb.cgi?__mode=view&amp;entry_id=94" onclick="OpenTrackback(this.href); return false">Cit&#233;</a>
+
+<br /></span>
+			<h3 class="title">Le Checkbox - version weblog</h3>
+
+			<p>Le Checkbox est relancé sous une nouvelle formule: les articles seront moins long, mais plus fréquents (hum), et organisés sous la forme d'un weblog, ou blog.</p>
+
+<p>Les articles originaux et les souscriptions électroniques sont maintenus. Un <a href="http://www.idees.ch/checkbox/index.rdf">index des articles en format XML est également à votre disposition</a> pour ceux qui aimerait offrir des liens depuis leur site.</p>
+
+<p><img alt="emmashadow.jpg" src="http://www.idees.ch/checkbox/archives/emmashadow.jpg" width="400" height="300" border="0" /></p>
+
+<p>En espérant que cette nouvelle formule soit plus riche, et plus régulière, je vous souhaite une excellente nouvelle année 03.</p>
+
+<p>// david roessli</p>

@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 514
+post_id: 654
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:18:57 +0100'
+visible: true
+ip: 212.147.31.60
+url: http://www.enriquepardo.com
+---
+Si je peux me permettre de paraphraser un panneau vu dans une librairie de Montmartre:
+
+"Ce ne sont pas des images justes, ce sont juste des images".
+
+
+
+thanks d)
+
+;-)

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2468
+post_id: 697
+author: Appreciate
+email: rao_ganesh@hotmail.com
+date: '2017-02-19 15:17:56 +0100'
+visible: true
+ip: 110.21.83.1
+---
+Thanks worked for Sony Blu ray BDP 1200 and All for one 7140

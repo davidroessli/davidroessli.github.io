@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2217
+post_id: 690
+author: PJL500
+email: hugeloadabollocks@hotmail.com
+date: '2012-09-22 19:38:20 +0200'
+visible: true
+ip: 99.42.137.115
+---
+Yeah, I would use the very nice Battery Status if there was a Battery Status menu.menu so it could replace the stock Menu Bar item.

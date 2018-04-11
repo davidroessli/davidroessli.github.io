@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 151
+post_id: 244
+author: Adam
+email: adameldin@yahoo.com
+date: '2008-07-14 13:10:06 +0200'
+visible: true
+ip: 12.33.140.50
+---
+Installing BSD Subsystem crashed my installer and I cannot use it any more. Would you please have a solution.
+
+Adam

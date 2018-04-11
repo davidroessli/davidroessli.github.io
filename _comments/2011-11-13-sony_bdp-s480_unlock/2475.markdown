@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 2475
+post_id: 697
+author: Sony BDPS360 dear
+email: piplewis57@gmail.com
+date: '2017-09-07 21:33:11 +0200'
+visible: true
+ip: 94.9.54.138
+---
+I have the Sony BDPS360.
+I have used the 0533 code with my ONEforALL 7140 and the above Sony. The Remote works fine with the DVD player just nothing, no response, no "OK" when I hit 1,2,3,4,5. Unit seems totally unresponsive. Programming the buttons on the oneforall remote is easy enough and i get the flashes confirming the buttons are programmed OK.
+I have followed the instructions carefully as above and nothing happens when I point at my DVD player. It still will not play Region 1 when I try.
+My DVD player has no flashing light, or standby light. It has a quick start function I'm using that's all.
+The one-for-all usually takes 4 digit codes to communicate with TV, Sat, Amp and DVD, so I would have expected 0533 code to speak to the DVD and do the trick (it normally uses 1516 for power on/off and communication).
+Does anyone have any better ideas, or something I'm missing please?
+I'm dying to watch my USA DVDs and just can't!

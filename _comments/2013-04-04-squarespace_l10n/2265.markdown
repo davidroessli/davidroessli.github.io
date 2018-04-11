@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 2265
+post_id: 750
+author: Christoph
+email: christoph@wettstein.fr
+date: '2013-09-17 10:42:58 +0200'
+visible: true
+ip: 90.48.39.102
+---
+David, thanks a lot for this excellent article. Everthing worked well for me expect setting the localisation to German. 
+
+I added to following snippet to Settings - Code Injection - Header): 
+
+<script>
+Y.use("lang/datatype-date-format_de-DE",
+  function(Y) {
+      Y.Intl.setLang("datatype-date-format", "de-DE");
+  }
+);
+</script>
+
+Unfortunately this did not change anything in the calendar widget. Months names are still displayed in English.

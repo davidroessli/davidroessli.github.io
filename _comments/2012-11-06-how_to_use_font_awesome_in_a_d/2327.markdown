@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2327
+post_id: 734
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-11-11 16:23:23 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+Apparently, Pages v5.5.1 doesn't render v4.2 of Font Awesome correctly. It's okay on screen, but when you print of generate a PDF, the characters come out much smaller.
+
+This can be fixed by using the TrueType (TTF) version of the font instead of the OTF - not ideal, but it worksâ€¦

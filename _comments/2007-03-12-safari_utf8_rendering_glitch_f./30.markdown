@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 30
+post_id: 191
+author: Mark Rowe
+email: bdash@webkit.org
+date: '2007-03-15 10:21:16 +0100'
+visible: true
+ip: 17.86.19.218
+url: http://webkit.org/
+---
+From memory the issue here was that external stylesheets default to the latin-1 text encoding while users assume they would default to the encoding of the document referencing them.  I do not recall what the specification says about this, but I believe WebKit was updated to respect any character set specified in the HTTP headers for the stylesheet (as it always has) and fall back to the main documents encoding if one is not set.  That would explain why you are seeing the correct behaviour now where it failed in the past.
+
+The JavaScript issue sounds a bit different and I can't think of a reason for the issue off the top of my head.  Since it's fixed in WebKit and you have a workaround for your site, I'll leave that as is.
+
+- Mark

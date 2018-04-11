@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 87
+post_id: 167
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-01-06 17:38:31 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Ari, the file is available from the following URL: http://www.davidroessli.com/logs/assets/audio/07_Radjiv_07.mp3

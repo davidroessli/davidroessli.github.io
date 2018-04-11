@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 437
+post_id: 553
+author: Tim
+email: trodgers@offseason.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 151.203.215.62
+url: http://www.offseason.com
+---
+I had the same problem installing on my son's B&W G3.  Then I remembered I had installed Dansguardian which is a Net Nanny kind of thing that prevents the lad from visiting pornographic web sites (accidentally, of course).  Dansguardian works by installing a proxy server on the local Mac (on his B&W G3).  I disabled the proxy server in the Network preferences, installed the updates, and then re-enabled the proxy settings.  Voila!  HTH.

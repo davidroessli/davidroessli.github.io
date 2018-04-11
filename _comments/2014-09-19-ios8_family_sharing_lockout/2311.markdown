@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2311
+post_id: 770
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-09-20 16:55:11 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://davidroessli.com
+---
+@Chris,
+
+When you create your family group, you need to provide the Apple ID you use for purchases on the Store (the @gmail one?) and keep your iCloud settings pn @me/icloud
+
+Basically, my guess is you _should_ be able to keep your current situation going, except that your family members will use their own Apple ID to buy from the Store, but it will be charged to your @gmail credit cardâ€¦
+
+Hope this helpsâ€¦

@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2249
+post_id: 697
+author: patrick
+email: padraic@gmx.ch
+date: '2013-02-13 16:47:29 +0100'
+visible: true
+ip: 217.162.251.63
+---
+hi there
+
+and how to make it with the original remote-controll ?
+i have a sony bdp-s780 (regio code 2; bluray A)
+
+my remote is an sony rmt-b112p
+
+can anybody help?

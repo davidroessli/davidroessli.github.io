@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 239
+post_id: 301
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-09-07 08:47:03 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+Found a good list of things REMOVED from Snow Leopard maintained by Jesper:
+http://waffle.wootest.net/2009/09/05/removed-snow-leopard/

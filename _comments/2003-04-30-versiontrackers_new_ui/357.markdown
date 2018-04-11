@@ -1,0 +1,28 @@
+---
+layout: comment
+comment_id: 357
+post_id: 460
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 62.167.178.31
+url: http://macinblog.com
+---
+Hmm, thanks for the 'no ads' tip. That option was actually off in my previous settings, and I didn't take the time to recheck it..
+
+
+
+The layout problem is specific to Safari. Something to do with its CSS 2 rendering (check Dave's Hyatt weblog for more info (<a href="http://www.mozillazine.org/weblogs/hyatt/)." rel="nofollow">http://www.mozillazine.org/weblogs/hyatt/).</a>
+
+
+
+BTW, Camino renders the page perfectly ;) 
+
+
+
+Safari: <a href="http://www.macinblog.com/mac/img/vt-new_ui_safari.jpg" rel="nofollow">http://www.macinblog.com/mac/img/vt-new_ui_safari.jpg</a>
+
+Camino: <a href="http://www.macinblog.com/mac/img/vt-new_ui_camino.jpg" rel="nofollow">http://www.macinblog.com/mac/img/vt-new_ui_camino.jpg</a>
+
+Internet Explorer: <a href="http://www.macinblog.com/mac/img/vt-new_ui_ie.jpg" rel="nofollow">http://www.macinblog.com/mac/img/vt-new_ui_ie.jpg</a>

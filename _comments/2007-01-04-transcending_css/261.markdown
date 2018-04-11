@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 261
+post_id: 144
+author: Leroy | kids bedding
+email: liftalee@msn.com
+date: '2010-01-12 15:57:16 +0100'
+visible: true
+ip: 160.83.73.26
+url: http://www.huggykidsbedding.com
+---
+Great book, helped my CSS a whole lot.

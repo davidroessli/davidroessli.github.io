@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 439
+post_id: 553
+author: Milhouse
+email: milhouse@clan-bmac.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 82.227.84.10
+url: http://www.clan-bmac.com
+---
+Thanks tyo and Mango, it was tar and gnutar :P

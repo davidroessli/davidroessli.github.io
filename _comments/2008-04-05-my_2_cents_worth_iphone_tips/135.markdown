@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 135
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-04-22 22:39:59 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@djeni the idea is to remove the file named "com.micromat.Syphone.plist" from your ~/Library/Preferences folder before launching the application.
+
+Yes MSB does ask for a donation before letting you backup anything. But it's worth it. Just give him what you think the application deserves. It's a great little application, stable and does just the job. It exports the data in a tab separated format for reuse in a spreadsheet or by any other programme.
+
+Check out also Ecamm's <a href="http://www.ecamm.com/mac/megaphone/">MegaPhone</a> which lets you access your iPod Touch/iPhone directly. You can also use it to export SMSs, call log etc. I find it ideal to transfer the images I received by MMS from my iPhone to my Mac. Brilliant.

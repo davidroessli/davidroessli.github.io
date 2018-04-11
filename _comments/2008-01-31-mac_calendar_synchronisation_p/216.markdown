@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 216
+post_id: 216
+author: Lisa Cooper
+email: CoopNYC@aol.com
+date: '2009-07-07 07:08:40 +0200'
+visible: true
+ip: 71.107.52.49
+---
+Bless you Stephanie!  Weeks of stress, resolved in a quick minute.

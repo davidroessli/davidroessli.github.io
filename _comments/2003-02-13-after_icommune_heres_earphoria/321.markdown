@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 321
+post_id: 398
+author: hydo
+email: hydo.@.mac.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 207.149.239.2
+---
+Euphoria is really cool but there's one catch.  When you open it, and pick your host out of the list, it plays the music on the *remote* machine.  It's a great remote control application for juke boxes and what not.

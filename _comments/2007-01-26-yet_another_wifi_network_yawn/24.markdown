@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 24
+post_id: 159
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-02-06 23:16:52 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+<a href="http://www.istumbler.net/" rel="nofollow">iStumbler release 98</a> solves the signal strength issue on Core 2 Duo Macs.

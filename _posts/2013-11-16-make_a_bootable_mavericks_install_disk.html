@@ -1,0 +1,18 @@
+---
+layout: post
+title: Make a bootable Mavericks install disk
+date: '2013-11-16 17:44:14 +0100'
+mt_id: 760
+blog_id: 11
+post_id: 760
+basename: make_a_bootable_mavericks_install_disk
+categories:
+- daily
+---
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/mavericks.jpg" alt="Mac OS 10.9 Mavericks" title="mavericks.jpg" border="0" /></div>
+<p>I <a href="http://twitter.com/roessli/statuses/392967394941235202">like having the latest Mac OS X install disk available on a flash drive</a>, especially since it weights over 5.3 Gb.</p>
+<p>MacWorld offers an <a class="sidelist" title="How to make a bootable Mavericks install drive" href="http://www.macworld.com/article/2056561/how-to-make-a-bootable-mavericks-install-drive.html">excellent tutorial on the subject</a>. In short, get the latest version of Mac OS 10.9 Mavericks from the Mac App Store, and use the <code><a href="http://support.apple.com/kb/HT5856" title="Creating a bootable OS X installer in OS X Mavericks" class="sidelist">createinstallmedia</a></code> script built into the Mavericks installer itself.</p>
+<p>You'll need an <strong>8 Gb flash drive</strong> this time. Format it and name it <code>Untitled</code>.</p>
+<p>Assuming thats the Mavericks installer is located in your Application's folder, run the following command from the terminal:</p>
+<p class="update">sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Mavericks.app --nointeraction</p>
+<p>As easy as pie. Thanks </a href="https://twitter.com/danfrakes">@danfrakes</a>.</p>

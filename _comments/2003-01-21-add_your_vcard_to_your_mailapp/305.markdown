@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 305
+post_id: 369
+author: Peter
+email: forsmann_pete@hotmail.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 65.75.160.130
+url: http://www.amateurprovideo.info
+---
+Hello, I liked you site very much. But maybe you should change the color of the background on the site?

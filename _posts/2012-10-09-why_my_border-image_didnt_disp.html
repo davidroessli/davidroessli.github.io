@@ -1,0 +1,33 @@
+---
+layout: post
+title: Why my border-image didn't display in Firefox 15
+date: '2012-10-09 16:57:37 +0200'
+mt_id: 733
+blog_id: 11
+post_id: 733
+basename: why_my_border-image_didnt_disp
+categories:
+- daily
+---
+<p>A quick CSS tip before I forget:</p>
+<p>I've been wrecking my brains this afternoon  to figure out why a border-image stopped displaying properly in the lastest version of Firefox (15.0.1) although it showed up properly in previous versions.</p>
+<p>The CSS properties were:</p>
+
+<pre>
+div.mod-registration {
+  border-width: 164px 51px 98px 90px;
+  -moz-border-image: url(../img/torn-paper02.png) 164 51 98 90 stretch;
+  -webkit-border-image: url(../img/torn-paper02.png) 164 51 98 90 stretch;
+  -o-border-image: url(../img/torn-paper02.png) 164 51 98 90 stretch;
+  border-image: url(../img/torn-paper02.png) 164 51 98 90 stretch;
+}
+</pre>
+
+<p>But nothing was displayed, as if border-image wasn't supported.</p>
+<p>The trick was to specify a border-style:</p>
+
+<pre>
+border-style: solid; 
+</pre>
+
+<p>Now everything is back to normal.</p>

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 392
+post_id: 491
+author: Denny
+email: denny@mediaco-op.org
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 68.18.193.145
+url: http://wherewearebound.typepad.com
+---
+cool!! thanks for the tip.

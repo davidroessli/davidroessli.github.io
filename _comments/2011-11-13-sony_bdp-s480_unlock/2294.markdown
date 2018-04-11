@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2294
+post_id: 697
+author: Orlin
+email: oritomov@yahoo.com
+date: '2014-03-12 21:24:02 +0100'
+visible: true
+ip: 95.87.220.71
+---
+works with code 0533 for BDP-S770 with one-for-all URC 7740

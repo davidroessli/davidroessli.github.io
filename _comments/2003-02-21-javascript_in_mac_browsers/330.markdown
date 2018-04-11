@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 330
+post_id: 410
+author: andriy
+email: andriydykyy@yahoo.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 207.112.43.69
+url: http:///M199/UrbanPuppyCanada.htm
+---
+JavaScript does not work on a Mac Brousers but it works on a PC. Why?

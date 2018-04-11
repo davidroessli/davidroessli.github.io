@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 410
+post_id: 509
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 217.8.202.151
+url: http://enriquepardo.com
+---
+I have found this other useful link to "Seven quick tips for a spam-free blog"
+
+
+
+<a href="http://cheerleader.yoz.com/archives/000849.html" rel="nofollow">http://cheerleader.yoz.com/archives/000849.html</a>

@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2212
+post_id: 690
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-08-02 18:48:00 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Dale,
+
+Yes, I had the same problem.. I've solved it by adding the Fantastical Menu.menu file to my Application folder and launching it from there.
+
+If you move it after launching it, it won't launch at the next restart. So move it to its final destination before launching it.
+
+That should do the trick.

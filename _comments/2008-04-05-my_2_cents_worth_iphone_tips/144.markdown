@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 144
+post_id: 244
+author: Steve
+email: iamgilbert@hotmail.com
+date: '2008-06-10 21:36:56 +0200'
+visible: true
+ip: 85.5.79.127
+---
+Hey I configured my iPhone for mms as said above... and i have Swirly mms installed... however It doesnt recieve them...
+
+I just get a message from Swisscom telling me I have a mms and a link to a website pickup....
+
+Any help to help me recieve them through  Swirly would be good... 
+
+steve :s

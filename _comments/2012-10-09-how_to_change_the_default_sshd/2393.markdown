@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2393
+post_id: 732
+author: Adam P
+email: adampasz@yahoo.com
+date: '2015-05-24 17:15:41 +0200'
+visible: true
+ip: 73.15.133.147
+url: http://www.pasz.com
+---
+Thanks for posting this. Worked like a charm!

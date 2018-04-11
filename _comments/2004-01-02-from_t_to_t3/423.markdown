@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 423
+post_id: 537
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:19 +0100'
+visible: true
+ip: 62.167.102.194
+url: http://www.macinblog.com/
+---
+Chris,
+
+Basically you can't make iSync and Palm Desktop work together. Or rather, one set of data can only be synched with one conduit (Datebook -> Address Book via iSync OR Datebook -> Palm Desktop via Palm Contact Conduit).
+
+You can choose to iSync your Addresses and not your Calendars, or the reverse, but you can't iSync AND HotSync to Palm Desktop at the same time.
+
+I agree with you. The Palm iSync is still imperfect and not pratical to use. The simple fact that HotSync must initiate the process is annoying. Moreover, data eventually gets corrupted and iSync reports inconsistencies and suggest to reset the device .. which makes you start from scratch, loosing all the categories attributions etc.
+
+Guess it'll work properly some day, but I'm frightened that might entail a rewrite of how Palm OS deals with its data. I mean, look at Contacts, you still can't assign two addresses to a single record, and it still is very much has it was back in the 80'ties when US Robotics released the first Palm Pilot
+:/

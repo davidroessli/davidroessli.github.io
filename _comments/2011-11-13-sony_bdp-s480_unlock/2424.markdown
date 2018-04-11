@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2424
+post_id: 697
+author: Pete Wells
+email: petewellinghton@hotmail.com
+date: '2015-09-01 03:05:44 +0200'
+visible: true
+ip: 85.138.72.92
+---
+Cant even start the first instruction. Have aurc-7962 remote. Whre is the DVD button??? Thanks

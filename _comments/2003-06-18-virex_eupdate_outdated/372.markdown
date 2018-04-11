@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 372
+post_id: 469
+author: JAM
+email: jmaio@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 68.35.36.132
+---
+Thanks! This works great - but maybe I should just get the Norton version that works with OX-X - Whatever one says about Symantic, they seem to suport their stuff

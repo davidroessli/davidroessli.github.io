@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2258
+post_id: 750
+author: Joona MÃ¤kinen
+email: joonahe@me.com
+date: '2013-06-18 10:07:56 +0200'
+visible: true
+ip: 85.76.170.28
+---
+Thanks for your quick reply!
+
+I tried that, but unfortunately it didn't work..

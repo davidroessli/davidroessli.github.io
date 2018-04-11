@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2401
+post_id: 339
+author: Jennifer
+email: mccurryjj@gmail.com
+date: '2015-07-03 20:00:12 +0200'
+visible: true
+ip: 173.160.1.154
+---
+I'm having an issue viewing all my photos from my iPhone (I'm only able to see 40 plus photos and I have 400 plus photos) when I'm trying to access to upload from my instagram. This has never been an issue before until a few days ago. 

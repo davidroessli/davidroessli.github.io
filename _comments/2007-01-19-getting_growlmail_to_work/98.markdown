@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 98
+post_id: 156
+author: Nick Ravo
+email: nickravo1@gmail.com
+date: '2008-02-20 05:02:59 +0100'
+visible: true
+ip: 121.209.233.204
+---
+How do I change the the EnableBundles property of your Mail preferences (~/Library/Preferences/com.apple.mail.plist) to true? I found the preference, clicked it and a bunch of code popped up in a text writer. Now what? (And do I really wanna mess with this code?)

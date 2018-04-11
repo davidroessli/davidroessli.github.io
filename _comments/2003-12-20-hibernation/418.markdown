@@ -1,0 +1,32 @@
+---
+layout: comment
+comment_id: 418
+post_id: 525
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 200.78.217.86
+url: http://www.enriquepardo.com
+---
+You must be fighting with what more and more people must be experiencing: too much online content to manage.
+
+
+
+I am wondering if in some time someone should come up with a way of organizing all the different bits and parts that we get to scatter online.
+
+
+
+If I take my experience, I have 3 personal blogs, 2 or 3 where I am an author, 1 wiki, 3 or 4 digital photo albums, 1 mobile phone photo album, 1 web site for my film photography, 1 corporate website and plenty of projects that I just can't commit to by lack of time. And I'm not talking about all the personal pages that I have on many web sites.
+
+
+
+The problem now, is that what was meant to help me organize data and ideas is getting somewhat disorganized and I feel the need to have some sort of central starting point where I can have an overview on all of my data.
+
+
+
+Maybe Apple should come up with some sort of "data hub" in reference to the concept of "digital hub" they have managed to create. See it like yet another online service that would serve as a entry point to all of your online real estate.
+
+
+
+I don't know if this makes sense or if it is pure utopia...

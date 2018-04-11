@@ -1,0 +1,50 @@
+---
+layout: post
+title: 'Panther: up and running'
+date: '2003-10-26 22:21:29 +0100'
+excerpt: Panther install tips and personal pre-upgrade recommendations. First impressions
+  and thoughts.
+mt_id: 511
+blog_id: 11
+post_id: 511
+basename: panther_up_and_running
+categories:
+- daily
+---
+<p>I received my copy on Friday afternoon, and couldn't resist to have a go at installing it. If you've resisted the temptation, here are my few tips, and first impressions:</p>
+<ul>
+<li><a href="http://www.macinblog.com/img/panther.jpg" onclick="window.open('http://www.macinblog.com/img/panther.jpg','popup','width=335,height=390,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="https://www.davidroessli.com/assets/macinblog/img/panther-tm.jpg" height="100" width="100" align="right" border="1" hspace="5" vspace="5"></a><strong>Backup</strong>: and backup again. Take care to have extra copies of off your documents and setting - especially your Mail folder and other personal settings located in your ~/Library folder (but you do that anyway, don't you?).</li>
+<li><strong>Check your login items</strong>: remove those which aren't compatible, or check for an update via <a href="http://www.versiontracker.com/macosx/">VersionTracker</a>. The ones I know of are <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/13660">DefaultFolder</a> (1.9.1 is compatible), Transport Monitor (part of <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/12968">Palm Desktop</a> 4.1 - crashes on load). There's an update available for <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/13443">USB Overdrive</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10479">Retrospect 5.1 Client</a>.</li>
+<li><strong>Desactivate your haxies</strong> : typically the Unsanity ones.</li>
+<li><strong>Check your activated software</strong>: such as <a href="http://www.macromedia.com/support/service/ts/documents/mac_archive_install.htm">Macromedia Studio MX 2004</a> products, or <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/13103">MacAnalysis</a> e.g. Uninstall Macromedia licenses prior to upgrading, and reinstall the license after. Mac Analysis required a new serial number - and crashes at load.</li>
+</ul>
+
+<p>The installation as such is a breeze (well, it was for me). Just make sure not to forget the folowing points,</p>
+
+<ul>
+<li><strong>Check your startup disk permissions</strong>: run the Disk Utility to repair the disk permissions before booting on the install CD</li>
+<li><strong>Check your startup disk from the CD</strong>: run Disk Utility from the install CD before launching the install process, and select Repair from the First Aid tab.</li>
+<li><strong>Install Panther</strong>: I used the Archive and Install option which worked like a charm and prevented me from reinstalling most of my applications - and preserved most of my settings. I reconnected to my Airport network without a glitch. The whole process took a little over 30 minutes on my G4/1000 MP and eMac, and around 50 minutes on my TiPB/800.</li>
+<li><strong>Check your startup disk again</strong>: recheck your disk and permissions after (yes, I am a little paranoiac, but installers do screw things up).</li>
+</ul>
+
+<p>This release rocks. The <strong>Finder</strong> feels more responsive and the sidebar is brilliant. The fonts seem slightly different. The Finder's second line (show item info) is smaller and can display more text. Expose rocks, especially if you can program a button of your mouse to activate it. I also like the new Connect to Server, or the Navigation dialog boxes. Software Update is accessible directly from the Apple Menu, and can be set to install automatically "important" updates (we'll have to think about that one..). <strong>Mail.app</strong> is faster eventhough it needs to reindex all your mailboxes (only when you open then). The <a href="http://www.apple.com/macosx/features/mail/">new features</a> (threading, etc.) are cool and work generally as advertised (still no <a href="http://www.macinblog.com/archives/000202.php">smart views</a> though).</p> 
+
+<p>These are just a few early considerations, but this release feels good. Really good. I'll post more info tomorrow after a real day's work. Oh, one more thing: beware if you're using an external Firewire/USB drive. There's quite a lot of reports about people who've lost all their data after upgrading. Apple Discussions have several threads on the matter. The current workaround is <a href="http://www.macinblog.com/archives/000202.php">not to reboot with the drive mounted</a>. Unmount the drive and disconnect it before restarting. I have not tested that one ...</p>
+
+<p><em>Updates are in the extended body section</em></p>
+
+<!--more-->
+
+<p><strong>Update 031027 08:39</strong>: just a few words before I begin my day's work: I had a couple of surprises this morning when I booted my G4 in Panther, hooked on my LaCie DataBank which I use for file sync between my different computers, and launched a sync. There are a few new files related to the Address Book which might create you problems if you're not careful.</p>
+<ul>
+<li>I was careful to copy a fresh copy of my Mail folder [~/Library/Mail] to preserve the new indexing Panther introduced, so I renamed the existing one and created an empty folder before sync. As planned the entire folder was copied over. What I didn't notice was that two invisible files (namely lock files) were copied over into the Address Book folder [~/Library/Application Support/AddressBook]</li>
+<li>They are called <strong>.database.lockN</strong> and <strong>.skIndex.ABPerson.lockN</strong>. Eventhough I don't know exactly what they do, I can imagine their role. Nevertheless, they must be computer related because they prevented Mail from loading (crashed immediately), Address Book generated a strange error as well as iChat which tried without success to recreate its preferences and an iChat account.</li>
+<li>All these applications being linked to the Address Book, I immediately suspected omething of the kind, and discovered the two new files which I added to my sync exclusion list. Once removed, all went back to normal. I still had to manually copy the Mail preference file [~/Library/Preferences/com.apple.mail.plist] which somehow got overwritten with the default one in the process.</li>
+</ul>
+
+<p><strong>Mail.app new spam filter</strong> seems to generate more false positives than previously. I fished out several yesterday and today by running a search through my Junk folder. This hadn't occurred for a long time, and I'd lost the habit of checking - guess I'll have to be more careful. A cool Mail feature is the addition of the "Load Images" button located over the message headers in the same location the the "Junk" button.</p>
+<p align="center"><img src="https://www.davidroessli.com/assets/macinblog/img/panther-loadimages.jpg" height="66" width="596" align="" border="0" hspace="5" vspace="5"></p>
+<p>I don't load inline images when they are not attached to the actual message. More and more messages come formatted in HTML with complex layouts which loose their meaning if you don't load the images (sigh). The function enables you to load the images of valid e-mails on a case-per-case basis.</p>
+
+<p><strong>Reinstall Contextual Menu and Internet plugins</strong>: "Archive and Install" dowsn't preserve CMM. You either have to copy them over, or reinstall the application if you're not sure. Personnally, I reinstalled PGP 8.0.3, but simply copied over PDF Browser Plugin.plugin [/Library/Internet\ Plug-Ins] and StuffItCM.plugin [/Library/Contextual\ Menu\ Items] from the archived copy. Logout and login again (or relaunch the Finder) and you've restored their functionnality.</p>

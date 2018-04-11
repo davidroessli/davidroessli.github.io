@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 2214
+post_id: 726
+author: Johnny
+email: nomail@nomailcoconut.com
+date: '2012-08-24 20:28:45 +0200'
+visible: true
+ip: 176.10.245.112
+---
+There is a related bug in Safari 6:
+
+When you insert an element into the DOM, you can no longer immediately do "container.scrollTop = container.scrollHeight"; it will not scroll to the absolute bottom, and will instead stop a few pixels shy, such as scrolling down to 877 pixels rather than 880 pixels. The error gets larger the more elements are in the DOM.
+
+.scrollHeight immediately updates properly; it's the .scrollTop property which can no longer scroll immediately down to the new bottom, and clamps the value to some pixels before the end, if called too soon.
+
+The solution is to insert a small wait period, like this:
+- Insert the new element into DOM.
+- setTimeout(function(){container.scrollTop = container.scrollHeight;},1)
+
+This will insert a millisecond (plus some overhead) of wait before the .scrollTop change attempt, and is enough to fix the bug. The bug appeared in Safari 6 or the last Safari 5 version.
+
+I think it's related to Apple doing all kinds of optimizations (as usual) on their very fast Javascript engine, and somehow screwing something up in the process.

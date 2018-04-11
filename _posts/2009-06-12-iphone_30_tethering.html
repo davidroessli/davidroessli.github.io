@@ -1,0 +1,70 @@
+---
+layout: post
+title: iPhone v3.0 OS MMS and tethering
+date: '2009-06-12 10:19:46 +0200'
+mt_id: 286
+blog_id: 11
+post_id: 286
+basename: iphone_30_tethering
+categories:
+- daily
+---
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering.png" alt="iphone_v30_tethering.png" /></div>
+
+<p>A quick post to share with you how I managed to activate tethering (Swisscom) on my iPhone 3G running iPhone OS 3.0 (build 7a341).</p>
+
+<p>The 3.0 update was seemless. I downloaded my <a class="sidelist" href="http://developer.apple.com/iphone/program/" title="iPhone Developer Program">developer's copy</a> and updated the iPhone via iTunes by opt-clicking the «Check for Update» button in the iPhone summary pane.</p>
+
+<p>I won't go over all the 3.0 new features as they are extensively covered elsewhere. Nevertheless, the update run smoothly and without incident. All new features were instantly available (incl. MMS), except tethering.</p>
+
+<p>If you read around, you'll notice that MMS and tethering may require changing your operator settings. Prior to iTunes 8.2, you could <a class="sidelist" href="http://andrew.harrison.org/notes/3-carrier-bundle-for-iphone/" title="3 carrier Bundle for iPhone">load new operator settings</a>, called a carrier bundle (e.g. Swisscom_CH.ipcc), that enabled them. The files also allows the carrier to enable and disable features such as MMS, data roaming, and tethering, and set their carrier logo etc. Apple have disabled the adding of non-signed <code>.ipcc</code> files in iTunes 8.2, released alongside iPhone OS 3.0. So it wasn't as simple as loading a new set of settings. </p>
+
+<p>Digging around I discovered on <a class="sidelist" href="http://andrew.harrison.org/notes/3-tethering-and-mms/" title="How to Enable Tethering and MMS on iPhone 3.0 on the 3 Network">Andrew Harrison's weblog</a> you could enable functions by loding a <code>.mobileconfig</code> file:
+
+<p class="update">The solution: <code>.mobileconfig</code>. These files â€“ which can contain similar information to <code>.ipcc</code> files, but for specific functions â€“ are allowed by Apple, and are executed on the phone, not through iTunes.</p>
+
+<p>The idea is simple: you need to build, or find, the <code>.mobileconfig</code> file for your operator, send it to yourself by email, and open it from the iPhone.</p>
+
+<div class="thumbs" style="margin:1em 0">
+<a href="/logs/assets/img/iphone_v30_tethering01.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering01_tm.png" alt="Load .mobileconfig file from mail" style="margin:0 10px" /></a>
+<a href="/logs/assets/img/iphone_v30_tethering02.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering02_tm.png" alt="INstall new settings" style="margin:0 10px" /></a>
+<a href="/logs/assets/img/iphone_v30_tethering03.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering03_tm.png" alt="Go to the Preference &gt; Network pane" style="margin:0 10px" /></a>
+<a href="/logs/assets/img/iphone_v30_tethering04.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering04_tm.png" alt="Turn on tethering from the Network pane" style="margin:0 10px" /></a>
+<a href="/logs/assets/img/iphone_v30_tethering05.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering05_tm.png" alt="Connect and tether surf!" style="margin:0 10px" /></a>
+</div>
+
+<p>I found a list of <code>.mobileconfig</code> on <a class="sidelist" href="http://www.benm.at/2009/06/09/firmware-30-tethering-mms/" title="Firmware 3.0: tethering, MMS">Benm.AT</a> which amongst others offered the Swisscom settings. <a href="http://www.benm.at/2009/06/09/firmware-30-tethering-mms/" title="Firmware 3.0: tethering, MMS">Check his site</a> for yours.</p>
+
+<ul class="disc">
+	<li>Base Deutschland</li>
+	<li>E-Plus Deutschland</li>
+	<li>Mobilkom Austria A1</li>
+	<li>O2 Deutschland</li>
+	<li>Orange Austria</li>
+	<li>Orange Austria Tethering</li>
+	<li>Orange Schweiz</li>
+	<li>Sunrise Schweiz</li>
+	<li>Swisscom Schweiz</li>
+	<li>T-Mobile Austria</li>
+	<li>T-Mobile Austria #2</li>
+	<li>T-Mobile DE Complete Tarif</li>
+	<li>T-Mobile Deutschland</li>
+	<li>Tele.ring Austria</li>
+	<li>Vodafone Deutschland</li>
+</ul>
+
+<p>You can connect to your iPhone either by bluetooth or with an USB cable. To connect by bluetooth, turn bluetooth on,  pair your iPhone and your Mac, and open the bluetooth menubar icon. You'll find an item with the name of your iPhone with a submenu named «Connect to Network». Select it and your done.</p>
+
+<a href="/logs/assets/img/iphone_v30_tethering06.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering06_tm.png" alt="Select Connect to Network from bluetooth menubar" /></a>
+
+<p>A new network device named «Bluetooth PAN» appeared in my Network Preference pane.</p>
+
+<a href="/logs/assets/img/iphone_v30_tethering07.png"><img src="https://davidroessli.com/logs/assets/img/iphone_v30_tethering07_tm.png" alt="Network preferences" /></a>
+
+<p>I quickly ran a <a class="sidelist" href="http://www.speedtest.net" title="SpeedTest">speed test</a> and obtained 2.8 Mb/s downstream and 0.34 Mb/s upstream which is acceptable. Heck this is the real world…</p>
+
+<a href="http://www.speedtest.net" title="SpeedTest"><img src="http://www.speedtest.net/result/494214621.png" alt="Speed Test" style="margin:0 20px 1em 20px" /></a>
+
+<p class="update">Checkout the YouTube video «<a class="sidelist" href="http://www.youtube.com/watch?v=Zs97lrdg4aE" title="iPhone Firmware 3.0 Beta - Demo of Tethering and MMS (HD)">iPhone Firmware 3.0 Beta - Demo of Tethering and MMS (HD)</a>»
+
+<p>I yet have to evaluate the impact on the iPhone's battery life when you tether by bluetooth. Tethering via the USB cable is probably preferable.</p>

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 912
+post_id: 339
+author: kay
+email: kay_jupiter@hotmail.com
+date: '2011-10-05 02:43:58 +0200'
+visible: true
+ip: 171.4.12.129
+---
+i can't see some of photo on instagram with a new version2.1
+please help

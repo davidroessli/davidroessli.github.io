@@ -1,0 +1,23 @@
+---
+layout: post
+title: Toggle HTML parsing in Mail.app
+date: '2003-02-23 20:54:06 +0100'
+excerpt: <p>This is a <a href="http://www.macosxhints.com/article.php?story=20030218133745429">cool
+  tip found on MacOSXHint</a> that enables HTML viewing of trusted mail. It turn on
+  HTML download for 2 seconds, and turns it off again.</p>
+mt_id: 413
+blog_id: 11
+post_id: 413
+basename: toggle_html_parsing_in_mailapp
+categories:
+- daily
+---
+<p>This is a <a href="http://www.macosxhints.com/article.php?story=20030218133745429">cool tip found on MacOSXHint</a> that enables HTML viewing of trusted mail. It turn on HTML download for 2 seconds, and turns it off again.
+
+<pre>  tell application "Mail"
+    set download html attachments to true
+    delay 2
+    set download html attachments to false      
+  end tell</pre>
+
+Just add the above script to your script menu.</p>

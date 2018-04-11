@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2184
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-03-15 15:18:02 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+It is very important to use the <strong>0533 setup code</strong> to setup your DVD controller - even if this code doesn't appear to work.
+
+Otherwise, the procedure fails. In my case, pressing on the number 5 powered the Blu-ray player on and off.. using 0533 did the trick.

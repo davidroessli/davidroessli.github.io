@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 368
+post_id: 469
+author: gr8fuldude
+email: gr8fuldude@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 12.236.232.150
+---
+Thank you for this info. I am gr8ful.

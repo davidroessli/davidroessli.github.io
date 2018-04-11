@@ -1,0 +1,18 @@
+---
+layout: post
+title: Safari 1.0b60
+date: '2003-02-13 11:18:01 +0100'
+excerpt: A <a href="http://www.apple.com/safari/download/">new beta was released</a>
+  yesterday, available both online and through SW Update.
+mt_id: 396
+blog_id: 11
+post_id: 396
+basename: safari_10b60
+categories:
+- daily
+---
+A new beta was released yesterday (1.0 v60), available both <a href="http://www.apple.com/safari/download/">online</a> and through SW Update.
+
+Apparently, there are bug fixes, XML support and more speed.<blockquote><img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_left.gif" width="18" height="14" alt="&quote;" border="0" /> Safari Update 2-12-03 improves compatibility with popular web sites, displays web pages and Flash content more quickly, adds XML support, increases standards conformance and improves stability. The update also works with self-signed security certificates. 
+<img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_right.gif" width="18" height="14" alt="&quote;" border="0" /> </blockquote>
+My first impressions are,<ul><li>You can run the w3c.org CSS1 tests now. Try running <a href="http://www.meyerweb.com/eric/css/edge/">Meyer's css/edge</a>, it almost passes!</li><li>Cmd-right arrow and cmd-left arrow are mapped to forward and back now</li><li>Drag&Drop text works for me now</li><li>Ctrl-click text and you have the option to copy or Google search</li><li>Site icons (FAVICON.ICO) added to the back button drop-down menu</li></ul>

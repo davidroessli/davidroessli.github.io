@@ -1,0 +1,60 @@
+---
+layout: post
+title: iOS printing with xPrintServer and Printopia
+date: '2013-02-04 11:44:59 +0100'
+mt_id: 745
+blog_id: 11
+post_id: 745
+basename: ios_printing
+categories:
+- daily
+---
+<p>I thought that printing from an iOS device had to be routed through some kind software on a computer if you didn't own an AirPrint printer (which are HP only?!) until I discovered <a href="http://www.lantronix.com/it-management/xprintserver/xprintserver.html" title="Lantronix's xPrintServer" class="sidelist">Lantronix's xPrintServer</a>.</p>
+
+<div class="pix full nosh"><img src="https://davidroessli.com/logs/assets/img/xprintserver.jpg" alt="Xprintserver" title="xprintserver.jpg" /></div>
+
+<p>It is a small device you connect to your LAN via its ethernet port and acts as a hardware AirPrint server. It discovers your networked printers and makes them available to your iPhones and iPads (and other computers too). You can also hook up your USB printer directly on it. It is compatible with many current printers (<a href="http://www.lantronix.com/it-management/xprintserver/xprintserver-supported-printers.php">check if yours is in the list</a>).</p>
+
+<p>I've been ranting for a while now about setups and configurations. Some aspects of our technology hasn't evolved since the early-mid nineties. We still have to setup most of our peripherals, configure them, wave <a href="http://twitter.com/hotdogsladies/statuses/297233976261767169">rubber chickens</a> and do some black magic.</p>
+
+<p>This is tiring. I feel we shouldn't have to worry about these matters. Peripherals should be able to talk to each other and figure all that out. In case of doubt, ask the user, but don't require from latter to perform all the config/setup tasks. And don't get me on the topic of admin user interfaces, this post isn't about that.</p>
+
+<p>My Lantronix's xPrintServer (Home ed) arrived on Friday, and I was excited to put to trial its «Plug & Printí¢â‚¬Â feature. It's a neat little device which sports 3 connectors: an ethernet port, a USB port and a power connector. A no-brainer to connect to your local network.</p>
+
+<p>Its auto-discovery feature spotted my networked <a href="http://www.canon-europe.com/For_Home/Product_Finder/Multifunctionals/Inkjet/PIXMA_MP980/">Canon Pixma MP980</a> in no time and made it available on my LAN to iOS devices and computers alike.</p>
+
+<p>Up to here, it was all milk and honey.</p>
+
+<p>I printed an email from my iPhone as a first trial, and was pleased to hear the printer startup shortly after. <strong>Unfortunately, the email was printed on 10 x 15 cm photo paper from the rear tray, rather than from the A4 cassette</strong>.</p>
+
+<p>I figured out there must be some kind of web based admin interface and used <a href="https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/arp.8.html">arp</a> to find out the xPrintServer's IP address.</p>
+
+<p>Alternatively, you can use <a href="http://www.lantronix.com/info/xprintserver/find-my-xprintserver/">Lantronix's Find my xPrintServer</a>.</p>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/xprintserver_admin01l.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/xprintserver_admin01.png" alt="Xprintserver admin01" title="xprintserver_admin01.png" /></a></div>
+
+<p>Use `admin` and `PASS` to authenticate. The admin interface lets you add, delete and configure printers, manage print jobs, update firmware, set the correct timezone etc.</p>
+
+<p>Curiously, I was told to update the firmware to an older version (duh). I'm running v2.1.0-8 and the system offered v2.0.0-43 - I skipped that step.</p>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/xprintserver_admin02l.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/xprintserver_admin02.png" alt="Xprintserver admin02" title="xprintserver_admin02.png" /></a></div>
+
+<p>The printer's advanced setting pane is found under 'Printers' by clicking the cog icon on the right, or by selecting 'Advanced' in the left sidebar.</p>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/xprintserver_admin03l.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/xprintserver_admin03.png" alt="Xprintserver admin03" title="xprintserver_admin03.png" /></a></div>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/xprintserver_admin04l.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/xprintserver_admin04.png" alt="Xprintserver admin04" title="xprintserver_admin04.png"  /></a></div>
+
+<p>It let me set the correct default page size and other variables, but despite my efforts, I didn't manage to print from the cassette paper source. Frustrating.</p>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/xprintserver_admin05l.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/xprintserver_admin05.png" alt="Xprintserver admin05" title="xprintserver_admin05.png" /></a></div>
+
+<p>What was strange is that the test page printed from the cassette the first time.</p>
+
+<p>Anyway, after a couple of hours trying all possible settings combinations (including reviewing my printer's settings) I reverted back to <a href="http://www.ecamm.com/mac/printopia/" title="Ecamm Printopia" class="sidelist">Ecamm's Printopia</a> which has never let me down.</p>
+
+<div class="pix full nosh"><a href="https://davidroessli.com/logs/assets/img/Printopia_large.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/Printopia.png" alt="Printopia" title="Printopia.png" /></a></div>
+
+<p>Not only does it let you print from your iOS devices through your Mac printers, but it lets you also save to PDF or to your Dropbox folder on your Mac. <strong>It is a real gem</strong>, but it requires your Mac to be turned on before printing, which was the reason why I decided to give the xPrintServer a go.</p>
+
+<p>Your milage may vary depending on your printer setup, it just didn't cut it for me.</p>

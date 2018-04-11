@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 161
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-09-22 08:01:57 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@Anila: I'm not sure. Does it not charge when connected directly to the USB port of a computer? Or via the power adapter?
+
+Try swapping it with a recent iPod's power adapter, or try another cable to make sure the problem doesn't come from the accessories rather than from the phone itself.

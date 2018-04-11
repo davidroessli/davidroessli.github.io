@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 58
+post_id: 156
+author: Lips2000
+email: lips2000@mac.com
+date: '2007-10-08 21:02:57 +0200'
+visible: true
+ip: 68.93.80.196
+---
+Thanks a bunch!
+
+This worked for me!
+
+Mark

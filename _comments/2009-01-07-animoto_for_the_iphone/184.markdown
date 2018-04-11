@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 184
+post_id: 262
+author: iphonextrem
+email: iphonextrem@gmail.com
+date: '2009-01-29 12:16:30 +0100'
+visible: true
+ip: 80.33.49.84
+url: http://www.iphonextrem.com
+---
+Great site, i like soo much all that blog.. make me the inspiration for make my own.
+
+Thanks
+
+
+www.iphonextrem.com

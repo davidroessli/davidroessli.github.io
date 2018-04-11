@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 399
+post_id: 496
+author: c.k.
+email: cks3@mac.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 24.189.139.139
+url: http://3650anda12inch.blogspot.com/
+---
+i meant "backdrop" not "desktop"....

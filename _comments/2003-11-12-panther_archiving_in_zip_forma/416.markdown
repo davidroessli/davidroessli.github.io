@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 416
+post_id: 521
+author: Xian
+email: xian@mintchaos.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 69.3.217.5
+url: http://xian.mintchaos.com
+---
+I haven't had a chance to play with it yet as my copy of panther isn't arriving until friday, but from what I understand Panther .zip are for the most part completely normal zip files unless the files you are archiving have HFS resource forks. If this is the case it stores the resource fork for somefile.ext as ._somefile.ext Then when it expands them it puts them back magically. The problem comes if you upzip them with a standard unziping program. The resource forks are never merged again. For most files this isn't a problem. If it is, this MacOSXHints page shows how to set the correct unzipper as your default and even provides an AppleScript to repair archives that have already been unzipped with a different tool.
+
+
+
+<a href="http://www.macosxhints.com/article.php?story=20031023155808534" rel="nofollow">http://www.macosxhints.com/article.php?story=20031023155808534</a>

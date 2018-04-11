@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 421
+post_id: 537
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:19 +0100'
+visible: true
+ip: 62.167.92.206
+url: http://www.macinblog.com/
+---
+For those who asked: in order to use Palm Desktop under Mac OS 10.3 (Panther), it needs to be installed as root. That worked for me.
+
+In order to login to your Mac as user root and doing a fresh install. Make sure you have the the latest iSync palm conduit installed too.
+
+Enabling root access: If you use NetInfo Manager (in /Applications/Utilities/) to enable the root account, log out, log in as root, install Palm Desktop, log out, log in as yourself, relaunch NetInfo Mgr and disable root, it works fine.
+
+Orig: Palm BrightHand Forums:
+<a href="http://discussion.brighthand.com/palmhandhelds/showthread.php?s=19d002847730a9a2c27e96347f1c3f58&threadid=46063&perpage=10&pagenumber=1" rel="nofollow">http://discussion.brighthand.com/palmhandhelds/showthread.php?s=19d002847730a9a2c27e96347f1c3f58&threadid=46063&perpage=10&pagenumber=1</a>

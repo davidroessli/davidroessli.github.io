@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 156
+post_id: 216
+author: Rob Carnegie
+email: rcarnegie@mac.com
+date: '2008-09-04 21:08:30 +0200'
+visible: true
+ip: 216.73.64.2
+---
+Yeah baby! After weeks of monkeying around with this and getting nowhere with Apple Support... This fixed my issue!
+Thanks a million!

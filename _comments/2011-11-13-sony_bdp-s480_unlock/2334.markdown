@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2334
+post_id: 697
+author: n6daf
+email: bmasors@hotmail.com
+date: '2014-11-29 13:51:19 +0100'
+visible: true
+ip: 71.116.253.185
+---
+I don't understand the point of getting other regions of discs; most other discs won't play, anyway, because they are in PAL!

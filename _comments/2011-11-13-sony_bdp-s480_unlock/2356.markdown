@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2356
+post_id: 697
+author: No-Go
+email: nogo@gmail.com
+date: '2015-03-23 00:37:53 +0100'
+visible: true
+ip: 67.177.44.213
+---
+Correct - BDP S570 did not work.

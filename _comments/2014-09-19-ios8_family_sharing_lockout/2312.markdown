@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2312
+post_id: 770
+author: Michelle
+email: Pmac5744@hotmail.com
+date: '2014-09-21 23:27:40 +0200'
+visible: true
+ip: 73.53.27.245
+---
+I had problems getting the family sharing to work, and like in the past, when something technical isn't working,(I'm not technical) delete and start over. I'm now locked out for a year. Went into an apple store, they couldn't fix. Apple store set me up with an appt for an account representative to call me. The account representative also can't unlock my account. But guess what? My apple ID has been added to a "list" of people affected by this, and Apple may or may not be working on a solution...lucky me.
+Since my husband and I use the same apple ID account, ios8 has linked our phones. When my husband's phone gets a call both our phones ring, and when one of us gets a text, we both get it. This is a new "feature" of ios8, for info to ring across all of one's devices, and you can't turn it off. Family sharing is their solution to phones being linked...thanks apple!!! 

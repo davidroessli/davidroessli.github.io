@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2465
+post_id: 750
+author: marcus
+email: marcusklink@googlemail.com
+date: '2017-01-19 16:12:56 +0100'
+visible: true
+ip: 5.158.152.14
+---
+Hey Guys, does anyone know how to change manually the buttons "backt to" and "prev / next" into the language i want? (German)
+
+should be like "zurÃ¼ck zu" und "letzte / nÃ¤chste"
+
+Many thanks in advance.
+

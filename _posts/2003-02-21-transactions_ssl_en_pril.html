@@ -1,0 +1,26 @@
+---
+layout: post
+title: Transactions SSL en p&#233;ril
+date: '2003-02-21 22:53:00 +0100'
+mt_id: 670
+blog_id: 11
+post_id: 670
+basename: transactions_ssl_en_pril
+categories:
+- daily
+---
+<p>Des <a href="http://www.epfl.ch/pressinfo/welcome.php?action=display&rep=Communiques/2003/02.2003/&fic=Communiques/2003/02.2003/ssl.txt&read_file=ssl.txt">chercheurs de l'EPFL ont d&#233;couvert une faille du protocole SSL</a> utilis&#233; par de nombreux sites s&#233;curis&#233;s (banques, achat en ligne, etc.)</p>
+
+<p>Ils ont montr&#233; qu'il est possible de reconna&#238;tre en moins d'une heure le mot de passe utilis&#233; par un internaute pour se connecter &#224; un service de vente commercial ou &#224; son compte en banque en ligne. Oops. La nouvelle version d'<a href="http://www.openssl.org/">OpenSSL</a> (<a href="http://www.openssl.org/source/">0.9.7a</a>) corrige le probl&#232;me.</p>
+
+<p>En attendant, v&#233;rifiez vous-m&#234;me le mode de s&#233;curit&#233; (CBC mode) de votre connexion au moment o&#249; appara&#238;t un cadenas ferm&#233; et/ou une adresse commen&#231;ant par https:// : </p>
+
+<p>Dans le menu "Fichier" de votre navigateur, ouvrez le champ des propri&#233;t&#233;s. Votre navigateur indique le type de connexion s&#233;curis&#233;e qu'il a choisi. La mention SSL est suivie d'un mod&#232;le nomm&#233; RC4 ou DES. Par exemple: SSL 3.0, RC4 avec cryptage 128 bits. <b>Si l'indication est RC4, continuez en toute s&#233;curit&#233;; si c'est DES, abandonnez! </b></p>
+
+<p>Cela dit, il est inutile de paniquer. Le protocole en soit n'est pas remis en cause, mais bien son impl&#233;mentation. De part la mani&#232;re dont sont trait&#233;e les conditions d'erreurs, une personne mal intentionn&#233;e peut d&#233;couvrir quelle condition a g&#233;n&#233;r&#233; l'erreur en mesurant la r&#233;ponse.</p>
+
+<p>Vous pouvez continuer &#224; utiliser votre carte de cr&#233;dit pour vos achats. La faiblesse du syst&#232;me r&#233;side dans la p&#233;riodicit&#233; et la r&#233;p&#233;tition des transactions (rel&#232;ve du e-mail toutes les 5 minutes par un canal s&#233;curis&#233; TLS par exemple), car les m&#234;mes cr&#233;ances d'authentification sont constamment envoy&#233;es et finissent par &#234;tre extraite. Quelque soit le client e-mail utilis&#233; d'ailleurs.</p>
+
+<p>Pour en savoir plus..</p>
+<ul class="disc"><li><a href="http://www.openssl.org/news/secadv_20030219.txt">OpenSSL Security Advisory</a></li><li><a href="http://lasecwww.epfl.ch/memo_ssl.shtml">Password Interception in a SSL/TLS Channel</a></li><li><a href="http://slashdot.org/article.pl?sid=03/02/20/1956229&mode=thread&tid=93&tid=172">Swiss Researchers Find A Hole In SSL</a></li><li><a href="http://news.bbc.co.uk/1/hi/technology/2785145.stm">BBC article</a></li><li><a href="http://real.xobix.ch/ramgen/rsr/other/2003/onenparle/oe210203-a.rm">Chronique du 21 f&#233;vrier sur RSR La Premi&#232;re (real)</a></li></ul>
+

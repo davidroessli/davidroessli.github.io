@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 82
+post_id: 206
+author: John Markov
+email: jmarkov@hellnessy.com
+date: '2007-11-05 14:04:36 +0100'
+visible: true
+ip: 62.167.235.106
+---
+@JL: if I was you, I would stay away from anything with an Apple on it.
+
+I agree that iTunes' library sharing is poor to say the least, but your comment doesn't bring anything new or constructive to the discussion.
+
+You sound like a Troll to me.

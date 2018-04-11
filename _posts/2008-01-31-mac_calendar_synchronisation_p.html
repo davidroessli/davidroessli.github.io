@@ -1,0 +1,67 @@
+---
+layout: post
+title: ".Mac calendar synchronisation problem in Leopard"
+date: '2008-01-31 14:02:55 +0100'
+mt_id: 216
+blog_id: 11
+post_id: 216
+basename: mac_calendar_synchronisation_p
+categories:
+- daily
+---
+<div class="right pix"><img src="https://davidroessli.com/logs/assets/img/isync_leopard.jpeg" alt="isync_leopard.jpeg" border="0" width="96" height="86" /></div>
+
+<p>I've been having synchronisation issues with <a href="http://www.mac.com/" title="Check them out">.Mac</a> services recently related to my iCal calendars. Usually, resetting the .Mac copy with a local copy from one of my computers solved the problem. But not this time.</p>
+
+<p>The SyncServer was generating errors like:</p>
+
+<div style="margin:0 0 1em 0;padding:1em 0.5em;background-color:#eee;overflow:auto"><code>iCalExternalSync[823] [ICalExternalSync ]NSException 
+name:NSInvalidArgumentException reason: 
+[ISyncConcreteSession
+clientAcceptedChangesForRecordWithIdentifier:formattedRecord:newRecordIdentifier:]: 
+you can't change the record identifier from
+24A0D606-9C62-498A-80BF-0139313AA98D to 
+node_LocalCalendar/p1: it is already associated
+with a different record.</code></div>
+
+<p>or</p>
+
+<div style="margin:0 0 1em 0;padding:1em 0.5em;background-color:#eee;overflow:auto"><code>|Error|Problem encountered while merging changes in 
+Sync Engine: you referenced the following records 
+(in a relationship) but did not actually push 
+them: (
+"08C4CB22-E92D-4CB5-8C1B-3EDA9E2E11F5",
+"0EDD7D55-9B30-43D7-BA88-84448FAB8FB9",
+[..]</code></div>
+
+<p>Until the calendar synchronisation stopped all together. A dialog box told me that the data was inconsistent, and needed to be reset on .Mac.</p>
+
+<blockquote>"Calendars could not be synced due to inconsistent data.
+Confirm that your computer's data is valid, then reset Calendars on .Mac in System Preferences."</blockquote>
+
+<p>Fair enough. But it didn't solve the problem. Sync still wowed. I restored a backup copy of my calendars, and that didn't do the trick either. I restored a backup copy of another of my computers. That failed too. This was becoming irritating to say the less. At this point, the synchronisation was running on an hourly basis, but the calendars weren't being synched, and I wasn't being told.</p>
+
+<p>To cut a long and boring story short, here's a workaround that worked for me: you need to start fresh again - really fresh. Wiping out all traces of previous synchronisations, caches, etc. Apparently there was some kind of discrepency in my SyncServer cache. Meaning I had to:</p>
+
+<ol class="dec" style="list-style-type:decimal">
+<li>Quit all applications that use .Mac (Address Book, iCal, iSync, Mail, Safari);</li>
+<li>Turn off .Mac syncing and unregister all computers in System Preferences;</li>
+<li>Issue the following commands from the terminal:<br />
+<code style="display:block;margin:1em 0 1em 0;padding:1em 1em;background-color:#eee;">killall SyncServer
+cd ~/Library/Application\ Support
+mv SyncServices SyncServices-old
+killall SystemUIServer</code></li>
+<li>Turn on .Mac syncing in System Preferences and click "Sync Now".</li>
+<li>When a dialog appears asking whether to merge or replace data on .Mac, select replace all data on .Mac with data from the computer.</li>
+</ol>
+
+<p>You need to perform this on <strong>all</strong> your registered computers synching on .Mac <strong>except point #5</strong>: replace your local data with the fresh copy you just uploaded. My logs activity calmed down after that, no more errors. Sync bliss.</p>
+
+<p>This workaround comes essentially from various Apple Discussions thread such as:</p>
+<ul style="list-style-type:disc">
+<li><a href="http://discussions.apple.com/thread.jspa?threadID=1248817">Leopard dotmac sync broken</a></li>
+<li><a href="http://discussions.apple.com/thread.jspa?messageID=5857031">Calendars won't sync on PowerBook G4 since Leopard install</a></li>
+<li><a href="http://discussions.apple.com/thread.jspa?threadID=1297209&tstart=0">Calander won't sync-inconsistent data</a></li>
+<li><a href="http://discussions.apple.com/thread.jspa?threadID=1223727&tstart=0">.Mac Sync Error with Calendars - Inconsistent Data</a></li>
+<li><a class="sidelist" href="http://discussions.apple.com/forum.jspa?forumID=957&start=0">.Mac Sync discussion</a></li>
+</ul>

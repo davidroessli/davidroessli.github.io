@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 720
+post_id: 690
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2011-09-29 06:16:49 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Luca Download the Fantastical menu extra from http://flexibits.com/fantastical/FantasticalMenu_1.0.2.zip, double-click the menu extra, then hold the command key down and click and drag to move the menu extra into place.

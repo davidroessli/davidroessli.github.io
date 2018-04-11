@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2321
+post_id: 750
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-09-24 08:59:37 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+There is an online solution that can provide an easy way around:
+
+https://localizejs.com/docs/integrations/squarespace
+
+You can manage a glossary of word and phrases to translate on their site via your account.
+
+Might be worth a try.

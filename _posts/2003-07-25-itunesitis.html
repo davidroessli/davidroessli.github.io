@@ -1,0 +1,43 @@
+---
+layout: post
+title: iTunesitis ?
+date: '2003-07-25 23:00:29 +0200'
+mt_id: 490
+blog_id: 11
+post_id: 490
+basename: itunesitis
+categories:
+- daily
+---
+<p><a href="http://www.buymusic.com/">BuyMusic.com</a> now blocks Macs completely. If you try to visit the site with any Mac web browser, including IE, you get the following message:</p>
+<blockquote><img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_left.gif" width="18" height="14" alt="&quote;" border="0" /> In order to take full advantage of BuyMusic.com's offerings you must be on a Windows Operating System using Internet Explorer version 5.0 or higher.  <img src="https://www.davidroessli.com/assets/macinblog/img/new_quote_right.gif" width="18" height="14" alt="&quote;" border="0" /></blockquote>
+<p>You actually get to see the home page, but a javascript bumps you off based on your user agent string.</p>
+
+<!--more-->
+
+<pre>&#60;script language="Javascript"&#62;
+&#60;!--
+	var mac = navigator.appVersion.indexOf("Mac")&#62;-1
+	var opera = navigator.userAgent.indexOf("Opera")&#62;-1
+	//IE5+ required, netscape, macs, and opera are not supported
+	if (navigator.appName == "Netscape" || mac || opera) {
+      musicLink = false
+	  window.location.href="/ierequired.htm";
+	} else {
+      //find out if its ie, then version 5+
+      var tmpIEVerInfo = navigator.userAgent.indexOf("MSIE ") + 5;
+      if(tmpIEVerInfo != -1)
+      {
+	    if(parseInt(navigator.userAgent.substring(tmpIEVerInfo, tmpIEVerInfo+1)) &#60; 5)
+        window.location.href="/ierequired.htm";
+      }
+      else
+     {
+	   window.location.href="/ierequired.htm";
+     }
+     musicLink = true
+    }
+	//--&#62;
+&#60;/script&#62;
+</pre>
+<p>Use cmd-. to stop the page loading, and you can view the page's source code..</p>

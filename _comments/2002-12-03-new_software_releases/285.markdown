@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 285
+post_id: 342
+author: David Roessli
+email: davo39@idees.ch
+date: '2011-03-20 14:11:07 +0100'
+visible: true
+ip: 129.194.8.73
+---
+The freeware version of PGP has appeared on versiontracker: PGP 8.0 freeware

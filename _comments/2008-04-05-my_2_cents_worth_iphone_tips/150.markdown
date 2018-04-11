@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 150
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-07-02 20:42:38 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+Apparently, Orange _doesn't support EDGE_ on their network, so forget about the above settings.
+
+Sorry about that - I was sure it worked though.

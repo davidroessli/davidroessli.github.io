@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 21
+post_id: 165
+author: Johanna White
+email: jcw@eurobell.co.uk
+date: '2007-01-28 22:55:46 +0100'
+visible: true
+ip: 62.167.235.105
+---
+Briliant. I love it. I wonder if it is his.. Why didn't you link the image on your blog?

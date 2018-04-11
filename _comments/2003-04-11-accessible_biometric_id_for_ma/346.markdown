@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 346
+post_id: 443
+author: Matthew
+email: burnsee@comcast.net
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 24.48.124.129
+---
+i used to own a pc and have recently switched to a mac, the same exact thing on www.digitalpersona.com for a pc only costs 99.00 why such the difference for something that has already been out for 2 years for pc?

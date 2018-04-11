@@ -1,0 +1,70 @@
+---
+layout: post
+title: Watch that trailing slash
+date: '2007-06-15 16:19:31 +0200'
+mt_id: 204
+blog_id: 11
+post_id: 204
+basename: watch_that_trailing_slash
+categories:
+- thoughts
+---
+<div class="right pix nosh"><img src="https://davidroessli.com/logs/assets/img/forward_slash.png" alt="Forward slash" /></div>
+
+<p>The trailing slash on <abbr title="Uniform Resource Locator">URL</abbr>s referencing directories has always bugged me because it doesn't look good. I am a bit of a <a href="http://dev.upian.com/hotlinks/archives/2006/02/10/#item51872" title="I first heard Tom Coates use this term during his FoWA 2006 presentation"><abbr title="Uniform Resource Locator">URL</abbr> fetishist</a>, I like <abbr title="Uniform Resource Locator">URL</abbr>s to be simple and clear and without a trailing slash. But that is not the correct way of doing things.</p>
+
+<p>Back in the early days, a website was essentially a collection of directories and <code>index.html</code> files in them with a number of of other <code>.html</code> files around (who remembers the difference between <code>home.html</code> and <code>index.html</code>?). The directory's name was appeared plainly in the <abbr title="Uniform Resource Locator">URL</abbr> and that wasn't a problem as long as it was followed by a trailing slash (or a filename).</p>
+
+<p>If they are missing, the server coughs, because if you say <code>/somedir/foo</code> instead of <code>/somedir/foo/</code> the server searches for a file named <code>foo</code>, and because this file is a directory, it complains and tries to fix it by itself. A List Apart has a good article on <a class="sidelist" href="http://www.alistapart.com/articles/slashforward/" title="Slash Forward (Some URLs are Better Than Others)">trailing slashes</a>.</p>
+
+<p>Notwithstanding that it generate an extra disk access and slows the whole process down for your user, it usually works out. Except in a few cases. Typically if the last portion of the <abbr title="Uniform Resource Locator">URL</abbr> is actually a directory on the server's filesystem and you're <a class="sidelist" href="http://httpd.apache.org/docs/2.0/misc/rewriteguide.html" title="Apache's URL Rewrite Guide">rewriting the <abbr title="Uniform Resource Locator">URL</abbr></a> to remove the trailing slash for cosmetic reasons. Like <code>/weblog</code> where 'weblog' is an actual directory but is rewritten into <code>/blo_index.php?div=blo&amp;sec=hom</code>.</p>
+
+<pre><code>RewriteEngine on
+^weblog/$ /weblog [R]
+^weblog$ /sub_index.php?div=blo&amp;sec=hom</code></pre>
+
+<p>Why would you need to do this you might be wondering? Well, in this particular case there is a <abbr title="Content Management System">CMS</abbr> that drives the weblog of a specific site, and generates content include files in the 'weblog' directory which are displayed by a <abbr>PHP</abbr> script located at the root of the site (or in any other directory for that matter). The same script displays different sections of the site, including the weblog's main page.</p>
+
+<p>Now, initially, I wanted the <abbr title="Uniform Resource Locator">URL</abbr> without a trailing slash, and used a rewrite rule that mapped it onto the <abbr>PHP</abbr> script. Unfortunately, that doesn't work. You'll get <code>/weblog/?div=blo&amp;sec=hom</code> show up in your browser if you omit the trailing slash in the <abbr title="Uniform Resource Locator">URL</abbr>.</p>
+
+<p>The correct rewrite is to add the slash if missing:</p>
+
+<pre><code>RewriteEngine on
+^weblog$ /weblog/ [R]
+^weblog/$ /sub_index.php?div=blo&amp;sec=hom</code></pre>
+
+<blockquote>
+<p>Use trailing slashes for directories because that is the correct way of doing things.</p>
+</blockquote>
+
+<p>A direct consequence for me of all this was to have directory and file names that don't appear in the <abbr title="Uniform Resource Locator">URL</abbr> <em>per se</em>. This approach turned out to have several advantages:</p>
+
+<ol>
+	<li>The <abbr title="Uniform Resource Locator">URL</abbr> doesn't give up anything about how the file system organisation (security);</li>
+	<li>The <abbr title="Uniform Resource Locator">URL</abbr>s can be permanent in time and independant from the server's file system and technology (expandability);</li>
+	<li>Forces you to use a directory/file naming scheme that prevents accidental overwriting of files.</li>
+</ol>
+
+<p>Who hasn't at least once accidentally overwritten the wrong file while uploading an amended copy with the same name (<em>e.g.</em> index.html) to the server?</p>
+
+<p>I like to organise the sections of a website in directories with each their own 3 letter code: <code>sec_pro</code> for products section, <code>sec_con</code> for contacts section, and so on. In each directory, the index file will prepend the 3 letter code: <code>pro_index.html</code>, <code>con_index.html</code>, etc. This way you ensure that there aren't two files on the server that bear the same name.</p>
+
+<p>This scheme can be pushed further to subsection organisation: <code>con_sales.html</code>, <code>con_support.html</code>, <code>con_corporate.html</code>.</p>
+
+<p>The content is in a separate file: <code>con_sales_content_intro_inc.html</code>, <code>con_sales_content_main_inc.html</code>, <code>con_sales_content_extra_inc.html</code>, etc. and located in its own separate directory: <code>con_content</code>. The file system looks like this:</p>
+
+<pre><code>/sec_con/
+/sec_con/con_index.html
+/sec_con/con_sales.html
+/sec_con/con_support.html
+/sec_con/con_corporate.html
+/sec_con/con_content/
+/sec_con/con_content/con_sales_content_intro_inc
+/sec_con/con_content/con_sales_content_main_inc
+/sec_con/con_content/con_sales_content_extra_inc
+[..]</code></pre>
+
+<p>This might seem a little overkill at first, but reveals to be extremely flexible and efficient in the long run. The content files can be <abbr title="Content Management System">CMS</abbr> driven or not, depending of the context, users and level of expertise.</p>
+
+<p>Call me a file system maniac if you like, but keeping to a neat, concise, and structured directory layout benefits everyone, and ensures that your site will not break when management decides to install the latest content management system developed in yet another emerging webâ€“based development environment.</p>
+

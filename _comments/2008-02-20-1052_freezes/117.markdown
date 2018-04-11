@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 117
+post_id: 231
+author: Francis Carden
+email: francis@openspan.com
+date: '2008-03-23 22:35:41 +0100'
+visible: true
+ip: 24.126.208.191
+url: http://www.franciscarden.blogspot.com
+---
+I am a 7 day old Mac virgin. Top of the range MAC BOOK PRO and 3 freezes - this bug is all over the web (90,000 + hits if you search for 10.5.2 freezes)..
+
+Seems this problem had been around since late Jan (10.5.2 and Graphics updates may be the cause).
+
+3 calls to Apple support and they acknowledge a problem, one guy confessed they (Apple) are not near a fix and stumped.. SAD..

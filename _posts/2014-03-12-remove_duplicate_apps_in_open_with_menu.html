@@ -1,0 +1,20 @@
+---
+layout: post
+title: Remove duplicates in 'Open With…' menu
+date: '2014-03-12 10:11:54 +0100'
+mt_id: 764
+blog_id: 11
+post_id: 764
+basename: remove_duplicate_apps_in_open_with_menu
+categories:
+- daily
+---
+<p>This is a simple Terminal command to clean up your 'Open With…' menu if it displays duplicate applications.</p>
+<p><em>Note: the 'Open With…' menu is available by right-clicking on a document in the Finder. It displays a list of compatible applications that can open the document.</em></p>
+
+<blockquote><code>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister 
+-kill -r -domain local -domain system -domain user</code></blockquote>
+
+<p>Relaunch the Finder to see the effect (<code>Alt-right-click</code> the Finder icon to relaunch, or logout and login again).</p>
+
+<p>#bliss</p>

@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 2299
+post_id: 750
+author: Duarte Harris Cruz
+email: cruz.duarte@gmail.com
+date: '2014-05-21 15:04:31 +0200'
+visible: true
+ip: 79.168.32.78
+url: http://www.sinedrio.pt
+---
+Hello.
+
+I've tried this solution with mixed results.
+
+What I have on the index did not change (the calendar & two "sumaries" from blogs).
+
+The dates on the blog listings did work.
+
+I'm using the Bedford template.
+
+Do you have any idea why and/or ideas as to how to work around these issues?
+
+Thanks in advance,

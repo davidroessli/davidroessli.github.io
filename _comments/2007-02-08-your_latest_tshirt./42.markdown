@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 42
+post_id: 176
+author: Joseph
+email: akia.0529@yahoo.com
+date: '2007-05-01 09:52:25 +0200'
+visible: true
+ip: 59.93.70.142
+url: http://www.rhinestonetshirts.net
+---
+I gave importance for quality not for brand.I have visited a so many  sites, which sales all kinds of t-shirts online.

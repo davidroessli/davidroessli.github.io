@@ -1,0 +1,27 @@
+---
+layout: comment
+comment_id: 186
+post_id: 194
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-02-02 16:06:11 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@enrique: thanks!! 
+
+You are right to point this out. I left it out of the above tutorial beacuse none of its URLs appear in the address bar.
+
+I believe you could symlink a`mt-static` folder into your blog's folder, and it should work just fine.
+
+The configuration takes relative paths too (you don't have to specify a full URL):
+<pre>StaticWebPath  /mt-static/</pre>
+
+So creating a symlink like,
+
+<pre>ln -s /somewhere/on/your/disk/mt-static/ /your/blog/mt-static/</pre>
+
+should do the trick.
+
+WRT StyleCatcher, I'm not sure about it's default behaviour. I'll give it a look.

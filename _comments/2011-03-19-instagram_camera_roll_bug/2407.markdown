@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2407
+post_id: 339
+author: MarinaO
+email: Mo8@cox.net
+date: '2015-07-26 20:43:45 +0200'
+visible: true
+ip: 70.160.76.92
+---
+Many answers here
+https://discussions.apple.com/thread/6598470

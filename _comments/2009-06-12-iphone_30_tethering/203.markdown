@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 203
+post_id: 286
+author: Christian Leu
+email: me@relab.ch
+date: '2009-06-12 14:36:36 +0200'
+visible: true
+ip: 212.101.25.224
+url: http://leumund.ch
+---
+Bei mir funktionieren die Lightbox Pop-Ups mit den einzelnen Bildern leider nicht. 

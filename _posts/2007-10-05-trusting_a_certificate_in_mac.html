@@ -1,0 +1,34 @@
+---
+layout: post
+title: Trusting a Certificate with Keychain Access
+date: '2007-10-05 10:45:13 +0200'
+mt_id: 209
+blog_id: 11
+post_id: 209
+basename: trusting_a_certificate_in_mac
+categories:
+- daily
+---
+<p>This is by no means mission critical, but I have been plagued with a keychain certificate glitch ever since I migrated to my Mac Pro in August. Each time I opened Mail.app it warned me that the certificate for one of my mail hosts was "not in the root certificate could not be verified" and asked me if I wanted to continue.</p>
+
+<img src="https://davidroessli.com/logs/assets/img/certificate_warning.png" alt="Certificate warning" border="0" />
+
+<p>I changed the trusting settings of the certificate, but to no avail, the glitch remained. Checking the certificate is mentionned "This certificate is not in the trusted root database", but <strong>how do you add a certificate to the root database?</strong></p>
+
+<img src="https://davidroessli.com/logs/assets/img/certificate_not_trusted.png" alt="Certificate not in the root database" border="0" />
+
+<p>Well, it turns out it's all a matter of importing it properly:</p>
+
+<p>1. Open Keychain access, and select File > Import (or double click the certificate).</p>
+
+<p>2. Select the X.509Anchors keychain and import the certificate (usually a file file a .cer extension). <strong>Don't import it into your login keychain</strong>, or it won't be added to the root database.</p>
+
+<img src="https://davidroessli.com/logs/assets/img/certificate_import_in_x509.png" alt="Import the certificate into X.509Anchors dialog box" border="0" />
+
+<p>3. The certificate will still be marked "This certificate is not in the trusted root database".</p>
+
+<p>4. Quit and relaunch Keychain Access for it to display "This certificate is valid".</p>
+
+<img src="https://davidroessli.com/logs/assets/img/certificate_valid.png" alt="Import the certificate is valid" border="0" />
+
+<p>No more warnings. Bliss.</p>

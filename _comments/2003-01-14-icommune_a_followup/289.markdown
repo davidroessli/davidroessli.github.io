@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 289
+post_id: 364
+author: daniel
+email: daniel@fortifiedwithsugar.com
+date: '2011-03-20 14:11:08 +0100'
+visible: true
+ip: 68.160.224.75
+url: http://www.fortifiedwithsugar.com
+---
+is there anyway to still get the icommune software now that it's been pulled by the developer?

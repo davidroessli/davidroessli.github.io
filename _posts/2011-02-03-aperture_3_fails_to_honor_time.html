@@ -1,0 +1,38 @@
+---
+layout: post
+title: Aperture 3 fails to honor time zones
+date: '2011-02-03 23:06:36 +0100'
+mt_id: 334
+blog_id: 11
+post_id: 334
+basename: aperture_3_fails_to_honor_time
+categories:
+- daily
+---
+<div class="pix full"><a href="http://www.flickr.com/photos/39601377@N00/5414180888" title="View 'Shiva tikka in Puhdu Mandapam covered market' on Flickr.com"><img title="Shiva tikka in Puhdu Mandapam covered market" alt="Shiva tikka in Puhdu Mandapam covered market" border="0" src="https://farm6.static.flickr.com/5131/5414180888_a4dd427da0.jpg" /></a></div>
+<p>I am currently having issues with the way <a href="http://www.apple.com/aperture/">Aperture 3</a> deals with timestamps when editing images via a plugin.</p>
+<p>It appears that each time I edit an image via a plugin, the time zone changes.</p>
+<p>Now, the time zone was properly set when I imported the images into Aperture, and all masters display the proper time and time zone.</p>
+<p>The issue only appears when I edit and save an image within a plugin. The timezone is set to that of my computer.</p>
+
+<p>The pictures below show the timestamp of the master and of the edited version:</p>
+<div class="pix full">
+<img src="https://davidroessli.com/logs/assets/img/aperture_tz_ist.png" alt="Aperture TZ IST" title="aperture_tz_ist.png" border="0" />
+<img src="https://davidroessli.com/logs/assets/img/aperture_tz_cet.png" alt="Aperture TZ CET" title="aperture_tz_cet.png" border="0" /></div>
+
+<p>This drove me nuts last Sunday when when each edited image disappeared from the image browser after saving it. As the images were sorted by date, I really thought I'd lost the edited image before realising that it was displayed further down, according to its current timestamp.</p>
+
+<p>The master images are in <abbr title="Indian Standard Time">IST</abbr> (<abbr title="Coordinated Universal Time">UTC</abbr>+05:30) while my current time zone is <abbr title="Central Europe Time">CET</abbr> (or <abbr title="Heure Normale d'Europe Centrale">HNEC</abbr> (<abbr>UTC</abbr>+01:00).</p>
+
+<p>Searching Apple's Discussions, it turns out that there are quite a few threads on this topic:</p>
+
+<ul class="disc">
+<li><a href="http://discussions.apple.com/thread.jspa?messageID=12815046">Is "Date and Time" totally broken?</a></li>
+<li><a href="http://discussions.apple.com/thread.jspa?messageID=12969817">Time zones and Aperture</a></li>
+<li><a href="http://discussions.apple.com/thread.jspa?messageID=12989798">Time Zone question</a></li>
+<li><a href="http://discussions.apple.com/search.jspa?objID=c184&search=Go&q=time+zone">í¢â‚¬Â¦and more</a></li>
+</ul>
+
+<p>I don't know if I am doing something wrong, but this misbehaviour gets <strong>very frustrating</strong>.</p>
+
+<p class="update">This behaviour is not linked to the plugin as I <a href="http://twitter.com/#!/roessli/status/31744406218350592">initially thought</a>. It occurs both with <a href="http://niksoftware.com">Nik Software</a> and <a href="http://topazlabs.com">Topaz Labs</a> plugins.</p>

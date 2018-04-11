@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2210
+post_id: 323
+author: UK Web Apps
+email: davidroessli@poldings.com
+date: '2012-07-25 10:04:44 +0200'
+visible: true
+ip: 86.178.197.160
+url: http://www.ukwebapplications.com
+---
+Incredible but true.
+
+We spent a lot of time on one project trying to figure out why a copy of SlideDeck wouldn't render properly. Just moving it to a non-MOBI domain resolved everything. 
+
+These days as web developers - it's taking longer for us to test and perfect our projects.

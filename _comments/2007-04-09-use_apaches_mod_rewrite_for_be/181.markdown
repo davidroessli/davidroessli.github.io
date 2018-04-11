@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 181
+post_id: 194
+author: Culture Snob
+email: snob@culturesnob.com
+date: '2009-01-21 18:21:17 +0100'
+visible: true
+ip: 173.26.69.227
+url: http://www.culturesnob.com
+---
+Thanks for the tutorial. Is there any easy-to-understand tutorial on symlink that might make this a little more accessible to those of us who are petrified of the command line?
+
+I've done clean tag-search URLs through .htaccess before, but with my current installation structure (domain1.com and domain2.com using an MT installation in user.host.com), the old rewrite rules don't seem to work. This looks to be a solution, but I'm not familiar with symlink.

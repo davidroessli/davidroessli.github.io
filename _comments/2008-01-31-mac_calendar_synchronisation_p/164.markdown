@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 164
+post_id: 216
+author: Greg. Dodwell
+email: gregreedee@y7mail.com
+date: '2008-09-29 14:24:58 +0200'
+visible: true
+ip: 60.242.187.87
+---
+@David: I've updated the MobileMe System prefs several times ... I'm running 10.5.5. I've completely erased my iSync device list, as I no longer need to sync my trusty SE600i via Bluetooth (which was a painless and reliable process >_<) since I got the iPhone.
+
+Taking a superficial look at the solutions, my safest bet would be to copy --by hand-- my calendars and contact details from the phone to the iMac; as the trend in the posted solutions is to "sync from scratch" online from the "definitive" copy on the computer. 
+
+I'm also tempted to leave things as they are for the moment, as the iPhone/MobileMe relationship is so healthy. Not happy that my iMac can't join in as a third party!
+
+Also, I may have to reinstall OSX --again-- as I've just finished trouble-shooting some nasty wireless networking problems. This may give me a clean slate once I re-establish my, my wife's files/account status etc. 

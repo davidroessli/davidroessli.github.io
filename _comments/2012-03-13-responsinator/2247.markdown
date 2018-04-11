@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2247
+post_id: 716
+author: avinash
+email: vikasavinasbhardwaj@gmail.com
+date: '2013-01-16 07:49:31 +0100'
+visible: true
+ip: 120.59.134.44
+url: http://themeshive.com
+---
+Test your site in various devices from an iPhone and iPad, to a Kindle and on Android on the <a href="http://responsivetools.com/">Responsivetools</a>. It also shows your site both in portrait and landscape mode. I like this tool much more because of the outlines of the devices displayed on the page, which brings more meaning to the whole process.

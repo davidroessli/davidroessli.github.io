@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 435
+post_id: 553
+author: Krewe Maynard
+email: jkrewe@charter.net
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 66.168.251.95
+url: http://webpages.charter.net/krewemaynard
+---
+thanks to tyio for the tip...i had installed Xcode and later uninstalled it b/c it ate too much disk space.  however, even after i removed it, my updates worked for a while.  go figure.  i have to download and manually install updates at the moment. while it's a bit of a pian, as long as that's the worst problem i have, i'll be ok

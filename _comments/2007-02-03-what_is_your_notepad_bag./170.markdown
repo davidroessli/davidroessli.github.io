@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 170
+post_id: 172
+author: Marco
+email: marco.delmastro@gmail.com
+date: '2008-10-29 18:51:10 +0100'
+visible: true
+ip: 137.138.77.32
+url: http://www.bivacco.net/marco
+---
+Maybe a silly question: where did you get your Timbuk2 bag? I read you're based in Geneva: is there any local retailer in town? I was not able to find the info on their web site...

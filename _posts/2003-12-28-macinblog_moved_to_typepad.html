@@ -1,0 +1,32 @@
+---
+layout: post
+title: Macinblog moved to TypePad
+date: '2003-12-28 15:38:47 +0100'
+mt_id: 531
+blog_id: 11
+post_id: 531
+basename: macinblog_moved_to_typepad
+categories:
+- daily
+---
+<p>Some of you might have noticed that Macinblog has moved from MT to TypePad.</p>
+<p>This is not a move away from MT, but rather an opportunity to test TP in a production environment. Macinblog might move back to MT in a near future - who knows.</p>
+<p>The move was smooth. I exported all records from MT, edited the file with BBEdit to correct the image paths and imported it into TP directly. All records were correctly imported, categories and comments included. After all, TP does run on MT.</p>
+<p>The only glitch was the images. I had to upload them one by one .. Then I wondered if I could have uploaded an archive file of all images in the same manner you can do with a TP photo album (?) Thinking of it, I don't know if there's a way of dowloading all images if ever I move back to MT in a few months.. <br />:/</p>
+<p>Macinblog doesn't rely on a specific plugin, it had a little php here and there, but it can live without it. The plugin I will miss is <a href="http://www.jayallen.org/projects/mt-blacklist/" title="Go to Blacklist's website">MTBlackList</a> - but it might appear in a future release of TP.</p>
+<p>Currently, it's running with standard templates, and styles. I'll convert them to advanced template next week, and see how far you can go that way.</p>
+<p>Anyone know if php is supported ? Guess not.</p>
+
+<!--more-->
+
+<p>The next step is to support all the old URLs as TP uses a different archiving scheme than Macinblog did. I have a few leads, and will let you know how I worked that one out.</p>
+<dl>
+<dt><a href="http://davextreme.typepad.com/davextreme/2003/09/redirecting_you.html">Redirecting your MT permalinks to TP</a></dt>
+<dd>Good idea, but it from what I understand, the redirection code would need to be inserted in an alternative individual archive. Unfortunately, I haven't found the way to create additional individual archives. Advanced templates lets you create index pages and modules, but not archive templates.. This solution is fine as long as (1) you don't use TP domain mapping, and (2) you haven't closed down your previous account.<br /><br />I guess I could upload individual .html files with the redirect code in them. I'll try to generate them from my MT system.<br /><br /><strong>16:42</strong>: it seems to work fine. The only drag is that you have to upload every file manually through TP file upload dlog box. I tried to archive all files and upload it, but now I have an 'archive.zip' sitting on my server and found no way to delete it. Is there some way to perform basic file management tasks on TP?</dd>
+<dt><a href="http://everythinghurts.typepad.com/resources/">Unofficial TypePad Resources</a></dt>
+<dd>News and tips from TP users for TP users</dd>
+<dt><a href="http://www.typepad.com/resources/archives.html">Official TypePad Resources Weblog</a></dt>
+<dd>The official Six Apart weblog is a place for development news, tips and tricks, links to TypePad-related and weblogging resources and general information for the TypePad user</dd>
+<dt><a href="http://www.scriptygoddess.com/archives/004262.php">Use .htaccess to domain map TP</a></dt>
+<dd>This is the way to go to rewrite an URL to another, with a fixed path+filename. But this isn't my case. I need to regenerate the filename based on the MTEntryID. I guess I could specify individual rules for each file, but that defeats the whole principle, doesn't it!?</dd>
+</dl>

@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 2286
+post_id: 697
+author: Martin
+email: interwebss@me.com
+date: '2013-12-13 11:00:01 +0100'
+visible: true
+ip: 62.180.229.43
+---
+Hi,
+
+it worked for me on a BDP-S1100 Model with the code "20533" used in the first step....or one of the other "..533" codes, I don't know for sure, read on...
+
+There was NO flashing of anything as described in the last step where you send the commands to the player. Neither on the remote (other than the one-time flashing that happens with every press of any button) nor on the player. However, it must have worked because I can play my region 1 DVDs now.
+
+Unfortunately I missed the opportunity to try and see if the DVD would have played with the player in its out of the box state. I do not know if what I did made it work, or if it perhaps would have worked anyways. I also cannot say if the "0533" or "00533" code already did the trick in my first two attempts because there was never any feedback (flashing) if the commands I sent were successfully received or not. I also did not try to play the DVD inbetween the attempts of the different initiall "533 codes". I simply tried them one after another and was hoping to see the confirming flashing, wich did never happen. So after 3 attempts I simply put in the DVD and it played.
+
+Therefore I cannot say which initial code finally made it work.
+
+I used the One For All URC 3940 Slim Line 4 remote.
+
+Martin

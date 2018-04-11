@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 77
+post_id: 156
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-10-26 16:14:07 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com
+---
+@Elo: Mac OS X 10.5's Mail.app requires bundle version 3 or greater. You can try the following command to enable GrowlMail:
+
+<pre>defaults write /Library/Preferences/com.apple.mail EnableBundles -bool YES
+defaults write com.apple.mail BundleCompatibilityVersion -int 3</pre>
+
+Or, download the script from http://trac.growl.info/changeset/4693
+
+There is an interesting AppleScript alternative that is described in a blog post called "<a href="http://blog.insidesystems.net/articles/2007/08/17/growl-mail-app-and-applescript" rel="nofollow">Growl, Mail.app and AppleScript</a>" by Kevin Way.

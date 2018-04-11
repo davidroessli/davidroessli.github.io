@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2328
+post_id: 770
+author: New buyer iPhone 6 plus
+email: big_gan@yahoo.com
+date: '2014-11-17 12:08:34 +0100'
+visible: true
+ip: 103.23.51.1
+---
+After leave family sharing, I can't get items (paid and even free) from app store that old family organizer downloaded or used. How can I fix it?

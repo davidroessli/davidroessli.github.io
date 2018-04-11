@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 105
+post_id: 231
+author: Sinisa Dukaric
+email: sinisa@sinisa.org
+date: '2008-03-03 17:58:57 +0100'
+visible: true
+ip: 62.99.205.206
+url: http://www.sinisa.org/
+---
+Hi there D, 
+
+10.5.2 upgrade is terrible. Same as You, I've been completely confident in using the Software Update without any hesitations, but now ...
+
+I mean, my MBP is freezing at least once per day, my Garageband is unusable, Safari chrashes so often that I'm switching to Firefox again ....WTF.
+
+And one can only dream of the times when I had like 50-100 _working_ days of uptime on my PB G4.
+
+I'm not upgrading anymore before some time period given to see what the other (un)lucky users are reporting.
+
+Thanks for the tips, but in my case it didn't help :(

@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 125
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-04-07 14:42:15 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@Adam: thanks! Yes there was invisible trailing characters..
+and yes, I suppose I should publish this post in French too.
+
+I'll give it a think.

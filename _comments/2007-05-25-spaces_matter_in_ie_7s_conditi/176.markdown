@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 176
+post_id: 198
+author: satish
+email: satish@newgen.co.in
+date: '2008-12-09 08:55:56 +0100'
+visible: true
+ip: 203.27.235.41
+---
+I was going nuts as to why the conditional statement always ended in a comment line...
+You made my day..
+Thanxx amillion..

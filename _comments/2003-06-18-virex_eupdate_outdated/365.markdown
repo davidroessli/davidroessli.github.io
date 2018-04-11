@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 365
+post_id: 469
+author: Richard Larson
+email: rlarson6@mac.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 141.157.243.120
+---
+I tried this but got a weird result. After providing an Administrator password, the eUpdate gives me the message:
+
+
+
+"There is not enough hard disk space to download and install theis eUpdate.  Make space on your hard disk and try again later by clicking the eUpdate icon."  
+
+
+
+I have 65 GB available.  Either something's wrong or this is one heck of an update. Any suggestions?

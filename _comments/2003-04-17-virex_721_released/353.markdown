@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 353
+post_id: 447
+author: Claudio Rojas
+email: necnec@terra.cl
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 200.10.225.76
+---
+I from Chile

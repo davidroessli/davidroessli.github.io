@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 326
+post_id: 403
+author: postal code
+email: king2003@hotmail.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 219.95.5.103
+url: http://www.zipcodesdatabase.com
+---
+Count me in please.

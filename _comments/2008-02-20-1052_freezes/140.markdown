@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 140
+post_id: 231
+author: Dave C
+email: davidchristian2008@googlemail.com
+date: '2008-05-19 12:06:12 +0200'
+visible: true
+ip: 217.43.132.46
+---
+I am a 10 day new switcher (brand new combo-drive Mac Mini)having the same problems - I have 10.5.2 and this issue started when the the graphics update was installed. 

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 515
+post_id: 657
+author: Jocelyn
+email: jocelyn@smooze.net
+date: '2011-03-20 14:18:57 +0100'
+visible: true
+ip: 155.105.58.112
+url: http://www.smooze.net
+---
+Bien d'accord, tout pareil pour moi. Me suis fait une raison et n'hÂŽsite pas Âˆ investir un peu plus pour avoir un service clientÂle qui tient la route, surtout pour tout ce qui est informatique. Courage !

@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 735
+post_id: 690
+author: Luca
+email: luca.sardelli@gmail.com
+date: '2011-09-29 16:15:22 +0200'
+visible: true
+ip: 95.233.238.63
+---
+David, many thanks for your kind and prompt reply!
+
+For sure I was missing something, I misread what is contained in the latest gray box. I apologize.
+
+Thanks again!
+
+    -- lS.

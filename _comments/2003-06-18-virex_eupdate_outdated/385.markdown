@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 385
+post_id: 469
+author: Linda Douthit
+email: ldouthit@aol.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 205.188.116.202
+---
+Thank you very much for the help with Virex.  I followed your directions, and I was able to  use the Virex eUpdate.  The next time I need to update, will I need to follow the same procedure, or are things still set for me to update again?  Thanks again!

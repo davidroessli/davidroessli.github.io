@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 212
+post_id: 286
+author: chrisb63
+email: chrisb63@me.com
+date: '2009-06-23 12:09:53 +0200'
+visible: true
+ip: 84.73.179.62
+---
+Do we know by now, how is this billed ?

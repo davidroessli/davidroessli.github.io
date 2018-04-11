@@ -1,0 +1,34 @@
+---
+layout: comment
+comment_id: 332
+post_id: 418
+author: David Roessli
+email: davo@macinblog.com
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.macinblog.com/
+---
+Picked up on Macintouch (<a href="http://www.macintouch.com/)" rel="nofollow">http://www.macintouch.com/)</a>
+
+
+
+Tim Seufert offered his notes on the open-source Bochs PC emulator, which has received new attention following Microsoft's takeover of Virtual PC from Connectix Corp.:
+
+
+
+I strongly recommend that MacInTouch readers try out Bochs for free before spending $30 on the OpenOSX.com version. Visit [Bochs] to download it. The Mac OS X download includes a disk image of DLX Linux and an AppleScript to start it up.
+
+
+
+For most users, Bochs is simply not a practical substitute for VirtualPC. The reason is simple: Bochs is not very fast, since the Bochs developers generally prioritize technical correctness and portability ahead of performance. Bochs can be very useful for old legacy PC software (such as DOS apps from the 286 days), but it's painfully slow when running anything recent. I've read accounts of the OS X version of Bochs taking over 24 hours to install Windows 98, for example.
+
+On another note, OpenOSX.com makes the following claim about Bochs running on OS X:
+
+
+
+"Thanks to Mac OS X's advanced architecture, multiple G4 CPUs can be utilized and are emulated as a single powerful Pentium(R) processor or as dual Pentium Processors." Bochs does not utilize multiple CPUs, no matter what OS it runs on. Having examined the Bochs source code and searched the Bochs mailing list archives, I can confidently state that Bochs uses only a single thread of execution (even when emulating multiple Pentiums). Threads are the basis of multiprocessor utilization; to use more than one CPU at a time, a program must have more than one thread. This is as true of MacOS X as it is of any operating system. As Bochs has one thread, by definition it uses exactly one G4 at a time.
+
+
+
+OpenOSX.com has previously been notified that this claim is at best misleading; nevertheless, they continue to make it.

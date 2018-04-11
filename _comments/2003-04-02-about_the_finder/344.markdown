@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 344
+post_id: 439
+author: julius
+email: julius@juliuspaintings.co.uk
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 80.1.15.234
+url: http://juliuspaintings.co.uk
+---
+davo39
+
+thanks. 
+
+took look. looks interesting. 
+
+when possible will look closer.
+
+
+
+I was re-reading the Siracusa article. I had forgotten all the little osx annoyances I still experience but have taught myself to ignore. I always work in collumns mode because of the ease of cascading through the directories and lack of clutter. But then when opening up a directory higher up the chain i go and loose the one i'm currently looking at. Gets to me every time.

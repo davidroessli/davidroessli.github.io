@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2482
+post_id: 339
+author: Alice
+email: alice.fultonsherriff@yahoo.com.au
+date: '2018-02-19 05:54:18 +0100'
+visible: true
+ip: 121.200.237.36
+---
+I have saved stories but can't upload them to my Instagram account. The square which usually appears in the bottom left hand corner isn't showing up. Help!

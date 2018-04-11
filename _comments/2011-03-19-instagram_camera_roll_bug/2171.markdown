@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2171
+post_id: 339
+author: Kevin Selagea
+email: Kevsel1@nths219.org
+date: '2012-01-26 09:26:48 +0100'
+visible: true
+ip: 24.12.209.110
+---
+Hey guys. I have a huge problem. I just bought an IPhone 4 about a month ago. And for some reason when I go to view the photos I had taken. I can't view them at all. Is there any way you guys can help me? Thanks

@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 2290
+post_id: 697
+author: Martin
+email: interwebss@me.com
+date: '2013-12-27 13:50:18 +0100'
+visible: true
+ip: 62.180.229.43
+---
+After I hacked my BDP S-1100 successfully (see my previous post here) it now stopped working altogether. I plays DVDs for 5 minutes and then stops. The screen goes dark. After that happens, when I turn it off and on again, the screen goes dark right after the Sony/Blue-Ray bootup logo shows. When I leave it off for a while it wil start working again, but only for 5 minutes. 
+
+Now I am not sure if it is simply broken without me having to do with it, or if what I did broke it? Does any one know if what we are doing to hack our players can actually brick them and cause what is happening to me?
+
+I have sent the player in to have it exchanged for a new one, it is still under warranty. But I am now a bit hesitant to hack the new player again...any thoughts?
+
+I was also wondering how one could reverse the region code hack? Is that possible? I am pretty sure it is possible, so the question should be does anyone know how?
+
+Martin

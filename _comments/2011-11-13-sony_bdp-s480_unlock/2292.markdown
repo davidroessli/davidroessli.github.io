@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2292
+post_id: 697
+author: blustreet
+email: amelie.filliatre@gmail.com
+date: '2014-01-17 14:30:58 +0100'
+visible: true
+ip: 92.20.71.55
+---
+Confirming it also works with BDP-S490 and URC7140! Same as above, blu-ray player displays message "OK" at the end, no need to restart at the mains.

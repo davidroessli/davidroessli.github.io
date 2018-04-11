@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 493
+post_id: 632
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:18:56 +0100'
+visible: true
+ip: 212.147.51.22
+url: http://enriquepardo.com
+---
+Jeudi 1er avril, le poisson a un goÃ»t amer... shit really happens... :/
+<a href="http://egoes.blogs.com/photos/mobile/img204.html" rel="nofollow">http://egoes.blogs.com/photos/mobile/img204.html</a>

@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 530
+post_id: 323
+author: Maximilian Brinckmann
+email: post@maximilianbrinckmann.de
+date: '2011-06-09 18:48:31 +0200'
+visible: true
+ip: 84.59.71.237
+url: http://www.maximilianbrinckmann.de
+---
+Hi David,
+
+thanks for your article - I discovered that issue today, too.
+I'll let my domain redirect to this article until it's closedâ€¦
+
+Cheers
+Max
+
+http://www.79point9.mobi/

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 345
+post_id: 443
+author: Cameron
+email: cameron@pspinc.com
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 216.217.219.215
+---
+I have one of these and they are so cool.  It is way easy to use and now I do not have to remember my password.  TWO THUMBS UP!!!!!

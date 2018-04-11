@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 378
+post_id: 469
+author: Louiee
+email: louiee_3@hotmail.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 64.40.60.109
+---
+Hey, this was great.  Thank you.  I passed it along to the mac genius I know, just in case they'd like the heads up.

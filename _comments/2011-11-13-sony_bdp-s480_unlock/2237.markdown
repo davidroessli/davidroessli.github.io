@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2237
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-11-12 17:00:20 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@Johnny K yes, I had exactly the same issue until I used the <b>0533</b> code.
+
+I know this is a bit cumbersome, but try using the other setup codes such as 20533 or 1516.
+
+What is your  model? The above procedure worked for my <b>Blu-Ray player</b>, I'm not sure it works for DVD players (as you mention in your comment).

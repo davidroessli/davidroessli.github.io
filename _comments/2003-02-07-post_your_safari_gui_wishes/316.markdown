@@ -1,0 +1,31 @@
+---
+layout: comment
+comment_id: 316
+post_id: 390
+author: Patrice
+email: patrice.bensoussan@free.fr
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 81.57.234.139
+---
+Here are a few comments about Safari's UI :
+
+
+
+1/ Use standard toolbar. I want to be able to show/hide the toolbar as any other standard OS X application
+
+2/ Brushed metal is not appropriate for a browser and violates Apple's own GUI guidelines
+
+3/ Do not use custom GUI Button. They do not feet well with Aqua.
+
+4/ When typing an URL, Tab should allow the user to go to the next matching known url (like the right arrow key). It's the behaviour of all good browsers on the planet
+
+
+
+I'll try to think about some more ;)
+
+Keep up the good work.
+
+
+
+Patrice

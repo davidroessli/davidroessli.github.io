@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 51
+post_id: 174
+author: De Soto
+email: web@quarg.com
+date: '2007-07-19 02:27:15 +0200'
+visible: true
+ip: 72.84.199.217
+url: http://quarg.com
+---
+MT's grid doesn't use FastCGI. The script you ran may have output the expected results, but support confirms they have no plans to install FastCGI.

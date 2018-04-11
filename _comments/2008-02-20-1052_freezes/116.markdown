@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 116
+post_id: 231
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-03-23 08:21:08 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+The random shutdowns seem related to a battery problem. The problem disappeared after switching to a new battery.
+
+Fingers crossed, I haven't experienced a freeze after reverting back to the factory memory modules.

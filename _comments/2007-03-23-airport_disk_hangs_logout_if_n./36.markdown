@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 36
+post_id: 193
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-03-30 18:56:55 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com
+---
+I'm happy to announce that <a href="http://www.apple.com/support/downloads/airportbasestationupdate2007001formac.html" rel="nofollow">Airport Base Station Update 2007-001</a> fixes this problem.
+
+<blockquote>
+The AirPort Base Station Update 2007-001 includes general fixes and compatibility updates for the following applications:
+
+<ul>
+<li>AirPort Utility</li>
+<li>AirPort Admin Utility for Graphite and Snow Base Stations</li>
+<li>AirPort Disk Utility</li>
+<li>AirPort Disk Agent</li>
+</ul>
+</blockquote>

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 194
+post_id: 216
+author: Chad
+email: alwardnco@gmail.com
+date: '2009-05-03 20:06:54 +0200'
+visible: true
+ip: 68.155.218.214
+---
+I have had the same problem with a small twist.  All of my data is in the cloud on mobile me.  There is no copy on my computer.  How can I make a backup off of mobile me and then work off of the backup to my local machine.  I am running 10.4.11 on one laptop and tower and 10.5.6 on my mac mini.  HELP!!!!!!

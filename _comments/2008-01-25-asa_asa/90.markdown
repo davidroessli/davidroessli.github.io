@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 90
+post_id: 213
+author: Claudia
+email: cle@virg0.org
+date: '2008-01-27 22:16:37 +0100'
+visible: true
+ip: 213.200.236.238
+url: http://virg0.org/v0blog/
+---
+Too bad GE is a long way from here.. but I can arrange a Jazz matinee in the neibs, not the same vibe I bet. 

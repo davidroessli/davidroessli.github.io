@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 335
+post_id: 426
+author: Dave
+email: dave@insightbb.com
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 12.221.106.209
+---
+I think it's OK (if not preferred) to freeze a lithium battery for storage. BatteryUniversity says not to freeze, but their tablulated data shows differently. I think they mis-stated the freeze thing.

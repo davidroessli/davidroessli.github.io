@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 137
+post_id: 156
+author: MacManiac
+email: mdmacinstall@hotmail.com
+date: '2008-04-26 11:11:19 +0200'
+visible: true
+ip: 81.159.118.169
+---
+Just found this thread and downloaded Growl Beta 1.1.3 onto my G4 PowerBook running OS X 10.5.2 and Growlmail now works perfectly. Just installing on my iMac (Intel Core 2 Duo) with OS X 10.5.2 running and no apparent inconsistencies with Mail.
+
+Will report back if things do not work to plan. Much obliged for the advice given here.
+
+MacManiac

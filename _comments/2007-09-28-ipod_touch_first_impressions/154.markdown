@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 154
+post_id: 206
+author: Jose
+email: jsanchezpro@gmail.com
+date: '2008-09-02 23:12:22 +0200'
+visible: true
+ip: 70.16.145.172
+url: http://www.free-ipod-touch.blogspot.com
+---
+I just recently bought an iPod Touch, and while it isn't the newest gadget on the block anymore, it is still one of the best. I love the touch screen as well as the easy to use features. The wiFi aspect is also phenomenal.

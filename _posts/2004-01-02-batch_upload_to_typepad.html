@@ -1,0 +1,64 @@
+---
+layout: post
+title: Batch upload to TypePad
+date: '2004-01-02 22:22:23 +0100'
+mt_id: 538
+blog_id: 11
+post_id: 538
+basename: batch_upload_to_typepad
+categories:
+- daily
+---
+<p>In my efforts to finalise my <a href="http://www.macinblog.com/2003/12/macinblog_moved.html">move from Movable Type to TypePad</a>, I found an elegant solution to upload batch of files to TypePad.</p>
+<p>One of my problems was to keep old links (URLs) alive. TypePad doesn't permit you to use .htaccess configuration files with rewrite rules or insert php scripts to redirect a request elsewhere. The solution I chose was to create alternate individual archives with the <strong>refresh meta tag</strong> in their header. In that way, the old address would be redirected to the new one automatically. The problem was uploading the files .. Macinblog isn't what I would call a very busy weblog, but there is close to 200 posts, which means 200 individual uploads through TypePad's "upload file" interface. You quickly get tired of clicking-selecting-return-backspace..</p>
+<p>While posting an entry with <a href="http://www.kung-foo.tv/kunglog.php">ecto</a> (former Kung-Log), I remembered that the upload file interface allowed to select and upload multiple files by drag &#38; drop, or file open dialog.</p>
+<ul>
+<li>Select files to upload, and drop them on the upload interface,</li>
+<li>set the upload path,</li>
+<li>make sure "Apply to all" is selected,</li>
+<li>uncheck all settings relating to image files (eventhough ecto will ignore them),</li>
+<li>click upload and enjoy</li>
+</ul>
+<p>It works like a charm. The Google SiteSearch box now works properly. Most of the search results returned MovableType style URLs. Now, they are all redirected to to the new TypePad ones.</p>
+<p>Note: ecto will soon be available as a public preview version. Until then, use Kung-Log.</p>
+
+<!--more-->
+
+<p>For those interested, here's my recipe (click images to enlarge):</p>
+<dl>
+<dt><strong>1. Create a new Archive template</strong></dt>
+<dd>Login to the MovableType admin interface of your weblog, and select the template section in the left hand navigation bar, and create a new template (here named MT2TP)</dd>
+<dd style="text-align:center;"><a href="http://www.macinblog.com/img/mt2tp01_1.jpg" onclick="window.open('http://www.macinblog.com/img/mt2tp01_1.jpg','popup','width=541,height=201,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="https://www.davidroessli.com/assets/macinblog/img/mt2tp01-tm.jpg" height="148" width="400" vspace="5" alt="[ MT template ]" /></a></dd>
+<dd>The content of my template is inspired of David Ely's <a href="http://davextreme.typepad.com/davextreme/2003/09/redirecting_you.html">Redirecting MovableType permalinks to TypePad</a>. Amend the following to reflect the settings of your MT installation.</dd>
+<!--
+<dd style="text-align:center;"><img src="https://www.davidroessli.com/assets/macinblog/img/mt2tp02.jpg" height="425" width="529" vspace="5" alt="[ MT template ]" /></dd>
+-->
+<dd style="padding:5px;background:#eee;line-height:1em;"><code>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#62;<br />
+&#60;html xmlns="http://www.w3.org/1999/xhtml"&#62;<br />
+<br />
+&#60;head&#62;<br />
+&#60;title&#62;Macinblog redirecting to TypePad&#60;/title&#62;<br />
+&#60;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&#62;<br />
+&#60;meta http-equiv="refresh" content="2; url=http://www.macinblog.com/&#60;$MTEntryDate format="%Y/%m"$&#62;/&#60;$MTEntryTitle dirify="1" trim_to="15"$&#62;.html" /&#62;<br />
+&#60;meta name="robots" content="noindex,follow" /&#62;<br />
+&#60;/head&#62;<br />
+&#60;body&#62;<br />
+&#60;p&#62;<br />
+Slight address change.  New address is: &#60;a href="http://www.macinblog.com/&#60;$MTEntryDate format="%Y/%m"$&#62;/&#60;$MTEntryTitle dirify="1" trim_to="15"$&#62;.html"&#62;http://www.macinblog.com/&#60;$MTEntryDate format="%Y/%m"$&#62;/&#60;$MTEntryTitle dirify="1" trim_to="15"$&#62;.html&#60;/a&#62;&#60;/p&#62;<br />
+&#60;p&#62;<br />
+Redirecting...<br />
+&#60;/p&#62;<br />
+&#60;/body&#62;<br />
+&#60;/html&#62;</code></dd>
+<dt><strong>2. Configure your archive options</strong></dt>
+<dd>Switch to your weblog configuration, and select the "Archiving" option. Add an entry and select "Individual and the name of your new template (here MT2TP).</dd>
+<dd style="text-align:center;"><img src="https://www.davidroessli.com/assets/macinblog/img/mt2tp04.jpg" height="96" width="352" vspace="5" alt="[ MT template ]" /></dd>
+<dd>Make sure the selected radio button points to your new individual archive.</dd>
+<dd style="text-align:center;"><a href="http://www.macinblog.com/img/mt2tp03_1.jpg" onclick="window.open('http://www.macinblog.com/img/mt2tp03_1.jpg','popup','width=536,height=125,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="https://www.davidroessli.com/assets/macinblog/img/mt2tp03-tm.jpg" height="81" width="350" vspace="5" alt="[ MT template ]" /></a></dd>
+<dt><strong>3. Rebuild your site</strong></dt>
+<dt><strong>4. Download all the newly created individual archive files to your computer</strong></dt>
+<dt><strong>5. Upload all the files to your TypePad weblog</strong></dt>
+<dd style="text-align:center;"><a href="http://www.macinblog.com/img/mt2tp05_1.jpg" onclick="window.open('http://www.macinblog.com/img/mt2tp05_1.jpg','popup','width=541,height=297,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="https://www.davidroessli.com/assets/macinblog/img/mt2tp05-tm.jpg" height="192" width="350" vspace="5" alt="[ MT template ]" /></a></dd>
+<dd>Drop all the selected files on the image placeholder, uncheck all the parameters relative to image upload, make sure the "Apply to all" is checked and click upload. You're seconds away from Nirvana<br />;)</dd>
+</dl>
+<p><strong>Important note</strong>: on the downside, you don't have any control on the eventual overwriting of a file. If the same file is uploaded twice, the second one is renamed with a trailing '_1' before the extension. Only the TypePad upload interface will let you overwrite a file.</p>

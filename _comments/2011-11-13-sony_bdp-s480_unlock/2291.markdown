@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2291
+post_id: 697
+author: Durwin
+email: db@m.com
+date: '2013-12-31 00:17:34 +0100'
+visible: true
+ip: 81.174.229.189
+---
+Confirmed as working for bdp-s4100 using 0533 code. Player displays message "OK" after pressing button 5.

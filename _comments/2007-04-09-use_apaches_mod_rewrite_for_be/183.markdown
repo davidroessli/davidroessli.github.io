@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 183
+post_id: 194
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-01-22 07:02:38 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Culture Snob: try this one on MacOSXHints:
+http://www.macosxhints.com/article.php?story=2001110610290643
+
+this weblog entry:
+http://www.cocoatech.com/weblog/archives/2007/04/30/aliases_symboli
+
+or the manual page:
+http://developer.apple.com/documentation/Darwin/Reference/Manpages/man1/ln.1.html
+
+Cheers

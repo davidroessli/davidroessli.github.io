@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 444
+post_id: 553
+author: David Ritter
+email: dpackrback@comcast.net
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 67.163.15.135
+---
+I am running System Panther 10.3.6 on a G-4 Dual 500 Mhz. When I try to install a new piece of software, either through an installer or just dragging and dropping, I get the following message: "The finder cannot complete the operation because some data in 'fdi0rcv.3me' could not be read. (Error code-36). 
+Does anyone have a solution to this problem? I am not computer literate enough to do the solutions as proposed above.
+Thank you.

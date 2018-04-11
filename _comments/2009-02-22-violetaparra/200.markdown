@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 200
+post_id: 268
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-05-20 08:32:06 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+Thanks for the poem Lavinia, it is beautiful even with my faint notions of Spanish.
+
+It is all the more dramatic in view of the context.

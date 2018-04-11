@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 278
+post_id: 323
+author: Chris Blown
+email: chris.blown@gmail.com
+date: '2010-11-18 04:01:11 +0100'
+visible: true
+ip: 220.245.53.76
+url: http://hinterlands.com.au
+---
+I'm glad I found this post, I thought I was going mad!
+
+While I understand the reasoning behind why Apple might do this, changing behaviour purely based on the domain is madness.
+
+You should at least be able to override it. I'd suggest the presence of a meta viewport should tell Safari "hey, I know what I am doing, let me be". If the meta viewport is missing sure then lock it down to 100% or whatever its _actually_ doing.

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2463
+post_id: 697
+author: Shanti Kakar
+email: snkakar@yahoo.com
+date: '2016-12-18 13:34:12 +0100'
+visible: true
+ip: 117.208.92.52
+url: http://Browser
+---
+I purchased a Sony S5200 Blu-Ray player in USA and a RCA URC  RCR003RWD. I followed the instructions which came with the URC to program it for controlling my Blu-Ray player. The On-Off and several other keys are now working. However, the procedure to make the player region free did not yield any result. Any guidance will be most welcome and appreciated.

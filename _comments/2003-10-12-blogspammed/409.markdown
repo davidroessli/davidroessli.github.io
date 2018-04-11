@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 409
+post_id: 509
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 217.8.202.151
+url: http://www.enriquepardo.com
+---
+SixApart (the company behind MovableType) has a recent post talking about this issue. It's good to know that they are fully aware of the problem.
+
+
+
+<a href="http://www.sixapart.com/log/2003/10/comment_spam.shtml" rel="nofollow">http://www.sixapart.com/log/2003/10/comment_spam.shtml</a>

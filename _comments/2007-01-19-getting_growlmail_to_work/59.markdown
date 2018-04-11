@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 59
+post_id: 156
+author: Fedja
+email: fed@NA.com
+date: '2007-10-10 15:25:01 +0200'
+visible: true
+ip: 129.67.83.54
+---
+cheers!

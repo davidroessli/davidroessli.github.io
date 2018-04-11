@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 264
+post_id: 323
+author: Andy
+email: look@andyhiggs.co.uk
+date: '2010-04-29 19:20:06 +0200'
+visible: true
+ip: 90.196.111.101
+url: http://higgsdesign.com
+---
+Wow, that's really weird, but incredibly handy to know - especially like you say - not being an obvious thing to debug or understand. I wonder what made them implement it like that?

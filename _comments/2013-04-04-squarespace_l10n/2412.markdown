@@ -1,0 +1,49 @@
+---
+layout: comment
+comment_id: 2412
+post_id: 750
+author: Lindsay
+email: mayo.nayes@gmail.com
+date: '2015-08-06 16:38:12 +0200'
+visible: true
+ip: 190.244.187.138
+---
+Localize is amazing I canâ€™t wait until they add date translations. Then Iâ€™d be set. 
+
+I tried poeditor and felt a little lost. This stuff is a little over my head so just being able to slap some code into the injector and only having to make minor changes like translating words is about as advanced as I can get.
+
+Is there a way to add a day to the date? Right now itâ€™s subtracting a day when translating :/
+
+Hereâ€™s what I have currently injected into the footer:
+
+<script>
+/* List of months in Spanish */
+var month = new Array(12);
+    month[0] = "enero";
+    month[1] = "febrero";
+    month[2] = "marzo";
+    month[3] = "abril";
+    month[4] = "mayo";
+    month[5] = "junio";
+    month[6] = "julio";
+    month[7] = "agosto";
+    month[8] = "septiembre";
+    month[9] = "octubre";
+    month[10]= "noviembre";
+    month[11]= "diciembre";
+
+Y.use('node', 'node-load', function(Y) {
+  Y.on('domready', function() { 
+
+    /* (1) Reformat blog entries published dates */
+    Y.all('time.published').each(
+      function() {
+      var pdate = new Date(this.getAttribute('datetime'));
+      this.setHTML(pdate.getDate () + " de " 
+          + month[pdate.getMonth()] + " " 
+          + pdate.getFullYear());
+      }
+    );
+  });
+});
+</script>

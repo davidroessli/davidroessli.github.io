@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 93
+post_id: 156
+author: Derrick
+email: powermackid@aol.com
+date: '2008-02-12 02:54:47 +0100'
+visible: true
+ip: 12.202.121.167
+url: http://www.deke.co.nr
+---
+This hack didn't work for me. After I type the commands I open mail and get the message saying that GrowlMail has been disabled. What gives? I just installed GrowlMail also, about 1 hour ago just before I updates to 10.5.2

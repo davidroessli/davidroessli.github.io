@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 210
+post_id: 286
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-06-21 08:32:55 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@chrisb63 You're welcome. It works on non jailbroken phones. It is just a new set of settings.

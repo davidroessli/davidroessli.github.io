@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 43
+post_id: 195
+author: Cle`
+email: cle@virg0.org
+date: '2007-05-01 20:35:53 +0200'
+visible: true
+ip: 213.200.236.238
+url: http://virg0.org/v0blog/
+---
+Yes, sometimes shit happens.. I can lend you a bucket to flip water outside, the next time =)

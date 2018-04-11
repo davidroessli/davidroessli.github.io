@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 2211
+post_id: 690
+author: Dale
+email: newbabynow@gmail.com
+date: '2012-08-02 02:45:43 +0200'
+visible: true
+ip: 174.103.111.220
+---
+A little help!
+
+First, thanks for this. After downloading Fantastical, my first move was to try and push it right.
+
+However, I downloaded the little menu extra, opened it, and got things moved right.
+
+Then on restart, it comes right back left. Command+move doesn't work to pull it right again.
+
+I did delete the little menu extra. Should I have opened package contents and put it in there? Put it in the applications folder? I don't have to keep it in my downloads folder permanently, do I?
+
+Thanks for the help!

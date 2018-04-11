@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 2302
+post_id: 750
+author: ziska thalhammer
+email: ziska@tgt-design.com
+date: '2014-07-05 00:52:27 +0200'
+visible: true
+ip: 46.244.196.95
+url: https://trifonova-kindergarden.squarespace.com/event-calendar/?view=calendar&month=July-2014
+---
+I'm desperately trying to make this event calendar german. 
+https://trifonova-kindergarden.squarespace.com/event-calendar/?view=calendar&month=July-2014
+Uwe, i tried your code, unfortunately it did nothing for me :(
+I'm in developer mode.
+thank you for ANY help!
+ziska

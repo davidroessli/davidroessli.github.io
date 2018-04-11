@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 275
+post_id: 206
+author: Refurbished Computers
+email: mrhasnain95@gmail.com
+date: '2010-09-30 15:20:31 +0200'
+visible: true
+ip: 115.167.87.41
+url: http://www.electrocomputerwarehouse.com
+---
+I have found out to my cost that the devices have been sabotaged in such a way that only ITunes can be used on only one computer for one device. Also the players are unusable from Linux (Encrypted
+protocol) so that it is impossible to use them with winamp + mlipod as in the past.

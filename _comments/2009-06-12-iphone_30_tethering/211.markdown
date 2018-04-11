@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 211
+post_id: 286
+author: Alper Ã‡uÄŸun
+email: davidroessli@alper.nl
+date: '2009-06-22 22:59:53 +0200'
+visible: true
+ip: 85.145.32.86
+url: http://alper.nl
+---
+I've got this running on a 3G using the site you described. I'm finding however that tethered over USB the iPhone does not keep its charge level when using the internet but drains pretty quickly. This makes it of pretty limited use to me.
+
+Anybody else have this problem or a solution?

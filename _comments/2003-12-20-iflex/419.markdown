@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 419
+post_id: 526
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 200.78.217.86
+url: http://www.enriquepardo.com
+---
+Let me put a final touch on my sun tan in Mexico and I'll get you one of these on the MacMice booth as soon as I get there! ;-)

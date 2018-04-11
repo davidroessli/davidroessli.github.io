@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 279
+post_id: 323
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2010-11-18 09:10:09 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+@Chris Blown: you are right. Thanks for your comment.
+
+As of today, I still haven't found any documentation explaining this behaviour.

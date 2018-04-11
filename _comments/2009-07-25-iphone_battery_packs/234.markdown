@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 234
+post_id: 296
+author: Prashant
+email: pakiyabhai@msn.com
+date: '2009-08-11 04:33:40 +0200'
+visible: true
+ip: 130.88.70.3
+---
+Very nice review david !
+
+Is factmac so heavy u actually can't carry it around ? 

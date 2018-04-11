@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 483
+post_id: 608
+author: Sita Joan
+email: webmaster@versicherungen-berechnungen.de
+date: '2011-03-20 14:18:55 +0100'
+visible: true
+ip: 62.226.213.97
+url: http://www.versicherungen-berechnungen.de
+---
+To survive in this hart competition you must deliver something special. And that is what you definitely do. So go on like this, itÃ¢Â€Â™s really great.

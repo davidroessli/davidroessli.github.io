@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 290
+post_id: 364
+author: dk
+email: kdl@jiodhj.com
+date: '2011-03-20 14:11:08 +0100'
+visible: true
+ip: 160.39.146.148
+url: http://;kldm
+---
+yes use aquisition

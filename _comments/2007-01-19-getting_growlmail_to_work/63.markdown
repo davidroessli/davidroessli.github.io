@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 63
+post_id: 156
+author: smanny
+email: susi-mann@gmx.de
+date: '2007-10-17 00:10:18 +0200'
+visible: true
+ip: 84.56.232.169
+---
+Hey, I'm really new at this stuff...
+what do you mean with I have to run those commands - where? who can help? 
+thanx a lot in advance ;-)

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 383
+post_id: 469
+author: M. Stovel
+email: madeleinestovel@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 68.164.93.71
+---
+When I tried this (on the free version of Virex 7.5 that I got with my .Mac membership) the FTP item on the Type dropdown was grayed out. I could not select it. Can you help me with this?

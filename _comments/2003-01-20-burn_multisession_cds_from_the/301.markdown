@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 301
+post_id: 367
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 62.167.32.220
+url: http://macinblog.com
+---
+I don't see why not, it should work just fine whatever the OS, whatever the sessions.

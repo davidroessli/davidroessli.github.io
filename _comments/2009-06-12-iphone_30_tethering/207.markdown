@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 207
+post_id: 286
+author: Coup's
+email: arnette_c_net@hotmail.com
+date: '2009-06-19 09:49:32 +0200'
+visible: true
+ip: 83.219.117.36
+---
+Hi,
+Somebody knows if Swisscom will account the data used using tethering in our 250 Mb quota or will we have to pay extra bucks?

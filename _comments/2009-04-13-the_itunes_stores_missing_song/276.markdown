@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 276
+post_id: 278
+author: m4p converter
+email: sharehanse@yahoo.com
+date: '2010-10-23 08:32:09 +0200'
+visible: true
+ip: 183.14.158.126
+url: http://www.m4p-converter.org
+---
+it is a trap, most of music purchased on itunes still cant play on my MP3 player, they are still drm protected. i have to convert itunes music to mp3 with some music converter, which really takes time and effort. i hate itunes.

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 451
+post_id: 553
+author: Tom Ierna
+email: tom@ierna.com
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 24.161.253.179
+url: http://www.ierna.com
+---
+Yet another problem which calls this symptom is if your /Library/Packages or /Library/Receipts have incorrect privileges.

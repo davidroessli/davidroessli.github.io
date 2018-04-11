@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 1781
+post_id: 690
+author: Parneix
+email: parneix@gmail.com
+date: '2011-11-04 00:20:17 +0100'
+visible: true
+ip: 24.37.35.38
+---
+Thanks for the info: I was looking for this exact solution and it works like a charm. It's nice of you to have taken the time to share this tips with the rest of us.
+
+Best regards,
+
+P.

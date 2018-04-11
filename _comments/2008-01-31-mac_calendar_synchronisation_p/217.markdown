@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 217
+post_id: 216
+author: Enrico
+email: franconi@gmail.com
+date: '2009-07-07 07:31:37 +0200'
+visible: true
+ip: 193.206.186.103
+---
+Hooray! Also for me Stefanie's quick solution (in posting #3) was enough to fix my problem. I encourage others to try that one out.

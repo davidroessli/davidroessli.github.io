@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 95
+post_id: 216
+author: Thomas Bohmbach, Jr.
+email: thomas@djedna.org
+date: '2008-02-18 00:18:17 +0100'
+visible: true
+ip: 75.72.67.197
+url: http://www.djedna.org/
+---
+Thanks for the great instructions.  It only took me 15 minutes to fix this problem because of your post.  It also saved a new computer buying experience from going bad.

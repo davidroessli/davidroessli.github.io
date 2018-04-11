@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 39
+post_id: 178
+author: Enrique
+email: e@enriquepardo.com
+date: '2007-04-08 09:33:53 +0200'
+visible: true
+ip: 62.167.236.41
+url: http://enriquepardo.com
+---
+It seems like my iPod auto-syncs with the currently loaded library which confuses me slightly. Also, the selected playlists settings seem to remain on the iTunes side and not the libraries' which is also quite bizarre.
+
+What is your experience syncing an iPod with multiple libraries?

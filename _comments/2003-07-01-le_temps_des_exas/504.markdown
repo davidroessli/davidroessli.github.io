@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 504
+post_id: 641
+author: megan
+email: megan@megalo-media.com
+date: '2011-03-20 14:18:56 +0100'
+visible: true
+ip: 12.247.206.162
+url: http://www.megalo-media.com
+---
+Hello! I don't speak/read French, so, I HOPE you can read English (American) - thank you for the link to my site! I'm a little embarrassed to ask, but, what does the post say about my site? You can just email me directly, if you'd like.
+
+
+
+Thanks! :)) Megan

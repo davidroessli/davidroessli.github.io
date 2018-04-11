@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 342
+post_id: 439
+author: julius
+email: julius@juliuspaintings.co.uk
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 80.1.4.105
+url: http://juliuspaintings.co.uk
+---
+My gripe with osx (which i love) is that there seems no way of duplicating the old apple menu which allowed one to organise one's aliases in a meaningfull way and acess what one wanted with one simple mouse operation via the cascading menus.

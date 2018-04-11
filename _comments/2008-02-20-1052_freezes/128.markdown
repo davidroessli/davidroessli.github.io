@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 128
+post_id: 231
+author: debbie T
+email: splash.style@gmail.com
+date: '2008-04-12 05:45:07 +0200'
+visible: true
+ip: 98.216.208.63
+url: http://www.splashofstyle.com
+---
+I have been having the same issues. 
+
+I replaced my MBP battery (under warranty), and also took out what I thought was a bad stick of ram. 
+
+I thought it was fixed, and I ran on battery all night last night, with no issues.
+
+Tonight, I froze up twice while running the battery.

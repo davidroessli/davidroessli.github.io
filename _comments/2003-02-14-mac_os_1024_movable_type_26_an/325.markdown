@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 325
+post_id: 399
+author: Mariann
+email: mariwood@kosub.org
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 131.118.182.192
+url: http://www.mariwood.com
+---
+Hey, that is good news.  I just heard about MT this morning, but I didn't know about the OS X upgrade.  Kung-Log is something I've been meaning to try and now I have no excuse!

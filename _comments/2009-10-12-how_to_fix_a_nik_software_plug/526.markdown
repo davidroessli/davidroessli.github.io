@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 526
+post_id: 307
+author: Norm Popp
+email: normpopp@gmail.com
+date: '2011-04-03 14:44:49 +0200'
+visible: true
+ip: 190.166.66.121
+---
+This worked for me! Thanks for the tip!

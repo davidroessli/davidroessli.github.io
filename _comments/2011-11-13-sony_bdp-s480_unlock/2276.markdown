@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2276
+post_id: 697
+author: Sina
+email: sina@dal.ca
+date: '2013-11-16 05:14:44 +0100'
+visible: true
+ip: 24.222.177.167
+---
+Same as Johnny K above, once I press 5 the BlueRay player just turns off (Sony BDP-S770). 
+
+Using OneForAll COARC05G. It doesn't accept 0533 or 00533, or 1516 or 01516. Tried with 20533, 21533, 20864, etc... with no luck. :(

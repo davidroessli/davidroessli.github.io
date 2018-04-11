@@ -1,0 +1,77 @@
+---
+layout: comment
+comment_id: 331
+post_id: 414
+author: Q
+email: qeffwfq@example.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 203.10.110.132
+---
+So you bought a t68i thinking it would sync up all the events from your Mac did you?  And now you're disappointed and find the phone useless as a calendar because you can never be sure if you're free on a certain day or not?  Well...
+
+
+
+I strongly suggest that you immediately send a quick note to the President of Sony Ericsson Mobile Communications about this matter.  He can be contacted by:
+
+
+
+    e-mail katsumi.ihara@sonyericsson.com
+
+
+
+    Mr. Katsumi Ihara
+
+    Sony Ericsson Mobile Communications Ltd.
+
+    Sony Ericsson House
+
+    202 Hammersmith Road
+
+    W6 7DN London
+
+    United Kingdom
+
+
+
+Below are a couple of links to some examples of messages published by Sony Ericsson that led me to believe I was purchasing a phone that would synchronise ALL of my calendar events not only SOME of those events.
+
+
+
+On these pages, you will find claims containing keywords like "up-to-date", "compatible", "same" and "accurate", such as:
+
+
+
+* "Apple's hot new synchronizing software keeps your iCal information and Mac OS X Address Book up-to-date on your Bluetooth-enabled mobile phone"
+
+
+
+* "This product [iSync] is compatible with the following Sony Ericsson phones: ... T68i"
+
+
+
+* "the same up to date address book and calendars everywhere Ã± on their Mac and in their pocket"
+
+
+
+* "customers using the new Sony Ericsson T68i phone are ... keeping their ... calendar up-to-date between their Mac and their phone"
+
+
+
+* "You can have your ... calendar with you wherever you go, and you'll know the information is accurate"
+
+
+
+<a href="http://www.sonyericsson.com/spg.jsp?page=gis&Redir=page%3DC2_1_50%26B%3Die" rel="nofollow">http://www.sonyericsson.com/spg.jsp?page=gis&Redir=page%3DC2_1_50%26B%3Die</a>
+
+
+
+<a href="http://www.sonyericsson.com/spg.jsp?page=gis&Redir=page%3Dc_bluetooth%26B%3Die" rel="nofollow">http://www.sonyericsson.com/spg.jsp?page=gis&Redir=page%3Dc_bluetooth%26B%3Die</a>
+
+
+
+That e-mail address again was mailto:katsumi.ihara@sonyericsson.com
+
+
+
+Refer your request for a solution this this address now!

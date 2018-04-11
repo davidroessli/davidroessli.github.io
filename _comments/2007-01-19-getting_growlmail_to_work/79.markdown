@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 79
+post_id: 156
+author: ampers&
+email: dna.ray@gmail.com
+date: '2007-10-31 14:48:39 +0100'
+visible: true
+ip: 193.227.207.198
+---
+Ok, growl now presents in  mail and mail presents in growl.
+What i have to do now to have those notifications working? :(

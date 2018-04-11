@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 360
+post_id: 463
+author: Kenneth MacArthur
+email: kennethmac18@yahoo.co.uk
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 62.31.72.176
+---
+"well done Apple!" appears to be based on the premise that, because Apple has acknowledged a problem in 10.2.5 and rushed out the door an update which fixes this problem, Apple should be congratulated for the release of 10.2.6, which, in fact, is causing many more USB problems for many more users than it solves.

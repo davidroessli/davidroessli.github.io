@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 524
+post_id: 323
+author: mrfusion
+email: herr.ernst@gmail.com
+date: '2011-03-22 17:24:10 +0100'
+visible: true
+ip: 194.232.79.95
+---
+Interesting. Had to discover it the hard way today.

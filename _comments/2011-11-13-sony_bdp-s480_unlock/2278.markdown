@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2278
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2013-12-03 09:09:14 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+@Sina I experienced the same issue until I used the <b>0533</b> setup code.
+
+@Paul check the DVDExplorer Database for your model http://www.dvdexploder.com/dvdsales.htm As mentioned earlier, I don't have access to Region 1 Blu-Rays and haven't been able to tryâ€¦ Good luck.

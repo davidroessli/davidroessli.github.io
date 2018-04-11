@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2263
+post_id: 268
+author: derecho
+email: julian@t-online.de
+date: '2013-08-19 06:37:58 +0200'
+visible: true
+ip: 190.47.136.88
+url: http://leguleyeitor.blogspot.com/
+---
+Thanks, I have recently been looking for info about this topic for a long time and yours is the greatest I have discovered so far. However, what in regards to the conclusion? Are you certain about the source?

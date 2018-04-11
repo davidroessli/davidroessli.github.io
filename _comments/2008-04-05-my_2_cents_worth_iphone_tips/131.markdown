@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 131
+post_id: 244
+author: camilo
+email: solserpent@mac.com
+date: '2008-04-18 16:33:18 +0200'
+visible: true
+ip: 90.193.7.187
+---
+thnks.
+
+I tried installing mobilefinder etc but says error: needs BSD subsystem package. install first. any ideas? thanks  camilo

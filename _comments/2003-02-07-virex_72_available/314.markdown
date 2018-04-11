@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 314
+post_id: 389
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 62.167.202.95
+url: http://macinblog.com
+---
+Oops. MacMegasite reports a conflit between Virex 7.2 and Fink
+
+(<a href="http://www.macmegasite.com//modules.php?name=News&file=article&sid=640)" rel="nofollow">http://www.macmegasite.com//modules.php?name=News&file=article&sid=640)</a>
+
+[quote]
+
+Installing it after Fink is installed will damage your Fink installation; installing it prior to Fink will make it impossible to install Fink without damaging Virex. 
+
+[/quote]
+
+
+
+More info available at Fink News (<a href="http://fink.sourceforge.net/news/#2003-02-07%20DO%20NOT%20INSTALL%20VIREX)" rel="nofollow">http://fink.sourceforge.net/news/#2003-02-07%20DO%20NOT%20INSTALL%20VIREX)</a>

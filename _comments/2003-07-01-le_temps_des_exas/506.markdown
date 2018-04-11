@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 506
+post_id: 641
+author: megan
+email: megan@megalo-media.com
+date: '2011-03-20 14:18:56 +0100'
+visible: true
+ip: 12.247.206.162
+url: http://www.megalo-media.com
+---
+Sorry - OBVIOUSLY you can comprehend English. :/
+
+I'm feeling sheepish...

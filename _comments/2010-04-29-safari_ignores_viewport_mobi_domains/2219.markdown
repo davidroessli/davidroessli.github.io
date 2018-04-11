@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2219
+post_id: 323
+author: Philipp Metzler
+email: phil@goli.at
+date: '2012-09-25 18:10:22 +0200'
+visible: true
+ip: 80.121.135.179
+url: https://bugs.webkit.org/show_bug.cgi?id=97556
+---
+filed a bug here https://bugs.webkit.org/show_bug.cgi?id=97556

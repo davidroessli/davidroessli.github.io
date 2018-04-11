@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 460
+post_id: 570
+author: craig
+email: craigley@swbell.net
+date: '2011-03-20 14:11:22 +0100'
+visible: true
+ip: 70.173.190.200
+---
+I'm unclear, but from their website, it looks like Toast 7 is saying it will do this as well. True?

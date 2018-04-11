@@ -1,0 +1,31 @@
+---
+layout: post
+title: How to use Font Awesome in a Desktop app
+date: '2012-11-06 16:37:09 +0100'
+mt_id: 734
+blog_id: 11
+post_id: 734
+basename: how_to_use_font_awesome_in_a_d
+categories:
+- daily
+---
+<p><a href="http://fortawesome.github.com/Font-Awesome/" class="sidelist" title="Font Awesome">Font Awesome</a> is the iconic font designed for use with Twitter Bootstrap. With over 200 icons in a single collection, Font Awesome is a pictographic language of web-related actions.</p>
+
+<p>I recently run into the situation where I had to use a character in a desktop app. So I installed the font in Font Book and tried to map out the character-glyph correspondance.</p>
+
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/font_awesome_font_book.png" alt="font_awesome_font_book.png"/></div>
+
+<p>It turns out that Font Awesome uses the <a href="http://en.wikipedia.org/wiki/Private_Use_(Unicode)">Unicode Private Use Area</a> to make sure screen readers don't read the characters off, but this makes it difficult to figure out which characters are associated with the glyphs.</p>
+
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/font_awesome_ai_type_preferences.png" alt="font_awesome_ai_type_preferences.png"/></div>
+
+<p>Here is how to get the font work in Adobe's CS:</p>
+<ol class="decimal">
+<li>install the font by dragging it to Font Book</li>
+<li>open your favourite Adobe CS app and navigate to the "Preferences > Typeí¢â‚¬Â¦í¢â‚¬Â</li>
+<li>uncheck «Enable missing glyph protectioní¢â‚¬Â</li>
+<li>use <a href="https://github.com/parkerault" class="sidelist" title="parkerault on Github">@parkerault</a> <a href="http://dl.dropbox.com/u/934214/pastable.html" class="sidelist" title="Font Awesome correspondance list">correspondance sheet</a> to copy and paste the characters your are interested in.</li>
+</ol>
+
+<p>Et voilíƒÂ .</p>
+

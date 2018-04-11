@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2310
+post_id: 770
+author: Chris Clemens
+email: ctclemens@gmail.com
+date: '2014-09-20 15:53:30 +0200'
+visible: true
+ip: 72.226.80.110
+---
+Like you (and many others) I had to establish an iTunes account with a non-Apple email years ago, and later my Apple email was used for my contacts, email, etc. with iCloud. So I've always had 2 accounts:  @me.com / @icloud.com email for contacts/calendars/email etc, and my @gmail account for iTunes and apps. Now what do I do for Family Sharing? iOS 8 insists on only 1 email account. If I pick my music, etc. I lose my iCloud contacts on my phone and visa versa.

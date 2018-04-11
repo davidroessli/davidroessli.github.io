@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 2339
+post_id: 697
+author: Nick
+email: ntrbrown@yahoo.com
+date: '2014-12-21 16:12:36 +0100'
+visible: true
+ip: 86.10.123.248
+---
+I used this on my s720 and confirm it works. It took a while to get there. I used an One for All URC-7140. Other models might have similar issues.
+
+When I press 994 the blue light blinks. a couple of times. Yiu need to wait for it to stop blinking before  pressing the magic key again (between steps 5 and 6, etc.)
+
+I'm hoping I don't face the same issues as Martin (post #26). Only hacked it today, but I'll let you know if the machine dies on me.

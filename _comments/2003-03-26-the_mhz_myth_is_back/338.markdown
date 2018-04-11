@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 338
+post_id: 434
+author: Chris
+email: chrisclark@decaffeinated.org
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 203.59.215.60
+url: http://www.decaffeinated.org
+---
+As embarrassing as it is to say this amongst die-hard mac fans, I'm one of those obnoxious Switchers. After spending a year on a Mac under OS 9.2 in college (doing Multimedia Design), I went out and bought a Mac running 10.2
+
+
+
+The only thing I even turn the PC on for anymore is browser testing. I couldn't go back if you paid me. Yes, my 800MHz eMac *isn't* as "snappy" as my 1.5GHz PC.. but for me it's all about the user experience; it's built from the ground up with the end user in mind and it really shows. I love it.

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2481
+post_id: 697
+author: Ger
+email: gerkennedy2@gmail.com
+date: '2018-02-18 15:51:39 +0100'
+visible: true
+ip: 46.7.235.188
+---
+Doesn't work at all on the Sony S1700. Will only switch the machine off when I press 5. I have done everything as instructed. Tried all codes.

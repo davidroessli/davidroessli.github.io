@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 567
+post_id: 339
+author: Maggie
+email: mcren001@umaryland.edu
+date: '2011-09-21 22:49:53 +0200'
+visible: true
+ip: 24.126.72.47
+url: http://help.instagram.com/customer/portal/articles/95752-photos-not-saving-to-camera-roll-on-iphone
+---
+I was having the same problem with the photos not saving to my phone.  Just toggled the switches back and forth in Settings.  It's working fine now! 
+
+http://help.instagram.com/customer/portal/articles/95752-photos-not-saving-to-camera-roll-on-iphone

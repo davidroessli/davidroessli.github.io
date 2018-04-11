@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 424
+post_id: 540
+author: Richard Anderson
+email: campmobile@libertysurf.fr
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 63.159.132.1
+url: http://perso.club-internet.fr/am65
+---
+That's funny. The new French translation works well now but even I had (and still have trouble) with the English version. Every time I read it, I can not for the life of me dismiss the idea that we are stuck with MS Office for the duration of our lives. And then I can not figure how iLife is supposed to correct that torture -- except as relief.

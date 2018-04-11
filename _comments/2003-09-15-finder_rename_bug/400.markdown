@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 400
+post_id: 498
+author: Paso
+email: elpaso@gmx.net
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 217.81.112.168
+url: http://fscklog.typepad.com
+---
+Strange, I can't reproduce this behavior. I also didn't get a dialog warning me about changing the filename extension, it just changed.

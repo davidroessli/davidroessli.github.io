@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 450
+post_id: 553
+author: Chris
+email: macphreak4evr@gmail.com
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 151.196.108.137
+---
+I just fixed mine, a similar situation to what Greg posted above,  my company blocked akamai.net 
+
+I had them unblock it and ran update from the command line, all is well. I first tried the Symlinks and that didnt work,. but the blocked site did

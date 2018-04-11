@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 97
+post_id: 216
+author: Tim Quigley
+email: tquigs@mac.com
+date: '2008-02-19 03:25:19 +0100'
+visible: true
+ip: 75.187.218.238
+---
+This worked for me.  Thanks for the advice.

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 91
+post_id: 209
+author: bill
+email: a@b.com
+date: '2008-01-29 21:17:17 +0100'
+visible: true
+ip: 24.84.47.185
+---
+nice info. i receive a x509 password error. it seems to be system generated. and not associated with system root

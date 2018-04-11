@@ -1,0 +1,155 @@
+---
+layout: post
+title: My 2 cents worth of iPhone tips for Switzerland
+date: '2008-04-05 23:22:33 +0200'
+mt_id: 244
+blog_id: 11
+post_id: 244
+basename: my_2_cents_worth_iphone_tips
+categories:
+- daily
+---
+<div class="pix"><a href="http://www.flickr.com/photos/39601377@N00/2389579310" title="View 'Hooked' on Flickr.com"><img src="https://farm4.static.flickr.com/3072/2389579310_4df2a077c7.jpg" alt="Hooked" border="0" width="340" /></a></div>
+
+<p class="update"><strong>Important note</strong>: please bear in mind that this post relates to a first generation iPhone running 1.x software.</p>
+
+<p>It's <a class="sidelist" href="http://www.flickr.com/photos/davo39/2324485161/" title="Eagle has landed">almost a month now</a> that I've <a class="sidelist" href="/logs/2008/03/iphoned_10_years_after/" title="iPhoned 10 years after">received my iPhone</a>, and I thought it might be time to share a few tips related to its use in Switzerland where it still isn't officially available despite the rumours (Feb 29th, April 4th, etc.).</p>
+
+<p>I bought a couple on eBay where you'll find an impressive <a class="sidelist" href="http://tinyurl.com/34vxsy" title="Unlocked iPhones on eBay">list of new jailbreaked iPhones</a> with the latest firmware readily available for sale. The prices have risen over the last weeks, but with a weak dollar, they remain reasonable compared to what is sold in Switzerland. Your best bet remains to find someone that can pick one up in a US Apple Store for you.</p>
+
+<p>So here are a few tips we managed to work out that might help you if you've just received a jailbreaked iPhone v1.1.4 from the US.</p>
+
+<p class="update">For more information on the jailbreak process itself, please check <a class="sidelist" href="http://www.ziphone.org/" title="ZiPhone's Blog">ZiPhone's Blog</a> and <strong>please</strong> don't forget to <a href="http://zibri.ziphone.org/" title="Make a donation to Zibri">make a donation</a> to Zibri - thanks.</p>
+
+<h3>EDGE configuration</h3>
+
+<p>The first thing you'll want to do is to setup the phone's EDGE configuration. You'll find these settings under Settings &gt; General &gt; Network &gt; EDGE. These settings depend on your operator.</p>
+
+<h4>For Swisscom</h4>
+
+<p class="update">APN: gprs.swisscom.ch<br />
+Username: (nothing)<br />
+Password: (nothing)</p>
+
+<h4>For Sunrise</h4>
+
+<p class="update">APN: internet<br />
+Username: internet<br />
+Password: internet</p>
+
+<h4>For Orange</h4>
+
+<p class="update">APN: internet<br />
+Username: (nothing)<br />
+Password: (nothing)</p>
+
+<p class="update"><strong>Important note</strong>: Orange Switzerland doesn't offer EDGE, and several friends of mine haven't managed to establish a GPRS connection either, while others have. The situation isn't clear.</p>
+
+<p>Next, you are going to want to install third party applications to enhance your iPhone's experience. Like sending and receiving MMS for example. But before that, there was a couple of issues we nedded to tackle.</p>
+
+<h3>BSD Subsystem</h3>
+
+<p>Before you start installing anything, make sure you have <strong>BSD Subsystem</strong> installed on your iPhone. You can check by selecting Installer &gt; Uninstall and looking if it's the list of installed applications.</p>
+
+<p><strong>BSD Subsystem</strong> is required before installing many other applications and patches and therefore should be the first package you install on your newly jailbroken iPhone. Many third party application and tweaks rely on it being installed.</p>
+
+<p>Check iClarified for information on <a class="sidelist" href="http://www.iclarified.com/entry/index.php?enid=687" title="How to Install BSD Subsystem on Your iPhone">how to proceed to install BSD Subsystem</a>.</p>
+
+<h3>Caller ID recognition</h3>
+
+<p>The first issue that arose was the non recognition of the caller ID. Although the SMS senders were correctly identified by their name, the phone calls we not. Only numbers were displayed on an incoming call. More specifically, they were only if you hadn't specified the international code in your address book. So 079 123 4567 was recognised but not +41 79 123 45 67. Bummer.</p>
+
+<p>It turns out that iClarified had the answer in the form of <a class="sidelist" href="http://www.iclarified.com/entry/index.php?enid=684" title="How to Patch AppSupport for 1.1.3 iPhones (Installer)">AppSupport</a> which fixes Dialer Crashing and Caller ID problems (<em>thanks <a href="http://www.hackint0sh.org/forum/member.php?u=13745" title="timschuerewegen's profile on hackint0sh">timschuerewegen</a></em>).</p>
+
+<p>Again, <a href="http://www.iclarified.com/entry/index.php?enid=684" title="How to Patch AppSupport for 1.1.3 iPhones (Installer)">check out their excellent tutorial</a>.</p>
+
+<h3>Turn predictive typing off</h3>
+
+<p>Next I noticed that my iPhone's keyboard settings offered the option of turning off the autocorrection, but that it wasn't present on all iPhones. Autocorrection can be a drag depending you the language you are writing in and the keyboard layout you are using. I write in French or English, but use a German layout (<a href="http://en.wikipedia.org/wiki/QWERTZ" title="QWERTZ on Wikipedia"><abbr>QWERTZ</abbr></a>).</p>
+
+<p>Once again, there's a <a class="sidelist" href="http://itaptap.com/2007/09/26/stop-the-iphone-autocorrection-lets-make-it-easy/" title="Stop the iPhone autocorrection - let's make it easy">tool to install (KB.app)</a>.</p>
+
+<p>The install process is more than easy once you have <a class="sidelist" href="http://itaptap.com/2007/09/25/apptapp-lets-the-modding-of-your-iphone-begin/" title="AppTapp - Let the modding of your iPhone begin">Installer.app</a> which you should if you've received you phone jailbreaked.</p>
+<ul>
+<li style="list-style-type:disc">Open Installer icon on your iPhone.</li>
+<li style="list-style-type:disc">Navigate to Community Source and install it, of course if you have it already installed skip that step.</li>
+<li style="list-style-type:disc">You gonna see that now you have a lot more applications available through Installer.app.</li>
+<li style="list-style-type:disc">Navigate to Tweaks &gt; KB.app and install it.</li>
+<li style="list-style-type:disc">You are ready to go.</li>
+<li style="list-style-type:disc">Now you can Enable or Disable the Autocorrection by the new option available in Setting &gt; General &gt; Keyboard.</li>
+</ul>
+
+<p><a class="sidelist" href="http://www.youtube.com/watch?v=k1fwfP-SeN8" title="">Watch the installation on YouTube</a>.</p>
+
+<h3>MMS setup (iPhone OS 1.1.4 / SwirlyMMS 0.3.8)</h3>
+
+<p>The next step was to reinstate MMSs on the iPhone. Sending and receiving MMSs may not be too popular in the USA, but is widely used in Europe. I love them personnaly.</p>
+
+<p>Luckily once again an application is available the enables you to send an receive MMS on your iPhone: <a class="sidelist" href="http://www.swirlyspace.com/iphone/apps/mms/" title="SwirlyMMS">SwirlyMMS</a>. It still is a little rough, but you can send and receive with it. Install it through the Installer &gt; Productivity &gt; SwirlyMMS  (or directly from the developer's by adding swirlyspace.com/SwirlySpace.xml as source in the Installer). Remember, you must <strong>restart</strong> the iPhone before using it (turn the phone off by pressing the power button for several seconds).</p>
+
+<h4>SwirlyMMS Settings for Swisscom</h4>
+
+<p class="update">MMSC : mmsc.swisscom.ch<br />
+Proxy : 192.168.210.002:8080<br />
+APN : event.swisscom.ch<br />
+Username : &lt;empty&gt;<br />
+Password : &lt;empty&gt;</p>
+
+<h4>SwirlyMMS Settings for Sunrise</h4>
+
+<p class="update">MMSC: mmsc.sunrise.ch<br />
+Proxy: 212.35.34.75:8080<br />
+APN: mms.sunrise.ch<br />
+username: mms<br />
+password: mms</p>
+
+<h4>SwirlyMMS Settings for Orange</h4>
+
+<p class="update">MMSC: 192.168.151.3:8002<br />
+Proxy: 192.168.151.002:8080<br />
+APN: mms<br />
+Username: &lt;empty&gt;<br />
+Password: &lt;empty&gt;</p>
+
+<p>Now you can send and receive MMSs. Just wait until the upper right square in the status bar becomes green before attempting to send or receive.</p>
+
+<p>Sending is straitforward: type in a title, select a recipient, select an image and click send.</p>
+
+<p>Receiving is straitforward too. When an MMS is wating, just click the upper left button in SwirlyMMS called Fetch. The number of MMS to fecht will be displayed next to the Fetch button label.</p>
+
+<p>On the other hand, you'll need a couple of other applications to select and view the image you have just fecthed. As of the time of writing SwirlyMMS v0.3.8 only supports images (no movies).
+
+<p>If you are having trouble getting this app to work, <a class="sidelist" href="http://swirlyspace.com/forum/" title="SwirlyMMS Forums">check the forum</a> for FAQ and tips.</p>
+
+<p>Then you need to install <strong>MobileFinder</strong> and <strong>MobilePreview</strong> to navigate in the filesystem and view the received image and <strong>MobileTextEdit</strong> if you want to view the received text. These applications are available through the Installer &gt; Productivity section.</p>
+
+<p>The images you receive are stored in ~/Media/MMSFiles. Open MobileFinder and click on the upper right ~ button. That will take you to your home directory. <strong>Double click</strong> (yes, double click) on the Media folder, and you'll find the MMSFiles folder where your images are stored. Double click an image to view it.</p>
+
+<p>If you move them to your camera folder and rename them like the camera folder pictures you will be able to sync them and se them in the cameraroll (Good if you want to send them by MMS), but you will not get a thumbnail of the picture. Only a white background. If you want to see the picture in the camera roll, just save it again like you did to get the white thumbnail, but with "THM" extension (for example: IMG_0001.JPG, then save it again with IMG_0001.THM).</p>
+
+<p>MobileFinder take some getting use to, but once you've figured out how to navigate the filesystem, move, copy and delete files, you're done.</p>
+
+<p>Use Image Capture or iPhoto (or some other photo management software) to transfer them to your Mac.</p>
+
+<h3>IMAP your mailboxes</h3>
+
+<p>When you setup your e-mail accounts in your Mail application, I strongly suggest you choose the IMAP protocol.  It is so much powerful. There is an interesting post on <a class="sidelist" href="http://5thirtyone.com/archives/862" title="How-to: Proper Gmail IMAP for iPhone & Apple Mail">setting up your GMail account</a> on the iPhone on 5ThirtyOne.</p> 
+
+<p>Apple has a technote on setting up your accounts: <a class="sidelist" href="http://docs.info.apple.com/article.html?artnum=305882" title="iPhone and iPod touch: Email Account Setup ">iPhone and iPod touch: Email Account Setup</a>.</p>
+
+<h3>Backup your SMS</h3>
+
+<p>Getting your data in and out of the iPhone is trivial except for the SMSs. Luckily there are a couple of applications on the Mac that do just that. Namely <a class="sidelist" href="http://www.micromat.com/index.php?option=content&task=view&id=190" title="Micromat Syphone">Syphone</a> and <a class="sidelist" href="http://homepage.mac.com/vaughn/msync/" title="MobileSyncBrowser">MobileSyncBrowser</a>. It turns out that Micromat's product Syphone is still too buggy (v0.99b) to be reliable. I needed to remove the preferences before launching the application otherwise it crashed on launch. Moreover, it doesn't display accentuaed letters properly. MobileSyncBrowser on the other hand rocks. It will backup your SMSs, contact info and call history.</p>
+
+<p>Both these applications allows you view the backup files iTunes creates from your iPhone. Everytime you synch your phone, iTunes keeps a local copy of the information contained in your iPhone's SMS and Notes applications as well as your recent call history. MobileSyncBrowser allows you to refer to these files and copy the information for archive or reference purposes.</p>
+
+<h3>Choose a data plan</h3>
+
+<p>If you start using EDGE, I suggest you check with your operator if he offers data plans that might suit your consumption. I opted for <a class="sidelist" href="http://www.swisscom-mobile.ch/scm/prv_optionen_datenuebertragung-en.aspx" title="Swisscom's Surf Option 50Mb">Swisscom's Surf Option 50Mb</a>. It gives me 50Mb of data for CHF 10/month. Without this option you are billed 0.10 CHF/10 KB by Swisscom. We'll see how well that suits my needs. Check out the other operators for their offers.</p>
+
+<h3>And finally, what is yours called?</h3>
+
+<p>I don't know about you, but one of the first things I do when I buy a new Mac, iPod or now iPhone is to choose a name for it. I'm allergic to the default "John Doe's Computer" or "John Doe's iPhone". My relationship with my hardware is far too personal to leave it like that (but that is the topic of whole new blog post).</p>
+
+<p>I named my iPhone <a class="sidelist" href="http://www.flickr.com/photos/davo39/2377274497/" title="Meet Jaya">Jaya</a>, <strong>what is yours called?</strong></p>
+

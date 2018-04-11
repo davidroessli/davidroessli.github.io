@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2268
+post_id: 697
+author: Alex
+email: afsdsbr@gmail.com
+date: '2013-09-30 06:46:33 +0200'
+visible: true
+ip: 177.134.87.217
+---
+Hello!
+Is it possible to paly both DVDs and Blu Ray Discs from other rgions?
+Thanks

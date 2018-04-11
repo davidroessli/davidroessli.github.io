@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 333
+post_id: 418
+author: aaron
+email: stoutamiremusic@comcast.net
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 67.163.180.75
+---
+I wish I would have done more research before getting openOSX's WinTel. It is PAINFULLY SLOW!! And it took at least 10 hours to do an install of Windows 2000. Sheesh. Contact to OpenOSX goes unanswered, there goes 25 bucks. An inexpensive lesson, but a lesson nonetheless. I'll just wait until the beta of Epicad's Sync Again so I can sync my Blackberry. Once that's complete and functional, Windows be damned.

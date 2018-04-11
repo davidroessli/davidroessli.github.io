@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 142
+post_id: 235
+author: Alan B.
+email: abatting@yahoo.com
+date: '2008-05-22 06:58:23 +0200'
+visible: true
+ip: 62.167.235.105
+---
+I know that feeling too well.
+
+Be careful not to get hooked to it though. Adrenaline can be addictive as well as destructive..
+
+Happy birthday Emma
+:)

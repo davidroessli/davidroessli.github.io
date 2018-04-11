@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 168
+post_id: 254
+author: grace
+email: grace131488@gmail.com
+date: '2008-10-17 10:59:58 +0200'
+visible: true
+ip: 121.15.134.202
+---
+open recource
+http://www.davidroessli.com/logs/2008/10/visualhub_discontinued/index.html

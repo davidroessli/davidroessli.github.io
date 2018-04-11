@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 284
+post_id: 339
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2011-03-20 10:41:27 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://Http://www.davidroessli.com
+---
+Thanks for your comment and for the link Chris.
+I came to the same conclusion, and that's what I'd meant by "quitting the Photo app from the active apps bar".
+:)

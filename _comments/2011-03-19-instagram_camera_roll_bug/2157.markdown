@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2157
+post_id: 339
+author: Macbuoy
+email: macbuoy@hotmail.com
+date: '2011-12-01 11:25:41 +0100'
+visible: true
+ip: 176.44.68.75
+url: http://facebook.com/macbuoy
+---
+How can i put apple logo in Instagram.....help anyone???

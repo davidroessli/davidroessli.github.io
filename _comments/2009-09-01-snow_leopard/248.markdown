@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 248
+post_id: 301
+author: Roger S. Cohen
+email: nospam@rogercohen.com
+date: '2009-10-30 21:32:46 +0100'
+visible: true
+ip: 68.193.86.72
+---
+Thanks for the great info.  On 10/30/09 I downloaded all the required Canon drivers and applications to use Pixma MP980 in Snow Leopard.  
+
+The Canon page is quite confusing, with many different software packages.  I called Canon tech support (1-800-OK-CANON), and they guided me through the selection of which packages I needed to print from/scan from/scan to Pixma MP980 <-> Snow Leopard.

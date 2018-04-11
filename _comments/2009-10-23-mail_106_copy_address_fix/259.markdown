@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 259
+post_id: 308
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-11-19 08:41:47 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Alexander MacDougall: did you copy the whole command?
+
+<em> defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool NO</em>
+
+The file is located in /usr/bin/defaults which should be in your path. Try,
+
+<em>/usr/bin/defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool NO</em>
+
+(all on the same line)

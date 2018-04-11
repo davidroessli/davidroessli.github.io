@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 102
+post_id: 231
+author: VR
+email: yes@no.org
+date: '2008-02-28 23:11:42 +0100'
+visible: true
+ip: 66.158.206.52
+---
+I hear you man. Same problem here. As a "switcher," I'm kind of disappointed in OS X, given this freezing issue.
+
+I hope they come up with a fix soon.

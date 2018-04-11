@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 214
+post_id: 216
+author: Jan W
+email: jan.wickenberg@telia.com
+date: '2009-06-28 22:48:54 +0200'
+visible: true
+ip: 213.67.189.168
+---
+Hooray! Stefanie's quick solution (in posting #3) was enough to fix my problem. I encourage others to try that one out.

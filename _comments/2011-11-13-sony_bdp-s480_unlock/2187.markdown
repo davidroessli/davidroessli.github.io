@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 2187
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-03-22 15:34:17 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+@Lionel,
+
+Le lecteur doit Ãªtre Ã©teint lorsque vous faite la manip avec la tÃ©lÃ©commande One4All. Vous ne faites que programmer la tÃ©lÃ©commande.
+
+- Une fois la programmation terminÃ©e, allumez votre BD avec la tÃ©lÃ©commande Sony
+- Reprogrammez le lecteur BD avec la tÃ©lÃ©commande One4All
+- La lumiÃ¨re blue 24p se met Ã  clignoter sur le lecteur (je ne sais pas si votre modÃ¨le en a une..)
+- Mettez votre lecteur en standby avec la tÃ©lÃ©commande Sony
+
+J'ai remarquÃ© qu'il Ã©tait essentiel de programmer la tÃ©lÃ©commande One4All avec le code 0533 pour que cela marche (S480)
+
+Bonne chance // david

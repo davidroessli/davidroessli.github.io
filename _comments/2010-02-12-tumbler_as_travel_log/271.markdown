@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 271
+post_id: 314
+author: Janik Janssens
+email: janikjanssens@gmail.com
+date: '2010-07-03 14:06:11 +0200'
+visible: true
+ip: 217.136.1.119
+---
+Hi,
+
+I'm preparing my trip to india, nepal and cambodja! Off course a nice travel blog is good to keep the people at home up to date.
+
+I'm looking for a nice theme now, and came across your sravana.us! I really like it, any chance I can use your homemade theme?
+
+Greetings,
+
+J

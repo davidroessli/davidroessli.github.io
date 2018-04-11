@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 38
+post_id: 193
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-04-02 08:16:47 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com
+---
+Unfortunately, I was a little too enthusiastic. The problem remains until you <strong>uncheck "Disconnect from wireles networks when I log out"</strong> in the <strong>Airport Options</strong> of Network Preferences.
+
+<img src="http://www.davidroessli.com/logs/assets/img/airport_options_dlog.png" alt="Airport options dialog box" title="Airport options dialog box" /> 

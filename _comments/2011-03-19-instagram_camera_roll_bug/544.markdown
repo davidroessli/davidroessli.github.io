@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 544
+post_id: 339
+author: Denise
+email: wanzi_wanzi@hotmail.com
+date: '2011-08-07 04:30:06 +0200'
+visible: true
+ip: 76.89.188.83
+---
+" Double tap the home button to bring up the multi-tasking bar, tap & hold the "Photos" icon until it starts to wiggle, tap the red minus sign to close it. Tap the home button when finished. See if doing this fixes things. "
+it works! 

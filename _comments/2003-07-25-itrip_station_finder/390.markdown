@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 390
+post_id: 489
+author: Sean Kenny
+email: sean_at_mac@hotmail.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 24.43.158.5
+---
+Ummm... heres the deal... we can buy itrips in canada... how come we pay for these things and then don't recive the same service as the US,,, get a staion finder for Canada

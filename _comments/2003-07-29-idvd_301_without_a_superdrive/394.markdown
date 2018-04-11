@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 394
+post_id: 491
+author: Shane Stanley
+email: visualartsent@yahoo.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 216.86.200.219
+---
+This might be a question you have been asked, but I have not yet found a 100% direct answer...
+
+I have a G4 MAC running Final Cut Pro 3.0.4 on OSX and iDVD on OS9. I recently purchesed iLife, (for the iDVD 3 upgrade). Since buying (and waiting to receive it) I've been reading about needing a "superdrive" How do I know if my Mac G$ has one? I have been burning iDVD 1 without a problem. Is it safe to assume I have it built in or how can check? Thank you in advance for your help! 
+
+
+
+Shane

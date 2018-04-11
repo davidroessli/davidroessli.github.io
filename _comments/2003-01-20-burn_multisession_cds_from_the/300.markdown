@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 300
+post_id: 367
+author: Bob
+email: bshimmin@bakersfieldcollege.edu
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 198.189.243.143
+---
+Can the cd be read inbetween the session making times on different machines?  I have 2 labs, one is OS 9 the other OSX. They will both be OSX by the end of the semester, but for now the students need to go from one to the other, will this be a problem?

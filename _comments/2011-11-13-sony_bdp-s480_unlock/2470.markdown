@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 2470
+post_id: 697
+author: Gino Muller
+email: grmuller@xs4all.nl
+date: '2017-06-13 13:35:03 +0200'
+visible: true
+ip: 83.161.149.67
+---
+Any one managed to make region free the Sony BDP-A6000 with URC 7980 one for all remote control ?
+
+Already a problem with the first step (# 1, 2, 3)
+I am waiting for the second flash. It does flash one time, however waiting much longer it flashes three times quickly.
+Your help is appreciated.

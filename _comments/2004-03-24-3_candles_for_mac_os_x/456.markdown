@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 456
+post_id: 557
+author: Quartesoft Sâˆšâ€ rl
+email: info@quartesoft.ch
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 62.2.236.18
+---
+Sorry we kept you waiting for so long. MacPay X has been released today and is available for download right now.
+But don't tell us we were the ones to pull the plug on another faithful OS 9 config. Because, yes, OS X is three, but its predecessor kept us going for 20 years. After all we wouldn't be there without it.
+
+Best regards from the Quartesoft Team.

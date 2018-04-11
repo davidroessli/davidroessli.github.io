@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 380
+post_id: 469
+author: SilverwolF
+email: silverwolf@geocities.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 216.184.96.34
+---
+Thx for the info i was about to give up on Virex, I have a PC as well and for 5 years I have had Norton in the 5 years I have had no complains, everything updates they have new updates all the time, my system has been great in all that time. I got the virex for my mac and it was "welcome to hell" have you guys visited the virex site for the epdates OMG I think blind man made the site, you just cant seem to get to what u need. I was about to trash this prog if it wasnt for htis post.

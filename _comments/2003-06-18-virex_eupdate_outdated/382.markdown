@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 382
+post_id: 469
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 62.167.72.248
+url: http://www.macinblog.com/
+---
+Personally, I've given up on Virex and switch to Intego's Virus Barrier, which offers active protection and updates that actually work.
+
+<a href="http://intego.com/virusbarrier/home.html" rel="nofollow">http://intego.com/virusbarrier/home.html</a>
+
+Too bad for Virex and it's fake protection - too bad for dot Mac too..
+:(
+
+Mind you, Virex 7 Scripts worked for me.
+
+<a href="http://www.versiontracker.com/dyn/moreinfo/macosx/17452" rel="nofollow">http://www.versiontracker.com/dyn/moreinfo/macosx/17452</a>

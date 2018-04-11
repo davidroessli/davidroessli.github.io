@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 266
+post_id: 323
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2010-05-05 10:57:10 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@Ronan Cremin: thanks for confirming this.
+
+The reason why I mentionned the viewport meta tag, is that whatever the settings were (size, scaling, etc.) Safari for iPhone had its own rendering interpretation when the page was requested from the .mobi TLD. The rendering was different when requested from the .com TLD (or the IP address) - namely, the viewport settings were honored.
+
+Thanks again for your comments.

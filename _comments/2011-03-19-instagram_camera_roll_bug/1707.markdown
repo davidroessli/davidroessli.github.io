@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 1707
+post_id: 339
+author: mark seppala
+email: mattvimymg@yahoo.com
+date: '2011-11-01 01:42:55 +0100'
+visible: true
+ip: 70.119.221.49
+---
+Thanks to Mike B#4  It worked, much better than going through the apple help manual.  I used the home and power button at the same time.  Turned off IPhone and restarted.  There the camera was!!!

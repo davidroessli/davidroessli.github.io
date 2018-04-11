@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 268
+post_id: 326
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2010-05-11 06:56:33 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+Orange published their data plans yesterday:
+http://www1.orange.ch/residential_internet_ipad.html

@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 139
+post_id: 144
+author: Anonymous
+email: info@internetsolutionsireland.com
+date: '2008-05-22 07:00:15 +0200'
+visible: true
+ip: 92.40.210.194
+url: http://www.internetsolutionsireland.com
+---
+Very good table less design , clean CSS - Ideal web 2.0 design I really like it.. <a href="http://www.internetsolutionsireland.com">Web Designer Ireland</a>
+I am a freelance web designer offering affordable services to clients in UK and Ireland. 

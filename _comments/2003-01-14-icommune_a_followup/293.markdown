@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 293
+post_id: 364
+author: anonymous
+email: anonymous@anonymous.net
+date: '2011-03-20 14:11:08 +0100'
+visible: true
+ip: 68.49.83.67
+---
+acquistion sux use KDX or Hoitline instead

@@ -1,0 +1,19 @@
+---
+layout: post
+title: iSight power drain
+date: '2004-05-12 07:42:01 +0200'
+mt_id: 566
+blog_id: 11
+post_id: 566
+basename: isight_power_drain
+categories:
+- daily
+---
+<p>There really is a power drain problem with Apple's superb iSight camera.</p>
+<p>I switched to a larger external firewire drive earlier this year, and after my loyal 6Gb VST (SmartDisk now), 20Gb iPod (G2), 20Gb <a href="http://lacie.com/products/range.htm?id=10022">LaCie 'DataBank'</a>, I'm walking around with a 40Gb <a href="http://lacie.com/products/product.htm?id=10105">LaCie 'by F.A. Porsche' </a>.</p>
+<p>I use it mainly for synchronising  my e-mail, bookmarks, preferences, and current work between my desktop and PowerBook, so the amount of data that is transferred each time is now tremendous as I sync twice a day. Nevertheless, I've been copying large files (7Gb+) recently which all caused my desktop Mac to lockup. It wasn't a crash <em>per se</em>, but a number of warnings and errors started to appear in the system logs which lead to the freeze of the GUI with a kernel load of 99.9%. This situation occurred each time I tried to copy those large files, or loads of small ones (20'000+).</p>
+<p>My first thought was to incriminate the system, as the external drive worked fine on my other desktop Mac and PowerBook. I explored all sorts of solutions, ending up by a complete OS reinstall. But to no avail - the problem didn't disappear - <strong>until</strong> I realised that my iSight <strong>and</strong> the LaCie drive were both plugged into the motherboard Firewire connectors - which was the only difference between that Mac and the two others.</p>
+<p>Unplugging the drive during a freeze resolved the problem. The load drops, the system generates an error, but you regain control of your Mac. Apparently, the iSight drains power on both ports, leaving the second one underpowered.</p>
+<p>At least for the 'F.A. Porsche' LaCie. I never had that problem with the 'DataBank' (which only offers one firewire connector, against two for the 'F.A. Porsche' - which was what decided me for the model over the 40Gb 'DataBank'.</p>
+<p>This problem is evoked on <a href="http://discussions.info.apple.com/webx?14@60.dt7TaIGnmR8.0@.4aaaecd5">Apple Discussions</a> in various threads. I should have known.</p>
+<p>So, I sorted that mess out by adding a <a href="http://catalog.belkin.com/IWCatProductPage.process?Merchant_Id=&#38;Section_Id=1970&#38;pcount=&#38;Product_Id=125578">Belkin Firewire PCI card</a> to my desktop Mac. Everyone is happy. Everyone is powered.</p>

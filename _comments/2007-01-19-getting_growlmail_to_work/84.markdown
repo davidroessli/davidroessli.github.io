@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 84
+post_id: 156
+author: bLb
+email: boris.bLb@numericable.fr
+date: '2007-11-09 21:14:05 +0100'
+visible: true
+ip: 90.21.96.147
+---
+Same problem as Chris!

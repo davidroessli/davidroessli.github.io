@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 68
+post_id: 206
+author: Zeljko Knezevic
+email: zeljko10@orangemail.ch
+date: '2007-10-19 09:06:03 +0200'
+visible: true
+ip: 199.67.203.142
+---
+Sorry David, i thought you talk German.
+Do you know if there's any possibility to order the iPod in the US? Its is much cheaper over there.
+
+Cheers

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 311
+post_id: 378
+author: Jeff Skrysak
+email: skrysakj@yahoo.com
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 63.84.237.43
+url: http://cocoamysql.sourceforge.net
+---
+I tried out YourSQL but found another one called CocoaMySQL and it had a lot more features. Now I'm helping improve CocoaMySQL (because it too is open source). I highly recommend it.

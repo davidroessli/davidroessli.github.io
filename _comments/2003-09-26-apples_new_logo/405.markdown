@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 405
+post_id: 501
+author: Richard Anderson
+email: campmobile@libertysurf.fr
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 212.194.66.79
+---
+Looks like they've been talking with the folks over at UPS.

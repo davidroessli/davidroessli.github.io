@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 16
+post_id: 144
+author: Malarkey
+email: malarkey@malarkey.co.uk
+date: '2007-01-22 19:28:29 +0100'
+visible: true
+ip: 87.113.77.50
+url: http://www.stuffandnonsense.co.uk
+---
+Dear David,
+Many thanks for your very kind words about Transcending CSS. I'm glad you liked it.
+
+Kind regards,
+Andy

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 525
+post_id: 323
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2011-03-22 23:54:08 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@mrfusion: sorry to hear that. Thanks for your comment.

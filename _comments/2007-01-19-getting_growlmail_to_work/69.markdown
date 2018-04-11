@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 69
+post_id: 156
+author: Truls Larsen
+email: tl@pran.torgersen.no
+date: '2007-10-19 15:18:21 +0200'
+visible: true
+ip: 195.159.16.173
+---
+Works like a dream and thanks for sharing :-)

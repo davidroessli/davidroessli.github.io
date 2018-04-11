@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 2317
+post_id: 770
+author: Dennis
+email: dkemmerer@gmail.com
+date: '2014-09-22 22:11:41 +0200'
+visible: true
+ip: 76.20.24.86
+---
+I would hope Apple addresses the Family Sharing lockout issue. Like many others, I played around with it after updating my household's iOS devices last week, just to see how it works, and got locked out after deactivating twice.
+
+Unfortunately, the Apple support supervisor with whom I spoke earlier today told me flat out I'd simply have to wait a year. Given that there was no warning that the account would be locked out, I find that "solution" simply unacceptable.
+
+My household has 10 Apple products from Apple TV to iMac and everything in between, and in the many years of using the products and the otherwise superb support, this is the first time I'm an unhappy camper.
+
+I would hope that with the volume of complaints on the Apple support boards, the media will get wind of it and push Apple to do the right thing.

@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 396
+post_id: 491
+author: handell
+email: masontt@mglass.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 63.124.236.7
+---
+I have the 2002 quicksilver g4 model.
+I recently lost my dvd superdrive  so i purchased a newer external  firewire Lacie lightscribe DVD burner. Now i cannot open my IDVD because I do not have the superdrive connected.
+
+I a running  system os 9.2.2 what should I do?

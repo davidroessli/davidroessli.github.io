@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 146
+post_id: 244
+author: Steve
+email: iamgilbert@hotmail.com
+date: '2008-06-12 22:11:27 +0200'
+visible: true
+ip: 92.104.175.211
+---
+Hey David.... I am with Swisscom... like i Say... everything is as above... just the fact I can only send and not receive is weird...

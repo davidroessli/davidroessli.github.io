@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2289
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2013-12-16 10:10:35 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.cybmed.com
+---
+@Martin no problem - glad it worked for you :)

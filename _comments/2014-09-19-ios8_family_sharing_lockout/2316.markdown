@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2316
+post_id: 770
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-09-22 07:18:29 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+@Michelle,
+
+Ouch. Yes, it's called Continuity https://www.apple.com/ios/whats-new/continuity/
+
+You need to use <b>separate Apple IDs</b> for all iCloud related tasks such as mail, contact and calendar management, backup, â€¦ and the <b>same Apple ID</b> for purchases.
+
+Family Sharing enables you to use of the same Apple ID for purchases (meaning the same credit card is debited, apps and media are shared) while using your own Apple ID to authenticate.

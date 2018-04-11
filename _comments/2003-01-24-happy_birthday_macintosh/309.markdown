@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 309
+post_id: 375
+author: Alicia Winkler
+email: fromableedingheart@yahoo.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 4.42.127.104
+url: http://www.livejournal.com/users/ableedingheart
+---
+Well..my mother sure remembers that day....she was giving birth to me....lol

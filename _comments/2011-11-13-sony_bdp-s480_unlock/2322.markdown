@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 2322
+post_id: 697
+author: dave symonds
+email: Mike0862-simondsp@yahoo.co.uk
+date: '2014-09-27 23:22:13 +0200'
+visible: true
+ip: 79.77.208.15
+---
+Has this been confirmed to work with BDP S1100?
+
+I saw the post that did work then later was reported to have bricked the player!
+
+Any feedback would be appreciated before I try this!

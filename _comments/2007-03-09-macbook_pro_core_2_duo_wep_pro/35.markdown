@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 35
+post_id: 190
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-03-30 18:44:01 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com
+---
+Sorry to hear that. Try to downloading and installing the standalone update from <a href="http://www.apple.com/support/downloads/airportextremeupdate2007002.html" rel="nofollow">Apple downloads</a>. That fixes things sometimes.

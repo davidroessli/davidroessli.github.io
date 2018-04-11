@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2467
+post_id: 697
+author: david russell
+email: foom4ever@aol.com
+date: '2017-02-06 23:04:54 +0100'
+visible: true
+ip: 69.170.227.186
+---
+Can someone help me unlock my Sony bdps1700, I was told/read it was non regional but alas the first UK disc I put in said those dreaded words, any help would be appreciated friends-thanks

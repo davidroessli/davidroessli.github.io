@@ -1,0 +1,41 @@
+---
+layout: comment
+comment_id: 358
+post_id: 460
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 212.147.41.44
+---
+Seems like the VersionTracker development team has been surged with comments, if I understand this generic email that I received yesterday:
+
+
+
+We appreciate you taking the time to email us.  We apologize for the generic email, but with the number of emails we received we wanted to get back to you as soon as possible.
+
+
+
+As you know we are in the process of upgrading our database and user review system.â€ Despite the database, site and browser compatibility testing we unfortunately ran into issues that could only have been uncovered after launching.â€ As of 24 hours from launch, the site is stable again.â€ 
+
+
+
+However, there are a lot of steps remaining to get all the features of VersionTracker working correctly including:
+
+
+
+- Browser rendering bugs.â€ These are being addressed.â€ 
+
+
+
+- All past reviews, download counts and product ratings are saved.â€  The "old" reviews and ratings are in the process of being re-imported and will be back on the site shortly.
+
+
+
+For the latest list of known issues and to provide additional feedback please go to:
+
+<a href="http://www.versiontracker.com/dyn/moreinfo/macosx/19346&mode=DeveloperNotes" rel="nofollow">http://www.versiontracker.com/dyn/moreinfo/macosx/19346&mode=DeveloperNotes</a>
+
+
+
+Our goal is to improve VersionTracker in order to address concerns about the review system that many readers had--- without changing the VersionTracker you rely on just for the sake of "change".â€ 

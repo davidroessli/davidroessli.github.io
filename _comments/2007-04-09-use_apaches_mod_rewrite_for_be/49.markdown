@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 49
+post_id: 194
+author: gid
+email: j.d.gidcumb@gmail.com
+date: '2007-06-08 06:12:39 +0200'
+visible: true
+ip: 68.59.211.4
+url: http://thegidcumbs.com/dblog/
+---
+This is close to what I have been looking for.  The problem is that the keywords in your urls are separated by underscores, which almost defeat the purpose of rewriting the urls.  I think most people rewrite their urls for search engines and the little extra boost they give.  

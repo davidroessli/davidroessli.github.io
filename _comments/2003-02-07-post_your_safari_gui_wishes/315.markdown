@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 315
+post_id: 390
+author: Marquette
+email: marquette@mn.rr.com
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 24.26.181.64
+---
+Hello Dave;
+
+
+
+  Please! More options when control-clicking (or right mouse button clicking). I'd like to see a "Back" (to previous page) and a "Close Window" option here too. Even a Spring-Back option would be good here as well as in the address bar.
+
+
+
+  Also a full screen mode without the standard Mac Menu bar, and a "Move" hand in addition to the scroll bars. A method of chaning the location of items in the Safari Menu Bar would help too.
+
+
+
+Thanks for the chance to speak up!

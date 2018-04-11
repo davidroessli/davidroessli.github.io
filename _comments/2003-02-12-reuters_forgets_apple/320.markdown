@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 320
+post_id: 395
+author: Diamond
+email: diamond@nospam.com
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 66.108.134.124
+url: http://www.diamondtalk.com
+---
+It's all politics. Bill temporarily needed Apple while they were under attack. Now he feels a bit better.

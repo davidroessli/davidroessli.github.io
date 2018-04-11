@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 33
+post_id: 191
+author: Mark Rowe
+email: bdash@webkit.org
+date: '2007-03-15 14:02:57 +0100'
+visible: true
+ip: 202.74.179.194
+url: http://webkit.org/
+---
+David, that's curious!  I guess I misremembered the cause for this issue.  The fact that <strong>@charset</strong> isn't working in Safari 2.0 is not surprising -- <a href='http://bugs.webkit.org/show_bug.cgi?id=10155' rel="nofollow">support for it</a> was only added to WebKit in September last year.  The issue I mentioned, which doesn't seem to be the case in the examples you've provided, was about the <a href='http://bugs.webkit.org/show_bug.cgi?id=11011' rel="nofollow">character set on the main document being ignored</a> when determining the encoding of the stylesheet.  If you're <em>really</em> curious and interested in finding a workaround, it should be possible to work out roughly where in the archive of nightly builds the bug went away.  This would make it easier to work out what the fix for the problem was and can make it simple to work backwards from there to find a workaround.
+
+David, thanks for testing the nightly builds!  If you run into any other issues which are not yet fixed, please don't hesitate to <a href='http://webkit.org/quality/reporting.html' rel="nofollow">file bug reports</a> so that they can be investigated as soon as possible.

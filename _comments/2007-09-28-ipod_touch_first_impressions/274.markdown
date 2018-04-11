@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 274
+post_id: 206
+author: test na inteligencje
+email: bokiqonline@gmail.com
+date: '2010-09-27 09:05:20 +0200'
+visible: true
+ip: 81.210.61.10
+url: http://iq-online.pl
+---
+Ipod touch is a great device. I love the display too. Resolution is great. But the problems with languages aren't funny...

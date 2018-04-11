@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 89
+post_id: 212
+author: fabio
+email: fabio@favre-guth.ch
+date: '2008-01-17 10:22:31 +0100'
+visible: true
+ip: 62.167.2.6
+---
+C'est la rÃ©compense d'arriver tÃ´t au bureau.
+Depuis mon perchoir lÃ  haut, on a une vue magnifique sur les levÃ©s de soleil.

@@ -1,0 +1,72 @@
+---
+layout: post
+title: My backup paranoia
+date: '2007-01-25 22:11:50 +0100'
+mt_id: 158
+blog_id: 11
+post_id: 158
+basename: my_backup_paranoia
+categories:
+- thoughts
+---
+<div class="right pix"><a href="http://www.flickr.com/photos/davo39/301716772/" title="Nicolas Noverraz's last exhibition &quot;voie sans issue&quot;"><img src="https://farm1.static.flickr.com/110/301716772_0da27d8bb6_m.jpg" width="180" height="240" alt="19-11-06_1706.jpg" /></a></div>
+
+<p>There's been a fair bit of talk on backup strategies, hardware and software around me lately, so I thought I'd add my two cents worth. I guess I'm a sort of paranoid backup freak. So don't take too literally what follows, it might not be relevant to your situation.</p>
+
+<h3>Why backup?</h3>
+<p>Hard drives fails more and more often. I feel my level of confidence lower as time goes by. Ten years ago, drives failed and broke down too, but not the same way, and not as often. A drive gave signs of failure before breaking down. Now they just break. No warning. Most modern drives are <a class="sidelist" href="http://www.linuxjournal.com/article/6983" title="Monitoring HD with SMART"><acronym>SMART</acronym> enabled</a>, but I've never personally benefited from this technology in preventing a hard drive failure - have you?</p>
+
+<blockquote>
+<p>What is your data worth?</p>
+</blockquote>
+
+<p>At the end of the day, it all boils down to the question "what is your data worth?". Data loss can be very costly, particularly for organizations in the small and medium business market where the difference between survival and closure can rest on the ability to recover from a disaster. What kind of backup solution should you look for?</p>
+
+<ul>
+<li>A solution that reliably use the best technology for the application. You cannot cannot afford backup failure.</li>
+<li>A simple to use and maintain solution, with ongoing low cost of ownership and low levels of complexity.</li>
+<li>A solution that provides enough capacity and enough performance.</li>
+<li>A solution that offers a choice of suppliers and ease of data interchange.</li>
+</ul>
+
+<p>My current computers are a PowerMac G4 (hopefully I should upgrade to a Mac Pro this year), a MacBook Pro and a PowerMac G5 running Mac OS X Server. Until recently, my backup strategy was built around the server. Throughout the years, I've used and abused several backup applications such as <a href="http://www.emcinsignia.com/">Retrospect</a> (Server, Express or Workgroup editions), Apple Backup, <a href="http://www.bombich.com/software/ccc.html">CarbonCopycloner</a>, <a class="sidelist" href="http://www.shirt-pocket.com/SuperDuper/" title="SuperDuper!">SuperDuper!</a>, <a href="http://www.propagandaprod.com/">Déjí -Vu</a> or <a href="http://www.softobe.com/products/flsy/pp.html">FolderSynchronizer</a>. I've backup to tape, CDs, DVDs, hard drives (2.5" and 3.5") and the internet (<a href="http://www.mac.com/" title="Apple .Mac">.Mac</a>, <a href="http://aws.amazon.com/s3" title="Amazon S3">S3</a>). With unequal success and uneven peace of mind.</p>
+
+<h3>My backup solution</h3>
+<p>I've reached a solution that addresses most of the concerns above and runs smoothly. I've attached a <a class="sidelist" href="http://sonnettech.com/product/fusion.html" title="Sonnet Fusion 400">Sonnet Fusion 400</a> enclosure with 4 <a class="sidelist" href="http://tinyurl.com/22erhz" title="Maxtor MaxLine III"> Maxtor MaxLine III</a> 300Gb drives the server. The Fusion connects through <a class="sidelist" href="http://en.wikipedia.org/wiki/Esata" title="eSATA definition"><acronym title="External Serial ATA">eSATA</acronym></a> II (3Gb/s theoretical transfer rate) to a <a class="sidelist" href="http://sonnettech.com/product/tempo_sata_e4p.html" title="Sonnet Tempo eSATA e4P">serial <acronym>ATA</acronym> host adapter</a> in the PowerMac G5. I've mirrored two drives (<a class="sidelist" href="http://en.wikipedia.org/wiki/RAID" title="RAID definition"><acronym>RAID</acronym></a> level 1) and use it as my main server volume on which I store my current and archived projects, user home directories and assets. I'm using <a class="sidelist" href="http://softraid.com/" title="SoftRaid">SoftRAID</a> software to manage the <acronym>raid</acronym> array. The drives are hot swappable and can be upgraded to larger capacities when required. The third drive serves as a backup drive which is updated twice a day via <a class="sidelist" href="http://en.wikipedia.org/wiki/Rsync" title="rsync definition">rsync</a> (from the desktop and server). The last drive is a backup mirror updated once a day. This is the one I remove and store off site when I go on leave. It is handy to be able to pull a drive out of the bay and walk away with it.</p>
+
+<p>A few tips on using rsync on the Mac:</p>
+<ul>
+<li><a href="http://www.macdevcenter.com/pub/a/mac/2005/07/22/backup.html" title="Mac Dev Center">Automated Backups on Tiger Using rsync</a></li>
+<li><a href="http://www.bombich.com/mactips/rsync.html" title="Bombich Software">Remote Administration/Backup of Mac OS X Using rsync</a>
+<li><a href="http://www.users.on.net/~aidanandjen/BlurredVisions/files/edc01be85bcd4f5ae1789fd9c290a20e-2.html" title="Blurred Visions">Automate backups to external HDDs when mounted</a></li>
+<li><a href="http://ask.slashdot.org/article.pl?sid=06/12/16/0656212" title="Ask Slashdot">Backup Solutions for Mac OS X?</a></li>
+</ul>
+
+<p>I find SoftRAID more flexible and reliable than Apple's <acronym>RAID</acronym> solution (I've tried it too). I've been with it since version 2, and it's never let me down. Moreover, SoftRAID is a native Mac OS X disk driver, so a drive can be mounted on a Mac without SoftRAID installed. The latest version (3.6) is a universal binary, runs and boots Intel Macs and is forward compatible with Mac OS 10.5 (Leopard).</p>
+
+<h3>Mirror, not incremental</h3>
+<p>I don't use incremental backup, I prefer mirror backup. Files removed from the server or my desktop Mac will be removed from the backup set. I've never found incremental backup that useful. It eats up too much disk space in the end. Moreover, its basic principle is not that useful to me as I use <a class="sidelist" href="http://subversion.tigris.org/" title="Subversion">Subversion</a> as my revision control system. I can revert to a previous state if needed (when <acronym>svn</acronym> is properly used that is - but more on that in another post).</p>
+
+<p>I changed my backup and archive philosophy when I acquired my <a class="sidelist" href="http://www.apple.com/macbookpro/" title="Apple MacBook Pro">MacBook Pro</a> last November. I was experiencing disk space issues on my PowerBook G4 with my digital music, photos and movies. I needed not only a backup solution, but an archive solution too. Files had to removed from the notepad. I could have used the office's server for that matter, but I preferred a home based solution for the MBP. So I went out and bought a <a class="sidelist" href="http://www.lacie.com/products/product.htm?pid=10848" title="LaCie Two Big">LaCie's Two Big</a> eSATA/USB external drive (1Tb). It connects to my <abbr title="MacBook Pro">MBP</abbr> via <a class="sidelist" href="http://sonnettech.com/product/tempo_sata_express34.html " title="Tempo eSATA Express 34">Sonnet's Tempo Express 34 PCI card</a>. The drive is configured in <acronym>RAID</acronym> level 1 (mirror), so if one drive fails, I still have the other (the drives are hot swappable too). I feel more comfortable archiving now. The unit connects via USB 2 if needed, so I'm not locked with an eSATA interface. This is the only backup that isn't run automatically and requires external hardware to be plugged in. This isn't an issue in my case, as my <abbr>MBP</abbr> sleeps in the same cupboard as the rest of the hardware.</p>
+
+<p>I use SuperDuper! to backup my <abbr>MBP</abbr>. A great application to create bootable mirror copies of your hard drive. No fuss, just does its job. The user interface is crystal clear, it always tells you what the next step is, and what is going to happen. Highly recommended. Read <a href="http://www.shirt-pocket.com/blog/index.php/shadedgrey/comments/43_folders_gets_things_done_with_superduper/" title="43 Folders Gets Things Done with SuperDuper!">Merlin Mann's review on 43 Folders</a>.</p>
+
+<h3>More</h3>
+<p>Projects get archived on CD/DVD once they come to an end, and are stored in the office, while a copy remains on the server. I suppose I can afford managing things this way because my core material is xhtml and css which don't take up much disk space. I do manage images of course, but not at a print resolution. Screen resolution only, which makes all the difference.</p>
+
+<p>Additionally, all most of my digital life media is archived on CD (music) and/or DVD (photos and movies) for extra safe keeping (I warned you there was something paranoid about my outlook on backups).</p>
+
+<p>Currently, I'm experiencing with Amazon's S3 storage solution, but I'm confronted with crawling slow uploads which drive me mad. It's an interesting way to go, but not interactively, or with a <a href="http://en.wikipedia.org/wiki/Dsl" title="DSL definition"><abbr title="Digital subscriber line">DLS</abbr></a> connection (not ADSL).</p>
+
+<p>So basically, strive to reach hardware redundancy, software simplicity and reliability, and you'll experience a backup bliss of peace of mind.</p>
+
+<h3>On Flickr</h3>
+<div style="margin:0 0 1.2em 0">
+<a href="http://www.flickr.com/photos/davo39/176909109/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/55/176909109_b95b12642c_s.jpg" width="75" height="75" alt="26-06-06_0955.jpg" /></a>
+
+<a href="http://www.flickr.com/photos/davo39/176909095/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/44/176909095_7fe0ba9023_s.jpg" width="75" height="75" alt="26-06-06_0954.jpg" /></a>
+
+<a href="http://www.flickr.com/photos/davo39/357262974/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/149/357262974_8c1815c8d1_s.jpg" width="75" height="75" alt="14-12-06_2055.jpg" /></a>
+
+<a href="http://www.flickr.com/photos/davo39/357262645/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/146/357262645_087afab72c_s.jpg" width="75" height="75" alt="14-12-06_2054.jpg" /></a>
+</div>

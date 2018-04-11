@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 2257
+post_id: 750
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2013-06-18 09:59:35 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+@Joona Thanks :)
+
+Try uncommenting the two last lines in your code:
+<code>
+/* 
+:::::::::::::::::::::::::::::::::::::::::::::
+::: Substitute specific strings
+*/
+Y.all('.ss-social-button').setHTML('Partagez');
+Y.all('.inline-read-more').setHTML('Lue lisÃ¤Ã¤');
+Y.all('.newer-posts').setHTML('Seuraava');
+Y.all('.older-posts').setHTML('Edellinen');
+</code>

@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 189
+post_id: 268
+author: lavinia schuler faccini
+email: schuler.faccini@me.com
+date: '2009-03-08 17:44:02 +0100'
+visible: true
+ip: 201.40.157.111
+---
+And here you find the translation to English
+
+http://mrzine.monthlyreview.org/benedetti080207p.html
+
+And here you can listen the song composed by JM Serrat with Benedetti's lyric (El sur tambien existe)
+
+http://www.jmserrat.com/serrat/letras/elsur.html
+

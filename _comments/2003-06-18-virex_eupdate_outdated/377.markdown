@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 377
+post_id: 469
+author: Jeff M
+email: jeffmagness@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 213.157.195.137
+---
+Still having a problem, too. Still cannot update...

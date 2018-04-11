@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2304
+post_id: 697
+author: siavash
+email: siavash_arkani@yahoo.com
+date: '2014-08-13 20:50:00 +0200'
+visible: true
+ip: 2.191.188.128
+---
+Hi...
+is the universal remote compulsory? or can we do it with the normal sony player?
+
+thanks in advance

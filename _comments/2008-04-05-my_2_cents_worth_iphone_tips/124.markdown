@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 124
+post_id: 244
+author: Adam
+email: asass@yahoo.com
+date: '2008-04-07 14:26:22 +0200'
+visible: true
+ip: 62.167.235.106
+---
+David,
+
+Thanks for gathering all this info in one place (and for writing it in English..).
+
+I noticed that the link to MobileSync Browser is broken. I think there is some extra characters at the end that shouldn't be there.
+
+Thought I'd let you know.

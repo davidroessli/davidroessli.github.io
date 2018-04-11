@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 60
+post_id: 206
+author: Enrique
+email: e@enriquepardo.com
+date: '2007-10-12 19:14:25 +0200'
+visible: true
+ip: 62.167.236.41
+url: http://enriquepardo.com
+---
+Concerning the Wi-Fi Music Store language issues, I received a reply from Apple Support saying that this has been bumped up to the developers. Hopefully it will be fixed. But let's consider ourselves lucky, the menus could have been in Swedish. No one knows where Switzerland is anyway. ;)

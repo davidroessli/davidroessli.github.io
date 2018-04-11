@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 26
+post_id: 184
+author: Ryan Carson
+email: ryan@carsonsystems.com
+date: '2007-02-25 08:55:16 +0100'
+visible: true
+ip: 87.113.8.216
+url: http://www.carsonified.com
+---
+Hi David,
+
+Thanks for coming all the way over to London for the event. I'm sorry (again) about the wifi. Because they didn't turn on the ADSL on the lines, there was nothing we could do to fix the problem in time (trust me, heads are going to roll on this one!).
+
+We'll do a better job on the points you mentioned, so thanks for bringing them up.
+
+Hope to see you next year!
+
+Kind regards,
+Ryan

@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 528
+post_id: 149
+author: Lars
+email: not.at@all.no
+date: '2011-05-13 10:24:26 +0200'
+visible: true
+ip: 62.97.205.110
+---
+Argh! I NEED that empty set symbol, and I use the Ã˜ for other purposes (like writing words in Norwegian). 
+
+Where did it go?

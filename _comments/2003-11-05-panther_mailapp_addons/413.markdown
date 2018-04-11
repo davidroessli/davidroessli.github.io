@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 413
+post_id: 519
+author: RobotHat
+email: monkey@bat.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 203.217.42.20
+---
+Wow, someone still uses the ad-ridden VersionTracker?
+
+
+
+MacUpdate has, in the last year or so, totally surpassed VT in website quality.

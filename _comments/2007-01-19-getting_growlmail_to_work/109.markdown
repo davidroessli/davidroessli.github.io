@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 109
+post_id: 156
+author: Simon
+email: simonfunder@gmail.com
+date: '2008-03-10 22:58:12 +0100'
+visible: true
+ip: 80.251.195.2
+---
+A nice way to change your plist files is with <a href="http://www.apple.com/downloads/macosx/system_disk_utilities/prefsetter.html" rel="nofollow">Pref Setter</a>.
+Then you can see what your actually changing and easily re-change it you want.
+
+However, I did this
+
+defaults write com.apple.mail EnableBundles 1
+defaults write com.apple.mail BundleCompatibilityVersion 2
+
+and my Growlmail still dosn't work. Its not in the System Prefs > Growl > Application, but it does show up in the mail application. No notification, though. Any other ideas? Thanks!

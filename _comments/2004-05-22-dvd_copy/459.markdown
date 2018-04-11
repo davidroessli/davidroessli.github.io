@@ -1,0 +1,25 @@
+---
+layout: comment
+comment_id: 459
+post_id: 570
+author: Ferruccio Camagni
+email: kamaferro@mac.com
+date: '2011-03-20 14:11:22 +0100'
+visible: true
+ip: 213.140.22.65
+---
+I am an eMac Superdrive user, using FAst DVD copy for first time. My home DVD player cannot read DVD-R discs but when I try to see movies copied by a friend of mine with a PC, then even if are copied on a DVD-R disc, my home player can read the. 
+
+Also my player can read many of the copies DVD movies we bought when living in Asia. No problems. 
+
+All this is quite strange, because when I copy with Fast DVD copy, using same type of disc my home player cannot read it. 
+
+How this can be ? 
+
+Is there anything to set in FAst DVD copy application ? 
+
+I read in their website that this application can only use DVD-R. IS that the reason and why other DVD-R can be read ? 
+
+Hope somebody can solve this problem, because I don't want to buy a new video system just for this. 
+
+Thanks

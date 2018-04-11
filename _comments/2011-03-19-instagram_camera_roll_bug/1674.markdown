@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 1674
+post_id: 339
+author: mo hurley
+email: mo.mohammedhurley@googlemail.com
+date: '2011-10-30 16:28:44 +0100'
+visible: true
+ip: 82.110.109.214
+---
+Help please.  On my iphone 4, when i tap on my camera roll i get booted out to my home screen so am unable to view my photos.  Any info would be appreciated please.

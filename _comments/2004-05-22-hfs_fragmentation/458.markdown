@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 458
+post_id: 569
+author: Michael Croft
+email: michael@whiterose.org
+date: '2011-03-20 14:11:22 +0100'
+visible: true
+ip: 216.254.119.249
+url: http://www.whiterose.org/michael/blog
+---
+While I am a huge fan of AlSoft's Disk Warrior (disclaimer: I knew Al and a bunch of his employees) and go to it first to fix things because it's better and non-destructive (until I tell it to be), I never could bring myself to run PlusOptimizer (AlSoft's defrag tool) in the real-time continuous optimizer mode he recommended.  
+
+But I'm pretty sure the PlusOptimizer was safe in the listed conditions and was designed to be fail-safe (i.e. if it failed due to a bug, it was supposed to be able to recover, just like his drive fixing utilities.)
+
+The down side of optimizing was always if you had a corrupt B-tree and two files "owned" the same block and one moved it.  I always ran DiskWarrior/Norton/Disk First Aid first, and didn't optimize unless I was clean.
+
+But yeah, I appeciate OS X and not needing to defrag for performance reasons.

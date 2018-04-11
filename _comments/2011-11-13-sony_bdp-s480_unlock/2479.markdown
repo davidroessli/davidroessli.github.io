@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 2479
+post_id: 697
+author: Dominic
+email: DR@dominicarnold.com
+date: '2017-12-09 14:44:06 +0100'
+visible: false
+ip: 81.146.50.113
+---
+Hey all,
+Region hack worked beautifully on my BDP S350 UK version.   Many thanks.
+
+But...
+
+The 24P light flashes all the time, even when thereâ€™s no disc in the player.
+
+Any ideas how to switch it off?
+
+Many thanks for any replies in advance.
+
+D

@@ -1,0 +1,45 @@
+---
+layout: comment
+comment_id: 2364
+post_id: 750
+author: Cedric
+email: cedric.lor@gmail.com
+date: '2015-04-06 11:42:59 +0200'
+visible: true
+ip: 93.22.10.48
+---
+Hi, 
+
+Thank you for this very instructive post.
+
+Please see below another way to localize dates (to French) for a summary calendar item. I inject this code in the local page injection section.
+
+YUI().use("node", "datatype-date", "attribute", function(Y) {
+// Setting the correct localization to French
+          Y.use("lang/datatype-date-format_fr-FR",
+                function(Y) {
+                Y.Intl.setLang("datatype-date-format", "fr-FR");
+                }
+                );
+          
+          Y.on('domready', function () {
+               Y.all(".summary-metadata-item--date").each(function(i) {
+// Select all the summary date items and initiate an each loop
+// Adapt the selectors to your needs
+                                                          var myContainer = this,
+                                                          retrievedDate = this.getHTML(),
+// Retrieves the date displayed by default in US format
+                                                          parsedDate = Y.Date.parse(retrievedDate);
+// Parse the retrieved date
+                                                          Y.use("lang/datatype-date-format_fr-FR", function(Y) {
+                                                                Y.Intl.setLang("datatype-date-format", "fr-FR");
+// Switch the language ressource bundle to French
+                                                                var formattedDate = Y.Date.format(parsedDate, {format:"%d %b %G"});
+// Format the date with French standard
+                                                                myContainer.setHTML(formattedDate);
+// Output the formatted date
+                                                                });
+                                                          });
+               });
+          });
+

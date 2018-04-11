@@ -1,0 +1,16 @@
+---
+layout: post
+title: Change the Swiss currency symbol to CHF in Mac OS X
+date: '2011-06-04 08:50:56 +0200'
+mt_id: 689
+blog_id: 11
+post_id: 689
+basename: change_the_swiss_currency_symb
+categories:
+- daily
+---
+<p>Mac OS X stubbornly displays the incorrect currency symbol for the Swiss franc: Fr. (or sFr. or SFr. depending on your OS version) instead of CHF which is the correct <a class="sidelist" title="ISO currency codes" href="http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/currency_codes/currency_codes_list-1.htm">ISO symbol</a>.</p>
+<p>This is a problem when invoicing applications rely on system settings to format your numbers. There is an easy fix: edit to your global preferences file to set it right. Unfortunately, it seems to reset periodically (through system updates maybe?).</p>
+<p>So for memory, here is the command line to type in Terminal:</p>
+<p><code>defaults write .GlobalPreferences AppleICUNumberSymbols -dict 0 '.' 1 '’' 10 '.' 17 '’' 8 'CHF '</code></p>
+<p>Hopefully, this should be fixed in the upcoming Mac OS 10.7 (Lion).</p>

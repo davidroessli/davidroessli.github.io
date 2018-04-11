@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 296
+post_id: 366
+author: Bwana
+email: bwanamccall@mac.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 24.51.197.199
+url: http://bwana.org
+---
+Very nice article.  I use Kung Log as well and you've represented it well.

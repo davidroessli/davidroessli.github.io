@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 19
+post_id: 158
+author: Mark Almerry
+email: malmerry@yahoo.com
+date: '2007-01-27 00:29:52 +0100'
+visible: true
+ip: 62.167.235.105
+---
+How noisy is the Fusion 400? Anything you could live with in your lounge?

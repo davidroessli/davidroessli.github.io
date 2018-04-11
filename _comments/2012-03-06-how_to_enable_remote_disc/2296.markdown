@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2296
+post_id: 713
+author: Dries Oeyen
+email: dries@nexworx.com
+date: '2014-05-18 14:06:54 +0200'
+visible: true
+ip: 84.197.195.84
+url: http://nexworx.com
+---
+Thank you so very much for posting this, David! I'm currently installing the disc version of iLife on my MacBook Pro with the SuperDrive swapped out for an SSD. Suffice it to say that you saved me some serious time and pain today, thanks!

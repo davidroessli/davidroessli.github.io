@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 381
+post_id: 469
+author: Ray Anastas
+email: rayanastas@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 24.215.148.102
+---
+Still no luck using instructions as described on panther.

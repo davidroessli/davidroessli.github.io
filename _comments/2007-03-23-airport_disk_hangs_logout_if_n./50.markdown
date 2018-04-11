@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 50
+post_id: 193
+author: Anand Sankaran
+email: lists@anands.net
+date: '2007-07-11 07:10:41 +0200'
+visible: true
+ip: 69.226.208.45
+url: http://textblog.anands.net
+---
+Hi
+
+I have a related problem.  Not only does my logout hang, but my logins hang as well.
+
+The only way I can login is to turn off the airport extreme.  Or I should turn off my airport before I logout each time - both of which SUCK.
+
+I have tried your suggestion and that did not fix the problem.
+
+Any other tips?

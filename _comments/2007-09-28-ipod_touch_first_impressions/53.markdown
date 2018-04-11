@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 53
+post_id: 206
+author: jen
+email: trafex@freenintendowii.com
+date: '2007-09-30 09:02:45 +0200'
+visible: true
+ip: 154.20.38.106
+url: http://www.free-ipod-touch.com
+---
+I'm in Canada, and my iPod touch just shipped yesterday.  It sounds like an awesome tool.  The language problem with the WiFi store sounds VERY annoying - have you found a solution yet?  They just released a new firmware (1.1.1) - that might solve the problem.

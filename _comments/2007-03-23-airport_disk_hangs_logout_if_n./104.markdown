@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 104
+post_id: 193
+author: Kelly Breed
+email: kelly@kellybreed.com
+date: '2008-03-01 20:21:09 +0100'
+visible: true
+ip: 71.109.177.249
+---
+I've been having this exact problem, but it's not Leopard.  It started with the 10.4.0 update to Tiger and it's annoying.  I've been scanning all the log files and can't seem to find any real hints.  I get 
+<pre>Mar  1 10:55:38 Macintosh login[2558]: DEAD_PROCESS: 2558 ttys000
+Mar  1 10:59:24 Macintosh loginwindow[2511]: DEAD_PROCESS: 0 console</pre>
+The time difference between those two stamps is how long it hangs on the blue screen before going to the login screen.
+Login is very snappy, but logout takes forever (3.5 minutes sometimes)  As with Anand's comment if I turn off Airport before logging out it is a few seconds before getting the login screen.

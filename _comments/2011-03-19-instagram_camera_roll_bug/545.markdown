@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 545
+post_id: 339
+author: Quikraptor
+email: shankscory@gmail.com
+date: '2011-08-07 21:23:50 +0200'
+visible: true
+ip: 24.79.172.51
+---
+@Denise
+
+*Confirmed*. Thanks a bunch. I just did that and you're right, it does work. Was wondering if this was going to be permanent, but... Yay.
+
+For those new to iPods, home button is the square on the front, and the power button is on the top right of the iPod.

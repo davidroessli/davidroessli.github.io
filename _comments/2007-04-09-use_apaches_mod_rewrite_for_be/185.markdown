@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 185
+post_id: 194
+author: Enrique
+email: e@enriquepardo.com
+date: '2009-02-02 14:26:30 +0100'
+visible: true
+ip: 217.8.202.151
+---
+Thanks for the tutorial David, it helped me a lot.
+However, how do you deal with the mt-static folder. Now that it is symlinked in the cgi-bin folder, It seems like I can't point to it from my new domain (I'm using MT's StyleCatcher which creates a <code>@import</code> in my CSS to a style inside mt-static.).
+
+Using your technique, should one have a separate mt-static folder per domain/blog? Or could one simply create a symlink of the mt-static folder somewhere out of the cgi-bin folder? Not sure if I'm very clear...
+
+Thanks again! // e

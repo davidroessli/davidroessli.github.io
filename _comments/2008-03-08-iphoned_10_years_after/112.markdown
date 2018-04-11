@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 112
+post_id: 237
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-03-21 16:17:23 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+You bet ;)
+
+I would have loved a <a href="http://en.wikipedia.org/wiki/Motorola_StarTAC" title="Motorola StarTAC on Wikipedia" rel="nofollow">StarTAC</a>â€¦ I keep an eye open on eBay - but they are rare and few apartâ€¦
+:/

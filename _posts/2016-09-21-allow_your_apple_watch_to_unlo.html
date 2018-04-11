@@ -1,0 +1,23 @@
+---
+layout: post
+title: "«Allow your Apple Watch to unlock your Mac» not showing up after turning Two
+  Step Verification off"
+date: '2016-09-21 10:00:47 +0200'
+mt_id: 911
+blog_id: 11
+post_id: 911
+basename: allow_your_apple_watch_to_unlo
+categories:
+- daily
+---
+<div class="pix full nosh"><img src="https://davidroessli.com/logs/assets/img/Security & Privacy.png" alt="Security and Privacy Preference Setting" /></div>
+<p>Among all the new features of <a href="http://www.apple.com/macos/sierra/" title="macOS Sierra 10.12" class="sidelist">macOS Sierra</a> that launched <time datetime="2016-09-20 19:00:00+02:00">last night</time>, it's "Allow your Apple Watch to unlock your Mac" I wanted to try first.</p>
+<p>At first, it seemed really easy: just check the box labeled "Allow your Apple Watch to unlock your Mac" in System Preferences → Security and Privacy → General on your Mac. It turns out there are a few more loops to jump through if you have "Two Step <strong>Verification</strong>" turned on on your <a href="https://appleid.apple.com" title="Manage your Apple ID" class="sidelist">Apple ID</a>. Checking the box failed with a message saying that this feature couldn't be enabled while "Two Step Verification" (<abbr title="Two Step Verification">2SV</abbr>) was on.</p>
+<p class="update">I never realised Apple had two different processes with similar usability and slightly different names to strengthen security.</p>
+<p>So I headed off to turn "Two Step Verification" off for my Apple ID. Turning this feature off prompts you to choose a new set of security questions (eventhough you might have done that previously before enabling Two Step Verification). Once that completed, it fires off emails to all your verified accounts warning that the security has changed.</p>
+<p>When I returned to System Preferences → Security and Privacy → General on your Mac to enable the new feature, I discovered that <strong>the checkbox was gone...</strong> as if my devices didn't recognise each other anymore.</p>
+<p>That is when I discovered that there was a "Two Factor Authtenication" (<abbr title="Two Factor Authtenication">2FA</abbr>)process available, which I enabled on my Mac through the security section of my Apple ID account. But the checkbox still didn't appear.</p>
+<p class="update">Rebooting all devices (Mac, iPhone, Watch) didn't help either.</p>
+<p>It turned out you need to go in your iCloud settings to revalidate your Apple ID on all your devices. This means entering your Apple ID password in the iCloud setting (and in the Watch app on the iPhone), confirm it with a <abbr>2FA</abbr> code, and revalidate it with your device password. Once all this completed, the checkbox reappeared in my Security settings on my Mac and I could unlock my Mac just by sitting in front of it.</p>
+<p>I'm still a little perplexed by the complexity of the task at hand. Was I an edge case having <abbr>2SV</abbr> enabled? Was <abbr>2SV</abbr> launched before <abbr>2FA</abbr>? I guess the latter superseeds the former <time datetime="2016-09-21">today</time>, but it feels very unApple to offer two distinct processes so similar.</p>
+<p class="update">More information on <a href="http://blog.elcomsoft.com/2016/04/apple-two-factor-authentication-vs-two-step-verification/" title="Apple Two-Factor Authentication vs. Two-Step Verification" class="sidelist">Apple Two-Factor Authentication vs. Two-Step Verification</a></p>

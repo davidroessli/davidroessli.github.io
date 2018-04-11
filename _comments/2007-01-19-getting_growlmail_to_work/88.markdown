@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 88
+post_id: 156
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-01-11 16:22:08 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+Try this recompiled version of GrowlMail: http://www.mediafire.com/?29l7bt4xe7c
+
+You'll need to set to true the EnableBundles property of your Mail preferences (~/Library/Preferences/com.apple.mail.plist)
+
+Please note that <strong>this is not an official version</strong>, and hence not supported, so don't bother the developers. Nevertheless, it seems to do the job. You can't select/deselect the accounts to monitor in the Preference pane. All accounts are active be default.
+
+Treat this as an interim solution until the official version becomes available (it is being completely rewritten to account for changes in Leopard). I'm currently running it with Growl 1.1.2 on Mac OS 10.5.2.

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2305
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-08-14 06:41:01 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+@slavash unfortunately you need a universal remoteâ€¦

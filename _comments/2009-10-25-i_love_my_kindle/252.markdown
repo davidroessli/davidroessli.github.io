@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 252
+post_id: 309
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-11-08 00:21:28 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Mary: the only way to activate your Kindle (International version) if you are out of the US is to use Audible's File Manager software.
+
+The caveat is that it runs only on Windows, so if you are using a Mac, you'll need to run it under Parallels or VMWare.
+
+The problem is that web browsing is deactivated (restricted) out of the US, so that the Kindle can't reach Audible's servers for activation.
+
+More info on the Kindle's forum <a href="http://ro.ess.li/kindle/audible/">http://ro.ess.li/kindle/audible/</a>

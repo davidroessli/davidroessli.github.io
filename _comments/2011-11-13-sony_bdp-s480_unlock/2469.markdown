@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2469
+post_id: 697
+author: jean
+email: aescalle@noos.fr
+date: '2017-05-23 15:25:20 +0200'
+visible: true
+ip: 77.150.58.254
+---
+Anyone whith the process for unlocking the BDP S1500 ?
+My model code for the remote is 1516.
+
+I tried several times the 0533 procedure but nothing came with it.
+
+My model is region 2 for France

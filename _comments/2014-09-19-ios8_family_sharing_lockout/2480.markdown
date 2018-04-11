@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2480
+post_id: 770
+author: Guy
+email: gsaville@gmail.com
+date: '2018-01-20 19:14:28 +0100'
+visible: true
+ip: 151.225.84.80
+---
+Speechless. Totally speechless. What is the reason for the 12 month lock-out? Apple can't explain it to me when I called them today. I'm now blocked for 12 months. Can't share anything. Will now cancel my Apple music family subscription and tempted to bin all Apple products. This is not acceptable at all and also seems pointless.
+
+Why are we blocked out for 12 months. Does anybody know the reason for this ?

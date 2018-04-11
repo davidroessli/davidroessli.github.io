@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2471
+post_id: 706
+author: jumbo
+email: jumbopack2017@gmail.com
+date: '2017-06-17 09:22:22 +0200'
+visible: false
+ip: 183.83.87.87
+url: http://www.colblog.com/effective-thank-you-notes/
+---
+Thank you for the valuable information it is helpful for me. Waiting for your next article

@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 37
+post_id: 190
+author: Kristian
+email: foobardude@yahoo.com
+date: '2007-04-02 07:17:50 +0200'
+visible: true
+ip: 24.29.141.147
+---
+Looks like apple is doing something about this.. They know it's broke, I ended up buying a new router (apple brand, of course) and everything was fixed (duh).  Basically, it was bait and switch.
+
+I posted my owes on the discussions only to have my ID discontinued without warning.  After buying a MacBook Pro and a Extreme router, with apple quicktime pro, my ID has been discontinued.
+
+man, that's evil!
+
+Hope they fix it.. and I'm sure they can try and give me my posting privileges back...
+
+Kristian

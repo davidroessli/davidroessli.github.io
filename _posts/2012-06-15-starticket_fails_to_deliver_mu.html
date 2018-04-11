@@ -1,0 +1,36 @@
+---
+layout: post
+title: StarTicket fails to deliver Muse concert tickets
+date: '2012-06-15 09:20:55 +0200'
+mt_id: 723
+blog_id: 11
+post_id: 723
+basename: starticket_fails_to_deliver_mu
+categories:
+- thoughts
+---
+<p>Some days when things just don't go your way. That's life. But when it's due to bad design. That sucks.</p>
+
+<p>Yesterday, the tickets for <a class="sidelist" href="http://muse.mu" title="Muse">Muse</a>'s <a href="http://www.starticket.ch/0ChooseCat.asp?ShowID=53827&ShowDetails=1">swiss concert</a> went on sale at 10:00am, and not surprisingly, the site went down an hour before that. <a href="http://www.starticket.ch/starticket.asp?n=0&s=0&lang=E">StarTicket</a> didn't display a banner before 10:20am or so stating that their site was “receiving a lot of visits, and that you should try to connect again in 2 minutes". Talk of an understatement.</p>
+
+<p>The prefix “under” suits the whole StartTicket experience. Don't tell me they were surprised and couldn't have anticipated the turn of events. Hey, it's over a decade now that these things happen. Come on…</p>
+
+<p>Anyway, yours truly finally managed to slip in the site around 10:45am only to discover that most  of the tickets were sold. Bummer.</p>
+
+<p>The gig takes place in <a href="http://en.wikipedia.org/wiki/St._Jakob-Park">St Jakobs football stadium</a> in Basel and the seats are numbered. Sections where seats were still available were highlighted, but no seats were actually available to put in your shopping basket.</p>
+
+<p>So, wonderering around, I noticed that seats were being randomly put back into the pool of available seats. Sweet. I smiled imagining all the other users clicking their way around the stadium in search of adjacent seats…</p>
+
+<p>Nevertheless, against all odds, I managed to find, select and secure 3 adjacent seats in block I. Yes, three seats were in my shopping basket. Victory! or so I thought…</p>
+
+<p>It turns out that you browse the web site on port 80, and purchase on port 443 (SSL). I suppose they use some sort of session variable to monitor and limit the number of current visitors, using a short timeout to free places.</p>
+
+<p>It turns out that port 80 and 443 don't use the same variable. Meaning that when you try to pay for your tickets, the form is submitted via SSL (port 443) which generates a "Sorry we're full, please try again in a few minutes" message. Swell.</p>
+
+<p>So here I am, with my tickets in my basket in one tab, and desperately trying to submit my personal information in an other. Needless to say I played this little game until my shopping basket expired, and that was that.</p>
+
+<h3>Frustration</h3>
+
+<p>This is really bad practice and bad design that leads to a bad user experience. But what the hell? Everything came back to normal around 13:00 when they displayed the "Sold out" label on the concert. They'd achieved their goal.</p>
+
+<p>But it leaves you thinking when you notice that minutes after boat load of those same tickets were on sale on different web sites - at 4 to 5 time their original price. Does anyone actually buy them trustfully? I certainly don't. You're probably better off just turning up early at the gig, and finding someone whith tickets to sell - and use your instinct.</p>

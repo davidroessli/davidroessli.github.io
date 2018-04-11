@@ -1,0 +1,26 @@
+---
+layout: comment
+comment_id: 362
+post_id: 464
+author: David Allouch
+email: david@perfectmalt.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 80.230.42.115
+url: http://jim.perfectmalt.com
+---
+Hey guys,
+
+
+
+I really would like to know what you think about 
+
+JIMZip... we worked hard on it and some feedbacks would be much apreciated...
+
+
+
+Cheers,
+
+
+
+The Dev Team.

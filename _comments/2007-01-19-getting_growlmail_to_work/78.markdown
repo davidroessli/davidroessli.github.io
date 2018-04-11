@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 78
+post_id: 156
+author: Julie
+email: juliedcarson@gmail.com
+date: '2007-10-27 18:26:45 +0200'
+visible: true
+ip: 71.111.79.93
+---
+Thanks! Worked like a charm. :D

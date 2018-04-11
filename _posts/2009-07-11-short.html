@@ -1,0 +1,24 @@
+---
+layout: post
+title: Short
+date: '2009-07-11 11:23:41 +0200'
+mt_id: 292
+blog_id: 11
+post_id: 292
+basename: short
+categories:
+- daily
+---
+<div class="pix full"><a href="http://www.flickr.com/photos/39601377@N00/3665051954" title="View 'Use' on Flickr.com"><img src="https://farm4.static.flickr.com/3370/3665051954_a01b6c970f.jpg" alt="Use"/></a></div>
+<p>I've been playing around with <a class="sidelist" href="http://get-shorty.com/" title="Shorty">Shorty</a> recently, Khoi Vinh's simple tool for creating <a class="sidelist" href="http://en.wikipedia.org/wiki/URL_shortening" title="URL shortening on wikipedia">shorter, human- readable links</a> from long URLs. Like <a href="http://tinyurl.com/">tinyurl</a> or <a href="http://tr.im/">tr.im</a> but hosted on your own server.</p>
+<p>The problem I was running into was my long 20 characters domain name (www.davidroessli.com) which was a waste of space in the current context, when I remembered that among all the domain names I own (far too many, believe me) was ess.li</p>
+<p>I initially reserved ess.li to use ro.ess.li as my weblog's domain name (inspired by the .us wave of domain names, remember del.icio.us?), but nobody was getting right. Most people were either pulling the dots out, or adding the .com at the end, or just not getting it at all. So, it just sat there, cnamed over davidroessli.com.</p>
+<p>This morning, between two marmalade toasts, the idea of using it as my URL shortener domain popped into my mind… Shortened URLs can be used in tweets or more easily memorised.</p>
+<p>So,</p>
+<p class="update">http://<strong>www.davidroessli.com/logs/2009/07</strong>/short/<br />becomes<br />http://<strong>ro.ess.li</strong>/short/</p>
+<p>saving 24 characters in the process. It could be shorter, but I chose to keep the basename for semantic purposes.</p>
+<p>A simple mod_rewrite rule redirects requests from ro.ess.li to Shorty, which in turn forwards the request to its final destination.</p>
+<p>Yes, I could have install Shorty under ro.ess.li, but I wanted to retain the possibility of using shortened URLs under www.davidroessli.com for the readability issues mentionned above.</p>
+<p>While I was at it, I added "Tweet this" links in the sidebar that use the new shortened URLs.</p>
+<p>Sweet, no?</p>
+<p class="update">Currently playing in iTunes: <a href="http://ro.ess.li/reginaspektor/laughing_with/"><em>Laughing With</em></a> by Regina Spektor (iTunes Store link).</p>

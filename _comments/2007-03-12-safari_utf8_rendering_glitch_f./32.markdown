@@ -1,0 +1,39 @@
+---
+layout: comment
+comment_id: 32
+post_id: 191
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-03-15 13:14:32 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com
+---
+Thanks Mark for your insight and comments. I don't know why I didn't think to use the <strong>charset</strong> property or rule before.
+
+In html file:
+
+<pre><code>&lt;link type=&quot;text/css; charset=utf-8&quot; rel=&quot;stylesheet&quot; href=&quot;..&quot; /&gt;</code></pre>
+
+In external stylesheet file:
+
+<pre><code>@charset "utf-8";</code></pre>
+
+Unfortunately, I can't seem to get it to work properly. I added a rule to set the charset information in .htaccess as described in the W3C document <a href="http://www.w3.org/International/questions/qa-htaccess-charset" title="FAQ: Setting charset information in .htaccess" rel="nofollow">FAQ: Setting charset information in .htaccess</a>. The new http headers can be viewed with through a <a href="http://tinyurl.com/2u7t2z" title="View http headers" rel="nofollow">web-sniffer report of a css file</a>.
+
+<pre><code>AddType 'text/css; charset=UTF-8' css</code></pre>
+
+The <a href="http://www.davidroessli.com/logs/assets/doc/safari2/css_without_charset.css" title="Display the css file" rel="nofollow">css file shows up correctly</a>: the quotes are curly. Unfortunately, the <a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_nocharset_external_css_nocharset.html" title="Display the html file" rel="nofollow">html page isn't rendered correctly</a>.
+
+I wrapped up a quick set of test files to illustrate the differences with and without the charset property in the main html file and the external stylesheet file, and was surprised to see that none of them work as they should.
+
+<ol>
+<li><a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_embedded_css.html" title="Display the html file" rel="nofollow">Embedded stylesheet</a>: works fine</li>
+<li><a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_nocharset_external_css_nocharset.html" title="Display the html file" rel="nofollow">External stylesheet without @charset rule referenced without the charset property in link</a></li>
+<li><a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_nocharset_external_css_charset.html" title="Display the html file" rel="nofollow">External stylesheet with @charset rule referenced without the charset property in link</a></li>
+<li><a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_charset_external_css_nocharset.html" title="Display the html file" rel="nofollow">External stylesheet without @charset rule referenced with the charset property in link</a></li>
+<li><a href="http://www.davidroessli.com/logs/assets/doc/safari2/test_charset_external_css_charset.html" title="Display the html file" rel="nofollow">External stylesheet with @charset rule referenced with the charset property in link</a></li>
+</ol>
+
+All files are utf-8 encoded. All files are rendered correctly in the latest nightly build, but not in Safari 2.
+

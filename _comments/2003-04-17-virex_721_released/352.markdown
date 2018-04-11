@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 352
+post_id: 447
+author: kiranjitsingh
+email: kiranjitsingh@yahoo.co.uk
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 202.131.124.150
+url: http://nanaki
+---
+i want virex 7.2

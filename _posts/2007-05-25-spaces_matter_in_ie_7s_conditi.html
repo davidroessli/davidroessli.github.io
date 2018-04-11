@@ -1,0 +1,42 @@
+---
+layout: post
+title: Spaces matter in IE 7's conditional statements
+date: '2007-05-25 17:03:27 +0200'
+mt_id: 198
+blog_id: 11
+post_id: 198
+basename: spaces_matter_in_ie_7s_conditi
+categories:
+- daily
+---
+<div class="right"><a href="http://www.microsoft.com/windows/products/winfamily/ie/default.mspx" title="Internet Explorer 7"><img src="https://davidroessli.com/logs/assets/img/ie7_logo.png" alt="Internet Explorer 7" /></a></div>
+
+<p>This might not be news for you, but it came as a surprise to me when I recently tested a website under Internet Explorer 7 and discovered that nothing showed up, although it displayed normally under <abbr title="Internet Explorer">IE</abbr> 6.</p>
+
+<p>The culprit was the conditional statement in the head section eventhough it targeted browsers lower than version 7. <a href="http://msdn.microsoft.com/library/default.asp?url=/workshop/author/dhtml/overview/ccomment_ovw.asp" title="Internet Explorer conditional statements" class="sidelist">Internet Explorer conditional statements</a> are proprietary code that enable a web designer or developer to feed specific code to a specific version, or range of versions, of Internet Explorer. It is very handy to add <abbr title="Internet Explorer">IE</abbr> specific css or javascript for example.</p>
+
+<p>I use it to tweak layout related problems with <abbr title="Internet Explorer">IE</abbr> by overriding or modifying certain css properties of the main css stylesheet or rewriting part of the <abbr title="Document object model">DOM</abbr>. Browsers other than <abbr title="Internet Explorer">IE</abbr> treat the statement as a comment, and thus ignore its content.</p>
+
+<p>This specific conditional comment lacked a space after the <strong>opening comment element</strong> (or had a space to much before the <strong>closing comment element</strong>) and <abbr title="Internet Explorer">IE</abbr> 7 commented out all the page as a result. Interestingly, the reverse isn't true, and it's only this specific configuration that creates this issue.</p>
+
+<p>This configuration doesn't work (unbalanced space on closing comment element):</p>
+
+<pre><code>&lt;!--[if lt IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;/css/iewin.css&quot; /&gt;
+&lt;![endif] --&gt;</code></pre>
+
+<p>But these do:</p>
+
+<pre><code>&lt;!-- [if lt IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;/css/iewin.css&quot; /&gt;
+&lt;![endif]--&gt;</code></pre>
+
+<pre><code>&lt;!--[if lt IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;/css/iewin.css&quot; /&gt;
+&lt;![endif]--&gt;</code></pre>
+
+<pre><code>&lt;!-- [if lt IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;/css/iewin.css&quot; /&gt;
+&lt;![endif] --&gt;</code></pre>
+
+<p>Although <abbr title="Internet Explorer">IE</abbr> 6 doesn't suffer from this issue, I felt this quirk was worth mentioning.</p>

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 251
+post_id: 309
+author: mary
+email: mary.bosari@gmail.com
+date: '2009-11-05 15:19:55 +0100'
+visible: true
+ip: 93.32.155.75
+---
+Great to find this blog! I am also trying to install an audio Kindle book for my daughter-- suggestions, advice??

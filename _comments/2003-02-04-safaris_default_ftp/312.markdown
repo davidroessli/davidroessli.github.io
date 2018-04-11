@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 312
+post_id: 386
+author: Oscar dres
+email: odres@xs4all.nl
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 80.126.238.10
+---
+No its not so cool when you type in the wrong ftp adress, the finder tries to open it but it can't so finder crashes, restart is only thing possible, anyone a solution how to browse FTP instead of finder FTP ?

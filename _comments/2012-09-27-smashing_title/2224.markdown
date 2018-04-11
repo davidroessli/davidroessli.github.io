@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2224
+post_id: 731
+author: Jeff Moro
+email: morointeractive@gmail.com
+date: '2012-10-01 21:17:33 +0200'
+visible: true
+ip: 97.86.87.69
+url: http://morointeractive.com
+---
+Thanks for this! Was looking for these and had trouble finding them.

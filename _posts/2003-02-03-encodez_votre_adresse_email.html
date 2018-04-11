@@ -1,0 +1,82 @@
+---
+layout: post
+title: Encodez votre adresse e-mail
+date: '2003-02-03 21:00:00 +0100'
+mt_id: 673
+blog_id: 11
+post_id: 673
+basename: encodez_votre_adresse_email
+categories:
+- daily
+---
+<p><b><a href="http://www.hiveware.com/enkoder.php">Enkoder</a></b> est un logiciel qui permet d'encrypter votre adresse e-mail, et de g&#233;n&#233;rer le code JavaScript n&#233;cessaire pour l'ins&#233;rer dans une page web. De cette mani&#232;re, les robots qui arpentent la toile &#224; la recherche de nouvelles adresses e-mail &#224; des fins de courrier non-sollicit&#233; (spam) ont moins de chances de la d&#233;tecter et de la copier.</p>
+<p>En revanche, l'adresse sera correctement d&#233;crypt&#233;e par un navigateur web. <b>Enkoder</b> g&#233;n&#232;re une cl&#233; d'encryptage unique et l'associe &#224; un vecteur de valeurs qui contiennent votre adresse.</p>
+<p><b>Enkoder</b> est une application Mac OS X gratuite. Il existe une <a href="http://www.hiveware.com/enkoder_form.php">version en ligne</a>, et des <a href="http://www.hiveware.com/enkode_tool.php">versions en ligne de commande</a> pour Windows, Linux, FreeBSD et Mac OS X).</p>
+
+<p>Exemple:
+<script type="text/javascript">
+<!--
+	var data=new Array(
+		501,505,497,500,492,503,418,508,
+		505,494,497,508,472,507,481,506,
+		501,509,508,438,507,503,501,408,
+		501,505,497,500,492,503,418,508,
+		505,494,497,508,472,507,481,506,
+		501,509,508,438,507,503,501,408,
+		508,505,494,497,508,472,507,481,
+		506,501,509,508,438,507,503,501,
+		408
+	);
+	var idx=0, n=data[data.length-1];
+	document.write('<a href="');
+	while( data[idx]!=n ) {
+		document.write('&#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('" title="');
+	while( data[idx]!=n ) {
+		document.write('&#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('">');
+	while( data[idx]!=n ) {
+		document.write('&#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('</a>');
+-->
+</script>
+</p>
+<p>Code:
+<pre>&lt;script type="text/javascript"&gt;
+&lt;!--
+	var data=new Array(
+		501,505,497,500,492,503,418,508,
+		505,494,497,508,472,507,481,506,
+		501,509,508,438,507,503,501,408,
+		501,505,497,500,492,503,418,508,
+		505,494,497,508,472,507,481,506,
+		501,509,508,438,507,503,501,408,
+		508,505,494,497,508,472,507,481,
+		506,501,509,508,438,507,503,501,
+		408
+	);
+	var idx=0, n=data[data.length-1];
+	document.write('&lt;a href="');
+	while( data[idx]!=n ) {
+		document.write('&amp;#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('" title="');
+	while( data[idx]!=n ) {
+		document.write('&amp;#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('"&gt;');
+	while( data[idx]!=n ) {
+		document.write('&amp;#'+(data[idx++]^n)+';');
+	}
+	idx++;
+	document.write('&lt;/a&gt;');
+--&gt;
+&lt;/script&gt;</pre></p>

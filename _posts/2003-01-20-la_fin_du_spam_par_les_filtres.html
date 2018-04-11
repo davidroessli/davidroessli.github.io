@@ -1,0 +1,56 @@
+---
+layout: post
+title: La fin du SPAM par les filtres ?
+date: '2003-01-20 22:23:00 +0100'
+mt_id: 681
+blog_id: 11
+post_id: 681
+basename: la_fin_du_spam_par_les_filtres
+categories:
+- daily
+---
+
+<p>Une <a href="http://spamconference.org">conf&#233;rence organis&#233;e</a> vendredi pass&#233; par <a href="http://www.paulgraham.com/">Paul Graham</a> au MIT a r&#233;uni environ 500 d&#233;veloppeurs, chercheurs, hackers et administrateurs syst&#232;me vendredi pass&#233; <b>pour tenter de r&#233;soudre une fois pour toute la pand&#233;mie de courrier non-sollicit&#233; (SPAM) qui nous agresse quotidiennement</b>.</p>
+
+<p>Leur but est de concevoir un filtre si efficace, que les spammeurs recevraient si peu de r&#233;ponses, voire aucune, que le spamming deviendrait financi&#232;rement prohibitif.</p>
+
+<p><b>Filtres bay&#233;siens</b></p>
+
+<p>Une solution possible r&#233;side peut-&#234;tre dans l'utilisation de <a href="http://www.paulgraham.com/better.html">filtres &#224; base de r&#233;gles bay&#233;siennes</a> qui assignent une probabilit&#233; &#224; chaque mot des messages entrants. Plusieurs clients e-mail, ou plug-in, offrent cette fonctionnalit&#233;. </p>
+
+<p>Yerazunis pr&#233;senta au MIT le language qu'il a d&#233;velopp&#233; pour &#233;crire des filtres bay&#233;siens de ce type. Le language s'appelle <a href="http://crm114.sourceforge.net/">CRM114</a>, et le filtre qu'il a d&#233;velopp&#233; s'appelle <b>MailFilter</b>. Selon son auteur, MailFilter (encore en phase alpha de test) est efficace &#224; 99.915% dans l'identification du SPAM entrant.</p>
+
+<p>Le <a href="http://www.paulgraham.com/spam.html">papier publi&#233; par Graham</a> l'&#233;t&#233; pass&#233; g&#233;n&#233;ra de nombreuses discussion sur le net au sein de la communaut&#233; de lutte contre le spam. <b>Yerazunis et Graham consid&#232;rent qu'une adoption g&#233;n&#233;ralis&#233;e de tels filtres pourraient rendre le spamming &#233;conomiquement invivable</b>, pour autant que les grand fournisseurs d'acc&#232;s, tels que Yahoo, AOL ou Microsoft les adoptent. Mais &#224; l'heure actuelle, chacun y va de son approche personnelle.<br />
+</p>
+
+<a name="more"></a>
+<p>L'&#233;ternel probl&#232;me d'un tel syst&#232;me r&#233;side dans la d&#233;cision de ce qui est du spam, et de ce qui n'en n'est pas. La d&#233;cision finale revient presque toujours &#224; l'utilisateur, ce qui complique la conception et l'utilisation de tels filtres. La d&#233;finition du spam &#233;volue en permanence, et les messages non-sollicit&#233;s ressemblent de plus en plus &#224; du courrier sollicit&#233;, impliquant des analyses de plus en plus fines.</p>
+
+<p><b>Le spam suit une croissance exponentielle</b>. J'ai eu l'occasion d'analyser le volume de courrier &#233;lectronique que j'ai re&#231;u en 2002, pour m'apercevoir que plus de la moitit&#233; &#233;tait non-sollicit&#233;, malgr&#233; des solutions anti-spam en amont, c&#244;t&#233; serveur.</p>
+
+<p><b>Ent&#234;tes Habeas</b></p>
+
+<p>Une approche alternative consiste &#224; identifier le courrier sollicit&#233;, d&#233;sir&#233;, au lieu du spam. L'id&#233;e consiste &#224; ajouter des ent&#234;tes qui identifient le message comme l&#233;gitime. <a href="http://www.habeas.com/">Habeas Inc.</a> propose d'ajouter 9 ent&#234;tes sp&#233;cifiques &#224; chaque message sortant de mani&#232;re &#224; certifier votre e-mail comme l&#233;gitime. Les ent&#234;tes sont de la forme,<br />
+<blockquote>X-Habeas-SWE-1: winter into spring<br />
+X-Habeas-SWE-2: brightly anticipated<br />
+X-Habeas-SWE-3: like Habeas SWE (tm)<br />
+X-Habeas-SWE-4: Copyright 2002 Habeas (tm)<br />
+X-Habeas-SWE-5: Sender Warranted Email (SWE) (tm). The sender of this<br />
+X-Habeas-SWE-6: email in exchange for a license for this Habeas<br />
+X-Habeas-SWE-7: warrant mark warrants that this is a Habeas Compliant<br />
+X-Habeas-SWE-8: Message (HCM) and not spam. Please report use of this<br />
+X-Habeas-SWE-9: mark in spam to &lt;http://www.habeas.com/ report/&gt;.<br />
+</blockquote></p>
+
+<p>Mais qu'est-ce qui emp&#234;cherait un spammeur d'ajouter ces ent&#234;tes &#224; son spam ? Hmm ? En th&#233;orie, rien. Seulement, Habeas est constitu&#233; d'une arm&#233;e d'avocats qui n'attendent que cela. En effet, l'ent&#234;te que vous ajoutez est copyright&#233;. Contrairement au spam o&#249; la legislation internationale (et nationale) n'en est qu'&#224; ses premiers balbutiements, celle qui r&#233;git la propri&#233;t&#233; intellectuelle est bien &#233;tablie presque partout, &#224; l'exception de l'Afghanistan, Bhutan, Ethiopie, Iran, Iraq, N&#233;pal, Oman, San Marino, Tonga, et le Yemen.</p>
+
+<p>L'id&#233;e est int&#233;ressante. Cette approche ne va pas r&#233;soudre le probl&#232;me du jour au lendemain, mais si son adoption se r&#233;pand, elle contribuera certainement &#224; faire une diff&#233;rence.</p>
+
+<p><a href="http://www.habeas.com/services/swe.htm">L'utilisation des ent&#234;tes est gratuite pour les particuliers</a>, et Habeas documente <a href="http://www.habeas.com/support/install.htm">l'installation des ent&#234;tes</a> pour de nombreux clients e-mail.</p>
+
+<p>Pour plus d'information, jetez un oeil sur <a href="http://www.tidbits.com/tb-issues/lang/fr/TidBITS-fr-661.html#lnk2">l'article d'Adam Engst (TidBITS) en fran&ccedil;ais</a></p>
+
+<p>D'apr&#232;s Graham, au vu du succ&#232;s de cette conf&#233;rence, il ne sera peut-&#234;tre pas n&#233;cessaire d'organiser une autre conf&#233;rence sur le spam ..</p>
+
+<p>Wishful thinking ?<br />
+</p>

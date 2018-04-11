@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 2303
+post_id: 697
+author: hmarx20
+email: hmarx@bellsouth.net
+date: '2014-07-24 02:30:56 +0200'
+visible: true
+ip: 76.20.212.251
+---
+I have a BPD-BX2 and using the oneforall remote procedure (URC 7740) I have a couple questions:
+
+After inputting the 0533 I jumped right into the other steps and everything blinked on each step. My blu ray was on the whole time I did the code with the words Home showing on the display screen. I hit 12345 and the player started flashing blue. It says to put back in stand by. I have no idea what stand by is so I turned it off and back on. It didn't work.
+
+Can you clarify what stand by mode is?
+
+When you hit 12345 is the blue flasing light what I'm looking for?

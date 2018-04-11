@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2215
+post_id: 726
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-08-25 10:53:10 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+Thank you @Johnny for this detailed explanation!
+It will be of great help in fixing existing code until the bug iitself is corrected.

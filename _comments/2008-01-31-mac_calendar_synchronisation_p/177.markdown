@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 177
+post_id: 216
+author: rik
+email: ritcap1@me.com
+date: '2008-12-14 19:07:57 +0100'
+visible: true
+ip: 84.253.179.3
+---
+Thank you!!! It solved a problem I had since months and Apple did not help at all. 

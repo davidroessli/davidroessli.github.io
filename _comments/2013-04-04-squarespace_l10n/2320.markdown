@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 2320
+post_id: 750
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-09-24 08:32:05 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+Hi @Dieter,
+
+It's a bummer that Squarespace doesn't provide an easy way to customise these labels yetâ€¦ with all the sponsoring they are doing around the world, their product is still EN only.
+
+The only way around for the time being is to inject JavaScript to replace specific character strings on the fly. Not ideal as it doesn't scale and can break when the template is updatedâ€¦
+
+Moreover, these replacements are template dependant.
+
+You need to make an inventory of all the labels you need to translate, and then target a CSS class or ID for each of them before applying  a similar approach to what is described above.
+
+I can't really help more as I've given up on Squarespace for the time being. It turned out too much of a hassle to maintain all the different snippets of codeâ€¦

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2346
+post_id: 697
+author: jbleezy
+email: bley83n04@yahoo.com
+date: '2015-02-24 07:32:08 +0100'
+visible: true
+ip: 174.45.70.241
+---
+Has anyone tried this specifically with a Sony BDP-BX57 and AllForOne URC-7140 and had success? For anyone who is familiar with this combo I also ran a firmware update recently and I am not operating on the software version: MO4.R.789 - hopefully that means something to someone. I have tried every code sequence, sequence modification mentioned here and I'm still not able to unlock it. Does anyone know if resetting the DVD player to factory default settings is required before doing this hack? Any suggestions of line of thought are welcome.  

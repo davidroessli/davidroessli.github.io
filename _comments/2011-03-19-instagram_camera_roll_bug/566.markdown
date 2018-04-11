@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 566
+post_id: 339
+author: Thomas
+email: Mezstor@gmail.com
+date: '2011-09-21 16:17:13 +0200'
+visible: true
+ip: 78.20.91.202
+---
+I have the same problem.my photos from instagram are not loading in camerarol:(

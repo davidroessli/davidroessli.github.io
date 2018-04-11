@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 283
+post_id: 339
+author: Chris Donaldson
+email: chris@chrisdonaldson.com
+date: '2011-03-19 22:41:59 +0100'
+visible: true
+ip: 75.145.21.146
+url: http://www.chrisdonaldson.com
+---
+See this link from Apple for a solution - I had the same problem. Jesi900 answers it:
+
+http://discussions.apple.com/thread.jspa?threadID=2783772&tstart=0

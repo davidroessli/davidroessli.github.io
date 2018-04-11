@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 134
+post_id: 244
+author: Djeni
+email: jg_post@hotmail.com
+date: '2008-04-22 22:05:50 +0200'
+visible: true
+ip: 89.146.156.95
+---
+Hello,
+thanks for all great information :) I have this problem with Syphone you mentioned, it crashed on launch. What do you mean with "remove the preferences before launching the application". And MobileSyncBrowser asked me to make a donation befor he allows me to backup anything.
+Djeni 

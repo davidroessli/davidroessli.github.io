@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 470
+post_id: 598
+author: topos
+email: helvetica@topos0.com
+date: '2011-03-20 14:18:54 +0100'
+visible: true
+ip: 195.242.81.246
+url: http://topos0.com
+---
+Interessant, mais oÃ¹ trouver un download gratuit pour Helvetica windows ???

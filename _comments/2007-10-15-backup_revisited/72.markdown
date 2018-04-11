@@ -1,0 +1,26 @@
+---
+layout: comment
+comment_id: 72
+post_id: 211
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-10-19 17:11:02 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com
+---
+@Adriano: did you quite all running apps? If so, you probably have a service accessing the drive (filesharing most probably).
+
+Here are the steps I follow on my Mac OS X Server:
+
+1. Open server Admin;
+2. Stop file sharing services (AFP, Windows);
+3. Open SoftRAID;
+4. Split MIrror Volume Backup into â€œRead-only Secondary Diskâ€?. Two disks with the same name will appear in the Finder. One has a padlock, that is the secondary drive;
+5. Unmount the padlocked volume and remove physically the disk from the system;
+6. Insert the other secondary disk. It will appear as locked volume in SoftRAID;
+8. Click it and select "Convert Read-only Secondary Drive" from the Volume menu;
+9. A dialog box will ask you what to do with it. Select â€œAdd to original mirrorâ€?. The secondary disk will then synched;
+10. Restart file sharing services and resume normal life.
+
+If you're not running Mac OS Server, turn the file sharing services off from the System Preferences > Sharing pane.

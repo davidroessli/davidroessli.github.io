@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 442
+post_id: 553
+author: Big B
+email: spam@isevil.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 63.203.96.122
+---
+I had the same problem with Software Update giving me the "make sure you have permissions to /tmp/501/TemporaryItems/com.apple.SoftwareUpdate" and after trying numerous possible solutions, I finally figured out what was wrong! When I did softwareupdate -a -i, I noticed that update was trying to download from akamai.net. I had akamai servers blocked in my router/firewall when I was trying to gid rid of adware servers. Come to find out, it's the server Apple uses to distribute software! I unblocked the server, and now everything works fine again. *sigh*

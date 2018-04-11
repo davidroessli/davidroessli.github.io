@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 55
+post_id: 206
+author: John Markov
+email: jmarkov@hellnessy.com
+date: '2007-09-30 09:27:50 +0200'
+visible: true
+ip: 62.167.235.105
+---
+You can use iTunes to verify that all the music, videos, and other items you bought from the iTunes Wi-Fi Music Store are in your iTunes library. You might want to do this if a download was interrupted. Here's how:
+
+1. In iTunes, choose Store > Check for Purchases.
+2. Enter your iTunes Store account ID and password, then click Check.
+3. Purchases not yet on your computer will be downloaded.
+
+More info here:
+
+iTunes Wi-Fi Music Store Troubleshooting
+http://docs.info.apple.com/article.html?artnum=306441
+Copying iTunes Store purchases from your iPod or iPhone to a computer
+http://docs.info.apple.com/article.html?artnum=305465

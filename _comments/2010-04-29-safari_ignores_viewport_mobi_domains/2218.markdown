@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 2218
+post_id: 323
+author: Philipp Metzler
+email: phil@goli.at
+date: '2012-09-25 11:57:14 +0200'
+visible: true
+ip: 80.120.110.118
+url: http://www.carusocarsharing.com
+---
+Hi,
+
+Google Chrome on iOS (iPhone) shows the same behaviour. As Mobile Safari and Google Chrome both use Webkit as their rendering engine the problem seemes to be caused by Webkit.
+
+Still can't believe it ...
+
+Cheers,
+
+Philipp 

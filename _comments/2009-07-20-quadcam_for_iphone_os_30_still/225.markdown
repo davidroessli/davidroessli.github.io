@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 225
+post_id: 295
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-07-23 08:02:19 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+Apparently, EasyCam and CameraZoom updates have appeared on the Store. Let's hope Quadcam will be soon to follow.

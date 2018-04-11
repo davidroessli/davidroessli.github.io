@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 452
+post_id: 555
+author: Enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:21 +0100'
+visible: true
+ip: 217.8.202.151
+url: http://enriquepardo.com
+---
+Last week I found on the same site two other plugins that work with "Viamichelin" and "CitâˆšÂ©e futâˆšÂ©e". For some reason, the developer has pulled out the information concerning these, but the URLs still seem to work:
+
+<a href="http://jeangabi.steinmetz.free.fr/Fichiers/Plug-ins_Viamichelin.dmg" rel="nofollow">http://jeangabi.steinmetz.free.fr/Fichiers/Plug-ins_Viamichelin.dmg</a>
+<a href="http://jeangabi.steinmetz.free.fr/Fichiers/Plug-in_Citefutee.dmg" rel="nofollow">http://jeangabi.steinmetz.free.fr/Fichiers/Plug-in_Citefutee.dmg</a>

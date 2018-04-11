@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 2319
+post_id: 750
+author: dieter
+email: coppens.dieter@telenet.be
+date: '2014-09-23 19:25:34 +0200'
+visible: true
+ip: 81.82.145.158
+url: http://uwkapoen.be
+---
+Hi David,
+
+I try to design my website with squarespace but I can't change the words: add to cart, back to,... to dutch...
+I can see you know haow to handle this ;-) 
+Can you help me a hand?
+
+Best regards,
+
+Dieter Coppens
+Belgium

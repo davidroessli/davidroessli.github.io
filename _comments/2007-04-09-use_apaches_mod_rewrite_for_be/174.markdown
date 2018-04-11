@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 174
+post_id: 194
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-11-19 08:17:53 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+@Will: I believe they should work just fine :)

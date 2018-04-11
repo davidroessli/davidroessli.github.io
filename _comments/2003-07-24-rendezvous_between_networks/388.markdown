@@ -1,0 +1,25 @@
+---
+layout: comment
+comment_id: 388
+post_id: 487
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 217.8.202.151
+---
+There is another article on this subject here:
+
+<a href="http://www.afp548.com/Articles/Jaguar/mtunnels.html" rel="nofollow">http://www.afp548.com/Articles/Jaguar/mtunnels.html</a>
+
+
+
+The tip uses a java application called mTunnel
+
+<a href="http://www.cdt.luth.se/~peppar/progs/mTunnel/" rel="nofollow">http://www.cdt.luth.se/~peppar/progs/mTunnel/</a>
+
+that creates a multicast tunnel between two distant networks.
+
+
+
+This allows to see servers, printers and more with the convenience of RendezVous. However, it seems like it does not work with all services. For example, iChat won't show you the users on the remote network.

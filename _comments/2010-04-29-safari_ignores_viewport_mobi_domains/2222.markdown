@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2222
+post_id: 323
+author: Binyamin
+email: 7raivis@inbox.lv
+date: '2012-09-30 09:52:49 +0200'
+visible: true
+ip: 109.65.207.85
+url: http://laukstein.com
+---
+See the detailed bug review in https://plus.google.com/110977198681221304891/posts/9gdnqL1tDpG

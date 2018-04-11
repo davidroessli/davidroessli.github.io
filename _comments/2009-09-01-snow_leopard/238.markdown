@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 238
+post_id: 301
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-09-07 08:30:00 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+@W Boston: you're right. Rogue Amoeba maintains a list of their 10.6 compatible applications online at http://www.rogueamoeba.com/status/
+
+Compatibility for AudioHijack Pro is "coming" (No Instant Hijack).

@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 119
+post_id: 231
+author: Larry B
+email: larrybpdx@mac.com
+date: '2008-03-24 21:57:51 +0100'
+visible: true
+ip: 159.121.4.169
+---
+I have been experiencing the sudden freeze up of Leopard ever since upgrading to 10.5.2 back in February. After reviewing the kernel crisis log with a fella at the Apple genius bar at our local store, I was told my MacBook Pro probably has a problem with the ram. I installed new ram and still have the same symptoms, e.g. random freeze ups that occur sometimes when I'm first bootin up, other times after several hours of use.
+
+I wonder if Apple really knows there is a problem with Leopard vis-a-vis MacBook Pro freez ups and Leopard 10.5.2. Can anyone confirm a documented conversation with Apple's technical staff on this issue?
+
+If not, can someone advise as to how to go about getting in touch with the Apple technical people?

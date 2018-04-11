@@ -1,0 +1,25 @@
+---
+layout: comment
+comment_id: 213
+post_id: 286
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-06-27 12:34:38 +0200'
+visible: true
+ip: 193.129.127.130
+url: http://www.davidroessli.com/
+---
+@chrisb63: yes, Swisscom has published the following: 
+
+Use your iPhone 3G as a modem.
+
+Thanks to tethering, you will also be able to use your iPhone 3G as a modem for your notebook from 3 July 2009. Billing for data transmission will be based on the inclusive data volume of your surf subscription.
+
+For frequent users, an additional data option with unlimited data volume**** (use in Switzerland) will be offered for CHF 59.- per month from the beginning of August 2009.
+
+As of 3 July, you will be able to configure your iPhone 3G for tethering via iTunes free of charge.
+
+**** In order to maintain service quality for all customers, Swisscom will reduce transfer speed if a customer exceeds 10GB in one month or will take other appropriate action. If there are signs of such activity, Swisscom reserves the right to exclude the subscription from normal private usage. Roaming charges are incurred for use abroad. 
+
+http://www.swisscom.ch/res/internet/mobilessurfen/iphone/index.htm?languageId=en#tethering
+http://www.swisscom.ch/res/internet/mobilessurfen/iphone/index.htm?languageId=fr#tethering

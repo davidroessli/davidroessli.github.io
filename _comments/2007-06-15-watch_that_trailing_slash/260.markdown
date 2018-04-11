@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 260
+post_id: 204
+author: health insurance
+email: jehrenthal@hotmail.com
+date: '2009-12-29 01:19:18 +0100'
+visible: true
+ip: 76.109.89.187
+url: http://echealthinsurance.com/
+---
+I am lost, I noticed google webmaster tools has me indexed with the trailing slash half of the time and because I am using wordpress on a windows server I am having a hard time fixing the issue.  So I am trying to figure out if I should (for SEO purposes) use the slash even though none of my backlinks point that way.
+Any help on this would be much appreciated.
+thanks

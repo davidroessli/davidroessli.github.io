@@ -1,0 +1,69 @@
+---
+layout: post
+title: Use Apache's mod_rewrite for beautiful MovableType URLs
+date: '2007-04-09 14:28:57 +0200'
+mt_id: 194
+blog_id: 11
+post_id: 194
+basename: use_apaches_mod_rewrite_for_be
+categories:
+- thoughts
+---
+<div class="right pix"><img src="https://davidroessli.com/logs/assets/img/movabletype.png" alt="MovableType Publising Plateform" title="MovableType Publising Plateform" /></div>
+
+<p>If you are an <a href="http://dev.upian.com/hotlinks/archives/2006/02/10/#item51872" title="I first heard Tom Coates use this term during his FoWA 2006 presentation">URL fetishist</a> like me, you certainly have been bugged by the fact that <a class="sidelist" href="http://www.movabletype.com/" title="MovableType Publishing Plateform">MovableType</a>'s installation URL kicks in when you need to use MovableType's search function.</p>
+
+<p>Eventhough MovableType can host multiple weblogs each with their own domain natively, it requires a unique URL to its installation directory and the full path to its static directory. These parameters can't be customised on a weblog basis, and prevail for all weblogs driven by the same installation.</p>
+
+<p>If you maintain multiple weblogs, needless to say that it's overkill in terms of support and maintenance to sport one MovableType installation per weblog. So what is the answer if you don't want the install URL to kick in when you run searches in your personalised weblog?</p>
+
+<blockquote>
+<p>A <a class="sidelist" href="http://en.wikipedia.org/wiki/Symbolic_link" title="Symbolic link on Wikipedia">symbolic link</a> and an <a class="sidelist" href="http://httpd.apache.org/docs/2.0/rewrite/" title="Apache's mod_rewrite Module">Apache's mod_rewrite</a> rule will sort you out.</p>
+</blockquote>
+
+<p>This weblog makes use of what follows. Although it doesn't offer a search function, it does have a tags page, with all tags being hyperlinked to related posts. This feature typically uses MovableType's search engine.</p>
+
+<p>Moreover and just to complicate things, I use a generic third level domain that points to my MovableType installation: mt.cybmed.com. This brings up the login screen and all subsequent URLs for editing, posting or rebuilding use this domain. It's the domain used in the MovableType setup file (mt-config.cgi), and the search function uses it too.</p>
+
+<p>First, symlink MovableType's installation directory to the weblog's cgi-bin directory. This way, all MovableType's URLs use my domain (davidroessli.com/cgi-bin). Unfortunately, this bans one from using <a href="http://www.sixapart.com/movabletype/docs/3.3/a_template_tag_reference/system/" title="List of MovableType's System Template Elements">system template elements</a> such as <code>&lt;MTCGIPath&gt;</code> as its uses the configuration parameters. Use <code>&lt;MTCGIRelativeURL&gt;</code> instead, and check the default templates as most of them use <code>&lt;MTCGIPath&gt;</code>.</p>
+
+<pre><code>$ ln -s mt.cybmed.com/cgi-bin davidroessli.com/cgi-bin</code></pre>
+
+<p>Now everything behaves just like if MovableType was installed under davidroessli.com. But the URLs still suck. I can live with ugly admin URLs, but I despise ugly public URLs. So this is what I did:</p>
+
+<blockquote>
+<ol><li>Rewrite your search URLs in your templates to get rid of the default ones;</li>
+<li>Rewrite your new search URLs with mod_rewrite to call the appropriate one.</li></ol>
+</blockquote>
+
+<p>My tags page uses the following template:</p>
+
+<pre><code>&lt;div id="cloud"&gt;
+    &lt;MTTags&gt;
+        &lt;h&lt;$MTTagRank$&gt;&gt;
+        &lt;a href="&lt;$MTBlogURL$&gt;tag/&lt;$MTTagName$&gt;" 
+            title="This tag has been used &lt;$MTTagCount$&gt; time(s).
+            Click to search for related posts."&gt;&lt;$MTTagName$&gt;&lt;/a&gt;
+        &lt;/h&lt;$MTTagRank$&gt;&gt;
+    &lt;/MTTags&gt;
+&lt;/div&gt;</code></pre>
+
+<p>This above syntax can be used in your individual archive template in just the same way.</p>
+
+<p>Add a line to your <a class="sidelist" href="http://httpd.apache.org/docs/2.0/howto/htaccess.html" title="Apache Tutorial: .htaccess files">.htaccess file</a> to catch the <code>/tag/tag_name</code> that looks like:</p>
+
+<pre><code>RewriteRule ^tag/(.*)$ /cgi-bin/mt-search.cgi?tag=$1&amp;blog_id=nn&amp;IncludeBlogs=nn</code></pre>
+
+<p>Where <em>nn</em> is the unique identifier of your weblog (check the URL after you've logged in to MovableType and selected your weblog).</p>
+
+<p>Just the same can be done for searching:</p>
+
+<pre><code>RewriteRule ^search/(.*)$ /cgi-bin/mt-search.cgi?q=$1&amp;blog_id=nn&amp;IncludeBlogs=nn</code></pre>
+
+<p>So, with these two simple tips, I have a single MovableType installation to maintain, and all my weblogs use URLs belonging to their own domain that look pretty and are easy to remember.</p>
+
+<div class="pix" style="overflow:hidden">
+<img src="https://davidroessli.com/logs/assets/img/movabletype_template_htaccess.png" alt="Use a template to maintain my .htaccess file" title="Use a template to maintain my .htaccess file" />
+</div>
+
+<p>Tip: I create a template for my .htaccess file. I find it much easier to use and maintain this way. Just make sure you don't rebuild it each time you rebuild your site. Another ressource to have handy when you're writing RewriteRules is Dave Child's <a class="sidelist" href="http://www.ilovejackdaniels.com/apache/mod_rewrite-cheat-sheet/" title="mod_rewrite Cheat Sheet">mod_rewrite cheat sheet</a>.</p>

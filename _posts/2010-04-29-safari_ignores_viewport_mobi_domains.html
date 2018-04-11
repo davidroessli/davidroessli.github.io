@@ -1,0 +1,46 @@
+---
+layout: post
+title: Safari for iPhone ignores viewport settings on .mobi domains
+date: '2010-04-29 18:21:03 +0200'
+mt_id: 323
+blog_id: 11
+post_id: 323
+basename: safari_ignores_viewport_mobi_domains
+categories:
+- daily
+---
+<div class="pix full"><a href="http://www.flickr.com/photos/39601377@N00/4554678068" title="View 'iPhone Simulator' on Flickr.com"><img width="340" alt="iPhone Simulator" src="https://farm4.static.flickr.com/3083/4554678068_9868f1e364.jpg" /></a></div>
+
+<p>While working on the redesign of a client's website, I ran into a weird issue with Safari for iPhone: whatever device-width I specified in the <a class="sidelist" href="http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html" title="Configuring the Viewport">viewport meta tag</a>, the web site would render at 100%.</p>
+
+<h3>The viewport</h3>
+
+<p>For Safari on iPhone OS, the viewport is the area that determines how content is laid out and where text wraps on the webpage. The viewport can be larger or smaller than the visible area.</p>
+
+<p>Safari on iPhone OS sets the size and scale of the viewport to reasonable defaults that work well for most webpages. The default width is 980 pixels.</p>
+
+<p>For example, to set the viewport width to the width of the device, add this to your HTML file:</p>
+
+<p><code>&lt;meta name="viewport" content="width=device-width" /&gt;</code></p>
+
+<p>If the webpage is narrower than the default width, set the viewport width to the width of your webpage accordingly:</p>
+
+<p><code>&lt;meta name="viewport" content="width=800" /&gt;</code></p>
+
+<p>According to <a href="http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html" title="Configuring the Viewport">Apple's documentation</a> «[..] the goal of Safari on iPhone OS is to fit the webpage in the visible area when completely zoomed out by maintaining a ratio equivalent to the ratio of the visible area in either orientation». So most, if not all, web sites are rendered correctly in Safari on the iPhone.</p>
+
+<p>Except the one I was redesigning :/</p>
+
+<p>After spending a lot of time debugging my markup and CSS, I gave up, and postponed this issue to later, concentrating of the website redesign itself. Launch time approaching, this issue stuck out more and more on my todo list, until half an hour ago.</p>
+
+<h3>dotMobi</h3>
+
+<p>Well it turns out it has all to do with the domain's name <abbr title="Top-level domain">TLD</abbr>: .mobi (<a class="sidelist" href="http://en.wikipedia.org/wiki/.mobi" title="dotMobi on Wikipedia">dotMobi</a>). I chose this domain to develop the website on while the current one was running on its .com <abbr>TLD</abbr>. The switch would be easy enough come launch time.</p>
+
+<p>I have never taken much time to look into dotMobi since it launch in 2006, but according to its Wikipedia entry «dotMobi does not itself mandate any particular technology, but does require that .mobi sites produce user experiences consistent with their guidelines and specifically optimized for mobile phones». <strong>I would never have imagined that a browser would treat a website differently based solely on its <abbr>TLD</abbr></strong>.</p>
+
+<p>The only other available browser on the iPhone (Opera Mini) renders it as a normal web site. It's only when I thought to load the web site using its <abbr>IP</abbr> number instead of its domain name that I understood what was going on.</p>
+
+<p>I suppose this makes sense from a default behaviour point of vue: the site is supposed to be optimised for mobile viewing, but I don't understand why the viewport settings aren't taken into account if they are present.</p>
+
+<p>Feeling relieved, I needed to share this info with you.</p>

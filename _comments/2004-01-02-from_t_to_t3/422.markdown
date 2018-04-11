@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 422
+post_id: 537
+author: Chris Davidson
+email: christopherdavidson@mac.com
+date: '2011-03-20 14:11:19 +0100'
+visible: true
+ip: 80.1.224.5
+---
+I have had similar problems with isync and T3. It finally clicked on the differnet names for the conduits, but I don't really understand how you then managed to make isync work with Palm desktop. I tried re-installing both programs without success and  have abandoned it at the moment waiting for Apple to list the T3 as a supported device for isync 3 (it still isn't)
+
+Any help gratefully received.
+
+Chris

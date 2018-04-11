@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 46
+post_id: 191
+author: Adam Dinwoodie
+email: davidroessli-adam@sneakemail.com
+date: '2007-05-28 15:10:24 +0200'
+visible: true
+ip: 129.67.126.15
+url: http://www.dinwoodie.org
+---
+I've just been having the same problem. My solution was to escape the UTF-8 characters in the CSS file; for example, rather than using
+<pre><code>content: "â€œ"</code></pre>
+or similar, use
+<pre><code>content: "\201C"</code></pre>
+It doesn't <em>cure</em> the problem, but it works in all the browsers I've tested without needing to play around with MIME types or conditional rules.

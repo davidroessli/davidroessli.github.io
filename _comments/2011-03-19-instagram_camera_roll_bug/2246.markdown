@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2246
+post_id: 339
+author: zhelji
+email: zheljimoon_08@yahoo.com
+date: '2012-12-20 11:17:28 +0100'
+visible: true
+ip: 112.206.0.96
+---
+excuse me. im having a problem with my instagram app. i cant upload/post my pictures in instagram that comes from my camera roll :(( what should i do? when im trying to upload a pic, instagram would say i have to update the app. but there's nothing to update cuz i already updated it. anyone can help me? thanks!

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 426
+post_id: 541
+author: redboy *
+email: dontspammeufucks@redboy.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 24.239.134.231
+url: http://www.redboy.com/blog
+---
+can't wait for this proggie.... i *heart* kung-log and am looking forward to trying out the latest n greatest version :)

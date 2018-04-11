@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2253
+post_id: 733
+author: Lovely Pictures
+email: isabel161161@inbox.com
+date: '2013-05-22 12:35:44 +0200'
+visible: true
+ip: 78.144.77.4
+url: http://www.lovelypictures.co.uk
+---
+Very quickly this web page will be famous among all blogging viewers, due to it's pleasant posts

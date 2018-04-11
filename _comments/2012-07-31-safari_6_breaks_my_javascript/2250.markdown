@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2250
+post_id: 726
+author: Johnny
+email: dada@dadada.com
+date: '2013-02-27 05:17:48 +0100'
+visible: true
+ip: 5.150.203.3
+---
+Safari no longer has the .scrollTop=.scrollHeight calculation bug.

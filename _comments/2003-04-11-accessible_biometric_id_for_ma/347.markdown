@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 347
+post_id: 443
+author: Jack
+email: jack1729@hotmail.com
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 205.161.206.254
+---
+Law of supply and demand.  There are very few solutions for the Mac (this is actually the first one I have found)  We are looking for a biometric solution that will work for both PCs and Macs authenticating to AD

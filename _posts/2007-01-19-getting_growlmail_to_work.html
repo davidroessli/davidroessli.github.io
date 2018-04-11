@@ -1,0 +1,28 @@
+---
+layout: post
+title: Getting GrowlMail to work
+date: '2007-01-19 09:47:45 +0100'
+mt_id: 156
+blog_id: 11
+post_id: 156
+basename: getting_growlmail_to_work
+categories:
+- daily
+---
+<div class="right"><a class="sidelist" href="http://growl.info/" title="Growl"><img src="https://www.davidroessli.com/logs/assets/img/growl_icon.png" alt="Growl icon" /></a></div>
+
+<p style="padding:1em; background-color:#eee">Leopard 10.5 update: Mac OS X 10.5's Mail.app requires bundle version 3 or greater. <a href="#comment-77" title="Comment #14">See comment below</a>.</p>
+
+<p>I've been fiddling around to get <a class="sidelist" href="http://growl.info/documentation/growlmail.php" title="GrowlMail Bundle">GrowlMail</a> to work with the latest version of <a href="http://growl.info/" title="Growl">Growl</a>. Installing the GrowlMail bundle went fine, but the preference pane doesn't show up in Mail, and Mail doesn't show up as a registered application in Growl.</p>
+
+<p>It turns out you need to run the following 2 commands in your favourite shell:</p>
+
+<p class="code"><code>defaults write com.apple.mail EnableBundles 1</code><br />
+<code>defaults write com.apple.mail BundleCompatibilityVersion 2</code></p>
+
+<p>References</p>
+<ul>
+<li>Mac OS 10.4.8 Mail v2.1 (752/752.2)</li>
+<li><a href="http://growl.info/" title="Growl">Growl</a> v0.76</li>
+<li><em>Orig.</em>: <a href="http://forums.cocoaforge.com/viewtopic.php?p=70206" title="View this forum entry">http://forums.cocoaforge.com/viewtopic.php?p=70206</a></li>
+</ul>

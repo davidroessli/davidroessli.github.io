@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2347
+post_id: 697
+author: jbleezy
+email: bley83n04@yahoo.com
+date: '2015-02-24 07:35:31 +0100'
+visible: true
+ip: 174.45.70.241
+---
+*correction to the above post...I am *NOW operating on the M04.R.789 software version. Figured it may help to correct this.

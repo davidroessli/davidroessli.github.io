@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 241
+post_id: 270
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-09-30 09:06:56 +0200'
+visible: true
+ip: 129.194.114.106
+url: http://www.davidroessli.com/
+---
+Installing SmartSleep on my Dell Mini 9 (10.5.8) fixed its sleep problem :)

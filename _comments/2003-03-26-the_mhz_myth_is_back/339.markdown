@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 339
+post_id: 434
+author: John Jonathan Kopanas
+email: john@kopanas.com
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 66.131.57.243
+url: http://www.kopanas.com
+---
+Researchers only report on what they can measure.  They don't measure how long it takes someone to complete a job, they measure how long the computer takes to do the processing of a job.  Annoying!!!

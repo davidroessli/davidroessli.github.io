@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 425
+post_id: 540
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.macinblog.com/
+---
+Very true. Actually, it's not before I read the 1st French translation that I fully understood what the English one was all about ..

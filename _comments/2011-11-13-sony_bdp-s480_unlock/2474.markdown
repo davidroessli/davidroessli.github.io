@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2474
+post_id: 697
+author: 'Debby Cruz '
+email: Purplesun31@sbcgloval.net
+date: '2017-08-23 23:52:56 +0200'
+visible: true
+ip: 99.97.19.20
+---
+Does it work  on a Sony BDP S6700 blu ray player ??? 

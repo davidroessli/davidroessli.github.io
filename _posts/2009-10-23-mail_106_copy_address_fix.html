@@ -1,0 +1,30 @@
+---
+layout: post
+title: Mail 10.6 «Copy Address» fix
+date: '2009-10-23 09:14:31 +0200'
+mt_id: 308
+blog_id: 11
+post_id: 308
+basename: mail_106_copy_address_fix
+categories:
+- daily
+---
+<div class="pix right nosh"><img src="https://davidroessli.com/logs/assets/img/mail_copy_address_fix.png" alt="mail_copy_address_fix.png" border="0" width="180" /></div>
+
+<p>I stumbled on a welcoming Mail fix this morning which restores Leopard's (Mac OS 10.5) «Copy Address» behaviour.</p>
+
+<p>In Snow Leopard (Mac OS 10.6), Mail's «Copy Address» contextual menu command copies the name <strong>and</strong> enclosed the address in angle brackets. As in «John Doe &lt;john.doe@nowhere.com&gt;», which turns out to be annoying as most of the time I have to edit the pasted text in order to remove the brakets and/or name.</p>
+
+<p><a class="sidelist" href="http://macdaddyworld.com/2009/09/14/fixing-copy-address-in-mail-on-10-6/" title="Fixing «Copy Address» in Mail on 10.6">Mac Daddy World</a> (<a class="sidelist" href="http://www.ecamm.com/" title="Ecamm Network">Ecamm Network</a> developer blog) discovered a Mail preference setting which restores Mail 10.5 behaviour (copy only the address):</p>
+
+<p class="update"><code>AddressesIncludeNameOnPasteboard</code></p>
+
+<p>Quit Mail, and open Terminal (Application > Utilities) and type the following command (all on the same line):</p>
+
+<p>
+<code>defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool NO</code>
+</p>
+
+<p>and next time you use the «Copy Address» contextual menu command, it will only place the e-mail address on your clipboard. Bliss.</p>
+
+<p class="update">Thanks Ken, this fix is most welcome.</p>

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 464
+post_id: 590
+author: enrique
+email: e@edesign.ch
+date: '2011-03-20 14:18:53 +0100'
+visible: true
+ip: 212.147.41.13
+---
+Si Davo est dÂŽjÂˆ 'wired' c'est qu'il pÂte la forme!! On veut des dÂŽtails croustillants sur l'opÂŽration Âˆ vÂŽsicule ouverte! :) Welcome back buddy.

@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 265
+post_id: 323
+author: Ronan Cremin
+email: rcremin@mtld.mobi
+date: '2010-05-05 10:47:20 +0200'
+visible: true
+ip: 84.203.140.98
+url: http://mobiforge.com
+---
+David,
+
+I have to admit that on first reading this I thought there was no way that it could be true. 
+
+So we tried testing it here at dotMobi and can confirm that your experience is repeatable&mdash;we tried the same page with a .mobi address, a .com address and a local intranet address (no top level domain suffix) on a 3GS. 
+
+That said, the effect doesn't appear to have anything to do with the viewport tag&mdash;we experienced the same effect without it. It's difficult to guess what Apple is at here, and why they choose to render the page slightly differently based on the TLD. On the plus side it does suggest that they are trying to optimize the rendering of the page if they believe it's mobile-friendly, which sounds like a good thing. 
+
+Interesting sleuthing, thanks for sharing.
+
+Ronan Cremin, dotMobi

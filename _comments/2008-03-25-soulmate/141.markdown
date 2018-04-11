@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 141
+post_id: 242
+author: None
+email: fake@comcast.net
+date: '2008-05-20 23:08:18 +0200'
+visible: false
+ip: 151.197.27.180
+---
+Awww! Isn't that sweet!

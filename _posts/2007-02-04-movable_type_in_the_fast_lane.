@@ -1,0 +1,34 @@
+---
+layout: post
+title: Movable Type in the fast lane
+date: '2007-02-04 21:20:33 +0100'
+mt_id: 174
+blog_id: 11
+post_id: 174
+basename: movable_type_in_the_fast_lane
+categories:
+- daily
+---
+<div class="pix right">
+<img src="https://www.davidroessli.com/logs/assets/img/movabletype_33_badge.png" height="42" width="180" alt="Movable Type Badge" title="Movable Type Badge" />
+</div>
+
+<p>One of Pronet's latest weblog posts entitled "<a href="http://www.sixapart.com/pronet/weblog/2007/01/make_mt_15x_faster.html" title="">Make Movable Type 15 times faster!</a>" attracted my attention a few days ago, and I decided to give it a try over the weekend. It turns out that the <a class="sidelist" href="http://www.sixapart.com/movabletype/news/2007/01/mt334_released.html" title="Movable Type 3.34">latest version of Movable Type</a> <strong>is really faster</strong> when run under <a href="http://www.fastcgi.com" title="Language independent, scalable, open extension to CGI that provides high performance without the limitations of server specific APIs">FastCGI</a>. A Developer wiki's post explains <a class="sidelist" href="http://www.lifewiki.net/sixapart/HostingMTUnderFastCGI" title="Running Movable Type Under FastCGI">how to run Movable Type under FastCGI</a>.</p>
+
+<p>Unfortunately, my main hosting provider <a href="http://www.pair.com" title="Pair Networks hosting solutions">pair Networks</a> doesn't provide FastCGI support in my hosting plan, so I decided to try it out on my brand new <a class="sidelist" href="http://www.mediatemple.net/webhosting/gs/" title="(mt) Media Temple's (gs) Grid-Server">(mt) MediaTemple (gs) Grid-Server</a> account. The first thing was to find out if FastCGI was installed. I didn't find the list of installed Apache modules in the KnowledgeBase, so I ran the test documented in the developer's wiki article:</p>
+
+<div style="padding:1em; background-color:#eee;">
+<p><em>Add the following code to an .htaccess file in your MT directory:</em></p>
+
+<pre><code>&lt;IfModule mod_fastcgi.c&gt;
+FastCgiIpcDir /tmp/fcgi_ipc/
+AddHandler fastcgi-script .fcgi
+FastCGIConfig -autoUpdate -idle-timeout 120 -killInterval 3600 -maxClassProcesses 6 -maxProcesses 15
+&lt;/IfModule&gt;</code></pre>
+
+<p><em>Then create a [<a href="http://www.lifewiki.net/sixapart/HelloWorld" title="Source code">HelloWorld</a>.fcgi] file and see if it loads properly. If it does, FastCGI is installed. Any other error and it probably isn't.</em></p>
+</div>
+
+<p>I ran the script, and guess what, "Hello World!" popped up in my browser!</p>
+
+<p>I don't know if the increase in performance is 15 fold, but it feels significantly faster, which is exciting. This adds to my favourable first impressions of (mt) Media Temple's (gs) Grid-Server plan. I've been playing with it since the beginning of the year, and I am very impressed by it (but more on that in a later post).</p>

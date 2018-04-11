@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2168
+post_id: 705
+author: Isa
+email: isabelle.duperret@iee.unibe.ch
+date: '2012-01-13 11:07:16 +0100'
+visible: true
+ip: 130.92.9.56
+---
+Like it :) you're still the same: beautiful !

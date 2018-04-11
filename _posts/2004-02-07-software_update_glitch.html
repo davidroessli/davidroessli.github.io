@@ -1,0 +1,32 @@
+---
+layout: post
+title: Software Update Glitch
+date: '2004-02-07 10:19:57 +0100'
+excerpt: |-
+  <p>I got bitten by a strange bug yesterday while running Software Update on my Server: a bunch of updates where available, so I accepted to install them and went back to my desktop. After a while, I was ready to click the "restart" button when I noticed that a red exclamation mark was next to all the updates instead of the green checkmark, and a dialog box was displaying the following</p>
+  <p class="quote">"None of the checked updates could be installed. Make sure you have permission to write to /tmp/501/TemporaryItems/com.apple.SoftwareUpdate, then try again."</p>
+mt_id: 553
+blog_id: 11
+post_id: 553
+basename: software_update_glitch
+categories:
+- daily
+---
+<p>I got bitten by a strange bug yesterday while running Software Update on my Server: a bunch of updates where available, so I accepted to install them and went back to my desktop. After a while, I was ready to click the "restart" button when I noticed that a red exclamation mark was next to all the updates instead of the green checkmark, and a dialog box was displaying the following</p>
+<p class="quote">"None of the checked updates could be installed. Make sure you have permission to write to /tmp/501/TemporaryItems/com.apple.SoftwareUpdate, then try again."</p>
+<p>Hmm. I was running as administrator. Anyway, it was a while since I'd repaired the permissions on this machine, so I launched Disk Utility, repaired and rebooted, just to be on the safe side. But to no avail, the same symptom occurred again. I used Fast Switching to login as root and tried again - no luck. I checked the permissions and they where fine 700 and 755. I decided to 777 the whole tree just to see if that changed anything - nope.</p>
+<p>It seemed time to check the net for similar problems. In case like this, I usually start with <a href="http://discussions.info.apple.com/">Apple's Discussions</a>. Checking the Server forum didn't help. Searching the 10.3 one yielded several pertinent threads.</p>
+<p>First, I wasn't the only one with this problem. Many had tried what I did, and were just as unsuccessful as me.</p>
+<ul>
+<li><a href="http://discussions.info.apple.com/WebX?50@209.0BC2aaZEbVv.3@.688db551">Software Update permissions problem</a></li>
+<li><a href="http://discussions.info.apple.com/WebX?13@106.sC72aaH3b5i.19@.688dfc6c/2">Security Update won't install</a></li>
+<li><a href="http://discussions.info.apple.com/WebX?13@209.0BC2aaZEbVv.6@.688dbd19/5">Software Update Woes</a></li>
+</ul>
+<p>But a thread attracted my attention more than the others because it mentionned that <a href="http://www.apple.com/remotedesktop/">Apple Remote Desktop</a> was installed on those computers displaying the problem. I had installed ARD earlier in January to test how well I could drive my server from home (not very well actually, but that is another topic). I had never uninstalled it.</p>
+<ul>
+<li><a href="http://discussions.info.apple.com/WebX?13@106.sC72aaH3b5i.20@.599deee6/23">Permissions problems updating to 10.3.2</a></li>
+</ul>
+<p>One of the fixes suggested was related to XCode, or rather uninstalling XCode than removed essential apps from the system (tar, zip, unzip, etc.) and prevents many operation from completing successfully - including Software Update.</p>
+<p>I had never installed nor uninstalled XCode from my server, so I decided to install them to give it a try. My server runs on a B&#38;W G3 with a 8Gb primary partition. Just over 2Gb were free, so I had to be cautious in my installation. The fulls XCode package installs over 1.9Gb of software .. I didn't want to replace one problem by another. Using custom install, I avoided the installation of documentation, various SDK, etc. - and Bob's my uncle! It solved the problem!</p>
+<p>Now what was wrong, I don't know. I shall uninstall ARD and other unused software to save space, and check those threads to see if someone puts his finger on the problem. A worrying one if you ask me.</p>
+<p>PS: funnily enough, just after that episode, I received the new version of XCode in the ADC February mailing.</p>

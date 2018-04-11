@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 56
+post_id: 156
+author: hairball
+email: hairball@intheholler.net
+date: '2007-10-02 16:37:19 +0200'
+visible: true
+ip: 68.44.22.212
+---
+Hey THANKS ! for the info got mine working now also..

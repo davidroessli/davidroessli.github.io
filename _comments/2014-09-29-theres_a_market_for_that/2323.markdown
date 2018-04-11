@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2323
+post_id: 771
+author: Pierre Meister
+email: pierremeister@bluewin.ch
+date: '2014-09-29 13:21:52 +0200'
+visible: true
+ip: 178.198.191.182
+---
+You're so right, David !
+Some buy a smartphone and others buy the right to say they have the latest. Some buy the features of that object because the need them (or think they need them !) and others the idea that they're worth more possessing that object. 
+Some objects can satisfy two (or more) needs and therefore justify their existence on the market(s) !

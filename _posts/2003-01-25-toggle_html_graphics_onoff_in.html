@@ -1,0 +1,39 @@
+---
+layout: post
+title: Toggle HTML graphics on/off in Mail.app
+date: '2003-01-25 10:39:54 +0100'
+excerpt: How to loose your anonymity be reading your e-mail. Tips and tricks.
+mt_id: 376
+blog_id: 11
+post_id: 376
+basename: toggle_html_graphics_onoff_in
+categories:
+- daily
+---
+HTML formatted e-mail may be pleasing to the eye, but they are one of the spammer's main tool to help them validate your e-mail address. Two recent Apple KnowledgeBase articles explain what the risks are and how to toggle the graphics on and off.<ul><li><a href="http://docs.info.apple.com/article.html?artnum=107401">Mac OS X Mail: How HTML Email Messages Relate to Unsolicited Commercial Email ("spam")</a></li><li><a href="http://docs.info.apple.com/article.html?artnum=107400">Mac OS X Mail: How to Turn On or Off HTML Rendering</a></li></ul>
+
+<br />
+
+A previous <a href="http://www.checkbox.org/checkbox/archives/000094.html">Checkbox article</a> (March 2000, in French) explains in detail how you can loose your anonymity simply by reading your e-mail.<br />
+
+<br/>
+
+A recent <a href="http://www.macmegasite.com/">MacMegaSite</a> tip provides you with an <a href="http://www.macmegasite.com//modules.php?name=News&file=article&sid=610">AppleScript to automate the operation</a>:<blockquote><pre>tell application "Mail"
+
+	set showgfx to not (download html attachments)
+
+	set download html attachments to showgfx
+
+	if showgfx is true then
+
+		say "Graphics on"
+
+	else
+
+		say "Graphics off"
+
+	end if
+
+end tell</pre>
+
+</blockquote>

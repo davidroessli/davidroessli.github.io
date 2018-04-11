@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 76
+post_id: 156
+author: Elo
+email: halodeima@yahoo.fr
+date: '2007-10-26 14:57:14 +0200'
+visible: true
+ip: 91.168.213.179
+---
+and with Leopard? what command must be written? because Mail does not recognize growlmail under Leopard...
+
+thanks

@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 162
+post_id: 216
+author: Greg. Dodwell
+email: gregreedee@y7mail.com
+date: '2008-09-27 07:07:40 +0200'
+visible: true
+ip: 60.242.187.87
+---
+I've got a similar problem: just the other way around.
+
+I have erased all the contact and calendar data on my computer and am trying to update my iMac's iCal and Address Book from Mobile Me. My iPhone and Mobile Me are syncing wonderfully; I consider them both up-to-date. Any clues?

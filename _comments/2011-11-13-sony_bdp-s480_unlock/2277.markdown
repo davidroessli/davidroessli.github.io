@@ -1,0 +1,22 @@
+---
+layout: comment
+comment_id: 2277
+post_id: 697
+author: Paul
+email: pablo30uy@gmail.com
+date: '2013-11-19 07:31:11 +0100'
+visible: true
+ip: 190.134.85.83
+---
+Hi,
+
+Thanks for this post.
+
+- Does this trick work for REGION 1 (American) Sony Blu-Ray players? 
+Anybody has tested on Region 1 Sony players?
+
+I read it works only for Region 2 and 4 Blu-Ray players, so I'm not sure to order a One For All remote control to free my unit which is Region 1 (from USA)...
+
+- Does this procedure works for Sony BDP-S1100 ?
+
+Thanks a lot

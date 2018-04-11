@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2315
+post_id: 770
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-09-22 06:36:09 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+@Keith,
+
+I guess so. Check the last paragraph of â€œA Guide to Family Sharingâ€ https://developer.apple.com/icloud/documentation/family-sharing/

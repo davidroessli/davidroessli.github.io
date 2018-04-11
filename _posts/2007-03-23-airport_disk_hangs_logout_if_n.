@@ -1,0 +1,43 @@
+---
+layout: post
+title: Airport Disk hangs logout if not unmounted
+date: '2007-03-23 16:20:29 +0100'
+mt_id: 193
+blog_id: 11
+post_id: 193
+basename: airport_disk_hangs_logout_if_n
+categories:
+- daily
+---
+<div class="right"><img src="https://davidroessli.com/logs/assets/img/80211n.png" alt="Airport Extreme supports 802.11n" title="Airport Extreme supports 802.11n" /></div>
+
+<p>I've setup my brand new <a class="sidelist" href="http://www.apple.com/airportextreme/" title="Apple Airport Extreme">Airport Extreme</a> base station with success about ten days ago, and was excited to test out the new Airport Disk feature. I intended to transfer my iTunes library onto an external disk, and share it through the Airport Extreme's new sharing feature as <a class="sidelist" href="https://davidroessli.com/logs/2007/02/multiple_itunes_librairies/" title="Multiple iTunes libraries">described in a previous post on multiple iTunes librairies</a>.</p>
+
+<p>The truth is that it works just as described. The new admin software is really easy to use. The disks mounts automatically when you register in the Airport network. iTunes manages the remote library just fine, and enables my to have my main music library available from any computer, while retaining a subset on my <abbr title="MacBook Pro">MBP</abbr> to carry around with me.</p>
+
+<p>Everything runs fine, except for one little annoying bug: if the drive is not unmounted before logout, <strong>the session hangs on the blue screen after the Finder quits</strong>. My Mac blue screen of death. The only workaround at that point is to force restart the computer (sigh, I hate to do that). This situation occurs when you logout, restart or shutdown.</p>
+
+<div style="overflow:hidden">
+<img src="https://davidroessli.com/logs/assets/img/airport_disk_utility.png" alt="Airport Disk utility" title="Airport Disk utility" />
+</div>
+
+<p>Exploring the system logs, you'll discover that a number of processes stopped responding during the logout, namely <strong>coreaudio</strong>, <strong>mds</strong>, <strong>ATSServer</strong> and <strong>coreservicesd</strong>. I suspect the main culprit is the ATSServer but unfortunately, there's no way to kill the process except from another computer via an ssh session <em>e.g.</em>. There is a short <a class="sidelist" href="http://tinyurl.com/23znvn" title="Having a shared drive connected causes mac to hang during shutdown">thread on Apple Discussion</a> related to this issue.</p>
+
+<div class="code">
+<pre><code>[snip]
+Mar 20 23:50:08 cinnamon /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow: Login Window Application Started
+Mar 20 23:50:10 cinnamon configd[70]: posting notification com.apple.system.config.network_change
+Mar 20 23:50:10 cinnamon configd[70]: rtmsg: error writing to routing socket
+Mar 20 23:50:10 cinnamon lookupd[538]: lookupd (version 369.6) starting - Tue Mar 20 23:50:10 2007
+Mar 20 23:50:22 cinnamon diskarbitrationd[72]: coreaudiod [71]:24207 not responding.
+Mar 20 23:50:22 cinnamon diskarbitrationd[72]: mds [173]:13827 not responding.
+Mar 20 23:50:22 cinnamon diskarbitrationd[72]: ATSServer [133]:12303 not responding.
+Mar 20 23:50:22 cinnamon diskarbitrationd[72]: coreservicesd [100]:11267 not responding.
+[snip]</code></pre>
+</div>
+
+<p>I guess this qualifies as my current "<a class="sidelist" href="http://www.43folders.com/2007/02/28/mac-whines/" title="Vox Pop: What’s your «Mac Whine?ï¿½ï¿½?">Mac Whine</a>" as seen â€“ heard? â€“ on <a href="http://www.twit.tv/mbw" title="Listen to their weekly podcast on the Mac news andmuch more">MacBreak Weekly</a>. Another issue related to the poor way Mac OS deals with mounted volumes.</p>
+
+<p>This currently occurs on my <abbr title="MacBook Pro">MBP</abbr> running Mac OS 10.4.9. I haven't had the opportunity of trying other hardware (PowerPC) and software (10.4.x) combinations to see if it occurs all the time. It might be Intel related for all I know. I'll post an update whenever I get more information.</p>
+
+<p>In the meantime, don't forget to unmount your Airport Disk before logging out. If you do, don't forget to run <a class="sidelist" href="http://applejack.sourceforge.net/" title="The AppleJack Project page">AppleJack</a> at your next startup.</p>

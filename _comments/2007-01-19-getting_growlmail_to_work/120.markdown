@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 120
+post_id: 156
+author: Dev Gupta
+email: devgupta@mac.com
+date: '2008-03-29 18:33:45 +0100'
+visible: true
+ip: 70.112.177.174
+---
+Can anyone tell me what are the default settings.  I would like to un-do this:
+
+defaults write com.apple.mail EnableBundles 1
+defaults write com.apple.mail BundleCompatibilityVersion 2

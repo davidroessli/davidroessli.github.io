@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 187
+post_id: 266
+author: Enrique
+email: e@enriquepardo.com
+date: '2009-02-04 21:20:47 +0100'
+visible: true
+ip: 62.167.236.41
+url: http://enriquepardo.com
+---
+My strategy is to not be mad after Joe Schorr and the Aperture team for taking so long to release something that actually works for other than the independant wedding photographer. Then, go with the flow and consider â€” unless you're an embedded photog reporting from Kabul â€” that you're better off using your eyes and lenses while on the road instead of spending time pushing pixels on a screen. 
+
+My library lives in my studio and is very happy there. Abroad, I carry a <a href="http://www.hyperdrive.com/" rel="nofollow"> Hyperdrive</a> to backup my cards and that's about it. If I'm on assignment and need to shoot tethered, I create a specific Aperture project then copy it back to my main library when back in the studio (drag and drop works well for this).
+
+Traveling with your entire photo library is like carrying around your entire music library, will you listen to it all?
+
+My 2 cents...

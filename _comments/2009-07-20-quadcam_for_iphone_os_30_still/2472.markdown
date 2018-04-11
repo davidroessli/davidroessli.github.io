@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2472
+post_id: 295
+author: pedro
+email: tomatitotarifa@gmail.com
+date: '2017-08-17 12:41:24 +0200'
+visible: true
+ip: 213.143.48.118
+---
+Is Quadcam available anywhere? I loved it. Thanks!

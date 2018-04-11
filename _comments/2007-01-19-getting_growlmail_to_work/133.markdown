@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 133
+post_id: 156
+author: Growl
+email: growl@growl.growl
+date: '2008-04-21 14:00:59 +0200'
+visible: true
+ip: 80.146.212.61
+---
+http://digg.com/apple/GrowlMail_and_Leopard_not_getting_along_Here_s_a_solution

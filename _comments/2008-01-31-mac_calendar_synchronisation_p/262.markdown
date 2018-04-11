@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 262
+post_id: 216
+author: Danny Thompson UK
+email: danny.a.thompson@gmail.com
+date: '2010-02-28 15:58:08 +0100'
+visible: true
+ip: 90.217.31.159
+url: http://www.talk3g.co.uk
+---
+I had this same problem with Contacts [only].
+
+Stephanie's post in #3 above worked for me also.  I had tried a number of steps in the Apple forums. 
+
+My mistake, I believe, is in my reluctance to replace the MobileMe data in the cloud with the data that was on my Mac Mini [Snow Leopard] (my "sync/push server").  The Mac Pro (Leopard) silently stopped synching Contacts with the rest of my stuff - iPhone, Mac Mini, Macbook Pro.  
+
+Using Stephanie's one minute suggestion I have resolved the problem.   Had that not worked then I'd have had to run through the full solution in this blog.
+
+Thanks very much all. It has saved me days of grief :-)

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 138
+post_id: 216
+author: Ricky Nelson
+email: rickyn@socketwiz.com
+date: '2008-04-28 19:42:50 +0200'
+visible: true
+ip: 204.255.0.2
+url: http://socketwiz.com/
+---
+Just wanted to add that these instructions also cured my sync woes as well.  I have an iMac and recently also purchased a MacBook.  Some stuff synced over to the MacBook but some did not, specifically bookmarks and calendars.  After following these instructions now everything is merrily syncing along.  Thanks for the great post!

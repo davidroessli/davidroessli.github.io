@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 354
+post_id: 456
+author: Mister Mike
+email: nibiru@mac.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 212.254.96.139
+url: http://www.macarena.ch
+---
+Hmmm actually i would be happy to know how I would add such an RSS feed into my webpage?
+
+
+
+I mean, if addin gin a news stream, prolly big mama's stream, right?
+
+
+
+*gg*

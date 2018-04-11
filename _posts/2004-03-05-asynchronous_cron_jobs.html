@@ -1,0 +1,21 @@
+---
+layout: post
+title: Asynchronous cron jobs
+date: '2004-03-05 22:10:28 +0100'
+excerpt: "<p>You are probably all aware that your Mac runs daily, weekly and monthly
+  maintenance scripts to check the integrity of your system and clean it up. </p>"
+mt_id: 556
+blog_id: 11
+post_id: 556
+basename: asynchronous_cron_jobs
+categories:
+- daily
+---
+<p>You are probably all aware that your Mac runs daily, weekly and monthly maintenance scripts to check the integrity of your system and clean it up. </p>
+<p class="quote"> The Unix subsystems on Mac OS X were originally written for machines that were typically never shut off. Mac OS X inherits this assumption in version 1.x, and has many system maintenance tasks that are scheduled to run between 3 am and 5 am. In addition, there are scripts designed to run weekly on weekends, and once a month in the middle of the night.<br /><em>Orig. <a href="http://personalpages.tds.net/~brian_hill/macjanitor.html">MacJanitor</a></em></p>
+<p>Utilities such as <a href="http://personalpages.tds.net/~brian_hill/macjanitor.html">MacJanitor</a> or <a href="http://www.macosxcocktail.com/index.html">Cocktail</a> solved this problem by allowing you to run them manually. But you still had to think of doing it. Another solution is to change the time and day at which they are supposed to run, hoping that your computer would powered on then. Utilities such as <a href="http://www.koch-schmidt.de/cronnix/">CronniX</a> help you do right that and more -- you can also edit the cron table by hand.</p>
+<p>Downloading the latest version of <a href="http://www.propagandaprod.com/">D&#233;j&#224;Vu</a>, I fell on a reference to <a href="http://www.alastairs-place.net/anacron.html">Anacron</a>:</p>
+<p class="quote"> Anacron is a periodic command scheduler. It executes commands at intervals specified in days. Unlike cron, it does not assume that the system is running continuously. It can therefore be used to control the execution of daily, weekly and monthly jobs (or anything with a period of n days), on systems that don't run 24 hours a day. When installed and configured properly, Anacron will make sure that the commands are run at the specified intervals as closely as machine-uptime permits.<br />
+[snip]<br />
+It isn't a full-time daemon. It has to be executed from boot scripts, from cron-jobs, or explicitly.</p>
+<p>Now this is just what I've been looking for for my AlPB which is seldom powered on at 3:00a. I changed the execution time of the maintenance scripts, but that doesn't help if the Mac is sleeping or off.. I'l give it a try and let you know.</p>

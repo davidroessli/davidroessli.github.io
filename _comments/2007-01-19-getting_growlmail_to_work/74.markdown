@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 74
+post_id: 156
+author: Bryce
+email: bryce@cobryce.com
+date: '2007-10-23 20:28:18 +0200'
+visible: true
+ip: 149.169.91.49
+---
+Took me quite a bit of digging, or at least more than it should have to find this tidbit. Thank you so much! Now if the Growl devs would include this information, I think a lot of people would be much less frustrated by "Growl/Mail/GrowlMail/etc" not working.

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 196
+post_id: 261
+author: Arief Budiman
+email: ri27292@gmail.com
+date: '2009-05-06 08:30:12 +0200'
+visible: true
+ip: 125.164.149.69
+url: http://innovation-eblog.co.nr
+---
+niche information

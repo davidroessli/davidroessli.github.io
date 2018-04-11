@@ -1,0 +1,12 @@
+---
+layout: post
+title: live
+date: '2003-10-12 18:42:37 +0200'
+mt_id: 660
+blog_id: 11
+post_id: 660
+basename: live
+categories:
+- daily
+---
+Now i'm really (a)live

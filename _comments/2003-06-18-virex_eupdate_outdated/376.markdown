@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 376
+post_id: 469
+author: Michael deMartin
+email: mdemartin@mac.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 67.86.167.195
+---
+Thanks for the infomation - unfortunately, I'm getting the following error message:
+
+
+
+"Virex is unable to connect to eUpdate server. Please try again later. You can skip the eUpdate and continue using Virex."
+
+
+
+I have filled out the correct information perfectly as stated above, so maybe someone can tell me what the problem is.
+
+
+
+Thanks in advance.

@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 446
+post_id: 553
+author: Tom
+email: swellDEL@ETEmac.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 68.111.236.121
+---
+Having same problem. Looking over the suggestions it seemed that this was easiest to implement (thanks Greg):
+
+"When I did softwareupdate -a -i, I noticed that update was trying to download from akamai.net. I had akamai servers blocked in my router/firewall when I was trying to gid rid of adware servers. Come to find out, it's the server Apple uses to distribute software! I unblocked the server, and now everything works fine again."
+
+I use Little Snitch to block some apps from unauthorized communication. I freed up Software Update from connection restrictions and immediately had some success where the error msg had previously prevented installation. Some success. Some programs still didn't load.
+
+So I tried Software Update again, and more updates were installed, but again not all. Once more did the trick.
+
+Doesn't make any sense to me, but that's not unusual. You'd think there would be a common thread among these solutions...

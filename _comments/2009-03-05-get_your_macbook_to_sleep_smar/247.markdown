@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 247
+post_id: 270
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-10-09 18:58:20 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@grj I'm not sure, I need to test a border case such as the one you mention.
+
+Try contacting the author, he might have an answer?
+

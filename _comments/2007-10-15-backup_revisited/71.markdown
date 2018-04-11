@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 71
+post_id: 211
+author: Adriano MariÃ¡n
+email: adr0x78@yahoo.com
+date: '2007-10-19 17:01:08 +0200'
+visible: true
+ip: 62.167.235.106
+---
+I've been using softraid, but I'm unable to split a mirror drive as you describe. I get a "Drive in use" message. Any idea?

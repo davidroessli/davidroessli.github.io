@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 273
+post_id: 307
+author: Holt Webb
+email: holt@vanishingamerica.net
+date: '2010-07-30 20:29:05 +0200'
+visible: true
+ip: 75.247.82.45
+url: http://www.vanishingamerica.net
+---
+NIK Silver Efex has been crashing my CS3 ever since I upgraded to Snow Leopard. I've tried reinstalling everything, downloading a new copy of Silver Efex, removing duplicate fonts, creating a new login user on my Mac (both suggestions from NIK Support), and now I've tried your recommendation. But, NIK still crashes CS3. If I remove NIK completely (something NIK's "Uninstall" feature somehow neglects to do), CS3 runs great.
+
+Is this problem common with NIK and Snow Leopard? They don't seem to want to get back to me on this anymore.

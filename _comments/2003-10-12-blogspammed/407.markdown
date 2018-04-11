@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 407
+post_id: 509
+author: Judi Sohn
+email: judi@momathome.com
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 24.44.129.131
+url: http://www.momathome.com/
+---
+I just posted about comment spam this afternoon to my own blog, and I've commented with this helpful link to two other sites. So many people are talking the issue. A plug-in is due tomorrow that hopes to help us with this problem. I'm looking forward to trying it:
+
+
+
+<a href="http://www.jayallen.org/journey/2003/10/mtblacklist_monday_hell_or_high_water" rel="nofollow">http://www.jayallen.org/journey/2003/10/mtblacklist_monday_hell_or_high_water</a>
+
+
+
+I'm not spamming with the link. I have no idea who the author is other than he seems to know what he's talking about and I'm really tired of the spam like everyone else. :-)

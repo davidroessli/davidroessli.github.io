@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2178
+post_id: 697
+author: Simon Yap
+email: simepro@yahoo.com
+date: '2012-02-22 13:57:56 +0100'
+visible: true
+ip: 175.143.171.206
+---
+what about the region codings for blu-rays a, b and c?

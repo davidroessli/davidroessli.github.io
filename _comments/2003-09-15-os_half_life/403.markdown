@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 403
+post_id: 499
+author: Kim GammelgÃ‚rd
+email: kgani@mac.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 80.199.11.41
+---
+Perhaps you almost just ran out of memory, including harddisk storage at some time. That is the only time when I loose settings and the system is acting up like you describe. I have a G3 server running for a 120 days or thereabouts, and after I tried to install SETI at home, it wrote an endless amount of cr.. in the system log. I almost had to reboot, but caught it at less than a megabyte free on the harddisk. Oh, well, the ssh-key broke, but that's life ;-)

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 1506
+post_id: 339
+author: Sue
+email: sadorjgm@gmail.com
+date: '2011-10-25 03:31:15 +0200'
+visible: true
+ip: 174.117.143.17
+---
+Fixed the camera roll inaccessible problem.  Thanks to all who post problems and solutions.

@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 113
+post_id: 237
+author: Claudia
+email: cle@virg0.org
+date: '2008-03-21 16:41:56 +0100'
+visible: true
+ip: 213.200.236.238
+url: http://virg0.org/v0blog/
+---
+Still have a working one, perfect and no damages on the display.
+
+When's you bday? =P

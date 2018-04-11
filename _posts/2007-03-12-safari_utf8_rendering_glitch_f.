@@ -1,0 +1,54 @@
+---
+layout: post
+title: Safari UTF-8 rendering glitch fixed in WebKit nightly build
+date: '2007-03-12 20:55:27 +0100'
+mt_id: 191
+blog_id: 11
+post_id: 191
+basename: safari_utf8_rendering_glitch_f
+categories:
+- daily
+---
+<div class="right"><img src="https://davidroessli.com/logs/assets/img/webkit.png" alt="WebKit Nightly Build" title="WebKit Nightly Build" /></div>
+
+<p>Safari v2.0.4 (419.3) and previous versions have this annoying habit of not displaying utf-8 encoded characters properly under certain conditions:</p>
+
+<p>If you use the <a class="sidelist" href="http://www.htmldog.com/reference/cssproperties/content/" title="css 'content' property">css 'content' property</a> to display an utf-8 encoded string, it won't be properly rendered in Safari. I wanted to add a typographic quotes before and after my citation block with the following css code:</p>
+
+<div class="code">
+<pre><code>
+blockquote p.cite:before { content:"&ldquo; "; }
+blockquote p.cite:after  { content:" &rdquo;"; }
+</code></pre>
+</div>
+
+<p>Firefox renders it properly, but Safari sadly garbles it up. While trying to find a workaround, I was please to see that the latest <a class="sidelist" href="http://nightly.webkit.org/" title="WebKit nightly build">WebKit nightly build</a> didn't display this issue, and rendered the text correctly:</p>
+
+<div style="margin:2em 0;padding:1em;background-color:#ccc;text-align:center">
+<img src="https://davidroessli.com/logs/assets/img/safari_content_utf8_bad.png" height="84" width="84" alt="Incorrectly rendered" title="Incorrectly rendered in Safari v2.0.4 (419.3)" /><br />
+<img src="https://davidroessli.com/logs/assets/img/safari_content_utf8_good.png" height="84" width="84" alt="Correctly rendered" title="Correctly rendered in latest WebKit nightly build" />
+</div>
+
+<p>A similar problem arises if you use certain objects of the <a class="sidelist" href="http://script.aculo.us/" title="scriptaculous library">script.aculo.us javascript library</a> like the <a href="http://wiki.script.aculo.us/scriptaculous/show/Ajax.InPlaceEditor" title="Ajax.InPlaceEditor wiki">Ajax.InPlaceEditor</a> for instance. The string returned doesn't display correctly in Safari if it contains accentuated characters <em>e.g.</em>, whatever the page encoding is (note: all my page encodings are utf-8, Moreover, the form submits utf-8 encoded values whatever the page encoding is).</p>
+
+<p>I managed a workaround by testing the browser version and applying an extra utf-8 decoding step to the string before returning it to the client for display. Far from perfect, but it works for me.</p>
+
+<div class="code">
+<pre><code>
+if ((browser_detection('browser') == 'saf') &amp;&amp;
+    (browser_detection('math_number') <= $safari_bugged_version)) {
+
+    $new_title = (strlen($new_title) > 0 ) ? utf8_decode($new_title) : " ";
+}
+echo $new_title;
+</code></pre>
+</div>
+
+<p>I encountered similar glitches with web applications such as <a class="sidelist" href="http://www.wufoo.com" title="Wufoo.com">Wufoo</a>, the online form builder. If you use accentuated characters in form fields, they won't be displayed correctly in the current version of Safari, but will in Firefox or the latest WebKit.</p>
+
+<div style="margin:2em 0;padding:1em;background-color:#ccc;text-align:center">
+<img src="https://davidroessli.com/logs/assets/img/safari_wufoo_utf8_bad.png" height="184" width="260" alt="Incorrectly rendered" title="Incorrectly rendered in Safari v2.0.4 (419.3)" /><br />
+<img src="https://davidroessli.com/logs/assets/img/safari_wufoo_utf8_good.png" height="184" width="260" alt="Correctly rendered" title="Correctly rendered in latest WebKit nightly build" />
+</div>
+
+<p>Apparently, this issue is solved, and I am looking forward to seeing this build more widely released.</p>

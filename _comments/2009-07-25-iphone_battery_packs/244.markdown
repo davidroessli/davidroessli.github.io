@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 244
+post_id: 296
+author: Doug Kramer
+email: ymjourney@gmail.com
+date: '2009-10-08 01:38:26 +0200'
+visible: true
+ip: 98.169.181.41
+---
+Hi,
+I have an iPhone 3GS and am considering buying an external battery pack for it.  From what I've read above it appears that the Mophie Juice Pack Air is about 2 ounces, while the Mophie Juice Pack is about 3 ounces, and the FastMac IV is about 4 ounces.  I don't own any of these prodcts, yet, but don't feel that the weight factor is significant for me.  I wish Apple built the iPhone with a faster CPU and more RAM and the ability to handle media on the Adobe Flash Player, thus justifying the need for more "horsepower under the hood." 
+I am concerned about safety of my 32GB device and compatibility of any of these three batteries with a car mount. 

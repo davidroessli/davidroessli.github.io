@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2271
+post_id: 697
+author: Shikamaru
+email: sovith.chan@online.fr
+date: '2013-10-07 14:20:03 +0200'
+visible: true
+ip: 83.159.3.252
+---
+It works perfectly on my BDP S280, thanks a lot, now it reads everything (I've tested only DVD I hope that it will work for foreign Blurays too ..)
+
+Ca marche super bien sur mon BDP S280, merci beaucoup, maintenant mon lecteur lit tout (ou du moins les DVD, car je n'ai pas encore testÃ© des blurays Ã©trangers).

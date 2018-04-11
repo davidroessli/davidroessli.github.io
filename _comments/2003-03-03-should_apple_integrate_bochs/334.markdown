@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 334
+post_id: 418
+author: Anonymous
+email: anonymous@anonymous.anon
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 82.124.44.206
+---
+OpenOSX are swindling people- they do not follow GNU ethics, and have been in a conflict with Fink maintainters. Check out the email correspondence between the Fink maintainter and OpenOSX boss at the Fink homepages. It is not nice. Apparently, some people just want to make money by repackaging others work, and disrespect and exploit others work and their priciples of non-materialism.

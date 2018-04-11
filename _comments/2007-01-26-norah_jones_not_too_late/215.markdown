@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 215
+post_id: 162
+author: amy
+email: amydothi@gmail.com
+date: '2009-07-05 10:00:57 +0200'
+visible: true
+ip: 24.84.202.193
+url: http://amy-nguyetanh-do.blogspot.com
+---
+yes, i know, it's an incredible album. my favorite is the last song "not too late". it's just so stunningly beautiful.

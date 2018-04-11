@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 310
+post_id: 378
+author: Mariann
+email: mariwood@kosub.org
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 131.118.182.191
+url: http://www.mariwood.com
+---
+Thanks for the link... I've been looking for a better way to manage MySql databases!

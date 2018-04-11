@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 295
+post_id: 366
+author: Rob Jorgensen
+email: rob@donotsell.net
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 24.210.145.85
+url: http://radio.weblogs.com/0103146/
+---
+Is the Cocoa version scriptable?

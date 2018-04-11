@@ -1,0 +1,49 @@
+---
+layout: post
+title: Domain name resilience
+date: '2015-05-05 17:18:48 +0200'
+mt_id: 786
+blog_id: 11
+post_id: 786
+basename: domain_name_resilience
+categories:
+- thoughts
+---
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/3200365808_763891149f_z.jpg" alt="Resilience" border="0" width="319" height="213" /></div>
+
+<p>As people that deal with digital media day in and day out, we've grown accustomed to build resilience in our designs.</p>
+
+<p>We backup our files, use version control, mirror our disks and our servers, rsync our data, balance load our requests, provide for redundant internet access, etc...</p>
+
+<p>The only element I've never worried about is the domain name. Once properly configured, its records propagate and dictate what requests go where. The worse that could happen was to forget to renew it, and even then there usually is a grace period before you loose it.</p>
+
+<p><strong>How wrong I was.</strong></p>
+
+<p>It turns out that the domain name and the registrar that manages it are key to everything that goes on under that domain name. Email, website, sales, apps, etc. If the domain names disappears, everything disappears with it.</p>
+
+<p>This is what happened to one of my clients <time datetime="2015-05-04">yesterday</time>. I have been working on his website these last few months, but the domain was setup <time datetime="2014">last year</time>, and the employees were using it daily for their business.</p>
+
+<p class="update">Yesterday, for no apparent reason, the domain name's status was switch to serverHold and disappeared from the internets.</p>
+
+<p>It was paid for until 2017, so that wasn't the issue here.</p>
+
+<h3><a class="sidelist" href="https://www.icann.org/en/system/files/files/epp-status-codes-30jun11-en.pdf" title="ICANN Status Codes">What does it mean?</a></h3>
+
+<blockquote>
+"This status code is set by your domain's Registry Operator. Your domain is not included in the zone file and will not resolve. It is an uncommon status that is usually enacted during legal disputes or when your domain is subject to deletion."
+</blockquote>
+
+<p>I queried the domain's registry with whois and discovered that not only the domain was serverHold but pendingTransfer too!</p>
+
+<p>As it turns out, the registrar is located in Mozambique and was unreachable for over a day and I was getting worried that we might loose the domain and have to attempt some kind of legal action (we might still have to).</p>
+
+<p>So early this morning I setup an alternate domain and proceeded to setup and configure all the mailboxes, modify the CMS settings, check for absolute URLs and change them accordingly.</p>
+
+<p>The domain came back online earlier today, but I'm still trying to get them to restore the registry entries to their correct values.</p>
+
+<h3>How fragile we are.</h3>
+
+<p>It led me to think that in certain circumstances we should provide domain name resilience. Especially if we have to deal with sketchy registrars. Reserve and configure an alternate domain name with a different registrar.</p>
+
+<p class="update">The power of registrars is immense. If they screw up, they can wipe you off the internet in a blink.</p>
+

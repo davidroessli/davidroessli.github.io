@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2262
+post_id: 204
+author: Obat Nyeri Sendi
+email: newsbau123@gmail.com
+date: '2013-08-04 10:29:40 +0200'
+visible: true
+ip: 125.163.233.220
+url: http://www.gopret.com/2013/07/obat-herbal-nyeri-sendi.html
+---
+Thanks a lot for sharing us that very useful information, I am very happy to have this 

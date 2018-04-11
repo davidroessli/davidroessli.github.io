@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 270
+post_id: 330
+author: php tutorial
+email: burminsky.pv@gmail.com
+date: '2010-06-03 17:27:52 +0200'
+visible: true
+ip: 93.127.39.236
+url: http://phpforms.net/tutorial/tutorial.html
+---
+Great tip. Thanks a lot for sharing.

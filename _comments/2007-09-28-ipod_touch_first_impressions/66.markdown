@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 66
+post_id: 206
+author: Zeljko Knezevic
+email: zeljko10@orangemail.ch
+date: '2007-10-18 15:22:09 +0200'
+visible: true
+ip: 199.67.203.142
+---
+Wie und wo hast du es geschafft dir einen ipod touch aus den Staaten liefern zu lassen? Ich versuche das schon seit ein paar Tagen doch es klappt nicht.
+
+Vielen Dank fÃ¼r deine (raschmÃ¶gliche) Antwort.
+
+Cheers
+Zeljko

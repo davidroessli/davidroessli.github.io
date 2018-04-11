@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 366
+post_id: 469
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 62.167.39.7
+url: http://macinblog.com
+---
+Richard,
+
+
+
+Check your settings, and make sure you haven't forgotten the trailing slash on the directory path:
+
+
+
+/virusdefs/mac/virex7/
+
+
+
+Should do the trick.

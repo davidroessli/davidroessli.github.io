@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2288
+post_id: 697
+author: Craig Jones
+email: craig@jonesynet.co.uk
+date: '2013-12-15 20:33:49 +0100'
+visible: true
+ip: 87.114.165.254
+---
+Just tried this on my Sony BDP-S470.
+
+Worked first time; many thanks for posting!

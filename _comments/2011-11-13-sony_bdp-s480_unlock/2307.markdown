@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2307
+post_id: 697
+author: BNM
+email: bmasors@hotmail.com
+date: '2014-09-15 20:29:55 +0200'
+visible: true
+ip: 71.116.253.185
+---
+I would like to unlock a Blu-ray and DVD for a BDP-S2600 in the U.S., but, since almost all the world uses PAL, what's the point?

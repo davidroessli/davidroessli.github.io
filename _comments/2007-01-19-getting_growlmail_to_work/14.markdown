@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 14
+post_id: 156
+author: John Markov
+email: jmarkov@hellnessy.com
+date: '2007-01-22 09:29:34 +0100'
+visible: true
+ip: 62.167.235.106
+---
+Thanks! Couldn't figure out why it worked on one Mac and not on the other.
+
+PS: were you the guy who wrote on Macinblog a few years ago?

@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 246
+post_id: 296
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2009-10-09 18:25:37 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Doug I believe the only one that could be compatible with a car mount woud be the FastMac. But then it would depend on the form factor of the car mount.
+
+The FastMac mounts with the iPhone in a Dock.
+
+The Mophie's lack the iPod connector.
+

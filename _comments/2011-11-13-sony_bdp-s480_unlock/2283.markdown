@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2283
+post_id: 697
+author: Anni
+email: ForgiveLove@web.de
+date: '2013-12-09 19:10:43 +0100'
+visible: true
+ip: 66.249.81.209
+---
+@Paul: Yup, it Works for BDP-S1100 and also there is no need to ' hard-reboot' the DVD-player as I read on another website. Simply turn the player back on with the original remote and it id Region free.
+ Btw, I used an OFA URC-7960 remote (if someone might feel the need to ask. ;) ).

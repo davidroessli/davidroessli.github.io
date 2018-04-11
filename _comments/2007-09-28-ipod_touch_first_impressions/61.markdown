@@ -1,0 +1,25 @@
+---
+layout: comment
+comment_id: 61
+post_id: 206
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-10-14 11:22:01 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com
+---
+Me too..
+
+<em>Dear David</em>
+
+<em>Finding a solution for you is important to me, so I have requested assistance with the issue you reported. You will receive an email after the matter has been investigated and further information is available.</em>
+
+<em>Thank you for your patience. Apple wants your iTunes experience to be as enjoyable as possible.</em>
+
+<em>Sincerely,</em>
+
+<em>***
+iTunes Customer Support
+http://www.apple.com/support/itunes/ww/
+</em>

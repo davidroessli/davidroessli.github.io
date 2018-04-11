@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 20
+post_id: 158
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-01-27 09:13:30 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+It is quiet actually. The PowerMac G5's fans make more noise and cover those of the Fusion. LaCie's Two Big is much more noisier (but it is off most of the time, and it's hidden in a closet anyway).

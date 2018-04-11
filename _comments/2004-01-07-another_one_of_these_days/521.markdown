@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 521
+post_id: 663
+author: David Lou
+email: webmaster@versicherungen-berechnungen.de
+date: '2011-03-20 14:18:57 +0100'
+visible: true
+ip: 217.81.35.199
+url: http://www.versicherungen-berechnungen.de
+---
+After a long search, I finally found your site. My granny used to say, that you must never give up to reach a certain aim.
+So keep on going like I did it recently.

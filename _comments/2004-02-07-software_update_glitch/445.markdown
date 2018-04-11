@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 445
+post_id: 553
+author: Jason Luros
+email: jluros@hotmail.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 24.5.44.166
+url: http://www.luros.org
+---
+You don't know how long I've been frustrated with this! Thanks for the help...I used Pacifist to install gnutar and tar. Voila--Software Update is back!
+
+Jason

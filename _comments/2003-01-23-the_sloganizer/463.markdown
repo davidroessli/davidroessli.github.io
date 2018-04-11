@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 463
+post_id: 587
+author: Sitzpisserchen
+email: sitzpisserchen@web.de
+date: '2011-03-20 14:18:53 +0100'
+visible: true
+ip: 213.168.96.172
+url: http://www.sitzpisserchen.de.vu
+---
+Ich kann gut pissen!

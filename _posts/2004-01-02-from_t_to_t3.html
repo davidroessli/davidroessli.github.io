@@ -1,0 +1,47 @@
+---
+layout: post
+title: From T to T3
+date: '2004-01-02 17:22:13 +0100'
+excerpt: Here are a few tips and hints if you need to migrate from a <a href="http://www.palmone.com/us/support/tungstent/">Palm
+  T</a> (or older) to the brand new <a href="http://www.palmone.com/us/products/handhelds/tungsten-t3/"
+  title="Official T3 page on Palm.com">Palm T3</a>. Unfortunately this time, I ran
+  into a number of problems I didn't encounter during previous upgrades.
+mt_id: 537
+blog_id: 11
+post_id: 537
+basename: from_t_to_t3
+categories:
+- daily
+---
+<p>Here are a few tips and hints if you need to migrate from a <a href="http://www.palmone.com/us/support/tungstent/">Palm T</a> (or older) to the brand new <a href="http://www.palmone.com/us/products/handhelds/tungsten-t3/" title="Official T3 page on Palm.com">Palm T3</a>. Unfortunately this time, I ran into a number of problems I didn't encounter during previous upgrades.</p>
+
+<!--more-->
+
+<p><img src="https://www.davidroessli.com/assets/macinblog/img/backup_plus_backup_card.gif" height="150" width="120" align="right" alt="[ palm backup plus card ]" />First, my Backup Plus Card didn't function properly. I was unable to restore the data on the card to the handheld. Hm, scary, no? I previously relied on that solution to transfer information and applications from one handheld to another, but this time it sadly failed with fatal alerts. I'd been using the card regularly this last month due to a battery failure of my Palm T which suddenly discharged itself completely, requiring a complete restore of all apps and data. I took the habit of launching a backup 2 to 3 times a day. Then suddenly, my <a href="http://www.web-confidential.com/">Web Confidential</a> database went corrupt. I would launch the application, enter the password, and my available memory would get saturated with an ever growing web confidential file until the system would halt. Hmm. That's when I started to get the creeps. My last desktop backup dated from more than a month ago. The problems I encountered with <a href="http://www.macfixit.com/article.php?story=20031024072942809&#38;query=palm+desktop+panther">Palm Desktop/HotSync Manager and Panther</a> delayed the proper reinstallation of <a href="http://www.palmone.com/us/support/macintosh/mac_desktop.html">Palm Desktop 4.1</a> and its related backups. <strong>So, I'd already lost data</strong>. I was relying only on one single backup source - a common mistake. Don't put all your eggs in the same basket, or your bound to loose them all one day..</p>
+
+<p>Since, I found on the following support article on PalmOne that shed a little light on the Expansion Card problem:</p>
+
+<p>&lt;<a href="http://www.palmone.com/us/support/downloads/64mb_backup_other.html">http://www.palmone.com/us/support/downloads/64mb_backup_other.html</a>&gt;</p>
+
+<p>Palm offers an update to correct the problem on Zire and Tungsten models (Macintosh download). I was more cautious now. The restore function of the card failing, I reverted to the standard HotSync solution. Hotsynched my Palm T, and synched my Palm T3 - sounds simple, no ? The catch here was that most of the data was saved on my Mac, but not the essential, namely the Address, Datebook and To Do list .. No matter how I did it, the synch went well, the logs were clear of errors, but Palm Desktop displayed an empty Address and Datebook. Damn. By that time I was really getting worried.</p>
+
+<p>After tinkering around for 2 or 3 hours, checking iSync, looking for a way to send all my contacts by Bluetooth, etc. I finally examined the <strong>HotSync Conduit files</strong>. I discovered that the main applications had changed name between Palm OS 5 (T) and 5.2.1 (T3)</p>
+
+<ul>
+<li>Address Conduit becomes Contacts Conduit</li>
+<li>Datebook Conduit becomes Calendar Conduit</li>
+<li>ToDo Conduit becomes Tasks Conduit</li>
+<li>Memo Conduit becomes Memos Conduit</li>
+</ul>
+
+<p>The picture got suddenly clearer. The conduit weren't working. I was trying to backup a device with the incorrect conduits. Luckily, my desktop Mac at work still had an older version of Palm Desktop 4 installed, and I quickly transfered the old conduit files to my PowerBook at home.</p>
+
+<div style="text-align:center;"><img src="https://www.davidroessli.com/assets/macinblog/img/hotsync_conduit_files_1.jpg" height="463" width="388" alt="[ palm conduit files ]" /></div>
+
+<p>With the proper files installed, the HotSync functioned correctly. Switch the files, and I was ready to sync back the data onto the T3. The only other thing to check is the all the files that have accumulated in the Backup directory.</p>
+
+<blockquote><code>~/Documents/Palm/Users/<em>your hotsync name</em>/Backups/</code></blockquote>
+
+<p>Chances are you'll find a large number of files there. Some that will ring a bell, some other that just won't. Be conservative, and remove all unknown. Several apps brought my T3 to a halt when restoring them, including my <a href="http://www.pimlicosoftware.com/">DateBk5 DB</a>. Once I got all my contacts, tasks and appointments back up, I reinstalled the other applications. Beware to use the same HotSync ID or most of your registered applications won't register anymore.</p>
+
+<p>I thought I'd share this info with you - might come in handy. All this is surely available elsewhere online, but I'm not too accustomed with Palm forums and weblogs. Send me your pointers and comments.</p>

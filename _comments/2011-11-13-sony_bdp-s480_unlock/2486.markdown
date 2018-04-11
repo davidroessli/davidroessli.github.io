@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2486
+post_id: 697
+author: Patrick Wallace
+email: ptw@tpointsw.uk
+date: '2018-04-03 17:48:28 +0200'
+visible: true
+ip: 86.157.2.222
+---
+Doesn't appear to work on Sony BDP-S6700. Programming the OneForAll remote appeared to go OK, with the right numbers of flashes at various points. But after bringing the Sony BD player out of standby and pressing 12345 on the OneForAll the green "on" light doesn't flash, and afterwards Region 1 DVDs are still refused.

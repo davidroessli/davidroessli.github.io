@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 319
+post_id: 390
+author: lolita
+email: piipi@yahoo.com
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 213.206.5.5
+url: http://lolita.lolita--fuck.com/lolita.html
+---
+Nice site you have!

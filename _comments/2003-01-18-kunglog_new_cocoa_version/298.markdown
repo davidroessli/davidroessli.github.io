@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 298
+post_id: 366
+author: mengjuei
+email: mjhsieh@yahoo.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 128.195.180.171
+url: http://rayl0.bio.uci.edu/~mjhsieh/
+---
+Hi, you might also like this <a href="http://lists.apple.com/mhonarc/sherlock-channel-development/msg00309.html" rel="nofollow">http://lists.apple.com/mhonarc/sherlock-channel-development/msg00309.html</a>
+
+a Sherlock with movabletype support.

@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 83
+post_id: 156
+author: chris
+email: cwoody222@yahoo.com
+date: '2007-11-07 14:51:30 +0100'
+visible: true
+ip: 209.37.134.16
+---
+This didn't work for me.  Whatever I did in Terminal did SOMETHING because the next time I opened Mail it told me that the GrowlMail app was incompatible and it would be deactivated... the same msg I got the first time I booted up Leopard.
+
+This is on a brand new Mac with a Clean Leopard Install.
+
+Any other suggestions?  I miss my Growl notifications.

@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 317
+post_id: 390
+author: max
+email: mx@atari.org
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 194.94.130.174
+---
+i need a fullscreen mode for presentations / installations. no menue, just the web, please keep on doing nice stuff.

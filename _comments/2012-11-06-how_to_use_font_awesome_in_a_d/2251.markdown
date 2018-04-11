@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2251
+post_id: 734
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2013-04-16 13:44:47 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.cybmed.com
+---
+Things have changed with <a href="http://fortawesome.github.io/">version 3</a>! Font Awesome comes with an OTF version and <a href="http://fortawesome.github.io/Font-Awesome/design.html">Copy &amp; Paste</a> page for easy reference!

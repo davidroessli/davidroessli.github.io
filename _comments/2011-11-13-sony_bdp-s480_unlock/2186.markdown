@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2186
+post_id: 697
+author: Lionel Pijat
+email: lionel.pijat@wanadoo.fr
+date: '2012-03-22 15:33:18 +0100'
+visible: true
+ip: 129.194.8.73
+---
+Bonjour,
+Je viens d'acheter un lecteur sony 400 (Model BDP CX 960 J'essaye votre manip mais sans succÃ¨s lorsque l'on fait la manipulation avec la "One for all", le lecteur doit-Ãªtre Ã©teint ou allumÃ© (je ne comprends pas la phrase Use the Sony remote to bring the player out of standby).

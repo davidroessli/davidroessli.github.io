@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 106
+post_id: 209
+author: Stuart Thiel
+email: sthiel@htmlweb.com
+date: '2008-03-03 21:27:22 +0100'
+visible: true
+ip: 132.205.129.221
+---
+But how does one do that programatically, through a script or something? I've been asked to write an installer that installs a self-signed script. I've suggested that it's inadvisable to do that, but the client is keen... so how does one go about doing it (easy as pie on Windows...)

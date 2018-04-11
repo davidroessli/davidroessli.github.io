@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 534
+post_id: 339
+author: Mike B
+email: Mike619266@gmail.com
+date: '2011-06-26 16:43:05 +0200'
+visible: true
+ip: 217.41.227.247
+---
+David, the permanent solution is to do a soft reset of your phone. Hold down the 'home' button and at the same time press and hold the power button. The screen will go blank and then you'll get the Apple logo. Give it a minute and you'll get up your usual log in screen. That should sort it.

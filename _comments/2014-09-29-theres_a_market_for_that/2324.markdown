@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2324
+post_id: 771
+author: Sylvain
+email: info@tapiocadesign.com
+date: '2014-09-29 14:10:08 +0200'
+visible: true
+ip: 81.242.74.2
+url: http://www.tapiocadesign.com
+---
+Not really related to iPhone... a few things I don't get about Apple, but main one is Thunderbolt. The firm gave up with their own such promoted FireWire and switched to this new wire a few years ago. I was thinking about a MacPro to plug on motherboard a very good graphic card, that's what the Mac"Pro" stands for, a modulable computer. But on the new one, you cannot even do it ! There's only 6 thunderbolt holes in the back and that's it, like any other Mac computer. At that day, the industry is not following it, sound or graphic cards and HD are a few few, and expensive. A company has built a "chassis" to plug any USB3 device, and having Thunderbolt at the end, it's the size of a computer and worth $1000 !
+Why Apple give up with their professional cutomers for family market, and on the other hand launch wires too "avant-garde" for them.
+I need the best NVIDIA card, I'm gonna be back to my teenager Windows PC ! With a few tears. A few pips.

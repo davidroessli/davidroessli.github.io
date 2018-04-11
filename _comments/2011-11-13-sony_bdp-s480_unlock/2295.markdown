@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 2295
+post_id: 697
+author: Hugo
+email: hsh_smile@yahoo.com
+date: '2014-04-13 00:58:57 +0200'
+visible: true
+ip: 64.139.245.121
+---
+WE have a bdp-s5100 and a URC-7140 and it did not work. 
+Our player is still only working for one region. 
+We tried the 0533, the 000533 and also the 20533 versions of the code at the very beginning and none has worked. 
+We saw no "OK" on the screen of the player or else. 
+We tried also a code (1516 in our case) that would allow us to control the player with the OneForAll control, but the only thing we achieved was to turn the player ON and OFF by pressing 5...
+any suggestions? 

@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 67
+post_id: 206
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-10-18 16:09:27 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://davidroessli.com
+---
+@ Zeljko: in English please.. :/ I'm not sure I understand your question.
+
+Are you asking if I ordered my iPod Touch in the US?  ordered it from the Swiss Apple Store the day following it's announcement.

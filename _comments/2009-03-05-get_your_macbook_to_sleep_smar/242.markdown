@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 242
+post_id: 270
+author: grj
+email: jgrega1@gmail.com
+date: '2009-10-05 17:43:31 +0200'
+visible: true
+ip: 86.58.13.144
+---
+How does Smartsleep react to a situation when you close your Mac at say 22% battery power and let it closed for a weekend? Is it that smart to wake up and hibernate, or does the battery run out of power?
+I'm just considerig an install. Thanks! 

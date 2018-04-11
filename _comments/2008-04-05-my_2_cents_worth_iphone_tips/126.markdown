@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 126
+post_id: 244
+author: ksharp
+email: kelly.sharp@eurobell.com
+date: '2008-04-07 14:53:10 +0200'
+visible: true
+ip: 62.167.235.106
+---
+I had a flawless experience when ordering one from NextWay (http://www.nextway.ch). It worked out of the box. I think they must have done most of the patching themselves (adn added a button to their online store on the desktop).
+:)
+Highly recommended.
+
+PS: any idea when will the 3G model will ship and will it be available in Switzerland?

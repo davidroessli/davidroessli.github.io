@@ -1,0 +1,26 @@
+---
+layout: comment
+comment_id: 81
+post_id: 206
+author: JL
+email: lewis.julian@gmail.com
+date: '2007-11-05 13:40:36 +0100'
+visible: true
+ip: 90.9.188.101
+---
+I live in France and work in Geneva.
+While I was in Knoxville TN Apple Store, I bought two Ipod Touch players, and a MacBook (The MacBook is fine except I have to cough up 200Eu to buy Lepoard a week after I bought it). I was going to give the Itouch players as presents for Christmas to my daughter and wife. 
+However I have found out to my cost that the devices have been sabotaged in such a way that  only ITunes can be used on  only one computer for one device. Also  the players are unusable from Linux (Encrypted
+protocol) so that it is impossible to use them with winamp + mlipod as in the past. In my opinion I was sold these devices under false pretenses, they are simply junk, there should be a large warning written on the packet:
+WARNING THESE DEVICES ARE BRAIN DEAD AND NEED    ITUNES BLOATWARE. 
+My daughter runs Ubuntu/Windows Dual Boot, I run Ubuntu,
+MaxOs (on my new MacBook) and Windows. There are 6 computers in my house, 3 operating systems and two ITouches; the horrible impossible mess created by Itunes
+and the ridiculous way it is impossible to use windows and MacOs (Incompatible file systems!!) or even two windows computers (One Library) is simply a dirty trick from Apple. Rest assured that I will tell others what Apple is up to, they wont sell any more of that junk to the people I know. The web is now full of complaints about IPhone and ITouch:
+http://www.blogitouch.fr/2007/09/17/itunes-obligatoire-pour-les-nouveaux-ipod/
+ - this explains how the Itouch has been sabotaged and how to fix it with a jailbreak
+or
+http://www.calacanis.com/ 
+ - are some examples of the troubles the poor suckers had who own two computers, hell they don't have two ITouches
+then they would be in real trouble.
+Apple is shooting itself in the foot.
+Any one want a couple of new ITouches going cheap I am not dishonest enough not tell tell them what a load of rubbish they are.

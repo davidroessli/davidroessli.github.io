@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2332
+post_id: 772
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-11-26 07:59:57 +0100'
+visible: true
+ip: 129.194.114.106
+url: http://www.cybmed.com
+---
+The second part was just as goodâ€¦ <a href="http://www.imore.com/debug-48-melton-ganatra-episode-ii-understanding-apple">Debug 48: Melton & Ganatra episode II: Understanding Apple</a>. 

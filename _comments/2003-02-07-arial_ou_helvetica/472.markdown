@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 472
+post_id: 598
+author: Sita Joan
+email: webmaster@versicherungen-berechnungen.de
+date: '2011-03-20 14:18:54 +0100'
+visible: true
+ip: 62.226.213.97
+url: http://www.versicherungen-berechnungen.de
+---
+CanÃ¢Â€Â™t you just say what you mean? I donÃ¢Â€Â™t really understand all this. But I like the way you do it. I can surely learn a lot on your sites. Thanks

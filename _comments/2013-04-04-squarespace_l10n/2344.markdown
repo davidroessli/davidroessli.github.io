@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 2344
+post_id: 750
+author: Johnny Wu
+email: johnny@localizejs.com
+date: '2015-01-29 04:52:59 +0100'
+visible: true
+ip: 67.243.157.28
+url: https://localizejs.com/docs/integrations/squarespace
+---
+Hey David,
+
+Thanks for giving us a shoutout in your breakdown of Squarespace 6 and their localization.
+
+Anyone can feel free to email me directly if you have questions about the product, or integrating it into your site
+
+johnny@localizejs.com

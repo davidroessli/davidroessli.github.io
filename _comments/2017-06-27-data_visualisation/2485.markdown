@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2485
+post_id: 916
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2018-02-23 16:42:08 +0100'
+visible: false
+ip: 213.3.16.247
+---
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 

@@ -1,0 +1,47 @@
+---
+layout: comment
+comment_id: 287
+post_id: 346
+author: David Roessli
+email: davo39@idees.ch
+date: '2011-03-20 14:11:08 +0100'
+visible: true
+ip: 62.167.183.135
+---
+Picked this up on Apple Discussions:
+
+<a href="http://discussions.info.apple.com/WebX?14@@.3bba7a2a/1" rel="nofollow">http://discussions.info.apple.com/WebX?14@@.3bba7a2a/1</a>
+
+
+
+
+
+Original Message
+
+(Posted Sep 23, 02 11:34 pm)
+
+
+
+The inability of AppleWorks to do a mail merge with the Address Book in X 10.2 is a major downfall. Until Apple comes up with a fix in an updated AppleWorks, I'm using AppleScript.
+
+
+
+I've created a simple script to get names and addresses from a group in Address Book and copy them to an AppleWorks database. From this database you can use the usual mail merge funtion.
+
+
+
+It's a bit of a kluge solution but it works and still allows you to use Address Book as your contacts database.
+
+
+
+You can download the example script from my idisk:
+
+Finder->Go->Connect to Server: <a href="http://idisk.mac.com/haroldshields/Public" rel="nofollow">http://idisk.mac.com/haroldshields/Public</a>
+
+The example uses a Xmas Card Recipients group. You can change the name of the group in the script to suit your purposes.
+
+
+
+Cheers!
+
+Harold Shields

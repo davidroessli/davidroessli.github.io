@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 355
+post_id: 458
+author: William Stewart
+email: contact@wstewart.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 65.78.213.44
+url: http://www.williamstewart.org
+---
+Instead of click-dragging the artwork into iTunes, you can now press shift-apple-J and it will automatically insert the image.  Pretty cool!

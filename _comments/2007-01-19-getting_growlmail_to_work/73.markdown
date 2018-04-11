@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 73
+post_id: 156
+author: Krysia
+email: krysia@krysiasweb.net
+date: '2007-10-21 03:10:45 +0200'
+visible: true
+ip: 71.217.143.129
+url: http://www.krysiasweb.net
+---
+It worked! Thank you. :-D

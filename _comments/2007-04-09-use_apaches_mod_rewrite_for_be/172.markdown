@@ -1,0 +1,32 @@
+---
+layout: comment
+comment_id: 172
+post_id: 194
+author: Will
+email: wilzan@gmail.com
+date: '2008-11-18 05:40:28 +0100'
+visible: true
+ip: 67.241.46.238
+---
+Great tutorial. I've got the same issue, a separate domain for a single MT install driving multiple blogs.
+
+I want to your technique for one of the blogs I've got running, but don't want to break the others.
+
+Say I've got Movable Type installed at:
+
+http://mt.example.com/
+
+publishing different blogs to different domains (all on the same server):
+
+http://domain1.com/
+http://domain2.com/
+http://domain3.com/
+
+If I create a symlink between...
+
+mt.example.com/cgi-bin and domain1.com/cgi-bin 
+
+...what happens with the other domains that are referencing mt.example.com/cgi-bin? Will they still work as usual with the ugly urls or will they break? 
+
+Thanks.
+

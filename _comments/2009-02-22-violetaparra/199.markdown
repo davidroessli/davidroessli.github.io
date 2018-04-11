@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 199
+post_id: 268
+author: lavinia
+email: lavinia.faccini@ufrgs.br
+date: '2009-05-19 13:17:10 +0200'
+visible: true
+ip: 201.66.171.207
+---
+Forgot to tell that Mario Benedetti died the day before I posted this last comment.

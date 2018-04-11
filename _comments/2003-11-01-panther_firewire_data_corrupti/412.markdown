@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 412
+post_id: 517
+author: Oliver Kripfgans
+email: greentom@umich.edu
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 141.214.17.5
+---
+We have seen two PowerBook G4 (GigaBit, 667 MHz) with a blown internal firewire port after connecting a external self powered 400 firewire RAID drive. The RAID works just fine on a G# or G$ desktop and works fine with a $17 PCMICA IEEE 1394 CardBus pluged into the PowerBook.  Both PowerBooks run 10.3, the desktops run 10.2.

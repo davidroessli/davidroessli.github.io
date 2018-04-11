@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 159
+post_id: 204
+author: Java Tutor
+email: javatutorin@gmail.com
+date: '2008-09-12 10:58:57 +0200'
+visible: true
+ip: 58.27.152.93
+url: http://www.javatutor55.com/
+---
+Really nice tutorial. Really love your blog and i'm gonna subscribe to the RSS feed. 

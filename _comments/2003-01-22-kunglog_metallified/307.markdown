@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 307
+post_id: 372
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 62.167.189.150
+url: http://macinblog.com/
+---
+Oops. Seems that the latest version of Kung-Log includes an app to patch the appearance ..

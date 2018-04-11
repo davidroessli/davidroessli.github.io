@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 85
+post_id: 211
+author: Deb
+email: cococello@gmail.com
+date: '2007-11-10 20:49:15 +0100'
+visible: true
+ip: 71.237.212.142
+---
+David,
+Thanks for posting this article on how your use SoftRaid and Super Duper. (I found you after plugging in several combinations of keywords into Google - whew!) My mercury elite plug-n-play that comes with SoftRaid should be coming soon as I'll be using that to back-up everything from my computer hard drive and any external drives off the computer. I had heard I can use Super Duper to schedule but still have to figure it out exactly how to do that. Looks like a lot of user manual reading is in the near future (grin). I'm used to having a help desk and recently became my own tech support - oy. Thanks for the other tips and letting me know it can be done ;-)
+Deb

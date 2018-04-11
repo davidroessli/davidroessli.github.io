@@ -1,0 +1,47 @@
+---
+layout: post
+title: About Swisscom Carrier Bundle 22.1, iOS 9.1 and iPhone 6S battery drain
+date: '2015-10-28 13:29:38 +0100'
+mt_id: 794
+blog_id: 11
+post_id: 794
+basename: swisscom_ios91_iphone6s_battery_drain
+categories:
+- daily
+---
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Swisscom_Care">@Swisscom_Care</a> it looks like WiFi Calling is draining my battery (iPhone 6s/iOS 9.1) “Settings” is responsible for 80% battery usage :/</p>&mdash; David Roessli (@roessli) <a href="https://twitter.com/roessli/status/659290907997523968">October 28, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p class="update">2015-10-30 : Swisscom's latest Carrier Bundle v22.2 seems to correct the battery issue.</p>
+
+<p>Swisscom's latest Carrier Bundle (v22.1 at <time datetime="2015-10-28 11:00">time of writing</time>) is proving to be troublesome to Apple iPhone 6S owners running iOS 9.1.</p>
+
+<p>Swisscom's new <a class="sidelist" title="Swisscom Advanced Calling" href="https://www.swisscom.ch/en/residential/mobile/mobile-network/advanced-calling.html">Advanced Calling features</a> include WiFi Calling which enables you to make calls over both the mobile and WLAN network. Which is cool <em>per se</em> except that it kills your battery in no time.</p>
+<p><strong>This problem seems to occur if you have enabled WiFi Calling once (Settings > Phone)</strong> -- and remains even if you have turned if off after.</p>
+<p>The phone run warm all the time (even when idle), and hot when using it. Checking the Battery usage (Settings > Battery) will display the “Settings” app and the one using up the most battery (80% in my case).</p>
+
+<p>Swisscom acknowledges the issue, and states that Apple is working on a fix.</p>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/roessli">@roessli</a> 1/2 22.1 is the latest version for this device. Apple is testing a potential solution.</p>&mdash; Swisscom_Care (@Swisscom_Care) <a href="https://twitter.com/Swisscom_Care/status/659304767651454977">October 28, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>A workaround is to downgrade your Carrier Bundle as explained by <a href="http://supportcommunity.swisscom.ch/t5/user/viewprofilepage/user-id/48260">mjoe</a> on Swisscom's Community Forums : <a class="sidelist" title="Original Swisscom Community Forum Message" href="http://supportcommunity.swisscom.ch/t5/Diskussionen-rund-ums-iPhone/iPhone-6s-und-6s-Plus-Carrier-Probleme-mit-iOS-9-1/td-p/405197/page/9#messageview_2">http://supportcommunity.swisscom.ch/t5/Diskussionen-rund-ums-iPhone/iPhone-6s-und-6s-Plus-Carrier-Probleme-mit-iOS-9-1/td-p/405197/page/9#messageview_2</a>
+<br/><em>Source <a href="https://twitter.com/philhinco/status/658949406629240832">Twitter</a></em>.</p>
+
+<h3>How to downgrade your Carrier Bundle (Swisscom)</h3>
+<ol class="decimal">
+<li>Make sure that iTunes Carrier Switch is set to YES;</li>
+<li>On a Macintosh computer open the Terminal app and type:
+<tt>defaults write com.apple.iTunes carrier-testing -bool YES</tt></li>
+<li>On a Windows computer, open the command prompt and type:
+<tt>"%ProgramFiles%\iTunes\iTunes.exe" /setPrefInt carrier-testing 1</tt></li>
+<li>Download a previous Swisscom Carrier Bundle (<a href="http://appldnld.apple.com/ios9/carrierbundles/031-42631-20151021-EC8608E2-76C1-11E5-B2FD-503E40B99175/Swisscom_ch_iPhone.ipcc">v22.0</a> or 21.2) IPCC file from Apple's servers:
+<tt>http://appldnld.apple.com/ios9/carrierbundles/031-42631-20151021-EC8608E2-76C1-11E5-B2FD-503E40B99175/Swisscom_ch_iPhone.ipcc</tt></li>
+<li>Connect your iPhone to your computer, and open iTunes;</li>
+<li>Transfer the bundle via iTunes by <strong>alt-clicking</strong> on “Check for Updates” and selecting the IPCC file you have just downloaded;</li>
+<li>Your iPhone should now display the version of the bundle in Settings > General > About > Carrier (e.g. Swisscom 22.0);</li>
+<li><strong>Beware NOT to accept new settings</strong> when our iPhone tells you that new settings are availble, otherwise you'll be back to square one.</li>
+</ol>
+
+<p class="update">A BIG thanks to <a href="http://supportcommunity.swisscom.ch/t5/user/viewprofilepage/user-id/48260">mjoe</a> for providing this hotfix!</p>
+
+<p>Caveat: if you have Carrier Bundle 22.1 installed, but have never turned WiFi Calling on, it doesn't seem to occur (tbc).</p>
+
+<p>Source: <a class="sidelist" title="Apple Carrier Bundles (XML)" href="http://itunes.apple.com/version?uo=8&at=10l4Yr">XML feed of all the Carrier Bundles available from Apple</a>.</p>

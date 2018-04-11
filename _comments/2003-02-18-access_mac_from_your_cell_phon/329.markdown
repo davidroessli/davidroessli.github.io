@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 329
+post_id: 406
+author: Seth Dolman
+email: fictional.people@gmail.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 68.32.164.110
+url: http://fictionalpeople.blogspot.com
+---
+This WAP for .Mac service is apparently no longer available.  The link goes to a "buy this domain" page.

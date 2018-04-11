@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 337
+post_id: 433
+author: Maali
+email: alice.moyon@laposte.net
+date: '2011-03-20 14:11:12 +0100'
+visible: true
+ip: 217.128.191.21
+---
+Apple responds to Adobe : 
+
+
+
+<a href="http://maccentral.macworld.com/news/2003/03/25/appleresponds/" rel="nofollow">http://maccentral.macworld.com/news/2003/03/25/appleresponds/</a>

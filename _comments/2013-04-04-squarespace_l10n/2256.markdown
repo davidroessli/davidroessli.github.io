@@ -1,0 +1,30 @@
+---
+layout: comment
+comment_id: 2256
+post_id: 750
+author: Joona MÃ¤kinen
+email: joonahe@me.com
+date: '2013-06-18 09:53:04 +0200'
+visible: true
+ip: 85.76.170.28
+---
+David, thanks very much for your helpful tip!
+
+I used your code to translate the date format in to finnish, and it worked perfectly.
+
+For some reason, though, I can't get the "substitute specific strings" part of your code to work. I'm trying to translate "Newer" and "Older" in the blog, but the default ones stay anyways. Do you have an idea, why it doesn't work? I used your example code from SQS Answers forum, and just replaced french words with finnish equivalents.
+
+Here's my code:
+
+  
+
+      :::::::::::::::::::::::::::::::::::::::::::::
+            ::: Substitute specific strings
+          */
+          Y.all('.ss-social-button').setHTML('<span class="ss-social-button-icon"></span>Partagez');
+          Y.all('.inline-read-more').setHTML('Lue lisÃ¤Ã¤');
+          // Y.all('.newer-posts').setHTML('Seuraava');
+          // Y.all('.older-posts').setHTML('Edellinen');
+          /*
+
+  

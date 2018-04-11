@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 237
+post_id: 301
+author: W Boston
+email: wboston2@verizon.net
+date: '2009-09-06 22:06:09 +0200'
+visible: true
+ip: 173.53.116.185
+---
+My AudiaHijack Pro was not compatible and wasnâ€™t upgraded, in fact on your list of  Snow Leopard Compatibility List.  apps it indicated it wasnâ€™t compatible and an upgrade was forth coming.  Also Snow Leopard didnâ€™t create a root folder to indicate which apps werenâ€™t compatible.  I discover those apps when I use them  ie. . .  TuneTools . . .. 

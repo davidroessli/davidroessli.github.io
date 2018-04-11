@@ -1,0 +1,23 @@
+---
+layout: comment
+comment_id: 108
+post_id: 231
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-03-06 08:55:54 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+As this issue is growing, an interesting fix was posted on <a href="http://discussions.apple.com/thread.jspa?threadID=1365569&tstart=60" title="Unresponsive Keyboard and Trackpad problem FIXED/RESOLVED" rel="nofollow nofollow nofollow nofollow nofollow nofollow">Apple Discussions</a> which you might want to try if you are running into this problem:
+
+<a href="http://discussions.apple.com/profile.jspa?userID=1176581" title="Steve Eugene on Apple Discussions" rel="nofollow nofollow nofollow nofollow nofollow">Steve Eugene</a> posted the following: 
+
+<blockquote><strong>This is a HARDWARE problem!</strong><br />
+After playing around with removing the battery and noticing that this often returned functionality to the keyboard I surmised that this had some sort of physical aspect.<br />
+Sure enough, there is a section of copper colored tape/wiring exposed in the batter slot that is slightly bowed where it's smallest.<br />
+<strong>When I depressed this with my finger tip on this portion to basically flatten it out flush against the housing; I found that all functionality was restored!</strong></blockquote>
+
+As amazing as it sounds, it has actually worked for a number of readers who were suffering from this issue.
+
+Check out the ful post with images at http://discussions.apple.com/thread.jspa?threadID=1365569&tstart=60

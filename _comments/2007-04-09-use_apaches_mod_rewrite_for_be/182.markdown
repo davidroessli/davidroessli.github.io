@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 182
+post_id: 194
+author: Culture Snob
+email: snob@culturesnob.com
+date: '2009-01-21 18:56:51 +0100'
+visible: true
+ip: 173.26.69.227
+url: http://www.culturesnob.com
+---
+Never mind. I think I figured it out.
+
+Thanks again for the tutorial.

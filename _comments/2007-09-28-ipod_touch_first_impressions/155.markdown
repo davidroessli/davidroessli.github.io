@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 155
+post_id: 206
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-09-03 06:34:53 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Jose I agree. Actually, with all the problems the iPhone 3G is plagued with, it's a better alternative. Both in terms of battery life and overall stability.
+
+If you are happy with your current cellphone, and don't have sync issues, stick with it and buy an iPod Touch.
+(who's price might significatively drop this month if you believe the rumours).
+
+Not to mention, the iPhone probably is the worse cameraphone I have ever seen. 

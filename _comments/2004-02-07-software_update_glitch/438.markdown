@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 438
+post_id: 553
+author: Joe
+email: joeedel@hotmail.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 68.34.34.233
+---
+I had the same problem when using automatic update, I checked all above tips and I found no problems.  A reboot & running softwareupdate -a -i as root seemed to fix the problem on 3 out of 4 machines.  I assume that it was a faulty download? anyway more interesting is that I had moved my sever admin tools folder (after installation) from Applications/Server to Applications/Utilities/Server just to tuck it away from curious students. Software update continually tried to update the Applications/Server (noted by a folder named "server" magically applearing after repeated updates) I have since moved it back to the Applications folder and all seems well.

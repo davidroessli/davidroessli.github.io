@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 511
+post_id: 653
+author: florent
+email: flowolf69@yahoo.fr
+date: '2011-03-20 14:18:57 +0100'
+visible: true
+ip: 213.203.112.25
+---
+Salut, 
+
+
+
+Bon courage pour ton retour "hors vacances".

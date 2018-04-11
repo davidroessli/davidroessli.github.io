@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 415
+post_id: 519
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 62.167.68.177
+url: http://macinblog.com
+---
+Yes, you are right, except that the image has to be present in your Address Book (or .Mac):
+
+
+
+[quote]
+
+Mac OS X seems to already have what MailPictures claims to provide --- what's the deal?
+
+
+
+While Mac OS X provides the core functionality of displaying images in Mail or iChat, it is limited to either pictures you manually have assigned in the AddressBook and to .Mac accounts. With MailPictures any email address can have an image and there is no need to manually assign an image to a person. So if I (mailpictures@nikwest.de) send an email to you my image will magically pop up in the email message. There is nothing you have to do besides having MailPictures installed.
+
+[/quote]

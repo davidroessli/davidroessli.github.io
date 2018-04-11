@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 163
+post_id: 216
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-09-27 07:25:55 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@Greg: strange. I have always had success in updating my Mac from the online (.Mac or MobileMe now) version, if the latter isn't corrupted. Which isn't the case if your iPhone and MobileMe account are syncing okay.
+
+Have you updated the .Mac System Preference? It should read MobileMe now (Are you running Leopard? 10.5.x?)
+
+There were some issues with 10.4 (Tiger) and MobileMe syncing - not sure if they are resolved now.
+
+Not much help - sorryâ€¦

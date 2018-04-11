@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 406
+post_id: 505
+author: Omar
+email: mooboynyc@gmail.com
+date: '2011-03-20 14:11:17 +0100'
+visible: true
+ip: 192.168.0.8
+---
+Can you provide some quick installation instructions?  The link to Kirk Samuelson's blog is not coming up for me now, and the littlethinktank.com link is broken.

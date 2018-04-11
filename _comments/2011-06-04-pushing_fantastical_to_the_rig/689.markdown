@@ -1,0 +1,25 @@
+---
+layout: comment
+comment_id: 689
+post_id: 690
+author: Luca
+email: luca.sardelli@gmail.com
+date: '2011-09-28 08:01:26 +0200'
+visible: true
+ip: 95.233.238.63
+---
+Dear Sirs,
+
+I share the point of view of the writer: IMHO calendar menu should be close to the clock a to the right-most end of the menu bar.
+
+I tried what you suggest (: double-click, hold command key, click-n-drag) but this doesn't work: opens and closes the view, then command-click-n-hold opens once more the calendar but the menubar icon is not moving.
+
+Am I missing something?
+
+I'm using 1.0.3 release; in the lower right side corner of the "About Fantastical" window I can read a small "58".
+
+Many thanks in advance for any advice you will share.
+
+Best regards,
+
+    -- lS.

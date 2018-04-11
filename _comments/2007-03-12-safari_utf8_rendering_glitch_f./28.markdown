@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 28
+post_id: 191
+author: Ryan Campbell
+email: ryan@wufoo.com
+date: '2007-03-12 15:13:53 +0100'
+visible: true
+ip: 209.30.129.220
+url: http://wufoo.com
+---
+Thanks for writing this up. I've been bothered by that display issue for the longest time. It's nice to see some explanation behind it.

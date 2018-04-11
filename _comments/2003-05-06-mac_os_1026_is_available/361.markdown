@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 361
+post_id: 463
+author: Chris
+email: 1@2.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 216.103.33.85
+---
+10.2.6 locked up my compurter and now it won't restart. don''t install it!!!!!!!!!

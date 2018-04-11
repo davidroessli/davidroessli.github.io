@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 149
+post_id: 231
+author: Paolo Bonora
+email: paolo.bonora@NOSPgmail.com
+date: '2008-06-25 10:37:32 +0200'
+visible: true
+ip: 83.211.154.2
+---
+This is Paolo from Padova, italy, and yes, we have same problem here. It just happens to me when MBP runs on batteries. When it's powered, no probs at all. I'm running 10.5.3 now, and thinking to switch back to Tiger.
+
+Oddly, with Windows XP (on Bootcamp) this problem doesn't pop up, either on batteries or not. So it MUST be a software problem right? No way I'm gonna use WinXP though, I prefer to run on powered :)

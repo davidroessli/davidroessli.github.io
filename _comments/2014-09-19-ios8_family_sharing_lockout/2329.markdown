@@ -1,0 +1,21 @@
+---
+layout: comment
+comment_id: 2329
+post_id: 770
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2014-11-17 14:28:43 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.cybmed.com
+---
+I don't think you canâ€¦
+
+<strong>Leaving Family Sharing</strong>
+When you leave Family Sharing, your account is removed from the family group and you immediately stop sharing music, movies, TV shows, books, and apps with any remaining family members.
+
+<strong>Any DRM-protected music, movies, TV shows, books, or apps you previously downloaded from other family membersâ€™ collections will no longer be usable, and other family members will no longer be able to use content downloaded from your collection</strong>. If you have made In-App Purchases from an app originally purchased by someone else, you will need to purchase the app yourself to regain access to your In-App Purchases.
+
+In addition, family photos, calendar, and reminders will be removed from your devices, you will stop sharing your location with other family members, and your devices will be removed from the family Find My iPhone device list.
+
+https://developer.apple.com/icloud/documentation/family-sharing/

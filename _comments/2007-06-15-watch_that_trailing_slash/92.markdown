@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 92
+post_id: 204
+author: andy
+email: andy@gmail.com
+date: '2008-02-11 10:22:09 +0100'
+visible: true
+ip: 124.29.203.237
+---
+Trailing Slashes are good in way. Its better to use it when you are submitting your website or making a text link. Here is a good blog related to these issues, that u find worth to read
+http://seodocs.blogspot.com/

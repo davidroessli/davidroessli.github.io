@@ -1,0 +1,144 @@
+---
+layout: post
+title: Squarespace 6 localisation
+date: '2013-04-04 17:46:59 +0200'
+mt_id: 750
+blog_id: 11
+post_id: 750
+basename: squarespace_l10n
+categories:
+- thoughts
+---
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/squarespace-logo-horizontal-white.jpg" alt="squarespace-logo-horizontal-white.jpg" border="0" /></div>
+
+<p>I don't know about you, but I am hearing a lot about <a href="http://squarespace.com" title="Squarespace" class="sidelist">Squarespace</a> these days, either at conferences or as a podcast sponsor, and I decided to evaluate v6 from an internationalisation angle.</p>
+
+<p>Squarespace shines as a CMS. Really. Its approach to designing layouts and organising pages is amazing. The templates you have to choose from are very well designed, and you can customise most of it from the client interface. I won't go into the details her, but you can find numerous reviews elsewhere.</p>
+
+<p>It felt as the perfect solution for those small budget websites projects. Build on an existing template with the client to meet their needs and expectations. Sounded great.. until you get to the localisation issues.</p>
+
+<p>I didn't expect Squarespace to offer an localised version of their admin interface, but I did expect them to take into account the website's localisation settings set in «Time / Geographyí¢â‚¬Â.</p>
+
+<div class="pix full"><a href="https://davidroessli.com/logs/assets/img/sq_datetime_settings.png" rel="fancyzoom"><img src="https://davidroessli.com/logs/assets/img/sq_datetime_settings_tm.png" alt="sq_datetime_settings_tm.png" border="0" /></a></div>
+
+<p>As from I can see, this is only used in the lang parameter of the html element. I would expect them to use it to format the blog's dates and times and to initialise the YUI 3 Library <code>Y.config.lang variable</code>. But sadly, no.</>
+
+<p>Typically, the Calendar widget (template block) couldn't be used on a French site:</p>
+
+<div class="pix nosh">
+<img src="https://davidroessli.com/logs/assets/img/sq_calendar_01.jpg" alt="sq_calendar_01.jpg" border="0"  />
+</div>
+
+<p>So, I tried to figure out what could be done via CSS and JavaScript. There are a number of similar request in <a href="http://answers.squarespace.com/search/?q=translate&Submit=íƒÂ´&t=question" title="Questions matching 'translate'" class="sidelist">Squarespace's forum</a> for translation of the basic wording and date formating used in the blog, but very few answers.</p>
+
+<h3>Code injection</h3>
+
+<p class="update">The following snippets work on the Template «Fiveí¢â‚¬Â and have not been tested on the others. Your mileage may vary depending on their markupí¢â‚¬Â¦</p>
+
+<p>I first tried to <a href="http://yuilibrary.com/yui/docs/datatype/datatype-dateformat-lang.html" title="YUI 3: Formatting Dates Using Language Resource Bundles" class="sidelist">set the correct localisation</a> (French) for JavaScript widgets such as the Calendar by injecting code into the main page header (situated in Settings &gt; Code Injection):</p>
+
+<code><pre>&lt;script&gt;
+Y.use("lang/datatype-date-format_fr-FR",
+  function(Y) {
+      Y.Intl.setLang("datatype-date-format", "fr-FR");
+  }
+);
+&lt;/script&gt;</pre></code>
+
+<div class="pix nosh">
+<img src="https://davidroessli.com/logs/assets/img/sq_calendar_02.jpg" alt="sq_calendar_01.jpg" border="0"  />
+</div>
+
+<p>Unfortunately, this only translates the month name, not the short weekdays which remain in English, so I added a line of CSS to hide them:</p>
+
+<code><pre>
+/*
+  Hide YUI3 Calendar weekdays
+*/
+table.yui3-calendar-grid thead {
+  display:none;
+}
+</pre></code>
+
+<p> The Calendar widget looked acceptable now for a French public:</p>
+
+<div class="pix nosh">
+<img src="https://davidroessli.com/logs/assets/img/sq_calendar_03.jpg" alt="sq_calendar_01.jpg" border="0"  />
+</div>
+
+<p>This approach didn't have any effect on the blog entry dates. I wrote a small JavaScript snippet injected into the page footer to basically translate the month name and change the format from &lt;month day, year&gt; to &lt;day month year&gt;.</p>
+
+<code><pre>&lt;script&gt;
+/* List of months in French */
+var month = new Array(12);
+    month[0] = "janvier";
+    month[1] = "fíƒÂ©vrier";
+    month[2] = "mars";
+    month[3] = "avril";
+    month[4] = "mai";
+    month[5] = "juin";
+    month[6] = "juillet";
+    month[7] = "aoíƒ»t";
+    month[8] = "septembre";
+    month[9] = "octobre";
+    month[10]= "novembre";
+    month[11]= "díƒÂ©cembre";
+
+Y.use('node', 'node-load', function(Y) {
+  Y.on('domready', function() { 
+
+    /* (1) Reformat blog entries published dates */
+    Y.all('time.published').each(
+      function() {
+      var pdate = new Date(this.getAttribute('datetime'));
+      this.setHTML(pdate.getDate() + " " 
+          + month[pdate.getMonth()] + " " 
+          + pdate.getFullYear());
+      }
+    );
+
+  });
+});
+&lt;/script&gt;</pre></code>
+
+<p>This hack worked nicely for plain dates, but not for blog listings where Squarespace uses «time sinceí¢â‚¬Â dates like «3 months agoí¢â‚¬Â, so I substituted that string with the blog entry's date with the following snippet:</p>
+
+<code><pre>
+    /* (2) Replace time since strings with published dates */
+    Y.all('time.timestamp').each(
+      function() {
+        var tdate = new Date(this.getAttribute('datetime'));
+        this.setHTML(tdate.getDate() + " "
+        + month[tdate.getMonth()] + " "
+        + tdate.getFullYear());
+      }
+    );
+</pre></code>
+
+<h3>String substitution</h3>
+
+<p>Similarly, you can replace specific words/sentences by their French counterpart via JavaScript code injection in the footer:</p>
+
+<ul>
+<li>Share -> Partagez</li>
+<li>Read more -> Continuer íƒÂ  lire</li>
+</li>
+
+<code><pre>
+  Y.all('.ss-social-button').setHTML('<span class="ss-social-button-icon"></span>Partagez');
+  Y.all('.inline-read-more').setHTML('Continuer íƒÂ  lire');
+</pre></code>
+
+<p>A blog entry will then look like this:</p>
+
+<div class="pix nosh"><img src="https://davidroessli.com/logs/assets/img/sq_string_replacement.png" alt="sq_string_replacement.png" border="0" /></div>
+
+<p>The CSS still needs to be tweaked, but we are getting closer to what I expected.</p>
+
+<h3>Developer Platform</h3>
+
+<p>Version 6 offers a <a href="http://developers.squarespace.com">Developer Platform</a> which enables you to create your own Squarespace template from scratch. Morevoer, it is completely free until you are ready to publish so get started! Kudos for that. Unfortunately, <a href="http://answers.squarespace.com/questions/1004/can-i-change-the-date-format-in-summary-blocks
+">you can't edit the template blocks</a> (yet, says the documentation), so the same hacks apply.</p>
+
+<p class="update">Keep in mind we are hacking your way to a solution, this code will have to be removed once Squarespace formats dates according to the user's settings.</p>
+

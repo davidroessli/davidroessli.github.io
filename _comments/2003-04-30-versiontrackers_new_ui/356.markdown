@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 356
+post_id: 460
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 217.8.202.151
+---
+Advertising can be switched off in: Membership area > Pro/Plus Tab Preferences, but this seems to generate a cosmetic bug where the Product info overlaps the table on the right.
+
+I'm also experiencing a problem where all items are "Not yet rated"!!
+
+At last, It would be nice if VersionTracker offered the possibility to view a screenshot like in MacUpdate (<a href="http://www.macupdate.com/screenshot.php?id=5661)." rel="nofollow">http://www.macupdate.com/screenshot.php?id=5661).</a>

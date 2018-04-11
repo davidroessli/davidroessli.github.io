@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 178
+post_id: 216
+author: 'Danielle '
+email: daniellevaldez@mac.com
+date: '2008-12-19 02:30:12 +0100'
+visible: true
+ip: 68.196.66.96
+---
+woohoo!!!  After trying other suggestions to no avail, I am extremely pleased to say that this fix did actually work for me.  Thanks so much!

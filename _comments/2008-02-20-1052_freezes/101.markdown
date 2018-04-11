@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 101
+post_id: 231
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-02-28 09:39:51 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+Sadly, the freezes are <strong>still occuring</strong>. They usually happen when I'm running on battery power, whatever the application running.
+
+If Apple doesn't come out with a solution quickly, my only choice will be to clean install 10.5.1 and wait.
+
+<strong>It really makes me feel angry</strong>.
+
+On the gripe level, please be aware that the <a href="http://www.siliconimage.com/products/product.aspx?id=32" rel="nofollow nofollow">SiliconImage ExpressCard 34 eSATA host controller</a> generates kernel panics under Leopard when inserted or ejected from my MacBook Pro. The <a href="http://www.siliconimage.com/support/supportsearchresults.aspx?pid=32&cid=3&ctid=2&osid=3&" rel="nofollow nofollow">current driver is v1.1.9</a> and this includes cards sold by <a href="http://www.sonnettech.com/product/tempo_sata_express34.html" rel="nofollow nofollow">Sonnet</a> and <a href="http://www.lacie.com/us/products/product.htm?pid=11033" rel="nofollow nofollow">LaCie</a>. Sucks.

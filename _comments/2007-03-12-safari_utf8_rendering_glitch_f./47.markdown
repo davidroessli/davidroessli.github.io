@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 47
+post_id: 191
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-05-30 09:34:28 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://davidroessli.com
+---
+Thanks Adam, your tip works like a charm. Actually, I did previously try it but I didn't remove the character 'x' following the backslash and hence it didn't work.
+Make sure you use,
+<pre>content: "\201c"</pre>
+instead of,
+<pre>content: "\x201c"</pre>
+
+Note: TextMate encodes in hex with the "x"

@@ -1,0 +1,47 @@
+---
+layout: post
+title: Retrofitting responsive design
+date: '2014-07-21 14:43:55 +0200'
+mt_id: 769
+blog_id: 11
+post_id: 769
+basename: retrofitting_responsive_design
+categories:
+- daily
+---
+<p>The <a class="sidelist" href="http://www.bis.org" title="Bank for International Settlement">BIS</a> launched their retrofitted responsive website <a href="https://twitter.com/roessli/statuses/491395509198671873">today</a>. Congratulation to the <a href="https://twitter.com/BIS_org">@BIS_org</a> web team!</p>
+
+<p>This was a <a href="https://twitter.com/roessli/statuses/421203907571118080">project I worked on this Winter throught to Easter.</a> The idea was to preserve as much of the current website as possible while making it responsive to mobile devices.</p>
+
+<div class="pix" style="margin-bottom:1.5em"><iframe src="//instagram.com/p/g7-h1xJsED/embed/" width="340" height="394" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div>
+
+<p>The challenge was to design a CSS stylesheet with media queries with some custom JavaScript while editing as little of the HTML markup as possible.</p>
+
+<p>The website had been redesigned fairly recently, and they didn't feel the need for a full redesign. There would be no content update or review and no visual design either. They were to stay as is. So over the course of a few workshops in their premises, I made an inventory of the website's components and designed how they should behave at different viewport widths.</p>
+
+<h3>Navigation</h3>
+<p>The main challenges were related to navigation. The main navigation has entries and 3 levels dropdown on the desktop width. That's a lot. This generates long breadcrumbs…</p>
+
+<div class="pix nosh" style="margin-bottom:1.5em;background-color:#eee;text-align:center;"><img style="width:300px;margin:1em 0;" src="https://davidroessli.com/logs/assets/img/main_nav.png" alt="Main nav" title="3 levels dropdown" /></div>
+
+<p>This was solved by pulling out the third level navigation. The main menu was display the first and second levels in a expand/collapse fashion, and the third level would be available via a toggle switch when it existed. The best place to put it turned out to be next to the breadcrumb.</p>
+
+<p>On narrow viewports, the breadcrumb was trimmed to display a link to the parent level only. This mimics the back button behaviour and is immediately understandable. For more options on third level links (our current level), expand the third level navigation by clicking on the arrow next to the breadcrumb.</p>
+
+<div class="pix nosh" style="margin-bottom:1.5em;background-color:#eee;text-align:center;"><img style="width:300px;margin:1em 0;" src="https://davidroessli.com/logs/assets/img/Group.png" alt="Bis header" title="BIS header" /></div>
+
+<div class="pix nosh" style="margin-bottom:1.5em;background-color:#eee;text-align:center;">
+<img style="width:300px;margin:1em 0;" src="https://davidroessli.com/logs/assets/img/sample02.png" alt="Sample02" title="sample02.png" /><p>Navigation: 1st and 2nd levels</p>
+<img style="width:300px;margin:1em 0;" src="https://davidroessli.com/logs/assets/img/sample03.png" alt="Sample03" title="sample03.png" /><p style="padding-bottom:1em">Navigation: 3rd level</p>
+
+</div>
+
+<h3>Layout</h3>
+<p>The three column layout was easily tackled as its content was used systematically throughout the site (second level navigation / main content / aside content). These could easily be linearised.</p>
+
+<p>The search is a important navigation tool and had to be easily reachable whatever screen used. So placing it up the top was the ovious choice. Custom CSS and a sprinkle of JavaScript fixes its behaviour.</p>
+
+<h3>Toolbar</h3>
+<p>The upper right toolbar was the only markup that required a major markup change. Webfonts were used for icons and the whole block was moved down in the page footer. Absolute positioning moves it up on wider viewports.</p>
+
+<p>Otherwise, some custom jQuery, Modernizr, and a couple of IE conditional comments took care of gluing everything together. It was a fun project to work on and the BIS team did a brilliant implementation. Congratulations to all :)</p>

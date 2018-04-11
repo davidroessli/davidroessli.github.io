@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 434
+post_id: 553
+author: tyio
+email: imnogentleman@yahoo.fr
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 83.134.156.239
+---
+This won't solve your problem as you haven't installed Xcode on your server. But for those who did: 
+
+From mango:
+
+Well, I found out what was preventing Software Update from working. Apple's uninstaller for Xcode also uninstalled "tar" and "gnutar" from /usr/bin. I had to use Pacifist to manually extract and install those two components from the base package on my Panther disk. Thanks, Apple. Nicely done with that uninstaller.  
+
+<a href="http://www.macfixitforums.com/php/printthread.php?Cat=&Board=Forum35&main=604099&type=thread" rel="nofollow">http://www.macfixitforums.com/php/printthread.php?Cat=&Board=Forum35&main=604099&type=thread</a>

@@ -1,0 +1,46 @@
+---
+layout: post
+title: How to change the default sshd port on Mac OS X
+date: '2012-10-09 09:23:07 +0200'
+mt_id: 732
+blog_id: 11
+post_id: 732
+basename: how_to_change_the_default_sshd
+categories:
+- daily
+---
+<p>I've been subjected to an interrupted stream of failed login attempts on port 22 (sshd) this last week that are clogging up my log files.</p>
+<p>Turning off sshd (a.k.a. Remote Login) altogether was a half backed option as I connect remotely to my workstation, so I decided to <strong>change the default sshd port</strong> to wave off the bulk of repeated login attempts.</p>
+
+<h3>Editing the ssh.plist preference file</h3>
+
+<ol class="decimal">
+<li>Turn off Remote login in the Sharing Preference pane</li>
+<li>Open the Terminal (/Applications/Utilities/Terminal)</li>
+<li>Navigate to <strong>/System/Library/LaunchDaemons/</strong></li>
+<li>Make a backup copy of <strong>ssh.plist</strong></li>
+<li>Edit <strong>ssh.plist</strong> and <strong>replace the service name</strong> (ssh) <strong>with the port you wish to use</strong> (e.g. 22091)</li>
+<li>Save the changes and turn Remote login back on in the Sharing Preference pane (which restarts the ssh service with launchctl)</li>
+<li>Test your connection in the Terminal <strong>ssh yourusername@yourdomain.com -p 22091</strong> (use the port number you chose).</li>
+</ol>
+
+<p>The following 2 occurences were changed:</p>
+<pre>
+[…]
+&lt;key&gt;Sockets&lt;/key&gt;
+&lt;dict&gt;
+  &lt;key&gt;Listeners&lt;/key&gt;
+  &lt;dict&gt;
+    &lt;key&gt;SockServiceName&lt;/key&gt;
+    <strong>&lt;string&gt;22091&lt;/string&gt;</strong>
+    &lt;key&gt;Bonjour&lt;/key&gt;
+    &lt;array&gt;
+        <strong>&lt;string&gt;22091&lt;/string&gt;</strong>
+        &lt;string&gt;sftp-ssh&lt;/string&gt;
+    &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/dict&gt;
+[…]
+</pre>
+
+<p>You can find more information on launchd handled services on Mac OS X in the <a href="http://developer.apple.com/mac/library/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html" class="sidelist" title="launchd.plist(5) manual">launchd.plist(5) manual</a>.</p>

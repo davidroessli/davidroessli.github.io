@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 550
+post_id: 339
+author: Bruce Berman
+email: bruce.berman@gmail.com
+date: '2011-08-17 21:16:30 +0200'
+visible: true
+ip: 24.46.127.176
+---
+Same thing just happened to me.
+My daughter showed me that I had to double-click
+on the HOME button, hold down an icon, and shut
+down the Photo app (and any other left open).
+This will put the app right again.

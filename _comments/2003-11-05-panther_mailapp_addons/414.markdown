@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 414
+post_id: 519
+author: John Clark
+email: jiclark@independence.net
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 206.168.119.45
+---
+I don't think MailPicture is really necessary anymore, as the Panther version of Mail does this itself finally!
+
+
+
+Correct me if I'm mistaken...

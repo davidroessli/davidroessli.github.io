@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 420
+post_id: 526
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 62.167.64.22
+url: http://www.macinblog.com/
+---
+I knew you would be reading ..
+
+;)
+
+
+
+Make the most of the sun, sand and sea. It's freezing (and grey) here.

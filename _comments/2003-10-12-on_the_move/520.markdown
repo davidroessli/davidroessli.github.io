@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 520
+post_id: 659
+author: rob
+email: rob@mac.com
+date: '2011-03-20 14:18:57 +0100'
+visible: true
+ip: 62.167.209.186
+---
+Thanks! I was wondering why I only managed to post pics and not text ..

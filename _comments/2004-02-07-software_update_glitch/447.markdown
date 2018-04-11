@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 447
+post_id: 553
+author: Mortimer
+email: spankypoo@excite.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 127.0.0.1
+---
+A quick sudo su and softwareupdate didn't do it - but going back to Software Update after sudo su worked.
+
+Weird.

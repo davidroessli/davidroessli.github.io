@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 308
+post_id: 374
+author: Michael
+email: michaldoe34@hotmail.com
+date: '2011-03-20 14:11:09 +0100'
+visible: true
+ip: 62.167.189.146
+---
+Nice one .. but I'd prefer an RSS feed
+
+;)

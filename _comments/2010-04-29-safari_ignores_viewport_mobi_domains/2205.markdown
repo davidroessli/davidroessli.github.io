@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 2205
+post_id: 323
+author: Mike Causer
+email: mike@smilenetworks.com.au
+date: '2012-06-01 05:15:27 +0200'
+visible: true
+ip: 203.206.228.54
+url: http://smilenetworks.com.au
+---
+This is madness!

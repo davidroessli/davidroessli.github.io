@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 397
+post_id: 494
+author: Jess Have
+email: jhave@mac.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 80.246.106.4
+---
+Thanks for that tip! Marvelous. half a cup in liters etc. works as well. Good, when you live in Europe with the meters and liters system and have Ammerican cookbooks :-)

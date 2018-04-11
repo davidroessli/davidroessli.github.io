@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 487
+post_id: 608
+author: Suzi
+email: suzi@v-erreisen.de
+date: '2011-03-20 14:18:55 +0100'
+visible: true
+ip: 84.130.230.19
+url: http://hotels.v-erreisen.de
+---
+Just surfed in and found this really interesting place here. A lot of good stuff for everybody. Go on like this and i will surely visit your site again sometime.

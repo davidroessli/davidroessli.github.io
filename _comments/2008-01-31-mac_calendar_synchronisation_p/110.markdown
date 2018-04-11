@@ -1,0 +1,19 @@
+---
+layout: comment
+comment_id: 110
+post_id: 216
+author: Stefanie Herzer
+email: stefanie@herzer.org
+date: '2008-03-18 04:27:41 +0100'
+visible: true
+ip: 24.4.190.34
+---
+I was just running into the same problem but after reading this post I was able to fix it in 1 minute. 
+
+I simply re-created the calendar data from my main machine (which holds the most up to date calendars) overwriting the old calendar data on .Mac. I just used the regular advanced feature for that. Afterwards I was able to sync the re-written calender data onto my MacBook PRO. 
+
+While this may not work for everybody it is a fast thing to try before you hit the command line purging this manually.
+
+Hope this may be helpful for some
+Stefanie
+

@@ -1,0 +1,17 @@
+---
+layout: comment
+comment_id: 427
+post_id: 541
+author: David Roessli
+email: davo39@macinblog.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 62.167.34.16
+url: http://www.macinblog.com/
+---
+I'm experiencing a couple of problems with this release which were absent from the previous betas:
+
++ the HTML templates keyboard shortcuts don't work.
++ the backspace key works like the tab key when you're in the Title field: instead of erasing the previous character, it switches to the "Main" pane.
+
+Anybody notice such behaviours ? I'm sure Adriaan is going to squash these before you finish reading this. He is extremely responsive.

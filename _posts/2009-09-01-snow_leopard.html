@@ -1,0 +1,78 @@
+---
+layout: post
+title: Gentle upgrade to Snow Leopard (Mac OS 10.6)
+date: '2009-09-01 08:29:18 +0200'
+mt_id: 301
+blog_id: 11
+post_id: 301
+basename: snow_leopard
+categories:
+- daily
+---
+                        <div class="pix full"><a href="http://www.flickr.com/photos/39601377@N00/3866377855" title="View 'Upgraded' on Flickr.com"><img src="https://farm3.static.flickr.com/2667/3866377855_2b5af908d6.jpg" alt="Upgraded" /></a></div>
+
+<p>It's a slow starter today, so while Snow Leopard gently installs on Jigme, my Mac Pro workstation, I thought I'd share my 2í‚Â¢ worth of Snow Leopard (Mac OS 10.6) experience.</p>
+
+<p>The upgrade was as smooth as can be on my MacBook Pro and iMac at home. I'm sure you've read elsewhere about the new installer and features that come with Snow Leopard (<abbr title="Snow Leopard">SL</abbr>) so I won't bother repeating them here, but rather share with you the few things I noticed since upgrading.</p>
+
+<h3>Make a backup</h3>
+<p>This should be standard procedure, but so many of my acquaintances don't backup on a regular basis, it's frightening. <a class="sidelist" href="https://davidroessli.com/tag/backup" title="Stuff I wrote on backups">I tend to be obsessive about backups</a> - sorry. To the least, buy an external hard drive that matches your disk's capacity and turn Time Machine on. Thank you.</p>
+
+<p>Another safe move is to repair your drive's permissions with Disk Utility and make sure your Time Machine's backup is up-to-date before clicking on the í¢â‚¬Å“Install Mac OS Xí¢â‚¬Â icon.</p>
+
+<h3>Install</h3>
+<p>The update procedure is a breeze. Really. There are few options you can select before the install, and none are irreversible. <a href="http://www.apple.com/rosetta/">Rosetta</a>, QuickTime 7 or additional languages can be installed after hand with the í¢â‚¬Å“Optional installsí¢â‚¬Â. So go ahead and click install.</p>
+
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/sl_dvdinstall.png" alt="sl_dvdinstall.png" /></div>
+
+<p>The procedure took between 45 and 55 minutes depending on the hardware (iMac, <abbr title="MacBook Pro">MBP</abbr>) and rebooted itself. Log in and you're running Mac OS 10.6.</p>
+
+<h3>Collateral damages</h3>
+<p>The only visible collateral damage was my desktop icons which all ended up aligned to the right of the screen (<em>actually, it turns out I accidentally hit ^í¢Å’Ëœ3 in the Finder</em>). I try to keep most of my apps up-to-date, or at least those I use on a regular basis, but was pleasantly surprised to find updates for a number of them.</p>
+
+<p><em>The following application were updated Apple Remote Desktop, Default Folder, Teleport, Snapz Pro X, LittleSnitch, SuperDuper!, Apple Aperture, DockStar, PhoneView, MarsEdit, Flip4Mac, Fission, Audio Hijack Pro, Airfoil, Podcast Maker, CandyBar, DropBox, DiskWarrior, Better Finder Rename, TextMate</em>.</p>
+
+<p class="update">For more up-to-date information on the Snow Leopard compatibility, check out the <a class="sidelist" href="http://snowleopard.wikidot.com/" title="Snow Leopard Compatibility List">Snow Leopard Compatibility List</a>.</p>
+
+<p>Weirdly, my Time Machine exceptions on all computers were forgotten. I had to reset those.</p>
+
+<p>Only <a class="sidelist" href="http://www.obdev.at/products/littlesnitch/" title="Little Snitch">Little Snitch</a> broke and required to install the latest beta version (v2.2 at the time of writing). Supposedly, <abbr>SL</abbr> doesn't support Input Managers at all, <strong>so all Safari extensions are gone</strong> for the time being. There seem to be a way to get to work in a similar way they did in Leopard (Mac OS 10.5 supposedly killed them, remember?), but it's not entirely clear. <a class="sidelist" href="http://stackoverflow.com/questions/1338978/inputmanager-plug-ins-in-snow-leopard-os-x-10-6" title="InputManager plug-ins in Snow Leopard (OS X 10.6)">StackOverFlow has an entry on this topic</a>.</p>
+
+<p class="update">Apparently, some plugins will work if Safari runs in 32 bits mode because <a href="http://www.culater.net/software/SIMBL/SIMBL.php" title="SIMBL - Smart InputManager Bundle Loader">SIMBL</a> (Smart InputManager Bundle Loader) is only 32 bits for the moment. To put Safari in 32-bit mode, open the 'Get Info' inspector on Safari.app and tick the 32 bit checkbox.</p>
+
+<p>I am going to miss <a class="sidelist" href="http://haoli.dnsalias.com/Saft/" title="Saft for Safari">Saft</a> and <a class="sidelist" href="http://zappatic.net/safaritidy/" title="Safari Tidy plugin">Safari Tidy</a>.</p>
+
+<p>The Activity Monitor behaviour has changed too: previously it remembered if a window was opened or not last time you quit the application, and launched in the same state the next time you opened the application. I liked this behaviour as I have it running all the time. The dock icon displays the CPU load, and I only need to click on its icon if I wanted to open up the list of processes. Now, a window is opened at each launch which requires me to close it manually (I don't like the floating windows). Minor grievance for a more standard behaviour?.</p>
+
+<p>Another upgrade casualty was my printer: Canon Pixma MP980 which was (only) recognised as a Bonjour Scanner. Canon doesn't offer any <abbr>SL</abbr> compatible drivers yet. Installing the 10.5 drivers by bypassing the incompatible version warning worked for me. You can't access the printer settings, but at least you can print until Canon comes out with an appropriate set of drivers. To do so, you need to install those on the Install CD that came with the printer.</p>
+
+<p class="update">There is a <a class="sidelist" href="http://discussions.apple.com/thread.jspa?messageID=10074717" title="Apple Discussions: Canon MP-980">thread on Apple Discussions</a> that gives more insight and a few clues. <a class="sidelist" href="http://support.apple.com/kb/HT3669" title="Mac OS X v10.6: Printer and scanner software">Apple lists the Canon MP980 as compatible</a>, so it <em>shouldn't</em> be an issue (You can <a class="sidelist" href="http://supportdownload.apple.com/download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/Mac_OS_X/downloads/061-4863.20090828.2A936/CanonPrinterDrivers2.0.dmg" title="Apple Support Canon Driver Download">download Apple's Canon drivers bundle</a> from Apple's Support).</p>
+
+<p class="update">At the time of writing, <a class="sidelist" href="http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=2610&modelid=17357#DownloadDetailAct" title="Canon USA: Pixma MP980">Canon USA offers 10.6 compatible drivers</a> on their website, while the international sites still don't.</p>
+
+<p>Depending on the application you wish to print from, the printer settings will be unavailable (striked through). It's probably linked to the architecture of the application. Applications running in 32 bits will have access to the setting but not those running in 64 bits. Open the Activity Monitor to see which application is running in which mode.</p>
+
+<div class="pix" style="display:none">
+<img src="https://davidroessli.com/logs/assets/img/sl_mp980_1.png" alt="sl_mp980_1.png" width="169" />
+<img src="https://davidroessli.com/logs/assets/img/sl_mp980_2.png" alt="sl_mp980_2.png" width="169" />
+</div>
+
+<h3>On the bright side</h3>
+<p>The system feel much snappier. Applications seem to load faster and boot time feels reduced which will paint a smile on your face. Among the few cosmetic/behaviour changes that were introduced, the following sweetened my day:</p>
+
+<ol class="decimal">
+<li>The Finder Spotlight search can default to the local folder now, and doesn't default to the entire Mac anymore (at last); <div class="pix"><img src="https://davidroessli.com/logs/assets/img/sl_finder_search.png" alt="sl_finder_search.png" /></div></li>
+<li>The Finder has a sleep shortcut now: opt-cmd-eject. The eject key was previously used to turn the display off: remember ctrl-shift-eject? <div class="pix" style="display:none"><img src="https://davidroessli.com/logs/assets/img/sl_finder_sleep_shortcut.png" alt="sl_finder_sleep_shortcut.png" /></div></li>
+<li>The menubar Airport drop down menu displays the strength of the available wifi networks;<div class="pix" style="display:none"><img src="https://davidroessli.com/logs/assets/img/sl_airportmenu.png" alt="sl_airportmenu.png" /></div></li>
+<li>The menubar Keyboard drop down menu doesn't display the flag of the current layout anymore if only 1 keyboard is selected. I hated that little flag up there. I'm not a flag type of personí¢â‚¬Â¦ I noticed the Input Sources pane have a search box now too; <div class="pix"><img src="https://davidroessli.com/logs/assets/img/sl_keyboad_menu.png" alt="sl_keyboad_menu.png" /></div></li>
+<li>The new Dock behaviour is awesome: drag a document (image, text snippet, or whatever) onto the icon of a running application, and it will expose all its opened windows. Just chose the desired one and the dragged content will be inserted at the caret's current position.</li>
+<li>The Finder icon view goes to a jumbo 512x512px which is great to preview PDFs without using Quicklook (on a large screen that is);</li>
+</ol>
+
+<p>Another change is the way file size is reported by the Finder: 1 megabyte = 1000 bytes and not 1024 bytes as before. This is the correct way of doing things since 1999, but Apple took its time to adopt it. Files and folders occupy exactly the same space, it is just the way of calculating the space that has changed. <a class="sidelist" href="http://www.macworld.com/article/142471/2009/08/snow_leopard_math.html" title="Snow Leopard's new math by Jason Snell">Read more on MacWorld</a>.</p>
+
+<p>All this to say that you shouldn't hesitate to update if you are running a healthy 10.5 without too many hacks.</p>
+
+<p>For an in depth review of Snow Leopard, read <a class="sidelist" href="http://arstechnica.com/apple/reviews/2009/08/mac-os-x-10-6.ars" title="Mac OS X 10.6 Snow Leopard: the Ars Technica review">John Siracusa's review on Ars Technica</a>.</p>
+
+<p class="update">Currently playing in iTunes: <a href="http://ro.ess.li/its/charliewinston/iloveyoursmile/" title="Check out the track on the iTunes Store"><em>I Love Your Smile (Live)</em></a> by Charlie Winston</p>

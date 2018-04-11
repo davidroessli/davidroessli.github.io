@@ -1,0 +1,17 @@
+---
+layout: post
+title: How to disable anti-aliasing in TextMate 2
+date: '2013-10-30 12:09:26 +0100'
+mt_id: 759
+blog_id: 11
+post_id: 759
+basename: how_to_disable_anti-aliasing_i
+categories:
+- daily
+---
+<p>I received an email from Allan Odgaard pointing out that if you are using TextMate 1.x under OS X 10.9 (Mavericks) some bundle items will fail due to ruby 2.0 now being the default.</p>
+<p>So I decided to give <a href="https://macromates.com/download" title="Download TextMate" class="sidelist">TextMate 2.0</a> another go - but the “disable anti-aliasing” option is no longer available in the preferences.</p>
+<p>Call me an old git, but I like to code in <a href="http://en.wikipedia.org/wiki/Monaco_(typeface)">Monaco</a> 10pt (anti-aliased). I haven't quite got used to <a href="http://en.wikipedia.org/wiki/Menlo_(typeface)">Menlo</a> yet…</p>
+<p><a href="http://ho.race.hk/blog/2012/02/to-disable-anti-alias-in-textmate-2/">Horace</a> provides the command line to use to disable anti-aliasing:</p>
+<p><code>defaults write com.macromates.TextMate.preview disableAntiAlias -bool YES</code></p>
+<p>Et voilà :)</p>

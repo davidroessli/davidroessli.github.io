@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 258
+post_id: 308
+author: Alexander MacDougall
+email: ae.macdougall@ns.sympatico.ca
+date: '2009-11-19 00:19:42 +0100'
+visible: true
+ip: 142.68.84.58
+---
+When I do this I get a message that says "command not found".  Suggestions?

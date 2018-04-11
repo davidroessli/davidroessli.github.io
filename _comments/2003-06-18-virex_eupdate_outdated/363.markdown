@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 363
+post_id: 469
+author: David Tomasi
+email: dtomasi@hcm.vnn.vn
+date: '2011-03-20 14:11:14 +0100'
+visible: true
+ip: 203.162.3.140
+---
+Thank you for the information on how to
+
+fix Virex eUpdate, it sure has beeb a pain
+
+and apple would not even answer my e-mails.

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 205
+post_id: 286
+author: andre
+email: andre.mostert@gmail.com
+date: '2009-06-14 21:21:34 +0200'
+visible: true
+ip: 84.73.62.100
+---
+Thanks for the great help... I mailed it and installed. Working great. I would like to know if I can add this info to my blog?
+

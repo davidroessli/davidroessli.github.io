@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2298
+post_id: 339
+author: aj
+email: albueraaljohn@gmail.com
+date: '2014-05-19 04:34:00 +0200'
+visible: true
+ip: 112.199.113.53
+---
+where did you get the tutorial for fetching image from instagram and show it into camera roll..thank you..^_^

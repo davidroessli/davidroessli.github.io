@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 313
+post_id: 386
+author: cool143
+email: cool143@e-apollo.lv
+date: '2011-03-20 14:11:10 +0100'
+visible: true
+ip: 84.237.174.228
+url: http://www.draugiem.lv
+---
+none

@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 374
+post_id: 469
+author: AntiHypocracy
+email: Anti-H@hotmail.com
+date: '2011-03-20 14:11:15 +0100'
+visible: true
+ip: 138.88.186.119
+---
+The topmost post by Davo works!
+
+
+
+Thank goodness we computer savy consumers can support ourselves with forums like these that are searchable on Google. Many, many thanx to Davo for spearheading this topic. Shame on software companies! :-(

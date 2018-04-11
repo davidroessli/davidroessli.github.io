@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 466
+post_id: 590
+author: nico
+email: nicolas.ray@anthro.unige.ch
+date: '2011-03-20 14:18:53 +0100'
+visible: true
+ip: 129.194.8.73
+---
+Et ce fameux rÂve sous narcose, tu l'as eu? M'ÂŽtonnerait pas que tu y aies vu du fromage et une bonne bouteille de rouge... ;)

@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 243
+post_id: 216
+author: Michael Schrader
+email: michael.schrader@gmx.net
+date: '2009-10-07 19:22:45 +0200'
+visible: true
+ip: 188.192.16.60
+---
+thanks a lot for your writedown, worked perfect for me!
+
+Michael, Hamburg

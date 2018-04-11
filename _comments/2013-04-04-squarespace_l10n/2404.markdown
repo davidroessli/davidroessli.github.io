@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 2404
+post_id: 750
+author: David
+email: gregdavid2015@gmail.com
+date: '2015-07-20 13:57:21 +0200'
+visible: true
+ip: 199.115.117.236
+---
+Hi! You can also try https://poeditor.com/ for translating strings which is an online localization tool designed to make the localization process easier for both project managers and translators. 

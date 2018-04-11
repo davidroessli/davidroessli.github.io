@@ -1,0 +1,60 @@
+---
+layout: post
+title: After FoWA London 2007
+date: '2007-02-22 00:25:22 +0100'
+mt_id: 184
+blog_id: 11
+post_id: 184
+basename: after_fowa_london_2007
+categories:
+- thoughts
+---
+<div class="pix right"><a class="sidelist" href="http://www.futureofwebapps.com/" title="FoWA London 2007"><img src="https://www.davidroessli.com/logs/assets/img/fowa_london_2007.gif" alt="FoWA London 2007" /></a></div>
+
+<p>Heathrow Airport, gate 19, waiting to board the plane back to Geneva with <a class="sidelist" href="http://www.mathiascurrat.com" title="Mathias Currat" rel="friend met co-worker">Mathias</a> and <a class="sidelist" href="http://www.enriquepardo.com" title="Enrique Pardo Photographies" rel="friend met co-worker">Enrique</a>. The <a href="http://www.futureofwebapps.com/" title="FoWA London 2007">Future of Web Apps 2007</a> conference wrapped up yesterday for us as we didn't attend today's workshops.</p>
+
+<p>I'm flying back with mixed feelings regarding this year's edition. The emphasis was definitively on the business aspects of webdesign and development. Day one was full of business models, plans, ventures, capitals and investments. Not really my cup of tea, and definitively not what I came for. As <a href="http://adactio.com/journal/1260/" title="Adactio: The Future of Web Apps, day one"><span  rel="met">Jeremy Keith</span> points out</a>, this probably makes sense as Carson Systems organises the <a class="sidelist" href="http://futureofwebdesign.com/" title="Future of Web Design London 2007">Future of Web Design</a> in April. Unfortunately, I didn't realise this until the event itself (so much for me <em>scanning</em>, not <em>reading</em> my e-mail).</p>
+
+<h3>Day one</h3>
+<p>The afternoon sessions saved the day for me. I most enjoyed listening to <strong>Matthew Ogle</strong> and <strong>Anil Bawa Cavia</strong> (<a class="sidelist" href="http://last.fm" title="Last.fm">Last.fm</a>), <strong>Bradley Horowitz</strong> (<a class="sidelist" href="http://developer.yahoo.com/" title="Yahoo developer's Network">Yahoo!</a>) and <strong>Kevin Rose</strong> (<a class="sidelist" href="http://www.digg.com" title="Digg">Digg</a>). Learning about how Last.fm started and works, what their priorities and vision are was a rich experience. User attention tracking ("<a href="http://en.wikipedia.org/wiki/Myware" title="Myware on Wikipedia">myware</a>") yields very interesting data and results, and serves as building blocks for new features. Same with Yahoo! which I'm growing to like more and more as time goes by. Kevin Rose closed the day by talking about the history of Digg and the problems of hosting 900'000+ people in the same room. It was also nice to hear that Digg.com plans to support <a class="sidelist" href="http://openid.net/" title="OpenID">OpenID</a>.</p>
+
+<h3>Day two</h3>
+<p>Day two really took off with many great presentations. My favorites were <a class="sidelist" href="http://www.subtraction.com/" title="Subtraction"><strong>Khoi Vinh</strong></a> (<a href="http://www.nytimes.com/" title="New York Times">NYTimes.com</a>), <a class="sidelist" href="http://simonwillison.net/2007/Feb/21/fowa/" title="OpenID"><strong>Simon Willison</strong> on OpenID</a>, <strong>Rasmus Lerdorf</strong>, and <strong>Richard Moross</strong> and <strong>Stefan Magdalinski</strong> (<a class="sidelist" href="http://www.moo.com" title="Moo.com">Moo.com</a>). Simon's talk on OpenID was a real eye opener. This is probably the presentation I learned the most from. As many I suppose, I have an OpenID identity but never realised its potential. Khoi Vinh's intervention on user interface was brilliant. I can't imagine what challenge it must be to manage an information flows such as those the <abbr title="New York Times">NYT</abbr> is faced with. The community experience they are trying to build is fascinating. They certainly listen to their users. I would like to learn more about how they sync and manage the printed and online versions, manage the workflows in real time, what tools they use, etc. Meeting the inventor of the programming language I'm using for the last 10+ years, Rasmus Lerdorf, was a great experience too (and a scary one when he talked about security). These speakers know how to deliver a speech. They don't just read their slides. There is structure, semantics and vision behind them. A pleasure. Another highlight of the day was the MOO story. Lovely to see a web app turns out into a real world product. Long live print and the Royal Mail.</p>
+
+<h3>Afterthoughts</h3>
+
+<div class="pix right"><a href="http://www.flickr.com/photos/davo39/400496531/" title="First in!"><img src="https://farm1.static.flickr.com/167/400496531_9309aadf37_m.jpg" width="180" height="240" alt="20-02-07_0824.jpg" /></a></div>
+
+<p>The absence of free wifi was a disappointment. We all logged onto BTOpenZone and the bandwidth faded away. I only managed to reconnect on day two. Overall, it probably costed me a fortune. <span  rel="met">Ryan Carson</span> apologised, expressed his disappointment, but didn't manage to sort it out. Back in December, he posted an entry in his weblog on <a class="sidelist" href="http://www.carsonified.com/fowa/to-wifi-or-not-to-wifi " title="To WiFi or not to WiFi">the good and the bad of providing wifi to conference attendees</a>. I believe that an event such as FoWA should provide a robust wifi access, and that the attendees are responsible enough to know when and how to use it - or abuse it.</p>
+
+<p>The distraction it creates for the attendees and speaker is often mentioned. It is important to remember that live blogging is about realtime coverage, not just posting whenever - like I do. I would like to see a public <abbr title="Internet Relay Chat">IRC</abbr> channel published somewhere, or some sort of live poll, or question collector. Wifi or no wifi, I believe notepads will still be open, and their owners will still be typing, taking notes or whatever. Throughout the web conferences I've attended the last two years, I've seen a growing number of people live blogging or real time notes taking, wifi or no wifi. I'm not sure the distraction argument holds anymore.</p>
+
+<p>I was a frustrated by the short time allocated to questions, and the lack of roaming microphones. It is a shame there wasn't more opportunities to interact with the speaker and that you had to walk up to the stage to ask your question. Multiple tracks might be the answer, but you can't clone yourself to attend both tracks, so there is a downside to both solutions. </p>
+
+<div class="pix right"><a href="http://www.flickr.com/photos/davo39/400496459/" title="The bag sponsor"><img src="https://farm1.static.flickr.com/164/400496459_0fc2ec79bb_m.jpg" width="180" height="240" alt="20-02-07_0816.jpg" /></a></div>
+
+<p>I was surprised to see the sponsors give commercial presentations of there products and solutions on stage, and not be able to interact with them. Questions weren't allowed. It feels a waste to have <strong rel="met">Chris Wilson</strong> of Microsoft up on stage and not be able to ask questions. It's quite okay to have sponsors in the lobby demonstrating their solutions, or even in a side hall, but it always feels uncomfortable to mix them in the main stream of speakers. Don't get me wrong, I appreciated the speakers per se, but not so the way they appeared and the lack of public interaction.</p>
+
+<p>I managed to catch up with Chris Wilson later on and asked him his feelings on <a class="sidelist" href="http://www.molly.com/2007/01/18/what-happened-with-html-and-css-in-outlook-2007/" title="Molly on What happened with html and css in Outlook 2007?">Outlook 2007 HTML rendering issue</a>: Word's engine takes care of both the composing and rendering, with a poorer CSS support than Outlook 2003. He said he was surprised when he heard the new and said that it would probably be fixed in the future, but when and how remain to be determined. He was happy they fixed the Ctrl+Enter issue (sending the mail instead of inserting a line break).</p>
+
+<p>Whatever, it's always good to attend an event like this. You always come back a little richer than when you left. Especially when you <a href="http://www.flickr.com/photos/davo39/400496646/" title="Les trois garí§ons at the Goat Tavern, South Kensington">share the good vibes with two good friends</a>.</p>
+
+<p>More <strong>FoWA London 2007</strong> on Technorati in <a href="http://www.technorati.com/posts/tag/fowalondon07" title="Search Technorati for fowalondon07 blog post">words</a>, <a href="http://www.technorati.com/photos/tag/fowalondon07" title="Search Technorati for fowalondon07 pictures">pictures</a> or <a href="http://www.technorati.com/videos/tag/fowalondon07" title="Search Technorati for fowalondon07 videos">videos</a>.</p>
+
+<h3>Presentation slides and podcasts</h3>
+<p>Most of the presentations are available as MP3 podcasts and PDF documents. You'll find them on the homepage of the <a href="http://www.futureofwebapps.com/" title="Future of Web Apps London 2007">Future of Web Apps website</a>. Additionally, the <a class="sidelist" href="http://www.futureofwebapps.com/FOWA-London-2007.xml" title="Podcasts RSS feed">podcasts are available as an RSS feed</a>.</p>
+
+<!--
+<h3>Slides</h3>
+<ul>
+<li><a href="http://www.slideshare.net/cape/index-fowa" title="Everything you need to know about venture capital slides"> Everything you need to know about venture capital</a> - Ben Holmes</li>
+<li><a href="http://simonwillison.net/2007/talks/future-openid/" title="The Future of OpenID slides">The Future of OpenID</a> - Simon Willison</li>
+<li><a href="http://talks.php.net/show/fowa2" title="PHP Workshop slides">PHP Workshop</a> - Rasmus Lerdorf</li>
+</ul>
+
+<h3>PDFs</h3>
+<ul>
+<li><a href="http://www.horsepigcow.com/tarahunt_fowalondon07.pdf" title="Fostering online communities PDF"> Fostering online communities</a> - Tara Hunt ("miss rogue")</li>
+<li><a href="http://quotesque.net/docs/FoWA2007_webFriendly.pdf" title="Lessons from the Building of the World's Largest Social Music Platform PDF">Lessons from the Building of the World's Largest Social Music Platform</a> - Anil Bawa (Last.fm)</li>
+</ul>
+-->

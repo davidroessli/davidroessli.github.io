@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 122
+post_id: 244
+author: Enrique
+email: e@enriquepardo.com
+date: '2008-04-06 08:33:53 +0200'
+visible: true
+ip: 62.167.236.41
+url: http://enriquepardo.com
+---
+Mine is called a "phone" and I just want it to work out of the box. :)

@@ -1,0 +1,28 @@
+---
+layout: comment
+comment_id: 114
+post_id: 231
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-03-23 08:23:49 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+Things are getting WORSE.
+
+My MacBook Pro not only freezes when running on battery with Airport WiFi enabled, it <strong>now randomly shutdowns</strong>. Bang. Just like if you'd pulled the plug from a desktop machine.
+
+I reinstalled a fresh copy of 10.5, and updated to 10.5.2 with the latest Security Updates and Airport patches.
+
+At reboot, the system logs show:
+
+<code>Mar 18 21:31:25 cinnamon kernel[0]: Previous Shutdown Cause: 0</code>
+
+The freezes generated a cause 3 at reboot,
+
+<code>Mar 18 21:31:25 cinnamon kernel[0]: Previous Shutdown Cause: 3</code>
+
+My patience has almot ran out. Just as my trust in this computer.
+
+The thread on Apple Discussions is getting longer and longerâ€¦

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 401
+post_id: 498
+author: Mengjuei
+email: mjhsieh@yahoo.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 128.195.173.253
+url: http://rayl0.bio.uci.edu/~mjhsieh/
+---
+Hmm... I can't repeat that bug.... but I remember I had the same strange behavior some time ago.

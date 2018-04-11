@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 404
+post_id: 501
+author: Kim
+email: misskim345@mac.com
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 68.108.220.241
+---
+I miss the blue, but then again blue has always been my favorite color. But I do love the new modernistic look. Modern, sleek looks appeal to me. There's something artistic about it, but that's jmho.

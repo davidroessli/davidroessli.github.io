@@ -1,0 +1,54 @@
+---
+layout: post
+title: Display table CSS prevents IE users from selecting text
+date: '2013-11-22 15:23:05 +0100'
+mt_id: 761
+blog_id: 11
+post_id: 761
+basename: display_table_prevents_ie_from_selecting_text
+categories:
+- daily
+---
+<div class="pix full"><img src="https://davidroessli.com/logs/assets/img/missing-puzzle.jpg" alt="Missing puzzle" title="missing-puzzle.jpg" /></div>
+
+<p>While helping a client optimise his website post launch, I ran into a strange issue with IE: <strong>users of IE 7-10 couldn't select (highlight) some parts of the page</strong> (duh).</p>
+
+<p>As this isn't something I check when running cross-browser tests, I missed it.</p>
+
+<p>It turns out that it was linked to the use of CSS property <code>display:table</code>.</p>
+
+<p>This property was used to change the stacking (or source) order of certain parts of the page when the viewport changes size. A set of links situated in the header on desktop width, jumps down to the footer when the screen narrows down to smartphone width.</p>
+
+<p><a href="http://www.jordanm.co.uk/lab/contentchoreography">Flexbox</a> will take care of this one day, but in the meantime, using <code>display:table</code> does the trick. The idea is to set the order with <code>display:table-header-group</code> (aka <code>thead</code>) and <code>display:table-footer-group</code> (aka <code>tfoot</code>). Checkout 
+<a href="http://chriscoyier.net/">Chris Coyier</a>'s post for a <a href="http://css-tricks.com/complete-guide-table-element/">complete guide of the table element</a>.</p>
+
+<p>Consider the following source order:</p>
+
+<pre>  wrapper
+    inner
+      nav
+        links
+      /nav
+      content
+        text
+      /content
+    /inner
+    tools
+      links
+    /tools
+  /wrapper</pre>
+
+<p>By assigning <code>display:table</code> to the wrapper block, <code>display:table-footer-group</code> to the inner block and <code>display:table-header-group</code> to the tools block, we are able to display the tools top right on large viewports, while having at the bottom on narrow screens. <a class="sidelist" title="Re-tabulate" href="http://adactio.com/journal/4780/">Jeremy Keith presents this technique in a blog post</a> and <a class="sidelist" title="Table Cell Source Order" href="http://codepen.io/bradfrost/full/HvBLc">Brad Frost lists it as Table cell source order</a> in his Responsive Pattern Library.</p>
+
+<p class="update">This works fine, except that we discovered that IE&lt;11 users couldn't select text in the <code>display:table-footer-group</code>.</p>
+
+<p>By changing <code>display:table-footer-group</code> to <code>display:table-cell</code> (<code>display:table-row</code> isn't required) the text becomes selectable again.</p>
+
+<p>Checkout the following pages in IE (&lt;11) for a demo:</p>
+<ul class="disc">
+<li>Can't select text: <a href="http://www.cybmed.com/w/display-table-ie/fails.html">display:table-footer-group</a></li>
+<li>Can select text: <a href="http://www.cybmed.com/w/display-table-ie/works.html">display:table-cell</a></li>
+</ul>
+
+<p>Somehow, a <code>display:table</code> element with no <code>display:table-cell</code> elements behaves strangely, preventing text selection.</p>
+

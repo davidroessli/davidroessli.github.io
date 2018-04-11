@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 45
+post_id: 197
+author: Cle`
+email: cle@virg0.org
+date: '2007-05-25 21:24:51 +0200'
+visible: true
+ip: 213.200.236.238
+url: http://virg0.org/v0blog
+---
+Oh thanks a lot for the hint, I'm just terrified by those wild oats addings!
+True that I'm not following any tweet.. =)

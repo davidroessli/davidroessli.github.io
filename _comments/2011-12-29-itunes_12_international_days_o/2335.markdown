@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 2335
+post_id: 703
+author: FG @ Inclusive Tech
+email: finn@firestarterstudio.org
+date: '2014-12-02 17:01:25 +0100'
+visible: true
+ip: 67.186.135.11
+url: http://expectedly.org/inclusivetech/
+---
+Apple really is very poor at managing localisation. The iTunes store you use should not be affected by the region format you use - I'm currently US-based (for now, anyway!), but prefer the UK language/region format on both OS X and iOS because of things like date/time formatting (I hate Month/Day/Year) and spelling. That's obviously not as big a deal as changing the entire language in order to make things compatible, but it's still annoying. and hopefully they've changed this in later versions of iOS and iTunes.  
+
+(Also, I'd like you to know that I've linked to some of your articles about internationalisation on my 'Inclusive Tech' blog, a guide to developers on creating more inclusive websites. One of my emphases is on internationalisation.) 

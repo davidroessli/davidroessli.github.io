@@ -1,0 +1,28 @@
+---
+layout: comment
+comment_id: 343
+post_id: 439
+author: David Roessli
+email: davo@macinblog.com
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 129.194.114.106
+url: http://macinblog.com/
+---
+Julius,
+
+
+
+Actually, there are several shareware applications that restore that behaviour. My favourite is FruitMenu from Unsanity 
+
+
+
+<a href="http://www.unsanity.com/haxies/fruitmenu/" rel="nofollow">http://www.unsanity.com/haxies/fruitmenu/</a>
+
+
+
+[quote]
+
+FruitMenu is a haxie that gives you the ability to customize the Apple Menu and contextual menus. Using a visual editor you can edit the contents of the menus to suit your needs and taste. FruitMenu will also display the contents of the FruitMenu Items folder inside of your Library folder, launch applications and shell scripts from the Apple Menu and contextual menus, to allow easy file navigation and launching. To make the haxie completely flexible and customizable, you can assign hotkeys to particular menu items. Last but not least, it is priced at only US$10 with lifetime free updates! 
+
+[/quote]

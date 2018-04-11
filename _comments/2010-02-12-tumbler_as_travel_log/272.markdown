@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 272
+post_id: 314
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2010-07-05 10:54:22 +0200'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+Thanks @Janik for your comments.
+
+Never thought of that. I'll take a look at how I can make a Tumblr theme out of Sravana and let you know.

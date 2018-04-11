@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 127
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-04-07 21:36:24 +0200'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@ksharp: your guess is mine ;)
+
+(but I agree on NextWay - it rocks)

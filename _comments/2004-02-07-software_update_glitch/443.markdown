@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 443
+post_id: 553
+author: Ben
+email: bsherwood_mac@hotmail.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 66.243.104.18
+---
+What were the problems with Apple Remote Desktop and software update?  The old to the apple forums have died.

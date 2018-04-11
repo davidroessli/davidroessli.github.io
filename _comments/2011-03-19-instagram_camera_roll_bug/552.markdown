@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 552
+post_id: 339
+author: Carrie
+email: crath87@aol.com
+date: '2011-08-22 03:38:08 +0200'
+visible: true
+ip: 98.212.238.29
+---
+I had the same problem today-thanks for the help, Denise!  It worked for me!!

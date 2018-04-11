@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 17
+post_id: 159
+author: Alf Watt
+email: alf@istumbler.net
+date: '2007-01-26 22:42:30 +0100'
+visible: true
+ip: 206.80.3.162
+url: http://istumbler.net
+---
+Sorry about the signal strength bug you're seeing in this screenshot, the private AirPort API for newer Macs are sending back bad data and I've almost got a new release which fixes the bug ready to ship. Keep an eye out.

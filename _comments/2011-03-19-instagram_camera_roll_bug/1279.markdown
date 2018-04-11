@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 1279
+post_id: 339
+author: Sue
+email: smccaslin_47@msn.com
+date: '2011-10-17 00:08:56 +0200'
+visible: true
+ip: 75.172.91.74
+---
+I love this aspect of internet. Help is just a tap away. Thanks for the great fix on the hidden photos!

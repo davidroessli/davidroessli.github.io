@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 160
+post_id: 244
+author: Anila
+email: susmi_pavani@yahoo.com
+date: '2008-09-21 17:49:30 +0200'
+visible: true
+ip: 213.3.106.144
+---
+Hi David, 
+thank you for posting this information .
+
+I am having a weird problem. my phone was unlocked to use in Switzerland.  recently I've connected iphone to mac and it installed some software.
+it was working fine and after a week when I 've to charge it , it was not taking the power(my phone is not getting charged). You have any idea how to overcome this problem?
+
+thank you.. 
+

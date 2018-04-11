@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 536
+post_id: 339
+author: Anna Morrison
+email: annalovesalldogs@gmail.com
+date: '2011-07-03 04:38:59 +0200'
+visible: true
+ip: 124.186.166.207
+---
+Hi I pressed something when i viewed albums on my ipod touch generation 4  32 GB and when iviewed them again it had gone down and when i scroll up i cant tap on camera roll can you help me?

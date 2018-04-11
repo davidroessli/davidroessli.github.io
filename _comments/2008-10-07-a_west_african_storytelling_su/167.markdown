@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 167
+post_id: 255
+author: Sandi
+email: sandi.hathaway@gmail.com
+date: '2008-10-14 19:56:35 +0200'
+visible: true
+ip: 98.64.123.113
+---
+Hi,
+
+My name is Sandi and I'm working in association with Thumbplay.com, a leading online platform of mobile entertainment content that offers ringtones, wallpapers, games and text-based services through a membership-based, community experience.
+
+I feel the information on your site you provide is very useful. I would love to know if you could link to our ringtone resource.
+ 
+Best regards,
+Sandi

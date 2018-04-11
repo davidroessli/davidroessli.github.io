@@ -1,0 +1,121 @@
+---
+layout: comment
+comment_id: 2293
+post_id: 750
+author: Uwe StÃ¶hr
+email: uwestoehr@web.de
+date: '2014-02-07 08:10:03 +0100'
+visible: true
+ip: 85.179.56.133
+---
+The code doesn't work for me as of February 2014. The calendar is still in English and e.g. 
+table.yui3-calendar-grid thead {display:none;}
+does not hide the days.
+
+I therefore designed new code to fix the calendar list layout for German:
+Any comment is welcome!
+
+&lt;script src=&quot;//code.jquery.com/jquery-1.10.2.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+// load a function to replace strings
+/*
+* jQuery replaceText - v1.1 - 11/21/2009
+* http://benalman.com/projects/jquery-replacetext-plugin/
+* Copyright (c) 2009 &quot;Cowboy&quot; Ben Alman
+* Dual licensed under the MIT and GPL licenses.
+* http://benalman.com/about/license/
+*/
+(function($){$.fn.replaceText=function(b,a,c){return this.each(function(){var f=this.firstChild,g,e,d=[];if(f){do{if(f.nodeType===3){g=f.nodeValue;e=g.replace(b,a);if(e!==g){if(!c&amp;&amp;/&lt;/.test(e)){$(f).before(e);d.push(f)}else{f.nodeValue=e}}}}while(f=f.nextSibling)}d.length&amp;&amp;$(d).remove()})}})(jQuery);
+&lt;/script&gt;
+
+&lt;script&gt;
+var monthDE = [];
+ monthDE[0]=&quot;Januar&quot;;
+ monthDE[1]=&quot;Februar&quot;;
+ monthDE[2]=&quot;M&auml;rz&quot;;
+ monthDE[3]=&quot;April&quot;;
+ monthDE[4]=&quot;Mai&quot;;
+ monthDE[5]=&quot;Juni&quot;;
+ monthDE[6]=&quot;Juli&quot;;
+ monthDE[7]=&quot;August&quot;;
+ monthDE[8]=&quot;September&quot;;
+ monthDE[9]=&quot;Oktober&quot;;
+ monthDE[10]=&quot;November&quot;;
+ monthDE[11]=&quot;Dezember&quot;;
+var monthEN = [];
+ monthEN[0]=&quot;January&quot;;
+ monthEN[1]=&quot;February&quot;;
+ monthEN[2]=&quot;March&quot;;
+ monthEN[3]=&quot;April&quot;;
+ monthEN[4]=&quot;May&quot;;
+ monthEN[5]=&quot;June&quot;;
+ monthEN[6]=&quot;July&quot;;
+ monthEN[7]=&quot;August&quot;;
+ monthEN[8]=&quot;September&quot;;
+ monthEN[9]=&quot;October&quot;;
+ monthEN[10]=&quot;November&quot;;
+ monthEN[11]=&quot;December&quot;;
+var dayDE = [];
+ dayDE[0]=&quot;Montag&quot;;
+ dayDE[1]=&quot;Dienstag&quot;;
+ dayDE[2]=&quot;Mittwoch&quot;;
+ dayDE[3]=&quot;Donnerstag&quot;;
+ dayDE[4]=&quot;Freitag&quot;;
+ dayDE[5]=&quot;Sonnabend&quot;;
+ dayDE[6]=&quot;Sonntag&quot;;
+var dayEN = [];
+ dayEN[0]=&quot;Monday&quot;;
+ dayEN[1]=&quot;Tuesday&quot;;
+ dayEN[2]=&quot;Wednesday&quot;;
+ dayEN[3]=&quot;Thursday&quot;;
+ dayEN[4]=&quot;Friday&quot;;
+ dayEN[5]=&quot;Saturday&quot;;
+ dayEN[6]=&quot;Sunday&quot;;
+&lt;/script&gt;
+
+&lt;script&gt;
+// replace month
+$( &quot;time.eventlist-datelabel-startdate&quot; ).each(function() {
+ var label = $( this ).text();
+ // we now have &quot;March 12&quot;
+ var index = label.indexOf(&quot; &quot;);
+ var detectecMonth = label.substring(0, index);
+ var day = label.substring(index);
+ var translatedMonth = &quot;&quot;;
+ for ( var i = 0; i &lt; 12; i++ ) {
+   if (detectecMonth == monthEN[i]) {translatedMonth = monthDE[i]};
+ };
+ $( this ).replaceWith( &quot;&lt;time class=&#x27;eventlist-datelabel-startdate&#x27;&gt;&quot; + day + &quot;. &quot; + translatedMonth + &quot;&lt;/time&gt;&quot; );
+});
+// replace day-month
+$( &quot;time.event-meta-heading&quot; ).each(function() {
+ var label = $( this ).text();
+ // we now have &quot;Saturday, March  1, 2014&quot;
+ var index1 =label.indexOf(&quot;,&quot;);
+ var detectedDay = label.substring(0, index1);
+ var indextemp = label.lastIndexOf(&quot;,&quot;);
+ var stringtemp = label.substring(index1, indextemp);
+ // we now have &quot;, March  1&quot;
+ indextemp = stringtemp.lastIndexOf(&quot; &quot;);
+ var detectedMonth = stringtemp.substring(2, indextemp);
+ // sometimes there are 2 blanks behind the month, therefore trim
+ detectedMonth = jQuery.trim(detectedMonth);
+ var day = stringtemp.substring(indextemp);
+ var indexyear = label.lastIndexOf(&quot; &quot;);
+ var year = label.substring(indexyear);
+ var translatedDay = &quot;&quot;;
+ var translatedMonth = &quot;&quot;;
+ for ( var i = 0; i &lt; 12; i++ ) {
+   if (detectedMonth == monthEN[i]) {translatedMonth = monthDE[i]};
+ };
+ for ( var k = 0; k &lt; 7; k++ ) {
+   if (detectedDay == dayEN[k]) {translatedDay = dayDE[k]};
+ };
+ $( this ).replaceWith( &quot;&lt;time class=&#x27;event-meta-heading&#x27;&gt;&quot; + translatedDay + &quot;, &quot; + day + &quot;. &quot; + translatedMonth + year + &quot;&lt;/time&gt;&quot; );
+});
+// translate &quot;(map)&quot;
+$( &quot;li[class=&#x27;event-meta-item eventlist-meta-address&#x27;]&quot; ).each(function() {
+ $(&#x27;body :not(textarea)&#x27;).replaceText( &quot;(map)&quot;, &quot;(Karte)&quot; );
+});
+&lt;/script&gt;

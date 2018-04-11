@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 2238
+post_id: 697
+author: Kristofer Gustafsson
+email: kristofer@5276.se
+date: '2012-11-16 21:04:59 +0100'
+visible: true
+ip: 89.253.117.240
+---
+Works great with a AFO URC-7140 as well.
+
+URC-7140 source-led doesn't just blink twice in the beginning but stays on until you finish each set and blinks twice at the end.
+
+Made my Swedish DBP-S383 region free using this guide. You also don't need the original remote to switch the unit on and off for it to work.(I used the powerbutton on the player)

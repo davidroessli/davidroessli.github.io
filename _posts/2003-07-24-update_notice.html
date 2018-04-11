@@ -1,0 +1,16 @@
+---
+layout: post
+title: Update Notice
+date: '2003-07-24 22:39:12 +0200'
+mt_id: 486
+blog_id: 11
+post_id: 486
+basename: update_notice
+categories:
+- daily
+---
+<p>Macinblog's domain name settings are currently being updated. Sorry for any inconviences that might occur.</p>
+<p><strong>Update 23:37</strong>: okay, everything seems okay. All the links are valid, and the images show up where they should. The update involved a path change, in the URL and in the filesystem.</p>
+<p><code>http://macinblog.com/mac/</code><br />to<br /><code>http://macinblog.com/</code></p>
+<p>That trailing <code>/mac/</code> was an installation error that occured when I setup MT and mapped the Macinblog domain on it. My worry was to have to update all the local links and img <code>tags</code>, so I kept postponing the update.</p>
+<p>The links were easily updated through MT's admin script, but all the embedded images paths were incorrect. The trick I used was to create a symlink of the current directory in itself. That way, <code>/assets/macinblog/img/</code>points correcty to <code>http://www.macinblog.com/img/</code> without having to correct a single line of code. Nifty.</p>

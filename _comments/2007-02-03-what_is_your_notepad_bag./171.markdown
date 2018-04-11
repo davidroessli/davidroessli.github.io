@@ -1,0 +1,28 @@
+---
+layout: comment
+comment_id: 171
+post_id: 172
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-10-30 23:37:30 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.davidroessli.com/
+---
+@marco I actually bought it online directly from Timbuk2â€¦
+
+Checking their site showed a couple of shops in Geneva:
+
+Andreas Guth - Stuff'
+7 pl. du Bourg-de-Four
+Geneva, 1204
+Switzerland
++4122 311-1410
+
+Horspiste SA Cycles et Sport
+Rue des Rois 3
+Geneve, 1204
+Switzerland
++022 328 47 09
+
+http://www.timbuk2.com/tb2/retail/retailer.htm

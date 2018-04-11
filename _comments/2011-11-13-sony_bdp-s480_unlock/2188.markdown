@@ -1,0 +1,52 @@
+---
+layout: comment
+comment_id: 2188
+post_id: 697
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2012-03-23 10:37:30 +0100'
+visible: true
+ip: 62.167.235.106
+url: http://www.davidroessli.com/
+---
+Version franÃ§aise:
+
+
+0. Mettre le lecteur en veille avec la tÃ©lÃ©commande Sony
+
+1. Presser DVD 
+2. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois. 
+3. Presser 000533 
+
+4. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois. 
+5. Presser 994 
+6. Presser le bouton Magic (briÃ¨vement) 
+7. Presser 001891 (programmation de la touche 1 â€“ le bouton DVD clignote deux fois) 
+
+8. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois. 
+9. Pr Presser ss 994 
+10. Presser Magic Key (briÃ¨vement) 
+11. Presser 002552 (programmation de la touche 2 â€“ le bouton DVD clignote deux fois) 
+
+12. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois. 
+13. Presser 994 
+14. Presser Magic Key (briÃ¨vement) 
+15. Presser 000953 (programmation de la touche 3 â€“ le bouton DVD clignote deux fois) 
+
+16. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois. 
+17. Presser 994 
+18. Presser Magic Key (briÃ¨vement) 
+19. Presser 002214 (programmation de la touche 4 â€“ le bouton DVD clignote deux fois) 
+
+20. Maintenir le bouton Magic enfoncÃ© jusqu'Ã  ce que le bouton DVD clignote deux fois.
+21. Presser 994 
+22. Presser Magic Key (briÃ¨vement) 
+23. Presser 000795 (programmation de la touche 5 â€“ le bouton DVD clignote deux fois) 
+
+TerminÃ© - la tÃ©lÃ©commande OneforAll est prÃªte Ã  l'emploi.
+
+1. Allumer le lecteur avec la tÃ©lÃ©commande Sony et attendre l'affichage de HOME
+2. S'assurer qu'il n'y a pas de disque
+3. Avec la tÃ©lÃ©commande OneforAll presser 1,2,3,4,5 (la lumiÃ¨re bleue 24p commencera Ã  clignoter)
+4. Mettre le lecteur en veille avec la tÃ©lÃ©commande Sony
+5. C'est terminÃ©, la prochaine fois que vous allumerez votre lecteur, il sera dÃ©zonÃ© pour les DVDs

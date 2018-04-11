@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 341
+post_id: 438
+author: Adam Tow
+email: adam@soybo.com
+date: '2011-03-20 14:11:13 +0100'
+visible: true
+ip: 12.88.211.189
+url: http://www.soybo.com
+---
+Bwana:
+
+
+
+Have you posted your exact problems installing Soybo on the Soybo forums?
+
+
+
+<a href="http://forums.soybo.com/" rel="nofollow">http://forums.soybo.com/</a>
+
+
+
+-adam

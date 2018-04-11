@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 111
+post_id: 237
+author: Claudia
+email: cle@virg0.org
+date: '2008-03-21 15:45:16 +0100'
+visible: true
+ip: 213.200.236.238
+url: http://virg0.org/v0blog/
+---
+Nokia lover then.. 
+My first was a Swatch one, heavy and huge filled with green led.
+Then always Motorola (8200, 8400, Star Tac, M60, V300, Peeble and now Ming) with two extras: Ericsson T68i and Sony Ericsson something-model, the one with the oled display outside.
+
+A hystory in phones... what a time =)

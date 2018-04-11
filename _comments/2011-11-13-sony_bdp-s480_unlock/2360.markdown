@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2360
+post_id: 697
+author: jqc
+email: jeremy.goldschmidt@aulnette.net
+date: '2015-04-01 03:20:34 +0200'
+visible: true
+ip: 174.91.193.252
+---
+Unfortunately it does not seems to work with my SONY BDP S6200 - Canada and One4All URC7960
+
+All the process seems to go well until entering 1,2,3,4,5 ... I have no acknowledgment and the player is still not zone free

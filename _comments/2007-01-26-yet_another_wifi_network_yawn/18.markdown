@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 18
+post_id: 159
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2007-01-26 23:04:21 +0100'
+visible: true
+ip: 62.167.235.105
+url: http://www.cybmed.com
+---
+Alf,
+Thanks for your comment and your efforts to provide us with a useful and reliable tool. I really appreciate it.

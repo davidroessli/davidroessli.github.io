@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 158
+post_id: 216
+author: Joseph Ryan
+email: joryan44@gmail.com
+date: '2008-09-11 20:50:56 +0200'
+visible: true
+ip: 96.241.226.84
+---
+I've got six devices (two each Macs, iPhones and iPod touches) I like (have to) keep in sync and since Sept 2 syncs for calendars and contacts have been failing (silently). Since I discovered this three days ago, Apple support has been getting nowhere. While waiting for them to do "research" I've been doing my own and found this work around which matches my pronlem. There may be a better solution but I am not sure Apple Support will be offering it soon. I'll post the results. 
+Cheers

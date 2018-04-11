@@ -1,0 +1,27 @@
+---
+layout: comment
+comment_id: 441
+post_id: 553
+author: Greg
+email: pht-fxr@telus.net
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 142.179.13.89
+---
+Kristian,
+
+Thank you so much for your post at <a href="http://www.macinblog.com/2004/02/software_update.html." rel="nofollow">http://www.macinblog.com/2004/02/software_update.html.</a>
+
+After much wading through endless discussions and recommendations, your suggestion ACTUALLY WORKED!!! 
+
+I don't understand terminal too well but I am grateful for your post.
+
+I hope that others will benefit from this.
+
+In my case, I did not encounter that particular error message "make sure you have permissions to write to /tmp/501/ ..." until I tried to install Apple's Security Update 9-30-2004 on my G4 running10.3.5.  And then other apps wouldn't install either.
+
+But your fix worked and no problems since.
+
+Thank you.
+
+-Greg

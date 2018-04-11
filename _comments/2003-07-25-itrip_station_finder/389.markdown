@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 389
+post_id: 489
+author: Nym
+email: n@127.0.0.1
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 68.40.125.80
+url: http://www.station-finder.com
+---
+For those who are Windows-limited, or want an alternative to the software provided, "Station-Finder", formerly the MIT List of Broadcast Stations, can find all the audible stations for a given city in US/Canada.  Site is free.
+
+www.station-finder.com.

@@ -1,0 +1,20 @@
+---
+layout: comment
+comment_id: 148
+post_id: 244
+author: David Roessli
+email: david.roessli@cybmed.com
+date: '2008-06-17 12:45:58 +0200'
+visible: true
+ip: 129.194.8.73
+url: http://www.davidroessli.com/
+---
+@Steve: try the following:
+
+APN address: event.swisscom.ch
+Username: <blank>
+Password: <blank>
+MMSC: http://mms.natel.ch:8079
+Proxyserveradress: 192.168.210.2:8080
+
+Found on http://www.modmyifone.com/wiki/index.php/Carrier_APN_Settings#Swisscom

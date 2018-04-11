@@ -1,0 +1,25 @@
+---
+layout: post
+title: How to enable Remote Disc
+date: '2012-03-06 14:36:55 +0100'
+mt_id: 713
+blog_id: 11
+post_id: 713
+basename: how_to_enable_remote_disc
+categories:
+- daily
+---
+<p>The MacBook Air and the latest Mac Mini don't have an internal SuperDrive, but can <a href="http://support.apple.com/kb/HT1777" class="sidelist" title="MacBook Air, Mac mini: How to use Remote Disc to share DVDs or CDs from a Mac or Windows-based computer">share a DVD or a CD from another Mac</a>.</p>
+
+<p>At the time or writing, this is not true for the MacBook Pro. My previous post explains <a class="sidelist" title="How to make the MacBook Air SuperDrive work with any Mac" href="/logs/2012/03/how-to-make-the-macbook-air-superdrive-work-with-any-mac/">how to use the MacBook Air SuperDrive with any Mac</a>, but you might be interested to simply mount a DVD/CD from another Mac (or Windows conmputer).</p>
+
+<p>Type the following commands in Terminal to enable Remote Disc to appear in your Finder sidebar:</p>
+
+<p><pre>defaults write com.apple.NetworkBrowser EnableODiskBrowsing -bool true
+defaults write com.apple.NetworkBrowser ODSSupported -bool true</pre></p>
+
+<p>… and restart your Mac.</p>
+
+<p>This is useful tip when you've swapped out your optical drive from your MacBook Pro.</p>
+
+<p>Ori. <a href="http://forums.macrumors.com/showthread.php?t=455975">MacRumours</a> and <a href="http://www.mactricksandtips.com/2009/09/enable-remote-disc-drive-sharing-on-any-mac.html">MacTricks &amp; Tips</a>.</p>

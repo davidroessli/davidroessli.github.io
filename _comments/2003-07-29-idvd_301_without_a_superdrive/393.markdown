@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 393
+post_id: 491
+author: SteveO
+email: unclesteve1963@netscape.net
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 63.245.153.145
+---
+What isn't cool is when you buy a new Power Mac G4 two weeks after iDVD 3 is announced, *have* a superdrive, but Apple wants fifty dollars for iLife or twenty dollars for "shipping" for software you're entitled to have.  Am searching the net once again trying to find someone who has posted iDVD 3.0 to which he's legally entitled.  Frustration.

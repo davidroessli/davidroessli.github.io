@@ -1,0 +1,24 @@
+---
+layout: comment
+comment_id: 324
+post_id: 399
+author: Joshua
+email: nospam.joshua@joshua.com
+date: '2011-03-20 14:11:11 +0100'
+visible: true
+ip: 141.154.221.127
+url: http://www.joshua.com
+---
+Hey, Great site! I'm also a Mac / MTer and was pleased to find your site and I didn't even realize Kung Blug got updated!
+
+
+
+Keep up the good work.
+
+
+
+-- Joshua
+
+
+
+(PS: I blogrolled you. Stop on by sometime. :-)

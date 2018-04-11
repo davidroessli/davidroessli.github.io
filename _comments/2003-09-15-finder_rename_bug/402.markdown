@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 402
+post_id: 498
+author: Richard Earney
+email: spam@method.co.uk
+date: '2011-03-20 14:11:16 +0100'
+visible: true
+ip: 82.35.122.138
+url: http://www.method-photo.co.uk
+---
+If you hit the ESC button after it gives you the annoying dialog, then it will rename the file

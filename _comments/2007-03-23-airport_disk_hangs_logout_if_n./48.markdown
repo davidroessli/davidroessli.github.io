@@ -1,0 +1,15 @@
+---
+layout: comment
+comment_id: 48
+post_id: 193
+author: Kim
+email: fairlane76@yahoo.com
+date: '2007-05-30 14:57:34 +0200'
+visible: true
+ip: 87.52.68.110
+---
+EXCELLENT!! I have been looking for those wise words for a couple of weeks now. 
+Its ridiculously tedious searching for various mac issues on the web as well as apple's own "knowledge base". As a long time windows admin, now apple addict, this is the one place apple needs to look MS over the shoulder, and implement something similar on their website. The MS knowledge base and TechNet for pro's are far easier to search through and find useful info in.
+Anyway, many thanks for posting your experience here.
+Best regards,
+Kim

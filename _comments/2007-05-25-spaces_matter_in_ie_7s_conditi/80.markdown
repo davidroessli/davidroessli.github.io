@@ -1,0 +1,14 @@
+---
+layout: comment
+comment_id: 80
+post_id: 198
+author: keed
+email: keed@o2.pl
+date: '2007-11-05 14:13:42 +0100'
+visible: true
+ip: 193.110.137.50
+---
+Try also:
+<pre><code>&lt;!--[if IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;&quot; /&gt;
+&lt;![endif]--&gt;</code></pre>

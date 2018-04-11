@@ -1,0 +1,13 @@
+---
+layout: comment
+comment_id: 2172
+post_id: 708
+author: shawn
+email: shawn@shawnkoppenhoefer.com
+date: '2012-01-29 20:53:17 +0100'
+visible: true
+ip: 46.126.184.223
+url: http://uncertainregard.ch
+---
+Hiya... how did you hear 'bout that (so I can learn next time too!) 
+tx. 

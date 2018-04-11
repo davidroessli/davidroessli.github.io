@@ -1,0 +1,18 @@
+---
+layout: comment
+comment_id: 429
+post_id: 545
+author: enrique
+email: e@enriquepardo.com
+date: '2011-03-20 14:11:20 +0100'
+visible: true
+ip: 212.198.0.93
+url: http://enriquepardo.com
+---
+In an article today in the french newspaper Figaro, Pascal NâˆšÂ®gre, the president of Universal France, states that 2004 will see the introduction of Apple's iTunes Music Store.
+Let's just hope it's not for Christmas!
+
+> 2004 sera l'annâˆšÂ©e oâˆšÏ€ l'on verra arriver en Europe et en France 
+> un certain nombre de plates-formes payantes comme iTunes Music store d'Apple.
+
+<a href="http://www.figaro.fr/eco-medias/20040121.FIG0314.html" rel="nofollow">http://www.figaro.fr/eco-medias/20040121.FIG0314.html</a>

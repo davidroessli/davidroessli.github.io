@@ -1,0 +1,11 @@
+---
+layout: comment
+comment_id: 175
+post_id: 216
+author: Robb Allan
+email: robb@helical.com
+date: '2008-11-26 00:57:30 +0100'
+visible: true
+ip: 74.0.7.146
+---
+Read http://support.apple.com/kb/TS1627.

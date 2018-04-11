@@ -1,0 +1,43 @@
+---
+layout: comment
+comment_id: 143
+post_id: 231
+author: champlet Jerome
+email: champletjerome@free.fr
+date: '2008-05-23 09:53:20 +0200'
+visible: true
+ip: 82.248.88.120
+---
+Hello,
+
+my machine (french):
+
+Informations matÃ©riel :
+
+  Nom du modÃ¨le :	MacBook Pro 15"
+  Identifiant du modÃ¨le :	MacBookPro2,2
+  Nom du processeur :	Intel Core 2 Duo
+  Vitesse du processeur :	2.16 GHz
+  Nombre de processeurs :	1
+  Nombre total de cÅ“urs :	2
+  Cache de niveau 2 :	4 Mo
+  MÃ©moire :	1 Go
+  Vitesse du bus :	667 MHz
+  Version de la ROM de dÃ©marrage :	MBP22.00A5.B07
+  Version SMC :	1.12f5
+  NumÃ©ro de sÃ©rie :	3R70367FW0G
+  Capteur de mouvement brusque :
+  Ã‰tat :	ActivÃ©
+
+Same problems, sometimes, when seeing a film: the computer completely  freeze (no trackpad neither keyboard).
+Reading audio: a small part of the file loop playing like a record scraching, the only solution: hard restart.
+
+I am musician and perform for hundreds people:I buy a PC and run under Vista?
+
+Thank for advices
+
+Jerome.
+
+
+ 
+

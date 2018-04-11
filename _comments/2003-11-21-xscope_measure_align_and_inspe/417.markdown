@@ -1,0 +1,16 @@
+---
+layout: comment
+comment_id: 417
+post_id: 522
+author: mathew
+email: mathew.hoy@sympatico.ca
+date: '2011-03-20 14:11:18 +0100'
+visible: true
+ip: 65.93.51.30
+url: http://sbp.waferbaby.com
+---
+my favourite feature is the zoom with htm/hex colour dropper. holy smoking carp!  :)
+
+
+
+-m

@@ -1,0 +1,12 @@
+---
+layout: comment
+comment_id: 191
+post_id: 270
+author: Yannis
+email: yannis.jaquet@zoo.unige.ch
+date: '2009-03-11 12:16:51 +0100'
+visible: true
+ip: 129.194.8.73
+url: http://zoologie.unige.ch
+---
+Hey David, thank you for the tip! I just installed it on my MBP... Hope it will help me save my battery...
